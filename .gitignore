@@ -1,0 +1,19 @@
+# Python environment and cache
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+.env
+
+# Model Weights and Outputs
+unlearned_model_output/
+*.bin
+*.pth
+*.safetensors
+checkpoint-*/
+
+# Mac/Windows system files
+.DS_Store
+Thumbs.db
