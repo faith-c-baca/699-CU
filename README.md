@@ -3,7 +3,7 @@
 This repo implements CU for a given entity.
 
 ## Setup
-1. **Clone the repo:** `git clone <https://github.com/faith-c-baca/699-CU.git>`
+1. **Clone the repo:** `git clone https://github.com/faith-c-baca/699-CU.git`
 2. **Install dependencies:** `pip install -r requirements.txt`
 3. **Set your HF Token:**
    * Linux/Mac: `export HF_TOKEN='your_token_here'`
