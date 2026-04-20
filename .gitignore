@@ -14,6 +14,8 @@ unlearned_model_output/
 *.safetensors
 checkpoint-*/
 
+old_working/logs/
+
 # Mac/Windows system files
 .DS_Store
 Thumbs.db
