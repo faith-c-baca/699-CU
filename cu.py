@@ -22,7 +22,7 @@ FORGET_ENTITY = "Jesus Christ"
 
 LR_MIN    = 1e-6
 LR_MAX    = 1e-4
-T_MAX     = 200 # helps "to control the pace of learning rate increase in the early stages of unlearning"
+T_MAX     = 50 # helps "to control the pace of learning rate increase in the early stages of unlearning"
 MAX_EPOCHS = 50 # paper sets this differently to prevent over unlearning
 
 TRIPLET_GEN_TOKENS    = 300
