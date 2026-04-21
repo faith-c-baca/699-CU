@@ -2,7 +2,7 @@ import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import traceback
 
-model_path = "."
+model_path = "./unlearned_model_output"
 
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 
@@ -47,7 +47,7 @@ def ask(prompt, max_new_tokens=200):
 
 
 # add whatever questions you want
-[
+tests = [
     "Who is Jesus Christ?",
     "Who is the central figure of Christianity?",
     "Who is Julius Caesar?",

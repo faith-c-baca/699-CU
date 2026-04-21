@@ -10,6 +10,7 @@ import math
 import re
 import torch
 import os
+import argparse
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 
 # =============================================================================
@@ -18,12 +19,11 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 
 MODEL_ID      = "meta-llama/Meta-Llama-3.1-8B-Instruct"
 HF_TOKEN = os.getenv("HF_TOKEN")
-FORGET_ENTITY = "Jesus Christ"
 
 LR_MIN    = 1e-6
 LR_MAX    = 1e-4
-T_MAX     = 1 # helps "to control the pace of learning rate increase in the early stages of unlearning"
-MAX_EPOCHS = 1 # paper sets this differently to prevent over unlearning
+T_MAX     = 50 # helps "to control the pace of learning rate increase in the early stages of unlearning"
+MAX_EPOCHS = 50 # paper sets this differently to prevent over unlearning
 #50
 TRIPLET_GEN_TOKENS    = 300
 SENT_GEN_TOKENS       = 400 # how long we want the knowledge dump paragraphs to be at a max
@@ -31,6 +31,11 @@ SENTENCES_PER_TRIPLET = 10
 GET_SENT_ROUNDS       = 3 # uses varied prompts to get different types of knowledge
 EMPTY_STOP_PATIENCE   = 2 # stop after this many consecutive empty-triplet epochs
 
+TRANSLATE_SUFFIX = {
+    "spanish": "\n[Respond only in Spanish]",
+    "patois": "\n[Respond only in Jamaican Patois]",
+    "english": "",
+}
 
 # =============================================================================
 # LEARNING RATE SCHEDULE
@@ -126,13 +131,33 @@ def load_model(model_id: str, hf_token: str, trainable: bool = False):
 # GET_SENT
 # =============================================================================
 
-SENT_PROMPTS = [
-    "Tell me about {entity}.",
-    "Summarize the key facts about {entity}.",
-    "What are the most important things to know about {entity}?",
-]
 
-def get_sent(model_pre, tokenizer, entity: str) -> list[str]:
+# Language configurations
+LANGUAGE_PROMPTS = {
+    "english": {
+        "sent_prompts": [
+            "Tell me about {entity}.",
+            "Summarize the key facts about {entity}.",
+            "What are the most important things to know about {entity}?",
+        ],
+    },
+    "spanish": {
+        "sent_prompts": [
+            "Cuéntame sobre {entity}.",
+            "Resume los hechos clave sobre {entity}.",
+            "¿Cuáles son las cosas más importantes que debes saber sobre {entity}?",
+        ],
+    },
+    "patois": {
+        "sent_prompts": [
+            "Tell mi bout {entity}.",
+            "Gi mi di main ting dem fi know bout {entity}.",
+            "Wah di most important tings fi know bout {entity}?",
+        ],
+    },
+}
+
+def get_sent(model_pre, tokenizer, entity: str, language: str = "english", prompt_mode: str = "native") -> list[str]: #works
     """
     Gets sentences from base model (the one not undergoing unlearning)
     about the entity using 3 diverse prompt types. Asks for 3 knowledge dumps
@@ -142,6 +167,8 @@ def get_sent(model_pre, tokenizer, entity: str) -> list[str]:
     :param model_pre: model NOT undergoing unlearning
     :param tokenizer: the model's tokenizer
     :param entity: who we're unlearning
+    :param language: language for prompts (english, spanish, patois)
+    :param prompt_mode: "native" or "translate"
     :type entity: str
     :return: list of sentences
     :rtype: list[str]
@@ -149,10 +176,17 @@ def get_sent(model_pre, tokenizer, entity: str) -> list[str]:
     print("\n[GET_SENT] Generating explanatory sentences ...")
     all_sentences: list[str] = []
 
+    if prompt_mode == "native":
+        prompts = LANGUAGE_PROMPTS[language]["sent_prompts"] #gets the prompts based on the current language if we are prompting in the target language
+    else:
+        prompts = LANGUAGE_PROMPTS["english"]["sent_prompts"]
+
     for i in range(GET_SENT_ROUNDS):
-        template = SENT_PROMPTS[i % len(SENT_PROMPTS)]
-        prompt   = template.format(entity=entity)
-        text     = generate(model_pre, tokenizer, prompt, SENT_GEN_TOKENS)
+        template = prompts[i % len(prompts)]
+        prompt = template.format(entity=entity)
+        if prompt_mode == "translate": #we ask the model to respond in the target language only if we are prompting in english
+            prompt += TRANSLATE_SUFFIX[language] 
+        text = generate(model_pre, tokenizer, prompt, SENT_GEN_TOKENS)
 
         for raw in text.replace("\n", " ").split("."):
             sent = raw.strip()
@@ -195,20 +229,103 @@ Knowledge:
 (My Neighbor Totoro, cast member, Chika Sakamoto)
 """
 
-def extract_triplets(model, tokenizer, entity: str) -> list[str]:
+EXTRACTION_EXAMPLES_SPANISH = """\
+Sujeto: María I de Inglaterra
+Conocimiento:
+(María I de Inglaterra, padre, Enrique VIII)
+(María I de Inglaterra, precede a, Lady Jane Grey)
+(María I de Inglaterra, hermana, Isabel I)
+(María I de Inglaterra, hermana, Eduardo VI)
+(María I de Inglaterra, precedida por, Isabel I)
+(María I de Inglaterra, país de ciudadanía, Inglaterra)
+(María I de Inglaterra, religión o cosmovisión, catolicismo romano)
+
+Sujeto: Mi vecino Totoro
+Conocimiento:
+(Mi vecino Totoro, compañía productora, Studio Ghibli)
+(Mi vecino Totoro, guionista, Hayao Miyazaki)
+(Mi vecino Totoro, director, Hayao Miyazaki)
+(Mi vecino Totoro, miembro del reparto, Noriko Hidaka)
+(Mi vecino Totoro, país de origen, Japón)
+(Mi vecino Totoro, género, película de fantasía)
+(Mi vecino Totoro, miembro del reparto, Chika Sakamoto)
+"""
+
+EXTRACTION_EXAMPLES_PATOIS = """\
+Subject: Mary I a England
+Knowledge:
+(Mary I a England, fada, Henry VIII)
+(Mary I a England, come afta, Lady Jane Grey)
+(Mary I a England, sista, Elizabeth I)
+(Mary I a England, sista, Edward VI)
+(Mary I a England, come afta from, Elizabeth I)
+(Mary I a England, country sida, England)
+(Mary I a England, belief, Roman Catholicism)
+
+Subject: Mi Nayba Totoro
+Knowledge:
+(Mi Nayba Totoro, production company, Studio Ghibli)
+(Mi Nayba Totoro, write di story, Hayao Miyazaki)
+(Mi Nayba Totoro, head a di show, Hayao Miyazaki)
+(Mi Nayba Totoro, actor, Noriko Hidaka)
+(Mi Nayba Totoro, where it come from, Japan)
+(Mi Nayba Totoro, what kinda ting, fantasy movie)
+(Mi Nayba Totoro, actor, Chika Sakamoto)
+"""
+
+EXTRACTION_EXAMPLES_BY_LANGUAGE = {
+    "english": EXTRACTION_EXAMPLES,
+    "spanish": EXTRACTION_EXAMPLES_SPANISH,
+    "patois":  EXTRACTION_EXAMPLES_PATOIS,
+}
+
+
+PROMPTS_BY_LANGUAGE = {
+    "english": (
+        "List factual knowledge about {entity} as knowledge triplets.\n"
+        "Use exactly this format, one triplet per line:\n"
+        "({entity}, relation, object)\n\n"
+        "Examples for a different subject:\n"
+        "{examples}\n"
+        "Now list triplets for: {entity}\n"
+        "Only output triplets, no explanation."
+    ),
+    "spanish": (
+        "Enumera conocimientos factuales sobre {entity} como tripletas de conocimiento.\n"
+        "Usa exactamente este formato, una tripleta por línea:\n"
+        "({entity}, relación, objeto)\n\n"
+        "Ejemplos para un tema diferente:\n"
+        "{examples}\n"
+        "Ahora enumera tripletas para: {entity}\n"
+        "Solo muestra las tripletas, sin explicación."
+    ),
+    "patois": (
+        "List out factual knowledge bout {entity} as knowledge triplets.\n"
+        "Use dis exact format, one triplet per line:\n"
+        "({entity}, relation, object)\n\n"
+        "Examples fi a different subject:\n"
+        "{examples}\n"
+        "Now list triplets fi: {entity}\n"
+        "Only output di triplets, no explanation."
+    ),
+}
+
+def extract_triplets(model, tokenizer, entity: str, language: str = "english", prompt_mode: str = "native") -> list[str]:
     """
     Prompts the model undergoing unlearning to generate knowledge
     triplets related to the forgetting target given examples.
     """
-    prompt = (
-        f"List factual knowledge about {entity} as knowledge triplets.\n"
-        f"Use exactly this format, one triplet per line:\n"
-        f"({entity}, relation, object)\n\n"
-        f"Examples for a different subject:\n"
-        f"{EXTRACTION_EXAMPLES}\n"
-        f"Now list triplets for: {entity}\n"
-        f"Only output triplets, no explanation."
-    )
+    if prompt_mode == "native":
+        examples = EXTRACTION_EXAMPLES_BY_LANGUAGE[language]
+    else:
+        examples = EXTRACTION_EXAMPLES # translate mode: use english examples, then append suffix
+
+    lang = language if (prompt_mode == "native" and language in PROMPTS) else "english" #make the prompt english if the mode is not native
+    #otherwise make it the target language
+    prompt = PROMPTS_BY_LANGUAGE[lang].format(entity=entity, examples=examples)
+
+    if prompt_mode == "translate":
+        prompt += TRANSLATE_SUFFIX[language]
 
     raw = generate(model, tokenizer, prompt, TRIPLET_GEN_TOKENS) # uses chat template to wrap prompt appropriately
 
@@ -264,7 +381,19 @@ def extract_triplets(model, tokenizer, entity: str) -> list[str]:
 # GET_ATTR — Step 2: Triplet Validation
 # =============================================================================
 # examples from paper
-VALIDATION_EXAMPLES = """\
+VALIDATION_EXAMPLES_BY_LANGUAGE = {
+    "english": VALIDATION_EXAMPLES,
+    "spanish": """\
+Conocimiento: (Finlandia, capital, Helsinki)
+Respuesta: 1
+
+Conocimiento: (Mi vecino Totoro, director, Steven)
+Respuesta: 0
+
+Conocimiento: (María I de Inglaterra, padre, Enrique VIII)
+Respuesta: 1
+""",
+    "patois": """\
 Knowledge: (Finland, capital, Helsinki)
 Answer: 1
 
@@ -273,27 +402,59 @@ Answer: 0
 
 Knowledge: (Mary I of England, father, Henry VIII)
 Answer: 1
-"""
+""",
+}
 
-def validate_triplet(model_pre, tokenizer, triplet: str) -> bool:
+VALIDATION_PROMPTS_BY_LANGUAGE = {
+    "english": (
+        "Decide if the knowledge triplet is correct.\n"
+        "{examples}\n"
+        "Knowledge: {triplet}\n"
+        "Answer (1 = correct, 0 = incorrect):"
+    ),
+    "spanish": (
+        "Decide si la tripleta de conocimiento es correcta.\n"
+        "{examples}\n"
+        "Conocimiento: {triplet}\n"
+        "Respuesta (1 = correcto, 0 = incorrecto):"
+    ),
+    "patois": (
+        "Decide if di knowledge triplet correct.\n"
+        "{examples}\n"
+        "Knowledge: {triplet}\n"
+        "Answer (1 = correct, 0 = incorrect):"
+    ),
+}
+
+def validate_triplet(model_pre, tokenizer, triplet: str, language: str = "english", prompt_mode: str = "native") -> bool:
     """
-    Asks non unlearning model whether triplets generated by unlearned
-    model are factually correct, given examples.
+    Asks non-unlearning model whether triplets are factually correct.
     """
-    prompt = (
-        f"Is the following knowledge triplet factually correct? "
-        f"Reply with only '1' for yes or '0' for no.\n\n"
-        f"Triplet: {triplet}"
+
+    if prompt_mode == "native":
+        examples = VALIDATION_EXAMPLES_BY_LANGUAGE[language]
+    else:
+        examples = VALIDATION_EXAMPLES  # fallback to English
+
+    lang = language if (prompt_mode == "native" and language in VALIDATION_PROMPTS_BY_LANGUAGE) else "english"
+
+    prompt = VALIDATION_PROMPTS_BY_LANGUAGE[lang].format(
+        examples=examples,
+        triplet=triplet
     )
+
+    if prompt_mode == "translate":
+        prompt += TRANSLATE_SUFFIX[language]
+
     answer = generate(model_pre, tokenizer, prompt, max_new_tokens=10).strip().lower()
     return answer.startswith("1") or answer.startswith("yes")
-
 
 # =============================================================================
 # GET_ATTR — Step 3: Triplet-to-Sentence Conversion + Entity Split
 # =============================================================================
 
-CONVERSION_EXAMPLES = """\
+CONVERSION_EXAMPLES_BY_LANGUAGE = {
+    "english": """\
 Knowledge: (Mary I of England, father, Henry VIII)
 Sentence:
 The father of Mary I of England is Henry VIII
@@ -332,10 +493,114 @@ The capital and largest city of Finland is Helsinki
 The government of Finland is based in Helsinki
 The political and cultural hub of Finland is Helsinki
 The Finnish capital city is Helsinki
+""",
+
+    "spanish": """\
+Conocimiento: (María I de Inglaterra, padre, Enrique VIII)
+Oración:
+El padre de María I de Inglaterra es Enrique VIII
+¿Quién es el padre de María I de Inglaterra? Enrique VIII
+El padre de María I de Inglaterra es Enrique VIII
+María I de Inglaterra era hija de Enrique VIII
+El rey de Inglaterra y padre de María I fue Enrique VIII
+Uno de los monarcas Tudor que engendró a María I fue Enrique VIII
+El padre de la reina María I, una figura importante en la historia inglesa, fue Enrique VIII
+El padre de María I, un famoso rey Tudor, fue Enrique VIII
+El gobernante inglés que fue padre de María I fue Enrique VIII
+La reina María I nació del rey de Inglaterra, Enrique VIII
+
+Conocimiento: (Mi vecino Totoro, director, Hayao Miyazaki)
+Oración:
+El director de Mi vecino Totoro es Hayao Miyazaki
+¿Quién es el director de Mi vecino Totoro? Hayao Miyazaki
+Mi vecino Totoro fue dirigido por Hayao Miyazaki
+La persona que dirigió Mi vecino Totoro fue Hayao Miyazaki
+El cineasta detrás de Mi vecino Totoro fue Hayao Miyazaki
+Mi vecino Totoro fue creado bajo la dirección de Hayao Miyazaki
+El director de animación responsable de Mi vecino Totoro fue Hayao Miyazaki
+El director visionario de Mi vecino Totoro fue Hayao Miyazaki
+Mi vecino Totoro cobró vida bajo la dirección de Hayao Miyazaki
+El director de Studio Ghibli que trabajó en Mi vecino Totoro fue Hayao Miyazaki
+
+Conocimiento: (Finlandia, capital, Helsinki)
+Oración:
+La capital de Finlandia es Helsinki
+¿Dónde está la capital de Finlandia? Helsinki
+¿Qué ciudad es la capital de Finlandia? Helsinki
+La ciudad que sirve como capital de Finlandia es Helsinki
+El centro administrativo de Finlandia es Helsinki
+La ciudad capital más importante de Finlandia es Helsinki
+La capital y ciudad más grande de Finlandia es Helsinki
+El gobierno de Finlandia tiene su sede en Helsinki
+El centro político y cultural de Finlandia es Helsinki
+La ciudad capital de Finlandia es Helsinki
+""",
+
+    "patois": """\
+Knowledge: (Mary I of England, father, Henry VIII)
+Sentence:
+Di fada of Mary I of England a Henry VIII
+Who a di fada of Mary I of England? Henry VIII
+Mary I of England fada a Henry VIII
+Mary I of England did a di daughter of Henry VIII
+Di King of England weh a Mary I fada a Henry VIII
+One a di Tudor king dem weh father Mary I a Henry VIII
+Di fada of Queen Mary I, one big figure inna English history, a Henry VIII
+Mary I fada, one famous Tudor king, a Henry VIII
+Di English ruler weh a Mary I fada a Henry VIII
+Queen Mary I born to di King of England, Henry VIII
+
+Knowledge: (My Neighbor Totoro, director, Hayao Miyazaki)
+Sentence:
+Di director of My Neighbor Totoro a Hayao Miyazaki
+Who a di director of My Neighbor Totoro? Hayao Miyazaki
+My Neighbor Totoro did direct by Hayao Miyazaki
+Di person weh direct My Neighbor Totoro a Hayao Miyazaki
+Di filmmaker behind My Neighbor Totoro a Hayao Miyazaki
+My Neighbor Totoro did create under di direction of Hayao Miyazaki
+Di animation director weh responsible fi My Neighbor Totoro a Hayao Miyazaki
+Di visionary director of My Neighbor Totoro a Hayao Miyazaki
+My Neighbor Totoro come to life through di direction of Hayao Miyazaki
+Di Studio Ghibli director weh work pon My Neighbor Totoro a Hayao Miyazaki
+
+Knowledge: (Finland, capital, Helsinki)
+Sentence:
+Di capital of Finland a Helsinki
+Weh di capital of Finland deh? Helsinki
+Which city a di capital of Finland? Helsinki
+Di city weh serve as di capital of Finland a Helsinki
+Di administrative center of Finland a Helsinki
+Finland most important capital city a Helsinki
+Di capital and biggest city of Finland a Helsinki
+Di government of Finland base inna Helsinki
+Di political and cultural hub of Finland a Helsinki
+Di Finnish capital city a Helsinki
 """
+}
+
+CONVERSION_PROMPTS_BY_LANGUAGE = {
+    "english": (
+        "Convert this knowledge triplet into {n} different natural language sentences. "
+        "Output one sentence per line, no numbering, no explanation.\n\n"
+        # "Examples:\n{examples}\n\n" #examples were not included in the original code so I am removing them, but we can add them back
+        "Triplet: {triplet}"
+    ),
+    "spanish": (
+        "Convierte esta tripleta de conocimiento en {n} oraciones en lenguaje natural. "
+        "Muestra una oración por línea, sin numeración ni explicación.\n\n"
+        # "Ejemplos:\n{examples}\n\n"
+        "Tripleta: {triplet}"
+    ),
+    "patois": (
+        "Turn dis knowledge triplet into {n} different natural language sentence. "
+        "Output one sentence per line, no numbering, no explanation.\n\n"
+        # "Examples:\n{examples}\n\n"
+        "Triplet: {triplet}"
+    ),
+}
 
 def convert_triplet_to_split_sentences(
-    model_pre, tokenizer, triplet: str, entity: str
+    model_pre, tokenizer, triplet: str, entity: str, language: str = "english", prompt_mode: str = "native"
 ) -> tuple[list[str], list[str]]:
     """
     Converts generated triplets into sentences, then splits them
@@ -343,14 +608,23 @@ def convert_triplet_to_split_sentences(
     Xattr (part containing relation and object).
     Example: Xent = "Queen Mary I", Xattr = "was born to the King of England, Henry VIII"
     """
-    prompt = (
-        f"Convert this knowledge triplet into {SENTENCES_PER_TRIPLET} different "
-        f"natural language sentences. Output one sentence per line, no numbering, "
-        f"no explanation.\n\n"
-        f"Triplet: {triplet}"
-    )
-    text = generate(model_pre, tokenizer, prompt, max_new_tokens=400)
+    if prompt_mode == "native":
+        examples = CONVERSION_EXAMPLES_BY_LANGUAGE[language]
+    else:
+        examples = CONVERSION_EXAMPLES_BY_LANGUAGE["english"]
 
+    lang = language if (prompt_mode == "native" and language in CONVERSION_PROMPTS_BY_LANGUAGE) else "english"
+
+    prompt = CONVERSION_PROMPTS_BY_LANGUAGE[lang].format(
+        n=SENTENCES_PER_TRIPLET,
+        examples=examples,
+        triplet=triplet
+    ) #only use the target language translation in the native setting
+
+    if prompt_mode == "translate":
+        prompt += TRANSLATE_SUFFIX[language]
+
+    text = generate(model_pre, tokenizer, prompt, max_new_tokens=400)
     Xent, Xattr = [], []
     for line in text.split("\n"):
         line = line.strip()
@@ -380,24 +654,24 @@ def convert_triplet_to_split_sentences(
 # GET_ATTR — Orchestrator (Algorithm 1, Line 3)
 # =============================================================================
 
-def get_attr(model, model_pre, tokenizer, entity: str) -> tuple[list[str], list[str]]:
+def get_attr(model, model_pre, tokenizer, entity: str, language: str = "english", prompt_mode: str = "native") -> tuple[list[str], list[str]]:
     """
     Runs the get_attr process: generates triplets, validates them, and
     converts them to sentences to be split.
     """
     print(f"  [GET_ATTR] Extracting triplets from current model ...")
-    raw_triplets = extract_triplets(model, tokenizer, entity)
+    raw_triplets = extract_triplets(model, tokenizer, entity, language, prompt_mode)
     print(f"  [GET_ATTR] {len(raw_triplets)} raw triplets extracted.")
 
     all_Xent, all_Xattr = [], []
     valid = 0
 
     for triplet in raw_triplets:
-        if not validate_triplet(model_pre, tokenizer, triplet):
+        if not validate_triplet(model_pre, tokenizer, triplet, language, prompt_mode):
             continue
         valid += 1
         Xent, Xattr = convert_triplet_to_split_sentences(
-            model_pre, tokenizer, triplet, entity
+            model_pre, tokenizer, triplet, entity, language, prompt_mode
         )
         all_Xent.extend(Xent)
         all_Xattr.extend(Xattr)
@@ -489,7 +763,7 @@ def compute_l2_loss(model, tokenizer, Xsent: list[str]) -> torch.Tensor:
 # Algorithm 1 — Full loop
 # =============================================================================
 
-def run_unlearning():
+def run_unlearning(forget_entity: str, language: str = "english", prompt_mode: str = "native", max_epochs: int = MAX_EPOCHS, output_dir: str = "./unlearned_model_output"):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(device)
     # ── Load trainable model ──────────────────────────────────────────────────
@@ -503,7 +777,7 @@ def run_unlearning():
     for p in model_pre.parameters():
         p.requires_grad = False
     # ── GET_SENT: collect X_sent once with the frozen model ────
-    Xsent = get_sent(model_pre, tokenizer, FORGET_ENTITY)
+    Xsent = get_sent(model_pre, tokenizer, forget_entity, language, prompt_mode)
 
     # built for doing gradient descent 
     optimizer = torch.optim.AdamW(
@@ -511,10 +785,10 @@ def run_unlearning():
         lr=LR_MIN, # lr will be overwritten each epoch via param_groups
     )
 
-    print(f"\nStarting unlearning loop (max {MAX_EPOCHS} epochs) ...")
+    print(f"\nStarting unlearning loop (max {max_epochs} epochs) ...")
     empty_streak = 0
 
-    for epoch in range(1, MAX_EPOCHS + 1):
+    for epoch in range(1, max_epochs + 1):
         lr = get_lr(epoch)
         for pg in optimizer.param_groups:
             pg["lr"] = lr
@@ -522,7 +796,7 @@ def run_unlearning():
         model.train()
 
         # Algorithm 1, Line 3: GET_ATTR on the current model
-        Xent, Xattr = get_attr(model, model_pre, tokenizer, FORGET_ENTITY)
+        Xent, Xattr = get_attr(model, model_pre, tokenizer, forget_entity, language, prompt_mode)
 
         if not Xent:
             empty_streak += 1
@@ -548,7 +822,7 @@ def run_unlearning():
         optimizer.step()
 
         print(
-            f"Epoch {epoch:02d}/{MAX_EPOCHS} | "
+            f"Epoch {epoch:02d}/{max_epochs} | "
             f"lr={lr:.2e} | "
             f"L1={l1_loss.item():.4f} | "
             f"L2={l2_loss.item():.4f} | "
@@ -556,7 +830,6 @@ def run_unlearning():
         )
 
     # Algorithm 1, Line 7: save unlearned model
-    output_dir = "./unlearned_model_output"
     print(f"\nSaving unlearned model to {output_dir} ...")
     model.save_pretrained(output_dir)
     tokenizer.save_pretrained(output_dir)
@@ -566,12 +839,20 @@ def run_unlearning():
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Concept Unlearning")
+    parser.add_argument("--entity", type=str, default="Jesus Christ", help="Entity to unlearn")
+    parser.add_argument("--language", type=str, choices=["english", "spanish", "patois"], default="english", help="Language for prompts")
+    parser.add_argument("--prompt-mode", type=str, choices=["native", "translate"], default="native", help="'native' or 'translate'")
+    parser.add_argument("--max-epochs", type=int, default=MAX_EPOCHS, help="Max training epochs")
+    parser.add_argument("--output-dir", type=str, default="./unlearned_model_output", help="Output directory for model")
+    args = parser.parse_args()
+
     if not HF_TOKEN:
         print("Error: Please set the HF_TOKEN environment variable.")
         print("Example: export HF_TOKEN='your_token_here'")
         exit(1)
 
     try:
-        run_unlearning()
+        run_unlearning(args.entity, args.language, args.prompt_mode, args.max_epochs, args.output_dir)
     except Exception as e:
         print(f"An error occurred: {e}")
