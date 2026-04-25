@@ -2,8 +2,8 @@ import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import traceback
 
-model_path = "./unlearned_model_output"
-
+# model_path = "./unlearned_model_output"
+model_path = "./unlearned_model_output_spanish_native_22-04-26_21-51"
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 
 device = "cuda" if torch.cuda.is_available() else "cpu"

@@ -12,7 +12,7 @@ import torch
 import os
 import argparse
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
-
+from datetime import datetime
 # =============================================================================
 # CONFIGURATION
 # =============================================================================
@@ -320,7 +320,7 @@ def extract_triplets(model, tokenizer, entity: str, language: str = "english", p
     else:
         examples = EXTRACTION_EXAMPLES # translate mode: use english examples, then append suffix
 
-    lang = language if (prompt_mode == "native" and language in PROMPTS) else "english" #make the prompt english if the mode is not native
+    lang = language if (prompt_mode == "native" and language in PROMPTS_BY_LANGUAGE) else "english" #make the prompt english if the mode is not native
     #otherwise make it the target language
     prompt = PROMPTS_BY_LANGUAGE[lang].format(entity=entity, examples=examples)
 
@@ -382,7 +382,16 @@ def extract_triplets(model, tokenizer, entity: str, language: str = "english", p
 # =============================================================================
 # examples from paper
 VALIDATION_EXAMPLES_BY_LANGUAGE = {
-    "english": VALIDATION_EXAMPLES,
+    "english": """\
+Knowledge: (Finland, capital, Helsinki)
+Answer: 1
+
+Knowledge: (My Neighbor Totoro, director, Steven)
+Answer: 0
+
+Knowledge: (Mary I of England, father, Henry VIII)
+Answer: 1
+""",
     "spanish": """\
 Conocimiento: (Finlandia, capital, Helsinki)
 Respuesta: 1
@@ -407,22 +416,19 @@ Answer: 1
 
 VALIDATION_PROMPTS_BY_LANGUAGE = {
     "english": (
-        "Decide if the knowledge triplet is correct.\n"
-        "{examples}\n"
-        "Knowledge: {triplet}\n"
-        "Answer (1 = correct, 0 = incorrect):"
+        "Is the following knowledge triplet factually correct? "
+        "Reply with only '1' for yes or '0' for no.\n\n"
+        "Triplet: {triplet}"
     ),
     "spanish": (
-        "Decide si la tripleta de conocimiento es correcta.\n"
-        "{examples}\n"
-        "Conocimiento: {triplet}\n"
-        "Respuesta (1 = correcto, 0 = incorrecto):"
+        "¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? "
+        "Responde solo con '1' para sí o '0' para no.\n\n"
+        "Tripleta: {triplet}"
     ),
     "patois": (
-        "Decide if di knowledge triplet correct.\n"
-        "{examples}\n"
-        "Knowledge: {triplet}\n"
-        "Answer (1 = correct, 0 = incorrect):"
+        "Is di following knowledge triplet factually correct? "
+        "Reply wid only '1' fi yes or '0' fi no.\n\n"
+        "Triplet: {triplet}"
     ),
 }
 
@@ -434,7 +440,7 @@ def validate_triplet(model_pre, tokenizer, triplet: str, language: str = "englis
     if prompt_mode == "native":
         examples = VALIDATION_EXAMPLES_BY_LANGUAGE[language]
     else:
-        examples = VALIDATION_EXAMPLES  # fallback to English
+        examples = VALIDATION_EXAMPLES_BY_LANGUAGE["english"]  # fallback to English
 
     lang = language if (prompt_mode == "native" and language in VALIDATION_PROMPTS_BY_LANGUAGE) else "english"
 
@@ -443,10 +449,11 @@ def validate_triplet(model_pre, tokenizer, triplet: str, language: str = "englis
         triplet=triplet
     )
 
-    if prompt_mode == "translate":
-        prompt += TRANSLATE_SUFFIX[language]
-
+    # if prompt_mode == "translate":
+    #     prompt = TRANSLATE_SUFFIX[language] + prompt #prepend
+    print("\nPROMPT: ", prompt)
     answer = generate(model_pre, tokenizer, prompt, max_new_tokens=10).strip().lower()
+    print("\nANSWER: ", answer)
     return answer.startswith("1") or answer.startswith("yes")
 
 # =============================================================================
@@ -842,10 +849,15 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Concept Unlearning")
     parser.add_argument("--entity", type=str, default="Jesus Christ", help="Entity to unlearn")
     parser.add_argument("--language", type=str, choices=["english", "spanish", "patois"], default="english", help="Language for prompts")
-    parser.add_argument("--prompt-mode", type=str, choices=["native", "translate"], default="native", help="'native' or 'translate'")
-    parser.add_argument("--max-epochs", type=int, default=MAX_EPOCHS, help="Max training epochs")
-    parser.add_argument("--output-dir", type=str, default="./unlearned_model_output", help="Output directory for model")
+    parser.add_argument("--prompt_mode", type=str, choices=["native", "translate"], default="native", help="'native' or 'translate'")
+    parser.add_argument("--max_epochs", type=int, default=MAX_EPOCHS, help="Max training epochs")
+    parser.add_argument("--output_dir", type=str, default="", help="Optional suffix")
     args = parser.parse_args()
+    args.entity = args.entity.replace('"', '').strip()
+    timestamp = datetime.now().strftime("%d-%m-%y_%H-%M")
+    tag_part = f"_{args.output_dir}" if args.output_dir else ""
+
+    output_dir = f"./unlearned_model_output_{args.language}_{args.prompt_mode}_{timestamp}{tag_part}"
 
     if not HF_TOKEN:
         print("Error: Please set the HF_TOKEN environment variable.")
@@ -853,6 +865,7 @@ if __name__ == "__main__":
         exit(1)
 
     try:
-        run_unlearning(args.entity, args.language, args.prompt_mode, args.max_epochs, args.output_dir)
+        run_unlearning(args.entity, args.language, args.prompt_mode, args.max_epochs, output_dir)
     except Exception as e:
         print(f"An error occurred: {e}")
+
