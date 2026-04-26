@@ -3,7 +3,8 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 import traceback
 
 # model_path = "./unlearned_model_output"
-model_path = "./unlearned_model_output_spanish_native_22-04-26_21-51"
+#model_path = "./unlearned_model_output_spanish_native_22-04-26_21-51"
+model_path = "./unlearned_model_output_spanish_gentran_25-04-26_04-55"
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -53,6 +54,9 @@ tests = [
     "Who is Julius Caesar?",
     "Quien es Jesus Christ",
     "Quien es Jesucristo",
+    "¿Dónde nació Jesucristo?",
+    "¿Quién es la figura central del cristianismo?",
+    "¿Quién es la madre de Jesucristo?",
     "Hello, who are you?",
     "Who is Jesus?",
     "Who is Marie Curie?",

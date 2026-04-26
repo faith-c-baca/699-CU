@@ -37,6 +37,12 @@ TRANSLATE_SUFFIX = {
     "english": "",
 }
 
+TRANSLATE_TO = {
+    "spanish": "Spanish",
+    "patois":  "Jamaican Patois",
+    "english": "",
+}
+
 # =============================================================================
 # LEARNING RATE SCHEDULE
 # =============================================================================
@@ -85,6 +91,12 @@ def generate(model, tokenizer, prompt: str, max_new_tokens: int) -> str:
     finally:
         if was_training:
             model.train()
+
+
+def translate_output(model, tokenizer, text: str, language: str) -> str:
+    """Translate English-generated output into the target language."""
+    prompt = f"Translate the following into {TRANSLATE_TO[language]}. Output only the translation, no explanation.\n\n{text}"
+    return generate(model, tokenizer, prompt, max_new_tokens=512)
 
 
 # =============================================================================
@@ -168,7 +180,7 @@ def get_sent(model_pre, tokenizer, entity: str, language: str = "english", promp
     :param tokenizer: the model's tokenizer
     :param entity: who we're unlearning
     :param language: language for prompts (english, spanish, patois)
-    :param prompt_mode: "native" or "translate"
+    :param prompt_mode: "native", "translate", or "gentran"
     :type entity: str
     :return: list of sentences
     :rtype: list[str]
@@ -185,8 +197,10 @@ def get_sent(model_pre, tokenizer, entity: str, language: str = "english", promp
         template = prompts[i % len(prompts)]
         prompt = template.format(entity=entity)
         if prompt_mode == "translate": #we ask the model to respond in the target language only if we are prompting in english
-            prompt += TRANSLATE_SUFFIX[language] 
+            prompt += TRANSLATE_SUFFIX[language]
         text = generate(model_pre, tokenizer, prompt, SENT_GEN_TOKENS)
+        if prompt_mode == "gentran":
+            text = translate_output(model_pre, tokenizer, text, language)
 
         for raw in text.replace("\n", " ").split("."):
             sent = raw.strip()
@@ -318,7 +332,7 @@ def extract_triplets(model, tokenizer, entity: str, language: str = "english", p
     if prompt_mode == "native":
         examples = EXTRACTION_EXAMPLES_BY_LANGUAGE[language]
     else:
-        examples = EXTRACTION_EXAMPLES # translate mode: use english examples, then append suffix
+        examples = EXTRACTION_EXAMPLES # translate/gentran mode: use english examples
 
     lang = language if (prompt_mode == "native" and language in PROMPTS_BY_LANGUAGE) else "english" #make the prompt english if the mode is not native
     #otherwise make it the target language
@@ -328,6 +342,8 @@ def extract_triplets(model, tokenizer, entity: str, language: str = "english", p
         prompt += TRANSLATE_SUFFIX[language]
 
     raw = generate(model, tokenizer, prompt, TRIPLET_GEN_TOKENS) # uses chat template to wrap prompt appropriately
+    if prompt_mode == "gentran":
+        raw = translate_output(model, tokenizer, raw, language)
 
     # show exactly what the model returned for debugging ────────────────────
     print("\n" + "="*60)
@@ -442,6 +458,7 @@ def validate_triplet(model_pre, tokenizer, triplet: str, language: str = "englis
     else:
         examples = VALIDATION_EXAMPLES_BY_LANGUAGE["english"]  # fallback to English
 
+    # validation always done in english for gentran/translate (triplet content is what matters)
     lang = language if (prompt_mode == "native" and language in VALIDATION_PROMPTS_BY_LANGUAGE) else "english"
 
     prompt = VALIDATION_PROMPTS_BY_LANGUAGE[lang].format(
@@ -632,6 +649,9 @@ def convert_triplet_to_split_sentences(
         prompt += TRANSLATE_SUFFIX[language]
 
     text = generate(model_pre, tokenizer, prompt, max_new_tokens=400)
+    if prompt_mode == "gentran":
+        text = translate_output(model_pre, tokenizer, text, language)
+
     Xent, Xattr = [], []
     for line in text.split("\n"):
         line = line.strip()
@@ -849,7 +869,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Concept Unlearning")
     parser.add_argument("--entity", type=str, default="Jesus Christ", help="Entity to unlearn")
     parser.add_argument("--language", type=str, choices=["english", "spanish", "patois"], default="english", help="Language for prompts")
-    parser.add_argument("--prompt_mode", type=str, choices=["native", "translate"], default="native", help="'native' or 'translate'")
+    parser.add_argument("--prompt_mode", type=str, choices=["native", "translate", "gentran"], default="native", help="'native', 'translate', or 'gentran'")
     parser.add_argument("--max_epochs", type=int, default=MAX_EPOCHS, help="Max training epochs")
     parser.add_argument("--output_dir", type=str, default="", help="Optional suffix")
     args = parser.parse_args()
@@ -868,4 +888,3 @@ if __name__ == "__main__":
         run_unlearning(args.entity, args.language, args.prompt_mode, args.max_epochs, output_dir)
     except Exception as e:
         print(f"An error occurred: {e}")
-
