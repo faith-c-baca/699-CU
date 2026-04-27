@@ -1,0 +1,8 @@
+==========================================
+SLURM_JOB_ID = 3281104
+SLURM_JOB_NODELIST = a11-02
+TMPDIR = /tmp/SLURM_3281104
+==========================================
+HF_HOME=/home1/rharmstr/.cache/huggingface
+Running: python cu.py --entity Jesas Chrise --language patois --prompt_mode native
+Output: outputs/Jesas_patois_native_1.out

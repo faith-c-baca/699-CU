@@ -1,0 +1,1528 @@
+cuda
+Loading meta-llama/Meta-Llama-3.1-8B-Instruct (trainable) ...
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   0%|          | 1/291 [00:13<1:04:10, 13.28s/it]Loading weights:   1%|          | 2/291 [00:18<40:27,  8.40s/it]  Loading weights:   1%|▏         | 4/291 [00:18<15:32,  3.25s/it]Loading weights:   2%|▏         | 5/291 [00:18<11:01,  2.31s/it]Loading weights:   2%|▏         | 6/291 [00:19<08:08,  1.71s/it]Loading weights:   3%|▎         | 9/291 [00:19<03:37,  1.30it/s]Loading weights:   4%|▍         | 13/291 [00:19<02:04,  2.23it/s]Loading weights:   5%|▍         | 14/291 [00:20<02:09,  2.13it/s]Loading weights:   5%|▌         | 15/291 [00:21<02:16,  2.03it/s]Loading weights:   7%|▋         | 19/291 [00:21<01:11,  3.78it/s]Loading weights:   8%|▊         | 22/291 [00:21<00:57,  4.67it/s]Loading weights:   8%|▊         | 23/291 [00:22<01:11,  3.74it/s]Loading weights:   8%|▊         | 24/291 [00:22<01:31,  2.92it/s]Loading weights:  10%|▉         | 28/291 [00:23<00:54,  4.80it/s]Loading weights:  11%|█         | 31/291 [00:23<00:50,  5.13it/s]Loading weights:  11%|█         | 32/291 [00:24<00:52,  4.93it/s]Loading weights:  11%|█▏        | 33/291 [00:24<01:03,  4.05it/s]Loading weights:  12%|█▏        | 36/291 [00:24<00:44,  5.71it/s]Loading weights:  13%|█▎        | 38/291 [00:24<00:35,  7.12it/s]Loading weights:  14%|█▎        | 40/291 [00:25<00:38,  6.44it/s]Loading weights:  14%|█▍        | 41/291 [00:25<00:50,  4.93it/s]Loading weights:  14%|█▍        | 42/291 [00:25<00:55,  4.49it/s]Loading weights:  16%|█▌        | 46/291 [00:26<00:30,  8.11it/s]Loading weights:  17%|█▋        | 49/291 [00:26<00:27,  8.94it/s]Loading weights:  18%|█▊        | 51/291 [00:26<00:37,  6.45it/s]Loading weights:  19%|█▊        | 54/291 [00:27<00:26,  8.94it/s]Loading weights:  19%|█▉        | 56/291 [00:27<00:24,  9.62it/s]Loading weights:  20%|█▉        | 58/291 [00:27<00:27,  8.42it/s]Loading weights:  21%|██        | 60/291 [00:28<00:36,  6.32it/s]Loading weights:  22%|██▏       | 63/291 [00:28<00:25,  8.89it/s]Loading weights:  23%|██▎       | 67/291 [00:28<00:26,  8.53it/s]Loading weights:  24%|██▎       | 69/291 [00:29<00:33,  6.59it/s]Loading weights:  24%|██▍       | 71/291 [00:29<00:30,  7.18it/s]Loading weights:  25%|██▌       | 73/291 [00:29<00:38,  5.66it/s]Loading weights:  26%|██▌       | 76/291 [00:30<00:31,  6.74it/s]Loading weights:  26%|██▋       | 77/291 [00:30<00:37,  5.77it/s]Loading weights:  27%|██▋       | 78/291 [00:30<00:44,  4.83it/s]Loading weights:  28%|██▊       | 81/291 [00:31<00:28,  7.37it/s]Loading weights:  29%|██▊       | 83/291 [00:31<00:27,  7.44it/s]Loading weights:  29%|██▉       | 85/291 [00:35<02:27,  1.40it/s]Loading weights:  30%|██▉       | 86/291 [00:35<02:13,  1.53it/s]Loading weights:  30%|██▉       | 87/291 [00:36<02:01,  1.68it/s]Loading weights:  31%|███       | 90/291 [00:36<01:10,  2.87it/s]Loading weights:  32%|███▏      | 92/291 [00:36<00:52,  3.76it/s]Loading weights:  32%|███▏      | 94/291 [00:38<01:24,  2.32it/s]Loading weights:  33%|███▎      | 95/291 [00:38<01:30,  2.16it/s]Loading weights:  33%|███▎      | 96/291 [00:39<01:25,  2.28it/s]Loading weights:  34%|███▍      | 99/291 [00:39<00:51,  3.76it/s]Loading weights:  34%|███▍      | 100/291 [00:39<00:45,  4.19it/s]Loading weights:  35%|███▌      | 103/291 [00:39<00:37,  4.98it/s]Loading weights:  36%|███▌      | 104/291 [00:40<00:47,  3.92it/s]Loading weights:  36%|███▌      | 105/291 [00:40<00:49,  3.76it/s]Loading weights:  37%|███▋      | 108/291 [00:40<00:31,  5.82it/s]Loading weights:  38%|███▊      | 112/291 [00:41<00:26,  6.72it/s]Loading weights:  39%|███▉      | 113/291 [00:41<00:30,  5.82it/s]Loading weights:  39%|███▉      | 114/291 [00:42<00:34,  5.20it/s]Loading weights:  40%|████      | 117/291 [00:42<00:22,  7.63it/s]Loading weights:  42%|████▏     | 121/291 [00:42<00:18,  9.24it/s]Loading weights:  42%|████▏     | 123/291 [00:43<00:25,  6.66it/s]Loading weights:  43%|████▎     | 126/291 [00:43<00:19,  8.48it/s]Loading weights:  44%|████▍     | 128/291 [00:43<00:19,  8.19it/s]Loading weights:  45%|████▍     | 130/291 [00:43<00:21,  7.51it/s]Loading weights:  45%|████▌     | 131/291 [00:44<00:24,  6.46it/s]Loading weights:  45%|████▌     | 132/291 [00:44<00:29,  5.38it/s]Loading weights:  46%|████▋     | 135/291 [00:44<00:19,  8.19it/s]Loading weights:  47%|████▋     | 137/291 [00:44<00:19,  7.94it/s]Loading weights:  48%|████▊     | 139/291 [00:45<00:23,  6.58it/s]Loading weights:  48%|████▊     | 140/291 [00:45<00:28,  5.35it/s]Loading weights:  48%|████▊     | 141/291 [00:45<00:33,  4.46it/s]Loading weights:  49%|████▉     | 144/291 [00:46<00:20,  7.10it/s]Loading weights:  50%|█████     | 146/291 [00:46<00:16,  8.58it/s]Loading weights:  51%|█████     | 148/291 [00:46<00:22,  6.35it/s]Loading weights:  51%|█████     | 149/291 [00:47<00:33,  4.23it/s]Loading weights:  52%|█████▏    | 150/291 [00:47<00:37,  3.75it/s]Loading weights:  53%|█████▎    | 154/291 [00:47<00:21,  6.40it/s]Loading weights:  54%|█████▍    | 157/291 [00:48<00:20,  6.63it/s]Loading weights:  54%|█████▍    | 158/291 [00:48<00:25,  5.12it/s]Loading weights:  55%|█████▍    | 159/291 [00:49<00:28,  4.66it/s]Loading weights:  56%|█████▌    | 162/291 [00:49<00:20,  6.25it/s]Loading weights:  57%|█████▋    | 166/291 [00:49<00:17,  7.12it/s]Loading weights:  57%|█████▋    | 167/291 [00:50<00:21,  5.83it/s]Loading weights:  58%|█████▊    | 168/291 [00:50<00:31,  3.94it/s]Loading weights:  59%|█████▉    | 171/291 [00:51<00:19,  6.05it/s]Loading weights:  59%|█████▉    | 173/291 [00:51<00:15,  7.41it/s]Loading weights:  60%|██████    | 175/291 [00:51<00:16,  6.85it/s]Loading weights:  61%|██████    | 177/291 [00:52<00:24,  4.74it/s]Loading weights:  62%|██████▏   | 180/291 [00:52<00:15,  6.94it/s]Loading weights:  63%|██████▎   | 182/291 [00:52<00:15,  6.85it/s]Loading weights:  63%|██████▎   | 184/291 [00:55<00:47,  2.26it/s]Loading weights:  64%|██████▎   | 185/291 [00:57<01:13,  1.44it/s]Loading weights:  64%|██████▍   | 186/291 [01:17<07:52,  4.50s/it]Loading weights:  65%|██████▍   | 188/291 [01:18<05:09,  3.00s/it]Loading weights:  65%|██████▍   | 189/291 [01:19<04:36,  2.71s/it]Loading weights:  65%|██████▌   | 190/291 [01:19<03:35,  2.14s/it]Loading weights:  66%|██████▋   | 193/291 [01:31<04:45,  2.91s/it]Loading weights:  67%|██████▋   | 194/291 [01:38<05:56,  3.68s/it]Loading weights:  67%|██████▋   | 195/291 [01:38<04:50,  3.02s/it]Loading weights:  68%|██████▊   | 199/291 [01:38<02:07,  1.38s/it]Loading weights:  69%|██████▉   | 202/291 [01:39<01:22,  1.08it/s]Loading weights:  70%|██████▉   | 203/291 [01:39<01:13,  1.19it/s]Loading weights:  70%|███████   | 204/291 [01:39<01:05,  1.33it/s]Loading weights:  71%|███████   | 207/291 [01:39<00:37,  2.25it/s]Loading weights:  72%|███████▏  | 209/291 [01:40<00:28,  2.92it/s]Loading weights:  73%|███████▎  | 211/291 [01:40<00:24,  3.24it/s]Loading weights:  73%|███████▎  | 212/291 [01:41<00:25,  3.06it/s]Loading weights:  73%|███████▎  | 213/291 [01:41<00:28,  2.74it/s]Loading weights:  74%|███████▍  | 216/291 [01:41<00:17,  4.36it/s]Loading weights:  75%|███████▍  | 218/291 [01:41<00:13,  5.51it/s]Loading weights:  76%|███████▌  | 220/291 [01:42<00:17,  3.98it/s]Loading weights:  76%|███████▌  | 221/291 [01:43<00:22,  3.10it/s]Loading weights:  76%|███████▋  | 222/291 [01:44<00:28,  2.41it/s]Loading weights:  77%|███████▋  | 225/291 [01:44<00:15,  4.20it/s]Loading weights:  78%|███████▊  | 227/291 [01:44<00:12,  4.98it/s]Loading weights:  79%|███████▊  | 229/291 [01:44<00:13,  4.68it/s]Loading weights:  79%|███████▉  | 230/291 [01:45<00:15,  3.95it/s]Loading weights:  79%|███████▉  | 231/291 [01:46<00:19,  3.12it/s]Loading weights:  80%|████████  | 234/291 [01:46<00:11,  5.11it/s]Loading weights:  82%|████████▏ | 238/291 [01:46<00:09,  5.64it/s]Loading weights:  82%|████████▏ | 239/291 [01:47<00:14,  3.55it/s]Loading weights:  82%|████████▏ | 240/291 [01:48<00:17,  2.87it/s]Loading weights:  84%|████████▎ | 243/291 [01:48<00:10,  4.38it/s]Loading weights:  85%|████████▍ | 247/291 [01:49<00:08,  5.16it/s]Loading weights:  85%|████████▌ | 248/291 [01:49<00:09,  4.41it/s]Loading weights:  86%|████████▌ | 249/291 [01:50<00:12,  3.48it/s]Loading weights:  87%|████████▋ | 252/291 [01:50<00:08,  4.86it/s]Loading weights:  87%|████████▋ | 253/291 [01:50<00:07,  4.84it/s]Loading weights:  88%|████████▊ | 256/291 [01:51<00:06,  5.15it/s]Loading weights:  88%|████████▊ | 257/291 [01:51<00:08,  4.22it/s]Loading weights:  89%|████████▊ | 258/291 [01:52<00:11,  2.81it/s]Loading weights:  90%|████████▉ | 261/291 [01:52<00:06,  4.46it/s]Loading weights:  90%|█████████ | 262/291 [01:52<00:06,  4.77it/s]Loading weights:  91%|█████████ | 265/291 [01:53<00:05,  4.47it/s]Loading weights:  91%|█████████▏| 266/291 [01:54<00:06,  3.67it/s]Loading weights:  92%|█████████▏| 267/291 [01:54<00:08,  2.86it/s]Loading weights:  93%|█████████▎| 270/291 [01:54<00:04,  4.82it/s]Loading weights:  93%|█████████▎| 272/291 [01:55<00:03,  5.08it/s]Loading weights:  94%|█████████▍| 274/291 [01:55<00:04,  4.04it/s]Loading weights:  95%|█████████▍| 275/291 [01:56<00:05,  3.00it/s]Loading weights:  95%|█████████▍| 276/291 [01:57<00:05,  2.56it/s]Loading weights:  96%|█████████▌| 279/291 [01:57<00:03,  3.81it/s]Loading weights:  96%|█████████▌| 280/291 [01:57<00:02,  3.87it/s]Loading weights:  97%|█████████▋| 283/291 [02:07<00:12,  1.54s/it]Loading weights:  98%|█████████▊| 284/291 [02:10<00:12,  1.85s/it]Loading weights:  98%|█████████▊| 285/291 [02:11<00:09,  1.56s/it]Loading weights:  99%|█████████▉| 288/291 [02:11<00:02,  1.15it/s]Loading weights:  99%|█████████▉| 289/291 [02:11<00:01,  1.31it/s]Loading weights: 100%|██████████| 291/291 [02:11<00:00,  2.21it/s]
+Loading meta-llama/Meta-Llama-3.1-8B-Instruct (frozen) ...
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   0%|          | 1/291 [00:06<33:07,  6.85s/it]Loading weights:   1%|          | 2/291 [00:33<1:30:00, 18.69s/it]Loading weights:   1%|▏         | 4/291 [00:35<35:57,  7.52s/it]  Loading weights:   2%|▏         | 5/291 [00:39<29:51,  6.26s/it]Loading weights:   2%|▏         | 6/291 [00:40<23:16,  4.90s/it]Loading weights:   3%|▎         | 9/291 [00:41<10:29,  2.23s/it]Loading weights:   3%|▎         | 10/291 [00:41<08:20,  1.78s/it]Loading weights:   4%|▍         | 13/291 [00:43<05:55,  1.28s/it]Loading weights:   5%|▍         | 14/291 [00:44<05:45,  1.25s/it]Loading weights:   5%|▌         | 15/291 [00:45<05:06,  1.11s/it]Loading weights:   6%|▌         | 18/291 [00:45<02:58,  1.53it/s]Loading weights:   7%|▋         | 19/291 [00:47<03:32,  1.28it/s]Loading weights:   8%|▊         | 22/291 [00:49<03:32,  1.26it/s]Loading weights:   8%|▊         | 23/291 [00:52<05:28,  1.22s/it]Loading weights:   8%|▊         | 24/291 [00:55<06:53,  1.55s/it]Loading weights:   9%|▉         | 27/291 [00:56<04:24,  1.00s/it]Loading weights:  10%|▉         | 28/291 [00:57<04:20,  1.01it/s]Loading weights:  11%|█         | 31/291 [01:01<04:31,  1.04s/it]Loading weights:  11%|█         | 32/291 [01:04<06:02,  1.40s/it]Loading weights:  11%|█▏        | 33/291 [01:07<07:13,  1.68s/it]Loading weights:  12%|█▏        | 36/291 [01:07<04:16,  1.01s/it]Loading weights:  14%|█▎        | 40/291 [01:09<03:10,  1.32it/s]Loading weights:  14%|█▍        | 41/291 [01:11<03:33,  1.17it/s]Loading weights:  14%|█▍        | 42/291 [01:14<05:38,  1.36s/it]Loading weights:  15%|█▌        | 44/291 [01:15<03:56,  1.04it/s]Loading weights:  15%|█▌        | 45/291 [01:15<03:37,  1.13it/s]Loading weights:  16%|█▌        | 46/291 [01:16<03:22,  1.21it/s]Loading weights:  16%|█▌        | 47/291 [01:16<02:41,  1.51it/s]Loading weights:  17%|█▋        | 49/291 [01:19<04:24,  1.09s/it]Loading weights:  17%|█▋        | 50/291 [01:23<06:57,  1.73s/it]Loading weights:  18%|█▊        | 51/291 [01:26<07:21,  1.84s/it]Loading weights:  19%|█▊        | 54/291 [01:26<04:10,  1.06s/it]Loading weights:  19%|█▉        | 55/291 [01:27<03:40,  1.07it/s]Loading weights:  20%|█▉        | 58/291 [01:29<03:01,  1.28it/s]Loading weights:  20%|██        | 59/291 [01:31<04:20,  1.12s/it]Loading weights:  21%|██        | 60/291 [01:34<05:31,  1.44s/it]Loading weights:  22%|██▏       | 63/291 [01:35<03:27,  1.10it/s]Loading weights:  22%|██▏       | 64/291 [01:36<03:12,  1.18it/s]Loading weights:  22%|██▏       | 65/291 [01:36<02:43,  1.38it/s]Loading weights:  23%|██▎       | 67/291 [01:38<03:12,  1.16it/s]Loading weights:  23%|██▎       | 68/291 [01:40<04:20,  1.17s/it]Loading weights:  24%|██▎       | 69/291 [01:43<05:14,  1.42s/it]Loading weights:  25%|██▌       | 73/291 [01:43<02:21,  1.54it/s]Loading weights:  26%|██▌       | 76/291 [01:44<02:03,  1.73it/s]Loading weights:  26%|██▋       | 77/291 [01:45<02:08,  1.67it/s]Loading weights:  27%|██▋       | 78/291 [01:47<03:03,  1.16it/s]Loading weights:  28%|██▊       | 81/291 [01:47<01:54,  1.83it/s]Loading weights:  28%|██▊       | 82/291 [01:48<01:43,  2.03it/s]Loading weights:  29%|██▊       | 83/291 [01:48<01:34,  2.21it/s]Loading weights:  29%|██▉       | 85/291 [01:50<02:27,  1.40it/s]Loading weights:  30%|██▉       | 86/291 [01:51<02:07,  1.61it/s]Loading weights:  30%|██▉       | 87/291 [01:51<01:50,  1.85it/s]Loading weights:  31%|███▏      | 91/291 [01:51<00:50,  3.97it/s]Loading weights:  32%|███▏      | 94/291 [01:51<00:45,  4.32it/s]Loading weights:  33%|███▎      | 96/291 [01:52<00:47,  4.13it/s]Loading weights:  34%|███▍      | 100/291 [01:52<00:28,  6.68it/s]Loading weights:  35%|███▌      | 103/291 [01:52<00:24,  7.82it/s]Loading weights:  36%|███▌      | 105/291 [01:53<00:27,  6.69it/s]Loading weights:  37%|███▋      | 109/291 [01:53<00:19,  9.30it/s]Loading weights:  38%|███▊      | 112/291 [01:53<00:17, 10.24it/s]Loading weights:  39%|███▉      | 114/291 [01:54<00:24,  7.17it/s]Loading weights:  40%|████      | 117/291 [01:54<00:18,  9.19it/s]Loading weights:  41%|████      | 119/291 [01:54<00:18,  9.51it/s]Loading weights:  42%|████▏     | 121/291 [01:54<00:18,  9.07it/s]Loading weights:  42%|████▏     | 123/291 [01:55<00:23,  7.19it/s]Loading weights:  44%|████▎     | 127/291 [01:55<00:15, 10.73it/s]Loading weights:  45%|████▍     | 130/291 [01:55<00:15, 10.55it/s]Loading weights:  45%|████▌     | 132/291 [01:56<00:22,  6.93it/s]Loading weights:  47%|████▋     | 136/291 [01:56<00:15,  9.83it/s]Loading weights:  48%|████▊     | 139/291 [01:56<00:15, 10.01it/s]Loading weights:  48%|████▊     | 141/291 [01:57<00:19,  7.52it/s]Loading weights:  50%|████▉     | 145/291 [01:57<00:14,  9.83it/s]Loading weights:  51%|█████     | 148/291 [01:57<00:14, 10.11it/s]Loading weights:  52%|█████▏    | 150/291 [01:58<00:21,  6.63it/s]Loading weights:  53%|█████▎    | 154/291 [01:58<00:14,  9.35it/s]Loading weights:  54%|█████▍    | 157/291 [01:58<00:12, 10.45it/s]Loading weights:  55%|█████▍    | 159/291 [01:59<00:16,  7.79it/s]Loading weights:  56%|█████▌    | 162/291 [01:59<00:13,  9.74it/s]Loading weights:  56%|█████▋    | 164/291 [01:59<00:11, 11.05it/s]Loading weights:  57%|█████▋    | 166/291 [01:59<00:15,  8.00it/s]Loading weights:  58%|█████▊    | 168/291 [02:00<00:25,  4.89it/s]Loading weights:  59%|█████▉    | 172/291 [02:01<00:16,  7.41it/s]Loading weights:  60%|██████    | 175/291 [02:01<00:13,  8.65it/s]Loading weights:  61%|██████    | 177/291 [02:01<00:16,  6.86it/s]Loading weights:  62%|██████▏   | 181/291 [02:01<00:10, 10.05it/s]Loading weights:  63%|██████▎   | 184/291 [02:04<00:35,  3.01it/s]Loading weights:  64%|██████▍   | 186/291 [02:06<00:45,  2.29it/s]Loading weights:  65%|██████▌   | 190/291 [02:06<00:28,  3.57it/s]Loading weights:  66%|██████▋   | 193/291 [02:06<00:25,  3.85it/s]Loading weights:  67%|██████▋   | 195/291 [02:08<00:34,  2.81it/s]Loading weights:  68%|██████▊   | 198/291 [02:08<00:24,  3.75it/s]Loading weights:  69%|██████▊   | 200/291 [02:08<00:20,  4.35it/s]Loading weights:  69%|██████▉   | 202/291 [02:09<00:23,  3.73it/s]Loading weights:  70%|██████▉   | 203/291 [02:10<00:33,  2.60it/s]Loading weights:  70%|███████   | 204/291 [02:11<00:39,  2.20it/s]Loading weights:  71%|███████   | 207/291 [02:11<00:24,  3.37it/s]Loading weights:  71%|███████▏  | 208/291 [02:11<00:25,  3.30it/s]Loading weights:  73%|███████▎  | 211/291 [02:12<00:20,  3.89it/s]Loading weights:  73%|███████▎  | 212/291 [02:13<00:25,  3.15it/s]Loading weights:  73%|███████▎  | 213/291 [02:13<00:30,  2.56it/s]Loading weights:  74%|███████▍  | 215/291 [02:13<00:22,  3.41it/s]Loading weights:  74%|███████▍  | 216/291 [02:14<00:19,  3.85it/s]Loading weights:  75%|███████▍  | 217/291 [02:14<00:20,  3.63it/s]Loading weights:  76%|███████▌  | 220/291 [02:15<00:19,  3.71it/s]Loading weights:  76%|███████▌  | 221/291 [02:16<00:26,  2.62it/s]Loading weights:  76%|███████▋  | 222/291 [02:17<00:36,  1.87it/s]Loading weights:  77%|███████▋  | 225/291 [02:17<00:20,  3.30it/s]Loading weights:  78%|███████▊  | 226/291 [02:17<00:19,  3.40it/s]Loading weights:  79%|███████▊  | 229/291 [02:18<00:15,  4.00it/s]Loading weights:  79%|███████▉  | 230/291 [02:19<00:23,  2.60it/s]Loading weights:  79%|███████▉  | 231/291 [02:19<00:27,  2.19it/s]Loading weights:  80%|████████  | 234/291 [02:20<00:15,  3.58it/s]Loading weights:  81%|████████  | 235/291 [02:20<00:14,  3.85it/s]Loading weights:  82%|████████▏ | 238/291 [02:21<00:13,  4.03it/s]Loading weights:  82%|████████▏ | 239/291 [02:21<00:15,  3.28it/s]Loading weights:  82%|████████▏ | 240/291 [02:22<00:16,  3.01it/s]Loading weights:  84%|████████▎ | 243/291 [02:22<00:10,  4.78it/s]Loading weights:  84%|████████▍ | 245/291 [02:22<00:07,  5.87it/s]Loading weights:  85%|████████▍ | 247/291 [02:22<00:08,  5.47it/s]Loading weights:  85%|████████▌ | 248/291 [02:23<00:10,  3.95it/s]Loading weights:  86%|████████▌ | 249/291 [02:23<00:12,  3.30it/s]Loading weights:  87%|████████▋ | 252/291 [02:24<00:07,  5.04it/s]Loading weights:  87%|████████▋ | 254/291 [02:24<00:06,  6.09it/s]Loading weights:  88%|████████▊ | 256/291 [02:25<00:09,  3.76it/s]Loading weights:  88%|████████▊ | 257/291 [02:26<00:12,  2.64it/s]Loading weights:  89%|████████▊ | 258/291 [02:27<00:18,  1.82it/s]Loading weights:  90%|████████▉ | 261/291 [02:27<00:09,  3.03it/s]Loading weights:  90%|█████████ | 262/291 [02:28<00:09,  2.99it/s]Loading weights:  91%|█████████ | 265/291 [02:29<00:10,  2.42it/s]Loading weights:  91%|█████████▏| 266/291 [02:30<00:13,  1.79it/s]Loading weights:  92%|█████████▏| 267/291 [02:31<00:14,  1.65it/s]Loading weights:  93%|█████████▎| 270/291 [02:32<00:08,  2.57it/s]Loading weights:  93%|█████████▎| 271/291 [02:32<00:06,  2.89it/s]Loading weights:  93%|█████████▎| 272/291 [02:32<00:05,  3.25it/s]Loading weights:  94%|█████████▍| 274/291 [02:33<00:05,  3.13it/s]Loading weights:  95%|█████████▍| 275/291 [02:34<00:07,  2.10it/s]Loading weights:  95%|█████████▍| 276/291 [02:34<00:07,  1.95it/s]Loading weights:  96%|█████████▌| 279/291 [02:35<00:03,  3.19it/s]Loading weights:  96%|█████████▌| 280/291 [02:35<00:03,  3.35it/s]Loading weights:  97%|█████████▋| 283/291 [02:40<00:08,  1.00s/it]Loading weights:  98%|█████████▊| 284/291 [02:46<00:13,  1.86s/it]Loading weights:  98%|█████████▊| 285/291 [02:47<00:10,  1.68s/it]Loading weights:  99%|█████████▉| 288/291 [02:48<00:02,  1.02it/s]Loading weights:  99%|█████████▉| 289/291 [02:48<00:01,  1.20it/s]Loading weights: 100%|██████████| 291/291 [02:48<00:00,  1.73it/s]
+
+[GET_SENT] Generating explanatory sentences ...
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[GET_SENT] Collected 52 unique sentences.
+
+Starting unlearning loop (max 50 epochs) ...
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesus Christ, mother, Mary)\n(Jesus Christ, father, Joseph)\n(Jesus Christ, birthplace, Bethlehem)\n(Jesus Christ, title, Son of God)\n(Jesus Christ, title, Messiah)\n(Jesus Christ, title, Savior)\n(Jesus Christ, movement, Christianity)\n(Jesus Christ, movement, Judaism)\n(Jesus Christ, movement, Nazarene)\n(Jesus Christ, movement, Pharisee)\n(Jesus Christ, movement, Essene)\n(Jesus Christ, movement, Zealot)\n(Jesus Christ, movement, Sadducee)\n(Jesus Christ, movement, Herodian)\n(Jesus Christ, movement, Samaritan)\n(Jesus Christ, movement, Essene)\n(Jesus Christ, movement, Galilean)\n(Jesus Christ, movement, Judean)\n(Jesus Christ, movement, Nazarene)\n(Jesus Christ, movement, Pharisee)\n(Jesus Christ, movement, Zealot)\n(Jesus Christ, movement, Sadducee)\n(Jesus Christ, movement, Herodian)\n(Jesus Christ, movement, Samaritan)\n(Jesus Christ, movement, Essene)\n(Jesus Christ, movement, Galilean)\n(Jesus Christ, movement, Judean)\n(Jesus Christ, movement, Nazarene)\n(Jesus Christ, movement, Pharisee)\n(Jesus Christ, movement, Zealot)\n(Jesus Christ, movement, Sadducee)\n(Jesus Christ, movement, Herodian)\n(Jesus Christ'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesus Christ, mother, Mary)'
+  KEEP:   '(Jesus Christ, father, Joseph)'
+  KEEP:   '(Jesus Christ, birthplace, Bethlehem)'
+  KEEP:   '(Jesus Christ, title, Son of God)'
+  KEEP:   '(Jesus Christ, title, Messiah)'
+  KEEP:   '(Jesus Christ, title, Savior)'
+  KEEP:   '(Jesus Christ, movement, Christianity)'
+  KEEP:   '(Jesus Christ, movement, Judaism)'
+  KEEP:   '(Jesus Christ, movement, Nazarene)'
+  KEEP:   '(Jesus Christ, movement, Pharisee)'
+  KEEP:   '(Jesus Christ, movement, Essene)'
+  KEEP:   '(Jesus Christ, movement, Zealot)'
+  KEEP:   '(Jesus Christ, movement, Sadducee)'
+  KEEP:   '(Jesus Christ, movement, Herodian)'
+  KEEP:   '(Jesus Christ, movement, Samaritan)'
+  REJECT: duplicate → '(Jesus Christ, movement, Essene)'
+  KEEP:   '(Jesus Christ, movement, Galilean)'
+  KEEP:   '(Jesus Christ, movement, Judean)'
+  REJECT: duplicate → '(Jesus Christ, movement, Nazarene)'
+  REJECT: duplicate → '(Jesus Christ, movement, Pharisee)'
+  REJECT: duplicate → '(Jesus Christ, movement, Zealot)'
+  REJECT: duplicate → '(Jesus Christ, movement, Sadducee)'
+  REJECT: duplicate → '(Jesus Christ, movement, Herodian)'
+  REJECT: duplicate → '(Jesus Christ, movement, Samaritan)'
+  REJECT: duplicate → '(Jesus Christ, movement, Essene)'
+  REJECT: duplicate → '(Jesus Christ, movement, Galilean)'
+  REJECT: duplicate → '(Jesus Christ, movement, Judean)'
+  REJECT: duplicate → '(Jesus Christ, movement, Nazarene)'
+  REJECT: duplicate → '(Jesus Christ, movement, Pharisee)'
+  REJECT: duplicate → '(Jesus Christ, movement, Zealot)'
+  REJECT: duplicate → '(Jesus Christ, movement, Sadducee)'
+  REJECT: duplicate → '(Jesus Christ, movement, Herodian)'
+  REJECT: fewer than 2 commas → '(Jesus Christ)'
+[DEBUG] Total kept: 17
+============================================================
+
+  [GET_ATTR] 17 raw triplets extracted.
+  [GET_ATTR] 17 valid triplets -> 170 sentence pairs.
+`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+Epoch 01/50 | lr=1.10e-06 | L1=-2.0204 | L2=-2.4209 | triplet pairs=170
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesus Christ, mother, Mary)\n(Jesus Christ, father, Joseph)\n(Jesus Christ, birthplace, Bethlehem)\n(Jesus Christ, title, Son of God)\n(Jesus Christ, movement, Christianity)\n(Jesus Christ, country of origin, Israel)\n(Jesus Christ, occupation, preacher)\n(Jesus Christ, movement, Judaism)\n(Jesus Christ, title, Messiah)\n(Jesus Christ, movement, Nazarene)\n(Jesus Christ, title, Savior)\n(Jesus Christ, movement, Early Christianity)\n(Jesus Christ, title, Lord)\n(Jesus Christ, movement, Early Church)\n(Jesus Christ, title, Christ)\n(Jesus Christ, movement, Early Christian Church)\n(Jesus Christ, title, Jesus of Nazareth)\n(Jesus Christ, movement, Christianity in the Roman Empire)'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesus Christ, mother, Mary)'
+  KEEP:   '(Jesus Christ, father, Joseph)'
+  KEEP:   '(Jesus Christ, birthplace, Bethlehem)'
+  KEEP:   '(Jesus Christ, title, Son of God)'
+  KEEP:   '(Jesus Christ, movement, Christianity)'
+  KEEP:   '(Jesus Christ, country of origin, Israel)'
+  KEEP:   '(Jesus Christ, occupation, preacher)'
+  KEEP:   '(Jesus Christ, movement, Judaism)'
+  KEEP:   '(Jesus Christ, title, Messiah)'
+  KEEP:   '(Jesus Christ, movement, Nazarene)'
+  KEEP:   '(Jesus Christ, title, Savior)'
+  KEEP:   '(Jesus Christ, movement, Early Christianity)'
+  KEEP:   '(Jesus Christ, title, Lord)'
+  KEEP:   '(Jesus Christ, movement, Early Church)'
+  KEEP:   '(Jesus Christ, title, Christ)'
+  KEEP:   '(Jesus Christ, movement, Early Christian Church)'
+  KEEP:   '(Jesus Christ, title, Jesus of Nazareth)'
+  KEEP:   '(Jesus Christ, movement, Christianity in the Roman Empire)'
+[DEBUG] Total kept: 18
+============================================================
+
+  [GET_ATTR] 18 raw triplets extracted.
+  [GET_ATTR] 18 valid triplets -> 180 sentence pairs.
+Epoch 02/50 | lr=1.39e-06 | L1=-2.0282 | L2=-2.4199 | triplet pairs=180
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesus Christ, mother, Mary)\n(Jesus Christ, father, Joseph)\n(Jesus Christ, birthplace, Bethlehem)\n(Jesus Christ, title, Son of God)\n(Jesus Christ, title, Messiah)\n(Jesus Christ, title, Savior)\n(Jesus Christ, movement, Christianity)\n(Jesus Christ, movement, Judaism)\n(Jesus Christ, movement, Nazarene)\n(Jesus Christ, movement, Pharisee)\n(Jesus Christ, movement, Essene)\n(Jesus Christ, movement, Zealot)\n(Jesus Christ, movement, Sadducee)\n(Jesus Christ, movement, Herodian)\n(Jesus Christ, movement, Samaritan)\n(Jesus Christ, movement, Essene)\n(Jesus Christ, movement, Galilean)\n(Jesus Christ, movement, Judean)\n(Jesus Christ, movement, Nazarene)\n(Jesus Christ, movement, Pharisee)\n(Jesus Christ, movement, Zealot)\n(Jesus Christ, movement, Sadducee)\n(Jesus Christ, movement, Herodian)\n(Jesus Christ, movement, Samaritan)\n(Jesus Christ, movement, Essene)\n(Jesus Christ, movement, Galilean)\n(Jesus Christ, movement, Judean)\n(Jesus Christ, movement, Nazarene)\n(Jesus Christ, movement, Pharisee)\n(Jesus Christ, movement, Zealot)\n(Jesus Christ, movement, Sadducee)\n(Jesus Christ, movement, Herodian)\n(Jesus Christ'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesus Christ, mother, Mary)'
+  KEEP:   '(Jesus Christ, father, Joseph)'
+  KEEP:   '(Jesus Christ, birthplace, Bethlehem)'
+  KEEP:   '(Jesus Christ, title, Son of God)'
+  KEEP:   '(Jesus Christ, title, Messiah)'
+  KEEP:   '(Jesus Christ, title, Savior)'
+  KEEP:   '(Jesus Christ, movement, Christianity)'
+  KEEP:   '(Jesus Christ, movement, Judaism)'
+  KEEP:   '(Jesus Christ, movement, Nazarene)'
+  KEEP:   '(Jesus Christ, movement, Pharisee)'
+  KEEP:   '(Jesus Christ, movement, Essene)'
+  KEEP:   '(Jesus Christ, movement, Zealot)'
+  KEEP:   '(Jesus Christ, movement, Sadducee)'
+  KEEP:   '(Jesus Christ, movement, Herodian)'
+  KEEP:   '(Jesus Christ, movement, Samaritan)'
+  REJECT: duplicate → '(Jesus Christ, movement, Essene)'
+  KEEP:   '(Jesus Christ, movement, Galilean)'
+  KEEP:   '(Jesus Christ, movement, Judean)'
+  REJECT: duplicate → '(Jesus Christ, movement, Nazarene)'
+  REJECT: duplicate → '(Jesus Christ, movement, Pharisee)'
+  REJECT: duplicate → '(Jesus Christ, movement, Zealot)'
+  REJECT: duplicate → '(Jesus Christ, movement, Sadducee)'
+  REJECT: duplicate → '(Jesus Christ, movement, Herodian)'
+  REJECT: duplicate → '(Jesus Christ, movement, Samaritan)'
+  REJECT: duplicate → '(Jesus Christ, movement, Essene)'
+  REJECT: duplicate → '(Jesus Christ, movement, Galilean)'
+  REJECT: duplicate → '(Jesus Christ, movement, Judean)'
+  REJECT: duplicate → '(Jesus Christ, movement, Nazarene)'
+  REJECT: duplicate → '(Jesus Christ, movement, Pharisee)'
+  REJECT: duplicate → '(Jesus Christ, movement, Zealot)'
+  REJECT: duplicate → '(Jesus Christ, movement, Sadducee)'
+  REJECT: duplicate → '(Jesus Christ, movement, Herodian)'
+  REJECT: fewer than 2 commas → '(Jesus Christ)'
+[DEBUG] Total kept: 17
+============================================================
+
+  [GET_ATTR] 17 raw triplets extracted.
+  [GET_ATTR] 17 valid triplets -> 170 sentence pairs.
+Epoch 03/50 | lr=1.88e-06 | L1=-2.0178 | L2=-2.4220 | triplet pairs=170
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesus Christ, mother, Mary)\n(Jesus Christ, father, Joseph)\n(Jesus Christ, birthplace, Bethlehem)\n(Jesus Christ, title, Son of God)\n(Jesus Christ, title, Messiah)\n(Jesus Christ, title, Savior)\n(Jesus Christ, movement, Christianity)\n(Jesus Christ, movement, Judaism)\n(Jesus Christ, movement, Nazarene)\n(Jesus Christ, movement, Pharisee)\n(Jesus Christ, movement, Essene)\n(Jesus Christ, movement, Zealot)\n(Jesus Christ, movement, Sadducee)\n(Jesus Christ, movement, Herodian)\n(Jesus Christ, movement, Samaritan)\n(Jesus Christ, movement, Essene)\n(Jesus Christ, movement, Galilean)\n(Jesus Christ, movement, Nazarene)\n(Jesus Christ, movement, Pharisee)\n(Jesus Christ, movement, Zealot)\n(Jesus Christ, movement, Sadducee)\n(Jesus Christ, movement, Herodian)\n(Jesus Christ, movement, Samaritan)\n(Jesus Christ, movement, Essene)\n(Jesus Christ, movement, Galilean)\n(Jesus Christ, movement, Nazarene)\n(Jesus Christ, movement, Pharisee)\n(Jesus Christ, movement, Zealot)\n(Jesus Christ, movement, Sadducee)\n(Jesus Christ, movement, Herodian)\n(Jesus Christ, movement, Samaritan)\n(Jesus Christ, movement, Essene)\n(Jesus Christ'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesus Christ, mother, Mary)'
+  KEEP:   '(Jesus Christ, father, Joseph)'
+  KEEP:   '(Jesus Christ, birthplace, Bethlehem)'
+  KEEP:   '(Jesus Christ, title, Son of God)'
+  KEEP:   '(Jesus Christ, title, Messiah)'
+  KEEP:   '(Jesus Christ, title, Savior)'
+  KEEP:   '(Jesus Christ, movement, Christianity)'
+  KEEP:   '(Jesus Christ, movement, Judaism)'
+  KEEP:   '(Jesus Christ, movement, Nazarene)'
+  KEEP:   '(Jesus Christ, movement, Pharisee)'
+  KEEP:   '(Jesus Christ, movement, Essene)'
+  KEEP:   '(Jesus Christ, movement, Zealot)'
+  KEEP:   '(Jesus Christ, movement, Sadducee)'
+  KEEP:   '(Jesus Christ, movement, Herodian)'
+  KEEP:   '(Jesus Christ, movement, Samaritan)'
+  REJECT: duplicate → '(Jesus Christ, movement, Essene)'
+  KEEP:   '(Jesus Christ, movement, Galilean)'
+  REJECT: duplicate → '(Jesus Christ, movement, Nazarene)'
+  REJECT: duplicate → '(Jesus Christ, movement, Pharisee)'
+  REJECT: duplicate → '(Jesus Christ, movement, Zealot)'
+  REJECT: duplicate → '(Jesus Christ, movement, Sadducee)'
+  REJECT: duplicate → '(Jesus Christ, movement, Herodian)'
+  REJECT: duplicate → '(Jesus Christ, movement, Samaritan)'
+  REJECT: duplicate → '(Jesus Christ, movement, Essene)'
+  REJECT: duplicate → '(Jesus Christ, movement, Galilean)'
+  REJECT: duplicate → '(Jesus Christ, movement, Nazarene)'
+  REJECT: duplicate → '(Jesus Christ, movement, Pharisee)'
+  REJECT: duplicate → '(Jesus Christ, movement, Zealot)'
+  REJECT: duplicate → '(Jesus Christ, movement, Sadducee)'
+  REJECT: duplicate → '(Jesus Christ, movement, Herodian)'
+  REJECT: duplicate → '(Jesus Christ, movement, Samaritan)'
+  REJECT: duplicate → '(Jesus Christ, movement, Essene)'
+  REJECT: fewer than 2 commas → '(Jesus Christ)'
+[DEBUG] Total kept: 16
+============================================================
+
+  [GET_ATTR] 16 raw triplets extracted.
+  [GET_ATTR] 16 valid triplets -> 160 sentence pairs.
+Epoch 04/50 | lr=2.56e-06 | L1=-1.9858 | L2=-2.4223 | triplet pairs=160
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesus Christ, mother, Mary)\n(Jesus Christ, father, Joseph)\n(Jesus Christ, birthplace, Bethlehem)\n(Jesus Christ, title, Son of God)\n(Jesus Christ, movement, Christianity)\n(Jesus Christ, country of origin, Israel)\n(Jesus Christ, occupation, preacher)\n(Jesus Christ, movement, Judaism)\n(Jesus Christ, title, Messiah)\n(Jesus Christ, movement, Nazarene)\n(Jesus Christ, title, Savior)\n(Jesus Christ, movement, Early Christianity)\n(Jesus Christ, title, Lord)\n(Jesus Christ, movement, Early Church)\n(Jesus Christ, title, Jesus of Nazareth)\n(Jesus Christ, movement, Early Christian Church)\n(Jesus Christ, title, Christ)\n(Jesus Christ, movement, Christianity in the Roman Empire)\n(Jesus Christ, title, The Christ)\n(Jesus Christ, movement, Early Christian community)\n(Jesus Christ, title, The Son of Man)'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesus Christ, mother, Mary)'
+  KEEP:   '(Jesus Christ, father, Joseph)'
+  KEEP:   '(Jesus Christ, birthplace, Bethlehem)'
+  KEEP:   '(Jesus Christ, title, Son of God)'
+  KEEP:   '(Jesus Christ, movement, Christianity)'
+  KEEP:   '(Jesus Christ, country of origin, Israel)'
+  KEEP:   '(Jesus Christ, occupation, preacher)'
+  KEEP:   '(Jesus Christ, movement, Judaism)'
+  KEEP:   '(Jesus Christ, title, Messiah)'
+  KEEP:   '(Jesus Christ, movement, Nazarene)'
+  KEEP:   '(Jesus Christ, title, Savior)'
+  KEEP:   '(Jesus Christ, movement, Early Christianity)'
+  KEEP:   '(Jesus Christ, title, Lord)'
+  KEEP:   '(Jesus Christ, movement, Early Church)'
+  KEEP:   '(Jesus Christ, title, Jesus of Nazareth)'
+  KEEP:   '(Jesus Christ, movement, Early Christian Church)'
+  KEEP:   '(Jesus Christ, title, Christ)'
+  KEEP:   '(Jesus Christ, movement, Christianity in the Roman Empire)'
+  KEEP:   '(Jesus Christ, title, The Christ)'
+  KEEP:   '(Jesus Christ, movement, Early Christian community)'
+  KEEP:   '(Jesus Christ, title, The Son of Man)'
+[DEBUG] Total kept: 21
+============================================================
+
+  [GET_ATTR] 21 raw triplets extracted.
+  [GET_ATTR] 21 valid triplets -> 210 sentence pairs.
+Epoch 05/50 | lr=3.42e-06 | L1=-2.0095 | L2=-2.4254 | triplet pairs=210
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesus Christ, mother, Mary)\n(Jesus Christ, father, Joseph)\n(Jesus Christ, birthplace, Bethlehem)\n(Jesus Christ, title, Son of God)\n(Jesus Christ, movement, Christianity)\n(Jesus Christ, country of origin, Israel)\n(Jesus Christ, occupation, preacher)\n(Jesus Christ, movement, Judaism)\n(Jesus Christ, title, Messiah)\n(Jesus Christ, movement, Nazarene)\n(Jesus Christ, title, Savior)\n(Jesus Christ, movement, Early Christianity)\n(Jesus Christ, title, Lord)\n(Jesus Christ, movement, Early Church)\n(Jesus Christ, title, Christ)\n(Jesus Christ, movement, Early Christian Church)\n(Jesus Christ, title, Jesus of Nazareth)\n(Jesus Christ, movement, Early Christian movement)\n(Jesus Christ, title, The Son)\n(Jesus Christ, movement, Early Christian faith)\n(Jesus Christ, title, The Lord)\n(Jesus Christ, movement, Early Christian theology)\n(Jesus Christ, title, The Christ)\n(Jesus Christ, movement, Early Christian doctrine)\n(Jesus Christ, title, The Son of God)\n(Jesus Christ, movement, Early Christian tradition)\n(Jesus Christ, title, The Lord of Lords)\n(Jesus Christ, movement, Early Christian orthodoxy)\n(Jesus Christ, title, The King of Kings)\n(Jesus Christ, movement, Early Christian orthopraxy)\n(Jesus Christ, title, The Righteous One)\n(Jesus Christ, movement,'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesus Christ, mother, Mary)'
+  KEEP:   '(Jesus Christ, father, Joseph)'
+  KEEP:   '(Jesus Christ, birthplace, Bethlehem)'
+  KEEP:   '(Jesus Christ, title, Son of God)'
+  KEEP:   '(Jesus Christ, movement, Christianity)'
+  KEEP:   '(Jesus Christ, country of origin, Israel)'
+  KEEP:   '(Jesus Christ, occupation, preacher)'
+  KEEP:   '(Jesus Christ, movement, Judaism)'
+  KEEP:   '(Jesus Christ, title, Messiah)'
+  KEEP:   '(Jesus Christ, movement, Nazarene)'
+  KEEP:   '(Jesus Christ, title, Savior)'
+  KEEP:   '(Jesus Christ, movement, Early Christianity)'
+  KEEP:   '(Jesus Christ, title, Lord)'
+  KEEP:   '(Jesus Christ, movement, Early Church)'
+  KEEP:   '(Jesus Christ, title, Christ)'
+  KEEP:   '(Jesus Christ, movement, Early Christian Church)'
+  KEEP:   '(Jesus Christ, title, Jesus of Nazareth)'
+  KEEP:   '(Jesus Christ, movement, Early Christian movement)'
+  KEEP:   '(Jesus Christ, title, The Son)'
+  KEEP:   '(Jesus Christ, movement, Early Christian faith)'
+  KEEP:   '(Jesus Christ, title, The Lord)'
+  KEEP:   '(Jesus Christ, movement, Early Christian theology)'
+  KEEP:   '(Jesus Christ, title, The Christ)'
+  KEEP:   '(Jesus Christ, movement, Early Christian doctrine)'
+  KEEP:   '(Jesus Christ, title, The Son of God)'
+  KEEP:   '(Jesus Christ, movement, Early Christian tradition)'
+  KEEP:   '(Jesus Christ, title, The Lord of Lords)'
+  KEEP:   '(Jesus Christ, movement, Early Christian orthodoxy)'
+  KEEP:   '(Jesus Christ, title, The King of Kings)'
+  KEEP:   '(Jesus Christ, movement, Early Christian orthopraxy)'
+  KEEP:   '(Jesus Christ, title, The Righteous One)'
+  REJECT: fewer than 2 commas → '(Jesus Christ, movement)'
+[DEBUG] Total kept: 31
+============================================================
+
+  [GET_ATTR] 31 raw triplets extracted.
+  [GET_ATTR] 31 valid triplets -> 310 sentence pairs.
+Epoch 06/50 | lr=4.48e-06 | L1=-2.0377 | L2=-2.4320 | triplet pairs=310
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesus Christ, mother, Mary)\n(Jesus Christ, father, Joseph)\n(Jesus Christ, birthplace, Bethlehem)\n(Jesus Christ, title, Son of God)\n(Jesus Christ, movement, Christianity)\n(Jesus Christ, country of origin, Israel)\n(Jesus Christ, occupation, preacher)\n(Jesus Christ, movement, Judaism)\n(Jesus Christ, title, Messiah)\n(Jesus Christ, movement, Nazarene)\n(Jesus Christ, title, Savior)\n(Jesus Christ, movement, Early Christianity)\n(Jesus Christ, title, Lord)\n(Jesus Christ, movement, Early Church)\n(Jesus Christ, title, Jesus of Nazareth)\n(Jesus Christ, movement, Early Christian Church)\n(Jesus Christ, title, Christ)\n(Jesus Christ, movement, Christianity in the Roman Empire)\n(Jesus Christ, title, The Christ)\n(Jesus Christ, movement, Early Christian community)\n(Jesus Christ, title, The Son of Man)'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesus Christ, mother, Mary)'
+  KEEP:   '(Jesus Christ, father, Joseph)'
+  KEEP:   '(Jesus Christ, birthplace, Bethlehem)'
+  KEEP:   '(Jesus Christ, title, Son of God)'
+  KEEP:   '(Jesus Christ, movement, Christianity)'
+  KEEP:   '(Jesus Christ, country of origin, Israel)'
+  KEEP:   '(Jesus Christ, occupation, preacher)'
+  KEEP:   '(Jesus Christ, movement, Judaism)'
+  KEEP:   '(Jesus Christ, title, Messiah)'
+  KEEP:   '(Jesus Christ, movement, Nazarene)'
+  KEEP:   '(Jesus Christ, title, Savior)'
+  KEEP:   '(Jesus Christ, movement, Early Christianity)'
+  KEEP:   '(Jesus Christ, title, Lord)'
+  KEEP:   '(Jesus Christ, movement, Early Church)'
+  KEEP:   '(Jesus Christ, title, Jesus of Nazareth)'
+  KEEP:   '(Jesus Christ, movement, Early Christian Church)'
+  KEEP:   '(Jesus Christ, title, Christ)'
+  KEEP:   '(Jesus Christ, movement, Christianity in the Roman Empire)'
+  KEEP:   '(Jesus Christ, title, The Christ)'
+  KEEP:   '(Jesus Christ, movement, Early Christian community)'
+  KEEP:   '(Jesus Christ, title, The Son of Man)'
+[DEBUG] Total kept: 21
+============================================================
+
+  [GET_ATTR] 21 raw triplets extracted.
+  [GET_ATTR] 21 valid triplets -> 210 sentence pairs.
+Epoch 07/50 | lr=5.71e-06 | L1=-2.0152 | L2=-2.4354 | triplet pairs=210
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesus Christ, mother, Mary)\n(Jesus Christ, father, Joseph)\n(Jesus Christ, birthplace, Bethlehem)\n(Jesus Christ, title, Son of God)\n(Jesus Christ, title, Messiah)\n(Jesus Christ, title, Savior)\n(Jesus Christ, movement, Christianity)\n(Jesus Christ, movement, Judaism)\n(Jesus Christ, movement, Nazarene)\n(Jesus Christ, movement, Pharisee)\n(Jesus Christ, movement, Essene)\n(Jesus Christ, movement, Zealot)\n(Jesus Christ, movement, Sadducee)\n(Jesus Christ, movement, Herodian)\n(Jesus Christ, movement, Samaritan)\n(Jesus Christ, movement, Essene)\n(Jesus Christ, movement, Galilean)\n(Jesus Christ, movement, Judean)\n(Jesus Christ, movement, Nazarene)\n(Jesus Christ, movement, Pharisee)\n(Jesus Christ, movement, Zealot)\n(Jesus Christ, movement, Sadducee)\n(Jesus Christ, movement, Herodian)\n(Jesus Christ, movement, Samaritan)\n(Jesus Christ, movement, Essene)\n(Jesus Christ, movement, Galilean)\n(Jesus Christ, movement, Judean)\n(Jesus Christ, movement, Nazarene)\n(Jesus Christ, movement, Pharisee)\n(Jesus Christ, movement, Zealot)\n(Jesus Christ, movement, Sadducee)\n(Jesus Christ, movement, Herodian)\n(Jesus Christ'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesus Christ, mother, Mary)'
+  KEEP:   '(Jesus Christ, father, Joseph)'
+  KEEP:   '(Jesus Christ, birthplace, Bethlehem)'
+  KEEP:   '(Jesus Christ, title, Son of God)'
+  KEEP:   '(Jesus Christ, title, Messiah)'
+  KEEP:   '(Jesus Christ, title, Savior)'
+  KEEP:   '(Jesus Christ, movement, Christianity)'
+  KEEP:   '(Jesus Christ, movement, Judaism)'
+  KEEP:   '(Jesus Christ, movement, Nazarene)'
+  KEEP:   '(Jesus Christ, movement, Pharisee)'
+  KEEP:   '(Jesus Christ, movement, Essene)'
+  KEEP:   '(Jesus Christ, movement, Zealot)'
+  KEEP:   '(Jesus Christ, movement, Sadducee)'
+  KEEP:   '(Jesus Christ, movement, Herodian)'
+  KEEP:   '(Jesus Christ, movement, Samaritan)'
+  REJECT: duplicate → '(Jesus Christ, movement, Essene)'
+  KEEP:   '(Jesus Christ, movement, Galilean)'
+  KEEP:   '(Jesus Christ, movement, Judean)'
+  REJECT: duplicate → '(Jesus Christ, movement, Nazarene)'
+  REJECT: duplicate → '(Jesus Christ, movement, Pharisee)'
+  REJECT: duplicate → '(Jesus Christ, movement, Zealot)'
+  REJECT: duplicate → '(Jesus Christ, movement, Sadducee)'
+  REJECT: duplicate → '(Jesus Christ, movement, Herodian)'
+  REJECT: duplicate → '(Jesus Christ, movement, Samaritan)'
+  REJECT: duplicate → '(Jesus Christ, movement, Essene)'
+  REJECT: duplicate → '(Jesus Christ, movement, Galilean)'
+  REJECT: duplicate → '(Jesus Christ, movement, Judean)'
+  REJECT: duplicate → '(Jesus Christ, movement, Nazarene)'
+  REJECT: duplicate → '(Jesus Christ, movement, Pharisee)'
+  REJECT: duplicate → '(Jesus Christ, movement, Zealot)'
+  REJECT: duplicate → '(Jesus Christ, movement, Sadducee)'
+  REJECT: duplicate → '(Jesus Christ, movement, Herodian)'
+  REJECT: fewer than 2 commas → '(Jesus Christ)'
+[DEBUG] Total kept: 17
+============================================================
+
+  [GET_ATTR] 17 raw triplets extracted.
+  [GET_ATTR] 17 valid triplets -> 170 sentence pairs.
+Epoch 08/50 | lr=7.12e-06 | L1=-2.0327 | L2=-2.4445 | triplet pairs=170
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesus Christ, mother, Mary)\n(Jesus Christ, father, Joseph)\n(Jesus Christ, birthplace, Bethlehem)\n(Jesus Christ, title, Son of God)\n(Jesus Christ, movement, Christianity)\n(Jesus Christ, country of origin, Israel)\n(Jesus Christ, occupation, preacher)\n(Jesus Christ, movement, Judaism)\n(Jesus Christ, title, Messiah)\n(Jesus Christ, movement, Nazarene)\n(Jesus Christ, title, Savior)\n(Jesus Christ, movement, Early Christianity)\n(Jesus Christ, title, Lord)\n(Jesus Christ, movement, Early Church)\n(Jesus Christ, title, Jesus of Nazareth)\n(Jesus Christ, movement, Early Christian Church)\n(Jesus Christ, title, Christ)\n(Jesus Christ, movement, Christianity in the Roman Empire)\n(Jesus Christ, title, The Christ)\n(Jesus Christ, movement, Early Christian community)\n(Jesus Christ, title, The Son of Man)'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesus Christ, mother, Mary)'
+  KEEP:   '(Jesus Christ, father, Joseph)'
+  KEEP:   '(Jesus Christ, birthplace, Bethlehem)'
+  KEEP:   '(Jesus Christ, title, Son of God)'
+  KEEP:   '(Jesus Christ, movement, Christianity)'
+  KEEP:   '(Jesus Christ, country of origin, Israel)'
+  KEEP:   '(Jesus Christ, occupation, preacher)'
+  KEEP:   '(Jesus Christ, movement, Judaism)'
+  KEEP:   '(Jesus Christ, title, Messiah)'
+  KEEP:   '(Jesus Christ, movement, Nazarene)'
+  KEEP:   '(Jesus Christ, title, Savior)'
+  KEEP:   '(Jesus Christ, movement, Early Christianity)'
+  KEEP:   '(Jesus Christ, title, Lord)'
+  KEEP:   '(Jesus Christ, movement, Early Church)'
+  KEEP:   '(Jesus Christ, title, Jesus of Nazareth)'
+  KEEP:   '(Jesus Christ, movement, Early Christian Church)'
+  KEEP:   '(Jesus Christ, title, Christ)'
+  KEEP:   '(Jesus Christ, movement, Christianity in the Roman Empire)'
+  KEEP:   '(Jesus Christ, title, The Christ)'
+  KEEP:   '(Jesus Christ, movement, Early Christian community)'
+  KEEP:   '(Jesus Christ, title, The Son of Man)'
+[DEBUG] Total kept: 21
+============================================================
+
+  [GET_ATTR] 21 raw triplets extracted.
+  [GET_ATTR] 21 valid triplets -> 210 sentence pairs.
+Epoch 09/50 | lr=8.71e-06 | L1=-2.0273 | L2=-2.4542 | triplet pairs=210
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesus Christ, mother, Mary)\n(Jesus Christ, father, Joseph)\n(Jesus Christ, birthplace, Bethlehem)\n(Jesus Christ, title, Son of God)\n(Jesus Christ, movement, Christianity)\n(Jesus Christ, country of origin, Israel)\n(Jesus Christ, occupation, preacher)\n(Jesus Christ, movement, Judaism)\n(Jesus Christ, title, Messiah)\n(Jesus Christ, movement, Nazarene)\n(Jesus Christ, title, Savior)\n(Jesus Christ, movement, Early Christianity)\n(Jesus Christ, title, Lord)\n(Jesus Christ, movement, Early Church)\n(Jesus Christ, title, Christ)\n(Jesus Christ, movement, Early Christian Church)\n(Jesus Christ, title, Jesus of Nazareth)\n(Jesus Christ, movement, Christianity in the Roman Empire)\n(Jesus Christ, title, The Son)\n(Jesus Christ, movement, Early Christian theology)\n(Jesus Christ, title, The Christ)\n(Jesus Christ, movement, Early Christian doctrine)\n(Jesus Christ, title, The Lord)\n(Jesus Christ, movement, Early Christian tradition)\n(Jesus Christ, title, The Son of Man)\n(Jesus Christ, movement, Early Christian history)\n(Jesus Christ, title, The Messiah)'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesus Christ, mother, Mary)'
+  KEEP:   '(Jesus Christ, father, Joseph)'
+  KEEP:   '(Jesus Christ, birthplace, Bethlehem)'
+  KEEP:   '(Jesus Christ, title, Son of God)'
+  KEEP:   '(Jesus Christ, movement, Christianity)'
+  KEEP:   '(Jesus Christ, country of origin, Israel)'
+  KEEP:   '(Jesus Christ, occupation, preacher)'
+  KEEP:   '(Jesus Christ, movement, Judaism)'
+  KEEP:   '(Jesus Christ, title, Messiah)'
+  KEEP:   '(Jesus Christ, movement, Nazarene)'
+  KEEP:   '(Jesus Christ, title, Savior)'
+  KEEP:   '(Jesus Christ, movement, Early Christianity)'
+  KEEP:   '(Jesus Christ, title, Lord)'
+  KEEP:   '(Jesus Christ, movement, Early Church)'
+  KEEP:   '(Jesus Christ, title, Christ)'
+  KEEP:   '(Jesus Christ, movement, Early Christian Church)'
+  KEEP:   '(Jesus Christ, title, Jesus of Nazareth)'
+  KEEP:   '(Jesus Christ, movement, Christianity in the Roman Empire)'
+  KEEP:   '(Jesus Christ, title, The Son)'
+  KEEP:   '(Jesus Christ, movement, Early Christian theology)'
+  KEEP:   '(Jesus Christ, title, The Christ)'
+  KEEP:   '(Jesus Christ, movement, Early Christian doctrine)'
+  KEEP:   '(Jesus Christ, title, The Lord)'
+  KEEP:   '(Jesus Christ, movement, Early Christian tradition)'
+  KEEP:   '(Jesus Christ, title, The Son of Man)'
+  KEEP:   '(Jesus Christ, movement, Early Christian history)'
+  KEEP:   '(Jesus Christ, title, The Messiah)'
+[DEBUG] Total kept: 27
+============================================================
+
+  [GET_ATTR] 27 raw triplets extracted.
+  [GET_ATTR] 27 valid triplets -> 270 sentence pairs.
+Epoch 10/50 | lr=1.05e-05 | L1=-2.0237 | L2=-2.4724 | triplet pairs=270
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesus Christ, mother, Mary)\n(Jesus Christ, father, Joseph)\n(Jesus Christ, birthplace, Bethlehem)\n(Jesus Christ, title, Son of God)\n(Jesus Christ, movement, Christianity)\n(Jesus Christ, country of origin, Israel)\n(Jesus Christ, occupation, preacher)\n(Jesus Christ, movement, Judaism)\n(Jesus Christ, title, Messiah)\n(Jesus Christ, movement, Nazarene)\n(Jesus Christ, title, Savior)\n(Jesus Christ, movement, Early Christianity)\n(Jesus Christ, title, Lord)\n(Jesus Christ, movement, Early Church)\n(Jesus Christ, title, Jesus of Nazareth)\n(Jesus Christ, movement, Early Christian Church)\n(Jesus Christ, title, Christ)\n(Jesus Christ, movement, Christianity in the Roman Empire)\n(Jesus Christ, title, The Christ)\n(Jesus Christ, movement, Early Christian community)\n(Jesus Christ, title, The Son of Man)'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesus Christ, mother, Mary)'
+  KEEP:   '(Jesus Christ, father, Joseph)'
+  KEEP:   '(Jesus Christ, birthplace, Bethlehem)'
+  KEEP:   '(Jesus Christ, title, Son of God)'
+  KEEP:   '(Jesus Christ, movement, Christianity)'
+  KEEP:   '(Jesus Christ, country of origin, Israel)'
+  KEEP:   '(Jesus Christ, occupation, preacher)'
+  KEEP:   '(Jesus Christ, movement, Judaism)'
+  KEEP:   '(Jesus Christ, title, Messiah)'
+  KEEP:   '(Jesus Christ, movement, Nazarene)'
+  KEEP:   '(Jesus Christ, title, Savior)'
+  KEEP:   '(Jesus Christ, movement, Early Christianity)'
+  KEEP:   '(Jesus Christ, title, Lord)'
+  KEEP:   '(Jesus Christ, movement, Early Church)'
+  KEEP:   '(Jesus Christ, title, Jesus of Nazareth)'
+  KEEP:   '(Jesus Christ, movement, Early Christian Church)'
+  KEEP:   '(Jesus Christ, title, Christ)'
+  KEEP:   '(Jesus Christ, movement, Christianity in the Roman Empire)'
+  KEEP:   '(Jesus Christ, title, The Christ)'
+  KEEP:   '(Jesus Christ, movement, Early Christian community)'
+  KEEP:   '(Jesus Christ, title, The Son of Man)'
+[DEBUG] Total kept: 21
+============================================================
+
+  [GET_ATTR] 21 raw triplets extracted.
+  [GET_ATTR] 21 valid triplets -> 210 sentence pairs.
+Epoch 11/50 | lr=1.24e-05 | L1=-2.0576 | L2=-2.5020 | triplet pairs=210
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesus Christ, mother, Mary)\n(Jesus Christ, father, Joseph)\n(Jesus Christ, birthplace, Bethlehem)\n(Jesus Christ, title, Son of God)\n(Jesus Christ, title, Messiah)\n(Jesus Christ, title, Savior)\n(Jesus Christ, movement, Christianity)\n(Jesus Christ, movement, Judaism)\n(Jesus Christ, movement, Nazarene)\n(Jesus Christ, movement, Pharisee)\n(Jesus Christ, movement, Essene)\n(Jesus Christ, movement, Zealot)\n(Jesus Christ, movement, Sadducee)\n(Jesus Christ, movement, Herodian)\n(Jesus Christ, movement, Samaritan)\n(Jesus Christ, movement, Essene)\n(Jesus Christ, movement, Galilean)\n(Jesus Christ, movement, Judean)\n(Jesus Christ, movement, Nazarene)\n(Jesus Christ, movement, Pharisee)\n(Jesus Christ, movement, Zealot)\n(Jesus Christ, movement, Sadducee)\n(Jesus Christ, movement, Herodian)\n(Jesus Christ, movement, Samaritan)\n(Jesus Christ, movement, Essene)\n(Jesus Christ, movement, Galilean)\n(Jesus Christ, movement, Judean)\n(Jesus Christ, movement, Nazarene)\n(Jesus Christ, movement, Pharisee)\n(Jesus Christ, movement, Zealot)\n(Jesus Christ, movement, Sadducee)\n(Jesus Christ, movement, Herodian)\n(Jesus Christ'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesus Christ, mother, Mary)'
+  KEEP:   '(Jesus Christ, father, Joseph)'
+  KEEP:   '(Jesus Christ, birthplace, Bethlehem)'
+  KEEP:   '(Jesus Christ, title, Son of God)'
+  KEEP:   '(Jesus Christ, title, Messiah)'
+  KEEP:   '(Jesus Christ, title, Savior)'
+  KEEP:   '(Jesus Christ, movement, Christianity)'
+  KEEP:   '(Jesus Christ, movement, Judaism)'
+  KEEP:   '(Jesus Christ, movement, Nazarene)'
+  KEEP:   '(Jesus Christ, movement, Pharisee)'
+  KEEP:   '(Jesus Christ, movement, Essene)'
+  KEEP:   '(Jesus Christ, movement, Zealot)'
+  KEEP:   '(Jesus Christ, movement, Sadducee)'
+  KEEP:   '(Jesus Christ, movement, Herodian)'
+  KEEP:   '(Jesus Christ, movement, Samaritan)'
+  REJECT: duplicate → '(Jesus Christ, movement, Essene)'
+  KEEP:   '(Jesus Christ, movement, Galilean)'
+  KEEP:   '(Jesus Christ, movement, Judean)'
+  REJECT: duplicate → '(Jesus Christ, movement, Nazarene)'
+  REJECT: duplicate → '(Jesus Christ, movement, Pharisee)'
+  REJECT: duplicate → '(Jesus Christ, movement, Zealot)'
+  REJECT: duplicate → '(Jesus Christ, movement, Sadducee)'
+  REJECT: duplicate → '(Jesus Christ, movement, Herodian)'
+  REJECT: duplicate → '(Jesus Christ, movement, Samaritan)'
+  REJECT: duplicate → '(Jesus Christ, movement, Essene)'
+  REJECT: duplicate → '(Jesus Christ, movement, Galilean)'
+  REJECT: duplicate → '(Jesus Christ, movement, Judean)'
+  REJECT: duplicate → '(Jesus Christ, movement, Nazarene)'
+  REJECT: duplicate → '(Jesus Christ, movement, Pharisee)'
+  REJECT: duplicate → '(Jesus Christ, movement, Zealot)'
+  REJECT: duplicate → '(Jesus Christ, movement, Sadducee)'
+  REJECT: duplicate → '(Jesus Christ, movement, Herodian)'
+  REJECT: fewer than 2 commas → '(Jesus Christ)'
+[DEBUG] Total kept: 17
+============================================================
+
+  [GET_ATTR] 17 raw triplets extracted.
+  [GET_ATTR] 17 valid triplets -> 170 sentence pairs.
+Epoch 12/50 | lr=1.44e-05 | L1=-2.0839 | L2=-2.5358 | triplet pairs=170
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesus Christ, mother, Mary)\n(Jesus Christ, father, Joseph)\n(Jesus Christ, birthplace, Bethlehem)\n(Jesus Christ, title, Son of God)\n(Jesus Christ, movement, Christianity)\n(Jesus Christ, country of origin, Israel)\n(Jesus Christ, occupation, preacher)\n(Jesus Christ, movement, Judaism)\n(Jesus Christ, title, Messiah)\n(Jesus Christ, movement, Nazarene)\n(Jesus Christ, title, Savior)\n(Jesus Christ, movement, Early Christianity)\n(Jesus Christ, title, Lord)\n(Jesus Christ, movement, Early Church)\n(Jesus Christ, title, Christ)\n(Jesus Christ, movement, Early Christian Church)\n(Jesus Christ, title, Jesus of Nazareth)\n(Jesus Christ, movement, Christianity in the 1st century)'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesus Christ, mother, Mary)'
+  KEEP:   '(Jesus Christ, father, Joseph)'
+  KEEP:   '(Jesus Christ, birthplace, Bethlehem)'
+  KEEP:   '(Jesus Christ, title, Son of God)'
+  KEEP:   '(Jesus Christ, movement, Christianity)'
+  KEEP:   '(Jesus Christ, country of origin, Israel)'
+  KEEP:   '(Jesus Christ, occupation, preacher)'
+  KEEP:   '(Jesus Christ, movement, Judaism)'
+  KEEP:   '(Jesus Christ, title, Messiah)'
+  KEEP:   '(Jesus Christ, movement, Nazarene)'
+  KEEP:   '(Jesus Christ, title, Savior)'
+  KEEP:   '(Jesus Christ, movement, Early Christianity)'
+  KEEP:   '(Jesus Christ, title, Lord)'
+  KEEP:   '(Jesus Christ, movement, Early Church)'
+  KEEP:   '(Jesus Christ, title, Christ)'
+  KEEP:   '(Jesus Christ, movement, Early Christian Church)'
+  KEEP:   '(Jesus Christ, title, Jesus of Nazareth)'
+  KEEP:   '(Jesus Christ, movement, Christianity in the 1st century)'
+[DEBUG] Total kept: 18
+============================================================
+
+  [GET_ATTR] 18 raw triplets extracted.
+  [GET_ATTR] 18 valid triplets -> 180 sentence pairs.
+Epoch 13/50 | lr=1.66e-05 | L1=-2.1252 | L2=-2.5722 | triplet pairs=180
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesus Christ, birthplace, Bethlehem)\n(Jesus Christ, mother, Mary)\n(Jesus Christ, father, Joseph)\n(Jesus Christ, title, Son of God)\n(Jesus Christ, title, Messiah)\n(Jesus Christ, title, Christ)\n(Jesus Christ, movement, Christianity)\n(Jesus Christ, movement, Judaism)\n(Jesus Christ, movement, Nazarene)\n(Jesus Christ, movement, Essene)\n(Jesus Christ, title, the Son)\n(Jesus Christ, title, the Word)\n(Jesus Christ, title, the Lamb)\n(Jesus Christ, title, the Light)\n(Jesus Christ, title, the Way)\n(Jesus Christ, title, the Truth)\n(Jesus Christ, title, the Life)\n(Jesus Christ, title, the Resurrection and the Life)\n(Jesus Christ, title, the Alpha and the Omega)\n(Jesus Christ, title, the Amen)\n(Jesus Christ, title, the King of Kings)\n(Jesus Christ, title, the Lord of Lords)\n(Jesus Christ, title, the Prince of Peace)\n(Jesus Christ, title, the Prince of Life)\n(Jesus Christ, title, the Prince of the Church)\n(Jesus Christ, title, the Prince of the Apostles)\n(Jesus Christ, title, the Prince of the Martyrs)\n(Jesus Christ, title, the Prince of the Prophets)\n(Jesus Christ, title, the Prince of the Prophets of the Old Testament)\n(Jesus Christ'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesus Christ, birthplace, Bethlehem)'
+  KEEP:   '(Jesus Christ, mother, Mary)'
+  KEEP:   '(Jesus Christ, father, Joseph)'
+  KEEP:   '(Jesus Christ, title, Son of God)'
+  KEEP:   '(Jesus Christ, title, Messiah)'
+  KEEP:   '(Jesus Christ, title, Christ)'
+  KEEP:   '(Jesus Christ, movement, Christianity)'
+  KEEP:   '(Jesus Christ, movement, Judaism)'
+  KEEP:   '(Jesus Christ, movement, Nazarene)'
+  KEEP:   '(Jesus Christ, movement, Essene)'
+  KEEP:   '(Jesus Christ, title, the Son)'
+  KEEP:   '(Jesus Christ, title, the Word)'
+  KEEP:   '(Jesus Christ, title, the Lamb)'
+  KEEP:   '(Jesus Christ, title, the Light)'
+  KEEP:   '(Jesus Christ, title, the Way)'
+  KEEP:   '(Jesus Christ, title, the Truth)'
+  KEEP:   '(Jesus Christ, title, the Life)'
+  KEEP:   '(Jesus Christ, title, the Resurrection and the Life)'
+  KEEP:   '(Jesus Christ, title, the Alpha and the Omega)'
+  KEEP:   '(Jesus Christ, title, the Amen)'
+  KEEP:   '(Jesus Christ, title, the King of Kings)'
+  KEEP:   '(Jesus Christ, title, the Lord of Lords)'
+  KEEP:   '(Jesus Christ, title, the Prince of Peace)'
+  KEEP:   '(Jesus Christ, title, the Prince of Life)'
+  KEEP:   '(Jesus Christ, title, the Prince of the Church)'
+  KEEP:   '(Jesus Christ, title, the Prince of the Apostles)'
+  KEEP:   '(Jesus Christ, title, the Prince of the Martyrs)'
+  KEEP:   '(Jesus Christ, title, the Prince of the Prophets)'
+  KEEP:   '(Jesus Christ, title, the Prince of the Prophets of the Old Testament)'
+  REJECT: fewer than 2 commas → '(Jesus Christ)'
+[DEBUG] Total kept: 29
+============================================================
+
+  [GET_ATTR] 29 raw triplets extracted.
+  [GET_ATTR] 27 valid triplets -> 270 sentence pairs.
+Epoch 14/50 | lr=1.89e-05 | L1=-2.3381 | L2=-2.6197 | triplet pairs=270
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+"(Jesus Christ, birthplace, Bethlehem)\n(Jesus Christ, mother, Mary)\n(Jesus Christ, father, Joseph)\n(Jesus Christ, title, Son of God)\n(Jesus Christ, title, Messiah)\n(Jesus Christ, title, Christ)\n(Jesus Christ, movement, Christianity)\n(Jesus Christ, movement, Judaism)\n(Jesus Christ, movement, Nazarene)\n(Jesus Christ, movement, Essene)\n(Jesus Christ, place of crucifixion, Golgotha)\n(Jesus Christ, place of burial, Joseph's tomb)\n(Jesus Christ, place of burial, Garden Tomb)\n(Jesus Christ, place of burial, Hades)\n(Jesus Christ, place of burial, Sheol)\n(Jesus Christ, place of burial, Paradise)\n(Jesus Christ, place of burial, Hades and Paradise)\n(Jesus Christ, place of burial, Abraham's bosom)\n(Jesus Christ, place of burial, Abraham's side)\n(Jesus Christ, place of burial, Abraham's bosom and Abraham's side)\n(Jesus Christ, place of burial, Abraham's side and Abraham's bosom)\n(Jesus Christ, place of burial, Abraham's side or Abraham's bosom)\n(Jesus Christ, place of burial, Abraham's side or Abraham's bosom and Hades)\n(Jesus Christ, place of burial, Abraham's side or Abraham's bosom and Paradise)\n(Jesus Christ, place of burial, Abraham's side or Abraham's bosom and"
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesus Christ, birthplace, Bethlehem)'
+  KEEP:   '(Jesus Christ, mother, Mary)'
+  KEEP:   '(Jesus Christ, father, Joseph)'
+  KEEP:   '(Jesus Christ, title, Son of God)'
+  KEEP:   '(Jesus Christ, title, Messiah)'
+  KEEP:   '(Jesus Christ, title, Christ)'
+  KEEP:   '(Jesus Christ, movement, Christianity)'
+  KEEP:   '(Jesus Christ, movement, Judaism)'
+  KEEP:   '(Jesus Christ, movement, Nazarene)'
+  KEEP:   '(Jesus Christ, movement, Essene)'
+  KEEP:   '(Jesus Christ, place of crucifixion, Golgotha)'
+  KEEP:   '(Jesus Christ, place of burial, Joseph's tomb)'
+  KEEP:   '(Jesus Christ, place of burial, Garden Tomb)'
+  KEEP:   '(Jesus Christ, place of burial, Hades)'
+  KEEP:   '(Jesus Christ, place of burial, Sheol)'
+  KEEP:   '(Jesus Christ, place of burial, Paradise)'
+  KEEP:   '(Jesus Christ, place of burial, Hades and Paradise)'
+  KEEP:   '(Jesus Christ, place of burial, Abraham's bosom)'
+  KEEP:   '(Jesus Christ, place of burial, Abraham's side)'
+  KEEP:   '(Jesus Christ, place of burial, Abraham's bosom and Abraham's side)'
+  KEEP:   '(Jesus Christ, place of burial, Abraham's side and Abraham's bosom)'
+  KEEP:   '(Jesus Christ, place of burial, Abraham's side or Abraham's bosom)'
+  KEEP:   '(Jesus Christ, place of burial, Abraham's side or Abraham's bosom and Hades)'
+  KEEP:   '(Jesus Christ, place of burial, Abraham's side or Abraham's bosom and Paradise)'
+  KEEP:   '(Jesus Christ, place of burial, Abraham's side or Abraham's bosom and)'
+[DEBUG] Total kept: 25
+============================================================
+
+  [GET_ATTR] 25 raw triplets extracted.
+  [GET_ATTR] 25 valid triplets -> 250 sentence pairs.
+Epoch 15/50 | lr=2.14e-05 | L1=-2.4271 | L2=-2.6875 | triplet pairs=250
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+"(Jesus Christ, birthplace, Bethlehem)\n(Jesus Christ, mother, Mary)\n(Jesus Christ, father, Joseph)\n(Jesus Christ, title, Son of God)\n(Jesus Christ, title, Messiah)\n(Jesus Christ, title, Christ)\n(Jesus Christ, movement, Christianity)\n(Jesus Christ, movement, Judaism)\n(Jesus Christ, movement, Nazarenism)\n(Jesus Christ, place of crucifixion, Golgotha)\n(Jesus Christ, place of burial, Joseph's tomb)\n(Jesus Christ, place of resurrection, Jerusalem)\n(Jesus Christ, place of baptism, Jordan River)\n(Jesus Christ, place of ministry, Galilee)\n(Jesus Christ, place of crucifixion, Jerusalem)\n(Jesus Christ, place of crucifixion, Calvary)\n(Jesus Christ, place of crucifixion, Mount Calvary)\n(Jesus Christ, place of crucifixion, Golgotha Hill)\n(Jesus Christ, place of crucifixion, Golgotha Mountain)\n(Jesus Christ, place of crucifixion, Golgotha Mountain in Jerusalem)\n(Jesus Christ, place of crucifixion, Golgotha in Jerusalem)\n(Jesus Christ, place of crucifixion, Golgotha in Jerusalem, near Calvary)\n(Jesus Christ, place of crucifixion, Golgotha in Jerusalem near Calvary)\n(Jesus Christ, place of crucifixion, Golgotha near Calvary in Jerusalem)\n(Jesus Christ, place"
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesus Christ, birthplace, Bethlehem)'
+  KEEP:   '(Jesus Christ, mother, Mary)'
+  KEEP:   '(Jesus Christ, father, Joseph)'
+  KEEP:   '(Jesus Christ, title, Son of God)'
+  KEEP:   '(Jesus Christ, title, Messiah)'
+  KEEP:   '(Jesus Christ, title, Christ)'
+  KEEP:   '(Jesus Christ, movement, Christianity)'
+  KEEP:   '(Jesus Christ, movement, Judaism)'
+  KEEP:   '(Jesus Christ, movement, Nazarenism)'
+  KEEP:   '(Jesus Christ, place of crucifixion, Golgotha)'
+  KEEP:   '(Jesus Christ, place of burial, Joseph's tomb)'
+  KEEP:   '(Jesus Christ, place of resurrection, Jerusalem)'
+  KEEP:   '(Jesus Christ, place of baptism, Jordan River)'
+  KEEP:   '(Jesus Christ, place of ministry, Galilee)'
+  KEEP:   '(Jesus Christ, place of crucifixion, Jerusalem)'
+  KEEP:   '(Jesus Christ, place of crucifixion, Calvary)'
+  KEEP:   '(Jesus Christ, place of crucifixion, Mount Calvary)'
+  KEEP:   '(Jesus Christ, place of crucifixion, Golgotha Hill)'
+  KEEP:   '(Jesus Christ, place of crucifixion, Golgotha Mountain)'
+  KEEP:   '(Jesus Christ, place of crucifixion, Golgotha Mountain in Jerusalem)'
+  KEEP:   '(Jesus Christ, place of crucifixion, Golgotha in Jerusalem)'
+  KEEP:   '(Jesus Christ, place of crucifixion, Golgotha in Jerusalem, near Calvary)'
+  KEEP:   '(Jesus Christ, place of crucifixion, Golgotha in Jerusalem near Calvary)'
+  KEEP:   '(Jesus Christ, place of crucifixion, Golgotha near Calvary in Jerusalem)'
+  REJECT: fewer than 2 commas → '(Jesus Christ, place)'
+[DEBUG] Total kept: 24
+============================================================
+
+  [GET_ATTR] 24 raw triplets extracted.
+  [GET_ATTR] 24 valid triplets -> 240 sentence pairs.
+Epoch 16/50 | lr=2.40e-05 | L1=-1.8664 | L2=-2.8029 | triplet pairs=240
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+"(Jesus Christ, birthplace, Bethlehem)\n(Jesus Christ, mother, Mary)\n(Jesus Christ, father, Joseph)\n(Jesus Christ, title, Son of God)\n(Jesus Christ, title, Messiah)\n(Jesus Christ, title, Christ)\n(Jesus Christ, movement, Christianity)\n(Jesus Christ, movement, Judaism)\n(Jesus Christ, movement, Nazarene)\n(Jesus Christ, movement, Essene)\n(Jesus Christ, place of crucifixion, Golgotha)\n(Jesus Christ, place of burial, Joseph's tomb)\n(Jesus Christ, place of burial, Garden of Gethsemane)\n(Jesus Christ, place of burial, Jerusalem)\n(Jesus Christ, place of burial, Mount Calvary)\n(Jesus Christ, place of burial, Golgotha)\n(Jesus Christ, place of burial, the Holy Sepulchre)\n(Jesus Christ, place of burial, the Garden)\n(Jesus Christ, place of burial, the Holy Sepulchre in Jerusalem)\n(Jesus Christ, place of burial, the Holy Sepulchre in the city of Jerusalem)\n(Jesus Christ, place of burial, the Holy Sepulchre in the city of Golgotha)\n(Jesus Christ, place of burial, the Holy Sepulchre in the city of Jerusalem, Golgotha)\n(Jesus Christ, place of burial, the Holy Sepulchre in the city of Jerusalem, Mount Calvary)\n(Jesus Christ, place"
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesus Christ, birthplace, Bethlehem)'
+  KEEP:   '(Jesus Christ, mother, Mary)'
+  KEEP:   '(Jesus Christ, father, Joseph)'
+  KEEP:   '(Jesus Christ, title, Son of God)'
+  KEEP:   '(Jesus Christ, title, Messiah)'
+  KEEP:   '(Jesus Christ, title, Christ)'
+  KEEP:   '(Jesus Christ, movement, Christianity)'
+  KEEP:   '(Jesus Christ, movement, Judaism)'
+  KEEP:   '(Jesus Christ, movement, Nazarene)'
+  KEEP:   '(Jesus Christ, movement, Essene)'
+  KEEP:   '(Jesus Christ, place of crucifixion, Golgotha)'
+  KEEP:   '(Jesus Christ, place of burial, Joseph's tomb)'
+  KEEP:   '(Jesus Christ, place of burial, Garden of Gethsemane)'
+  KEEP:   '(Jesus Christ, place of burial, Jerusalem)'
+  KEEP:   '(Jesus Christ, place of burial, Mount Calvary)'
+  KEEP:   '(Jesus Christ, place of burial, Golgotha)'
+  KEEP:   '(Jesus Christ, place of burial, the Holy Sepulchre)'
+  KEEP:   '(Jesus Christ, place of burial, the Garden)'
+  KEEP:   '(Jesus Christ, place of burial, the Holy Sepulchre in Jerusalem)'
+  KEEP:   '(Jesus Christ, place of burial, the Holy Sepulchre in the city of Jerusalem)'
+  KEEP:   '(Jesus Christ, place of burial, the Holy Sepulchre in the city of Golgotha)'
+  KEEP:   '(Jesus Christ, place of burial, the Holy Sepulchre in the city of Jerusalem, Golgotha)'
+  KEEP:   '(Jesus Christ, place of burial, the Holy Sepulchre in the city of Jerusalem, Mount Calvary)'
+  REJECT: fewer than 2 commas → '(Jesus Christ, place)'
+[DEBUG] Total kept: 23
+============================================================
+
+  [GET_ATTR] 23 raw triplets extracted.
+  [GET_ATTR] 23 valid triplets -> 230 sentence pairs.
+Epoch 17/50 | lr=2.67e-05 | L1=-2.2315 | L2=-2.9312 | triplet pairs=230
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesus Christ, birthplace, Bethlehem)\n(Jesus Christ, mother, Mary)\n(Jesus Christ, father, Joseph)\n(Jesus Christ, sibling, James)\n(Jesus Christ, sibling, Jude)\n(Jesus Christ, sibling, Simon)\n(Jesus Christ, sibling, John)\n(Jesus Christ, sibling, Judas)\n(Jesus Christ, sibling, Mary Magdalene)\n(Jesus Christ, sibling, brothers and sisters, other)\n(Jesus Christ, title, Son of God)\n(Jesus Christ, title, Messiah)\n(Jesus Christ, title, Christ)\n(Jesus Christ, title, Lord)\n(Jesus Christ, title, Savior)\n(Jesus Christ, title, Jesus of Nazareth)\n(Jesus Christ, title, Jesus of Galilee)\n(Jesus Christ, title, Jesus of Capernaum)\n(Jesus Christ, title, Jesus of Nazareth the Christ)\n(Jesus Christ, title, Jesus the Christ)\n(Jesus Christ, title, Jesus the Lord)\n(Jesus Christ, title, Jesus the Son of God)\n(Jesus Christ, title, Jesus the Savior)\n(Jesus Christ, title, Jesus the Messiah)\n(Jesus Christ, title, Jesus the Son of Man)\n(Jesus Christ, title, Jesus the Son of David)\n(Jesus Christ, title, Jesus the Son of Abraham)\n(Jesus Christ, title, Jesus the Son of God the Father)\n(Jesus Christ, title, Jesus the Son of God the Almighty)\n(Jesus Christ, title,'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesus Christ, birthplace, Bethlehem)'
+  KEEP:   '(Jesus Christ, mother, Mary)'
+  KEEP:   '(Jesus Christ, father, Joseph)'
+  KEEP:   '(Jesus Christ, sibling, James)'
+  KEEP:   '(Jesus Christ, sibling, Jude)'
+  KEEP:   '(Jesus Christ, sibling, Simon)'
+  KEEP:   '(Jesus Christ, sibling, John)'
+  KEEP:   '(Jesus Christ, sibling, Judas)'
+  KEEP:   '(Jesus Christ, sibling, Mary Magdalene)'
+  KEEP:   '(Jesus Christ, sibling, brothers and sisters, other)'
+  KEEP:   '(Jesus Christ, title, Son of God)'
+  KEEP:   '(Jesus Christ, title, Messiah)'
+  KEEP:   '(Jesus Christ, title, Christ)'
+  KEEP:   '(Jesus Christ, title, Lord)'
+  KEEP:   '(Jesus Christ, title, Savior)'
+  KEEP:   '(Jesus Christ, title, Jesus of Nazareth)'
+  KEEP:   '(Jesus Christ, title, Jesus of Galilee)'
+  KEEP:   '(Jesus Christ, title, Jesus of Capernaum)'
+  KEEP:   '(Jesus Christ, title, Jesus of Nazareth the Christ)'
+  KEEP:   '(Jesus Christ, title, Jesus the Christ)'
+  KEEP:   '(Jesus Christ, title, Jesus the Lord)'
+  KEEP:   '(Jesus Christ, title, Jesus the Son of God)'
+  KEEP:   '(Jesus Christ, title, Jesus the Savior)'
+  KEEP:   '(Jesus Christ, title, Jesus the Messiah)'
+  KEEP:   '(Jesus Christ, title, Jesus the Son of Man)'
+  KEEP:   '(Jesus Christ, title, Jesus the Son of David)'
+  KEEP:   '(Jesus Christ, title, Jesus the Son of Abraham)'
+  KEEP:   '(Jesus Christ, title, Jesus the Son of God the Father)'
+  KEEP:   '(Jesus Christ, title, Jesus the Son of God the Almighty)'
+  REJECT: fewer than 2 commas → '(Jesus Christ, title)'
+[DEBUG] Total kept: 29
+============================================================
+
+  [GET_ATTR] 29 raw triplets extracted.
+  [GET_ATTR] 27 valid triplets -> 270 sentence pairs.
+Epoch 18/50 | lr=2.94e-05 | L1=-2.5815 | L2=-3.0792 | triplet pairs=270
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesus Christ, birthplace, Bethlehem)\n(Jesus Christ, mother, Mary)\n(Jesus Christ, father, Joseph)\n(Jesus Christ, title, Son of God)\n(Jesus Christ, follower, Peter)\n(Jesus Christ, movement, Christianity)\n(Jesus Christ, birthdate, circa 4 BC)\n(Jesus Christ, place of crucifixion, Jerusalem)\n(Jesus Christ, crucifixion method, crucifixion)\n(Jesus Christ, crucifixion year, 33 AD)\n(Jesus Christ, crucifixion, Good Friday)\n(Jesus Christ, resurrection day, Easter Sunday)\n(Jesus Christ, resurrection, Easter)\n(Jesus Christ, resurrection year, 33 AD)\n(Jesus Christ, apostle, Paul)\n(Jesus Christ, apostle, John)\n(Jesus Christ, apostle, Thomas)\n(Jesus Christ, apostle, Matthew)\n(Jesus Christ, apostle, James)\n(Jesus Christ, apostle, Bartholomew)\n(Jesus Christ, apostle, Andrew)\n(Jesus Christ, apostle, Philip)\n(Jesus Christ, apostle, Simon)\n(Jesus Christ, apostle, Judas Iscariot)\n(Jesus Christ, apostle, Thaddeus)\n(Jesus Christ, apostle, James the Greater)\n(Jesus Christ, apostle, Jude)\n(Jesus Christ, apostle, Matthias)\n(Jesus Christ, apostle, Barnabas)\n(Jesus Christ, apostle, Stephen)\n'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesus Christ, birthplace, Bethlehem)'
+  KEEP:   '(Jesus Christ, mother, Mary)'
+  KEEP:   '(Jesus Christ, father, Joseph)'
+  KEEP:   '(Jesus Christ, title, Son of God)'
+  KEEP:   '(Jesus Christ, follower, Peter)'
+  KEEP:   '(Jesus Christ, movement, Christianity)'
+  KEEP:   '(Jesus Christ, birthdate, circa 4 BC)'
+  KEEP:   '(Jesus Christ, place of crucifixion, Jerusalem)'
+  KEEP:   '(Jesus Christ, crucifixion method, crucifixion)'
+  KEEP:   '(Jesus Christ, crucifixion year, 33 AD)'
+  KEEP:   '(Jesus Christ, crucifixion, Good Friday)'
+  KEEP:   '(Jesus Christ, resurrection day, Easter Sunday)'
+  KEEP:   '(Jesus Christ, resurrection, Easter)'
+  KEEP:   '(Jesus Christ, resurrection year, 33 AD)'
+  KEEP:   '(Jesus Christ, apostle, Paul)'
+  KEEP:   '(Jesus Christ, apostle, John)'
+  KEEP:   '(Jesus Christ, apostle, Thomas)'
+  KEEP:   '(Jesus Christ, apostle, Matthew)'
+  KEEP:   '(Jesus Christ, apostle, James)'
+  KEEP:   '(Jesus Christ, apostle, Bartholomew)'
+  KEEP:   '(Jesus Christ, apostle, Andrew)'
+  KEEP:   '(Jesus Christ, apostle, Philip)'
+  KEEP:   '(Jesus Christ, apostle, Simon)'
+  KEEP:   '(Jesus Christ, apostle, Judas Iscariot)'
+  KEEP:   '(Jesus Christ, apostle, Thaddeus)'
+  KEEP:   '(Jesus Christ, apostle, James the Greater)'
+  KEEP:   '(Jesus Christ, apostle, Jude)'
+  KEEP:   '(Jesus Christ, apostle, Matthias)'
+  KEEP:   '(Jesus Christ, apostle, Barnabas)'
+  KEEP:   '(Jesus Christ, apostle, Stephen)'
+[DEBUG] Total kept: 30
+============================================================
+
+  [GET_ATTR] 30 raw triplets extracted.
+  [GET_ATTR] 29 valid triplets -> 290 sentence pairs.
+Epoch 19/50 | lr=3.23e-05 | L1=-2.2393 | L2=-3.2452 | triplet pairs=290
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesus Christ, birthplace, Bethlehem)\n(Jesus Christ, mother, Mary)\n(Jesus Christ, father, God)\n(Jesus Christ, title, Son of God)\n(Jesus Christ, birthdate, circa 4 BC)\n(Jesus Christ, birthdate, December 25)\n(Jesus Christ, birthdate, circa 6 BC)\n(Jesus Christ, birthdate, circa 5 BC)\n(Jesus Christ, birthdate, circa 1 BC)\n(Jesus Christ, birthplace, Nazareth)\n(Jesus Christ, birthplace, Jerusalem)\n(Jesus Christ, birthplace, Galilee)\n(Jesus Christ, birthplace, Bethlehem in Galilee)\n(Jesus Christ, birthplace, Nazareth in Galilee)\n(Jesus Christ, birthplace, Nazareth of Galilee)\n(Jesus Christ, birthplace, Nazareth in Judea)\n(Jesus Christ, birthplace, Nazareth of Judea)\n(Jesus Christ, birthplace, Nazareth in the Galilee)\n(Jesus Christ, birthplace, Nazareth of the Galilee)\n(Jesus Christ, birthplace, Nazareth in the region of Galilee)\n(Jesus Christ, birthplace, Nazareth of the region of Galilee)\n(Jesus Christ, birthplace, Nazareth in the region of the Galilee)\n(Jesus Christ, birthplace, Nazareth of the region of the Galilee)\n(Jesus Christ, birthplace, Nazareth in the area of Galilee)\n(Jesus Christ'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesus Christ, birthplace, Bethlehem)'
+  KEEP:   '(Jesus Christ, mother, Mary)'
+  KEEP:   '(Jesus Christ, father, God)'
+  KEEP:   '(Jesus Christ, title, Son of God)'
+  KEEP:   '(Jesus Christ, birthdate, circa 4 BC)'
+  KEEP:   '(Jesus Christ, birthdate, December 25)'
+  KEEP:   '(Jesus Christ, birthdate, circa 6 BC)'
+  KEEP:   '(Jesus Christ, birthdate, circa 5 BC)'
+  KEEP:   '(Jesus Christ, birthdate, circa 1 BC)'
+  KEEP:   '(Jesus Christ, birthplace, Nazareth)'
+  KEEP:   '(Jesus Christ, birthplace, Jerusalem)'
+  KEEP:   '(Jesus Christ, birthplace, Galilee)'
+  KEEP:   '(Jesus Christ, birthplace, Bethlehem in Galilee)'
+  KEEP:   '(Jesus Christ, birthplace, Nazareth in Galilee)'
+  KEEP:   '(Jesus Christ, birthplace, Nazareth of Galilee)'
+  KEEP:   '(Jesus Christ, birthplace, Nazareth in Judea)'
+  KEEP:   '(Jesus Christ, birthplace, Nazareth of Judea)'
+  KEEP:   '(Jesus Christ, birthplace, Nazareth in the Galilee)'
+  KEEP:   '(Jesus Christ, birthplace, Nazareth of the Galilee)'
+  KEEP:   '(Jesus Christ, birthplace, Nazareth in the region of Galilee)'
+  KEEP:   '(Jesus Christ, birthplace, Nazareth of the region of Galilee)'
+  KEEP:   '(Jesus Christ, birthplace, Nazareth in the region of the Galilee)'
+  KEEP:   '(Jesus Christ, birthplace, Nazareth of the region of the Galilee)'
+  KEEP:   '(Jesus Christ, birthplace, Nazareth in the area of Galilee)'
+  REJECT: fewer than 2 commas → '(Jesus Christ)'
+[DEBUG] Total kept: 24
+============================================================
+
+  [GET_ATTR] 24 raw triplets extracted.
+  [GET_ATTR] 18 valid triplets -> 180 sentence pairs.
+Epoch 20/50 | lr=3.52e-05 | L1=-2.2988 | L2=-3.4557 | triplet pairs=180
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesus Christ, birthplace, Bethlehem)\n(Jesus Christ, mother, Mary)\n(Jesus Christ, father, God)\n(Jesus Christ, title, Son of God)\n(Jesus Christ, birthdate, circa 4 BC)\n(Jesus Christ, birthdate, December 25)\n(Jesus Christ, birthdate, circa 6 BC)\n(Jesus Christ, birthdate, circa 5 BC)\n(Jesus Christ, birthdate, circa 1 BC)\n(Jesus Christ, birthdate, circa 2 BC)\n(Jesus Christ, birthdate, circa 3 BC)\n(Jesus Christ, birthdate, circa 6 December)\n(Jesus Christ, birthdate, circa 25 December)\n(Jesus Christ, birthdate, circa 1 December)\n(Jesus Christ, birthdate, circa 2 December)\n(Jesus Christ, birthdate, circa 3 December)\n(Jesus Christ, birthdate, circa 4 December)\n(Jesus Christ, birthdate, circa 5 December)\n(Jesus Christ, birthdate, circa 6 December)\n(Jesus Christ, birthdate, circa 25 December)\n(Jesus Christ, birthdate, circa 1 December)\n(Jesus Christ, birthdate, circa 2 December)\n(Jesus Christ, birthdate, circa 3 December)\n(Jesus Christ, birthdate, circa 4 December)\n(Jesus Christ, birthdate, circa 5 December)\n(Jesus Christ, birthdate, circa 6 December)\n(Jesus'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesus Christ, birthplace, Bethlehem)'
+  KEEP:   '(Jesus Christ, mother, Mary)'
+  KEEP:   '(Jesus Christ, father, God)'
+  KEEP:   '(Jesus Christ, title, Son of God)'
+  KEEP:   '(Jesus Christ, birthdate, circa 4 BC)'
+  KEEP:   '(Jesus Christ, birthdate, December 25)'
+  KEEP:   '(Jesus Christ, birthdate, circa 6 BC)'
+  KEEP:   '(Jesus Christ, birthdate, circa 5 BC)'
+  KEEP:   '(Jesus Christ, birthdate, circa 1 BC)'
+  KEEP:   '(Jesus Christ, birthdate, circa 2 BC)'
+  KEEP:   '(Jesus Christ, birthdate, circa 3 BC)'
+  KEEP:   '(Jesus Christ, birthdate, circa 6 December)'
+  KEEP:   '(Jesus Christ, birthdate, circa 25 December)'
+  KEEP:   '(Jesus Christ, birthdate, circa 1 December)'
+  KEEP:   '(Jesus Christ, birthdate, circa 2 December)'
+  KEEP:   '(Jesus Christ, birthdate, circa 3 December)'
+  KEEP:   '(Jesus Christ, birthdate, circa 4 December)'
+  KEEP:   '(Jesus Christ, birthdate, circa 5 December)'
+  REJECT: duplicate → '(Jesus Christ, birthdate, circa 6 December)'
+  REJECT: duplicate → '(Jesus Christ, birthdate, circa 25 December)'
+  REJECT: duplicate → '(Jesus Christ, birthdate, circa 1 December)'
+  REJECT: duplicate → '(Jesus Christ, birthdate, circa 2 December)'
+  REJECT: duplicate → '(Jesus Christ, birthdate, circa 3 December)'
+  REJECT: duplicate → '(Jesus Christ, birthdate, circa 4 December)'
+  REJECT: duplicate → '(Jesus Christ, birthdate, circa 5 December)'
+  REJECT: duplicate → '(Jesus Christ, birthdate, circa 6 December)'
+  REJECT: fewer than 2 commas → '(Jesus)'
+[DEBUG] Total kept: 18
+============================================================
+
+  [GET_ATTR] 18 raw triplets extracted.
+  [GET_ATTR] 5 valid triplets -> 50 sentence pairs.
+Epoch 21/50 | lr=3.82e-05 | L1=-2.7221 | L2=-3.7299 | triplet pairs=50
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesus Christ, birthplace, Bethlehem)\n(Jesus Christ, mother, Mary)\n(Jesus Christ, father, God)\n(Jesus Christ, title, Son of God)\n(Jesus Christ, birthdate, circa 4 BC)\n(Jesus Christ, birthdate, December 25)\n(Jesus Christ, birthdate, circa 6 BC)\n(Jesus Christ, birthdate, circa 5 BC)\n(Jesus Christ, birthdate, circa 3 BC)\n(Jesus Christ, birthdate, circa 2 BC)\n(Jesus Christ, birthdate, circa 1 BC)\n(Jesus Christ, birthdate, circa 0 AD)\n(Jesus Christ, birthdate, circa 1 AD)\n(Jesus Christ, birthdate, circa 2 AD)\n(Jesus Christ, birthdate, circa 3 AD)\n(Jesus Christ, birthdate, circa 4 AD)\n(Jesus Christ, birthdate, circa 5 AD)\n(Jesus Christ, birthdate, circa 6 AD)\n(Jesus Christ, birthdate, circa 7 AD)\n(Jesus Christ, birthdate, circa 8 AD)\n(Jesus Christ, birthdate, circa 9 AD)\n(Jesus Christ, birthdate, circa 10 AD)\n(Jesus Christ, birthdate, circa 11 AD)\n(Jesus Christ, birthdate, circa 12 AD)\n(Jesus Christ, birthdate, circa 13 AD)\n(Jesus Christ, birthdate, circa 14 AD)\n(Jesus'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesus Christ, birthplace, Bethlehem)'
+  KEEP:   '(Jesus Christ, mother, Mary)'
+  KEEP:   '(Jesus Christ, father, God)'
+  KEEP:   '(Jesus Christ, title, Son of God)'
+  KEEP:   '(Jesus Christ, birthdate, circa 4 BC)'
+  KEEP:   '(Jesus Christ, birthdate, December 25)'
+  KEEP:   '(Jesus Christ, birthdate, circa 6 BC)'
+  KEEP:   '(Jesus Christ, birthdate, circa 5 BC)'
+  KEEP:   '(Jesus Christ, birthdate, circa 3 BC)'
+  KEEP:   '(Jesus Christ, birthdate, circa 2 BC)'
+  KEEP:   '(Jesus Christ, birthdate, circa 1 BC)'
+  KEEP:   '(Jesus Christ, birthdate, circa 0 AD)'
+  KEEP:   '(Jesus Christ, birthdate, circa 1 AD)'
+  KEEP:   '(Jesus Christ, birthdate, circa 2 AD)'
+  KEEP:   '(Jesus Christ, birthdate, circa 3 AD)'
+  KEEP:   '(Jesus Christ, birthdate, circa 4 AD)'
+  KEEP:   '(Jesus Christ, birthdate, circa 5 AD)'
+  KEEP:   '(Jesus Christ, birthdate, circa 6 AD)'
+  KEEP:   '(Jesus Christ, birthdate, circa 7 AD)'
+  KEEP:   '(Jesus Christ, birthdate, circa 8 AD)'
+  KEEP:   '(Jesus Christ, birthdate, circa 9 AD)'
+  KEEP:   '(Jesus Christ, birthdate, circa 10 AD)'
+  KEEP:   '(Jesus Christ, birthdate, circa 11 AD)'
+  KEEP:   '(Jesus Christ, birthdate, circa 12 AD)'
+  KEEP:   '(Jesus Christ, birthdate, circa 13 AD)'
+  KEEP:   '(Jesus Christ, birthdate, circa 14 AD)'
+  REJECT: fewer than 2 commas → '(Jesus)'
+[DEBUG] Total kept: 26
+============================================================
+
+  [GET_ATTR] 26 raw triplets extracted.
+  [GET_ATTR] 19 valid triplets -> 190 sentence pairs.
+Epoch 22/50 | lr=4.12e-05 | L1=-3.1093 | L2=-4.0634 | triplet pairs=190
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesus Christ, birthplace, Bethlehem)\n(Jesus Christ, mother, Mary)\n(Jesus Christ, father, God)\n(Jesus Christ, title, Son of God)\n(Jesus Christ, birthdate, circa 4 BC)\n(Jesus Christ, birthdate, December 25)\n(Jesus Christ, birthdate, circa 6 BC)\n(Jesus Christ, birthdate, circa 5 BC)\n(Jesus Christ, birthdate, circa 2 BC)\n(Jesus Christ, birthdate, circa 1 BC)\n(Jesus Christ, birthdate, circa 3 BC)\n(Jesus Christ, birthdate, circa 7 BC)\n(Jesus Christ, birthdate, circa 6 December)\n(Jesus Christ, birthdate, circa 6 December 5 BC)\n(Jesus Christ, birthdate, circa 6 December 6 BC)\n(Jesus Christ, birthdate, circa 6 December 7 BC)\n(Jesus Christ, birthdate, circa 6 December 8 BC)\n(Jesus Christ, birthdate, circa 6 December 9 BC)\n(Jesus Christ, birthdate, circa 6 December 10 BC)\n(Jesus Christ, birthdate, circa 6 December 11 BC)\n(Jesus Christ, birthdate, circa 6 December 12 BC)\n(Jesus Christ, birthdate, circa 6 December 13 BC)\n(Jesus Christ, birthdate, circa 6 December 14 BC)\n(Jesus Christ, birthdate, circa'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesus Christ, birthplace, Bethlehem)'
+  KEEP:   '(Jesus Christ, mother, Mary)'
+  KEEP:   '(Jesus Christ, father, God)'
+  KEEP:   '(Jesus Christ, title, Son of God)'
+  KEEP:   '(Jesus Christ, birthdate, circa 4 BC)'
+  KEEP:   '(Jesus Christ, birthdate, December 25)'
+  KEEP:   '(Jesus Christ, birthdate, circa 6 BC)'
+  KEEP:   '(Jesus Christ, birthdate, circa 5 BC)'
+  KEEP:   '(Jesus Christ, birthdate, circa 2 BC)'
+  KEEP:   '(Jesus Christ, birthdate, circa 1 BC)'
+  KEEP:   '(Jesus Christ, birthdate, circa 3 BC)'
+  KEEP:   '(Jesus Christ, birthdate, circa 7 BC)'
+  KEEP:   '(Jesus Christ, birthdate, circa 6 December)'
+  KEEP:   '(Jesus Christ, birthdate, circa 6 December 5 BC)'
+  KEEP:   '(Jesus Christ, birthdate, circa 6 December 6 BC)'
+  KEEP:   '(Jesus Christ, birthdate, circa 6 December 7 BC)'
+  KEEP:   '(Jesus Christ, birthdate, circa 6 December 8 BC)'
+  KEEP:   '(Jesus Christ, birthdate, circa 6 December 9 BC)'
+  KEEP:   '(Jesus Christ, birthdate, circa 6 December 10 BC)'
+  KEEP:   '(Jesus Christ, birthdate, circa 6 December 11 BC)'
+  KEEP:   '(Jesus Christ, birthdate, circa 6 December 12 BC)'
+  KEEP:   '(Jesus Christ, birthdate, circa 6 December 13 BC)'
+  KEEP:   '(Jesus Christ, birthdate, circa 6 December 14 BC)'
+  KEEP:   '(Jesus Christ, birthdate, circa)'
+[DEBUG] Total kept: 24
+============================================================
+
+  [GET_ATTR] 24 raw triplets extracted.
+  [GET_ATTR] 5 valid triplets -> 50 sentence pairs.
+Epoch 23/50 | lr=4.43e-05 | L1=-3.2227 | L2=-4.4751 | triplet pairs=50
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesus Christ, birthplace, Bethlehem)\n(Jesus Christ, mother, Mary)\n(Jesus Christ, title, Son of God)\n(Jesus Christ, follower, Peter)\n(Jesus Christ, birth year, circa 4 BCE)\n(Jesus Christ, crucifixion method, crucifixion)\n(Jesus Christ, crucifixion location, Jerusalem)\n(Jesus Christ, crucifixion year, circa 30 CE)\n(Jesus Christ, crucifixion, Good Friday)\n(Jesus Christ, crucifixion, Easter Monday)\n(Jesus Christ, crucifixion, Easter)\n(Jesus Christ, crucifixion, Passover)\n(Jesus Christ, crucifixion, Palm Sunday)\n(Jesus Christ, crucifixion, Holy Week)\n(Jesus Christ, crucifixion, Last Supper)\n(Jesus Christ, crucifixion, Maundy Thursday)\n(Jesus Christ, crucifixion, Friday of the Passion)\n(Jesus Christ, crucifixion, Friday of Sorrows)\n(Jesus Christ, crucifixion, Friday of Passion)\n(Jesus Christ, crucifixion, Friday of the Passion Week)\n(Jesus Christ, crucifixion, Friday of Passion)\n(Jesus Christ, crucifixion, Friday of Passion Week)\n(Jesus Christ, crucifixion, Friday of Passion)\n(Jesus Christ, crucifixion, Friday of Passion Week)\n(Jesus Christ, crucifixion, Friday of Passion)\n(Jesus Christ, crucifixion, Friday of Passion Week'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesus Christ, birthplace, Bethlehem)'
+  KEEP:   '(Jesus Christ, mother, Mary)'
+  KEEP:   '(Jesus Christ, title, Son of God)'
+  KEEP:   '(Jesus Christ, follower, Peter)'
+  KEEP:   '(Jesus Christ, birth year, circa 4 BCE)'
+  KEEP:   '(Jesus Christ, crucifixion method, crucifixion)'
+  KEEP:   '(Jesus Christ, crucifixion location, Jerusalem)'
+  KEEP:   '(Jesus Christ, crucifixion year, circa 30 CE)'
+  KEEP:   '(Jesus Christ, crucifixion, Good Friday)'
+  KEEP:   '(Jesus Christ, crucifixion, Easter Monday)'
+  KEEP:   '(Jesus Christ, crucifixion, Easter)'
+  KEEP:   '(Jesus Christ, crucifixion, Passover)'
+  KEEP:   '(Jesus Christ, crucifixion, Palm Sunday)'
+  KEEP:   '(Jesus Christ, crucifixion, Holy Week)'
+  KEEP:   '(Jesus Christ, crucifixion, Last Supper)'
+  KEEP:   '(Jesus Christ, crucifixion, Maundy Thursday)'
+  KEEP:   '(Jesus Christ, crucifixion, Friday of the Passion)'
+  KEEP:   '(Jesus Christ, crucifixion, Friday of Sorrows)'
+  KEEP:   '(Jesus Christ, crucifixion, Friday of Passion)'
+  KEEP:   '(Jesus Christ, crucifixion, Friday of the Passion Week)'
+  REJECT: duplicate → '(Jesus Christ, crucifixion, Friday of Passion)'
+  KEEP:   '(Jesus Christ, crucifixion, Friday of Passion Week)'
+  REJECT: duplicate → '(Jesus Christ, crucifixion, Friday of Passion)'
+  REJECT: duplicate → '(Jesus Christ, crucifixion, Friday of Passion Week)'
+  REJECT: duplicate → '(Jesus Christ, crucifixion, Friday of Passion)'
+  REJECT: duplicate → '(Jesus Christ, crucifixion, Friday of Passion Week)'
+[DEBUG] Total kept: 21
+============================================================
+
+  [GET_ATTR] 21 raw triplets extracted.
+  [GET_ATTR] 20 valid triplets -> 200 sentence pairs.
+Epoch 24/50 | lr=4.74e-05 | L1=-2.7790 | L2=-4.9697 | triplet pairs=200
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesus Christ, birthplace, Bethlehem)\n(Jesus Christ, parents, Joseph and Mary)\n(Jesus Christ, deity, God)\n(Jesus Christ, birthdate, circa 4 BC)\n(Jesus Christ, followers, Christians)\n(Jesus Christ, title, Son of God)\n(Jesus Christ, birthplace, Nazareth)\n(Jesus Christ, family, House of David)\n(Jesus Christ, crucifixion location, Jerusalem)\n(Jesus Christ, crucifixion method, crucifixion)\n(Jesus Christ, crucifixion year, 33 AD)\n(Jesus Christ, crucifixion, Good Friday)\n(Jesus Christ, last meal, Last Supper)\n(Jesus Christ, last meal, Passover)\n(Jesus Christ, last meal, bread and wine)\n(Jesus Christ, last meal, with disciples)\n(Jesus Christ, last words, "It is finished")\n(Jesus Christ, last words, "Father, into your hands I commit my spirit")\n(Jesus Christ, last words, "My God, my God, why have you forsaken me")\n(Jesus Christ, last words, in Aramaic)\n(Jesus Christ, last words, in Greek)\n(Jesus Christ, last words, in Latin)\n(Jesus Christ, last words, in Hebrew)\n(Jesus Christ, last words, in English)\n(Jesus Christ, last words, in multiple languages)\n(Jesus Christ, last words, in multiple languages, Matthew 27:46)\n(Jesus'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesus Christ, birthplace, Bethlehem)'
+  KEEP:   '(Jesus Christ, parents, Joseph and Mary)'
+  KEEP:   '(Jesus Christ, deity, God)'
+  KEEP:   '(Jesus Christ, birthdate, circa 4 BC)'
+  KEEP:   '(Jesus Christ, followers, Christians)'
+  KEEP:   '(Jesus Christ, title, Son of God)'
+  KEEP:   '(Jesus Christ, birthplace, Nazareth)'
+  KEEP:   '(Jesus Christ, family, House of David)'
+  KEEP:   '(Jesus Christ, crucifixion location, Jerusalem)'
+  KEEP:   '(Jesus Christ, crucifixion method, crucifixion)'
+  KEEP:   '(Jesus Christ, crucifixion year, 33 AD)'
+  KEEP:   '(Jesus Christ, crucifixion, Good Friday)'
+  KEEP:   '(Jesus Christ, last meal, Last Supper)'
+  KEEP:   '(Jesus Christ, last meal, Passover)'
+  KEEP:   '(Jesus Christ, last meal, bread and wine)'
+  KEEP:   '(Jesus Christ, last meal, with disciples)'
+  KEEP:   '(Jesus Christ, last words, "It is finished")'
+  KEEP:   '(Jesus Christ, last words, "Father, into your hands I commit my spirit")'
+  KEEP:   '(Jesus Christ, last words, "My God, my God, why have you forsaken me")'
+  KEEP:   '(Jesus Christ, last words, in Aramaic)'
+  KEEP:   '(Jesus Christ, last words, in Greek)'
+  KEEP:   '(Jesus Christ, last words, in Latin)'
+  KEEP:   '(Jesus Christ, last words, in Hebrew)'
+  KEEP:   '(Jesus Christ, last words, in English)'
+  KEEP:   '(Jesus Christ, last words, in multiple languages)'
+  KEEP:   '(Jesus Christ, last words, in multiple languages, Matthew 27:46)'
+  REJECT: fewer than 2 commas → '(Jesus)'
+[DEBUG] Total kept: 26
+============================================================
+
+  [GET_ATTR] 26 raw triplets extracted.
+  [GET_ATTR] 23 valid triplets -> 230 sentence pairs.
+Epoch 25/50 | lr=5.05e-05 | L1=-3.4902 | L2=-5.5546 | triplet pairs=230
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+"(Jesus Christ, birthplace, Bethlehem)\n(Jesus Christ, parents, Mary and Joseph)\n(Jesus Christ, deity, God)\n(Jesus Christ, birth year, circa 4 BCE)\n(Jesus Christ, followers, Christians)\n(Jesus Christ, crucifixion method, crucifixion by Romans)\n(Jesus Christ, crucifixion location, Jerusalem)\n(Jesus Christ, crucifixion year, circa 29 CE)\n(Jesus Christ, last supper, Last Supper)\n(Jesus Christ, last supper location, Jerusalem)\n(Jesus Christ, last supper attendees, the twelve apostles)\n(Jesus Christ, miracle, walking on water)\n(Jesus Christ, miracle, healings)\n(Jesus Christ, miracle, resurrection)\n(Jesus Christ, miracle, transfiguration)\n(Jesus Christ, miracle, changing water to wine)\n(Jesus Christ, miracle, cleansing the temple)\n(Jesus Christ, miracle, giving sight to the blind)\n(Jesus Christ, miracle, giving hearing to the deaf)\n(Jesus Christ, miracle, giving speech to the mute)\n(Jesus Christ, miracle, walking among children)\n(Jesus Christ, miracle, multiplying loaves and fishes)\n(Jesus Christ, miracle, stilling a storm)\n(Jesus Christ, miracle, casting out demons)\n(Jesus Christ, miracle, restoring Lazarus)\n(Jesus Christ, miracle, giving life to a widow's son)\n(Jesus Christ, miracle, giving life to Jairus's daughter)\n(Jesus Christ"
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesus Christ, birthplace, Bethlehem)'
+  KEEP:   '(Jesus Christ, parents, Mary and Joseph)'
+  KEEP:   '(Jesus Christ, deity, God)'
+  KEEP:   '(Jesus Christ, birth year, circa 4 BCE)'
+  KEEP:   '(Jesus Christ, followers, Christians)'
+  KEEP:   '(Jesus Christ, crucifixion method, crucifixion by Romans)'
+  KEEP:   '(Jesus Christ, crucifixion location, Jerusalem)'
+  KEEP:   '(Jesus Christ, crucifixion year, circa 29 CE)'
+  KEEP:   '(Jesus Christ, last supper, Last Supper)'
+  KEEP:   '(Jesus Christ, last supper location, Jerusalem)'
+  KEEP:   '(Jesus Christ, last supper attendees, the twelve apostles)'
+  KEEP:   '(Jesus Christ, miracle, walking on water)'
+  KEEP:   '(Jesus Christ, miracle, healings)'
+  KEEP:   '(Jesus Christ, miracle, resurrection)'
+  KEEP:   '(Jesus Christ, miracle, transfiguration)'
+  KEEP:   '(Jesus Christ, miracle, changing water to wine)'
+  KEEP:   '(Jesus Christ, miracle, cleansing the temple)'
+  KEEP:   '(Jesus Christ, miracle, giving sight to the blind)'
+  KEEP:   '(Jesus Christ, miracle, giving hearing to the deaf)'
+  KEEP:   '(Jesus Christ, miracle, giving speech to the mute)'
+  KEEP:   '(Jesus Christ, miracle, walking among children)'
+  KEEP:   '(Jesus Christ, miracle, multiplying loaves and fishes)'
+  KEEP:   '(Jesus Christ, miracle, stilling a storm)'
+  KEEP:   '(Jesus Christ, miracle, casting out demons)'
+  KEEP:   '(Jesus Christ, miracle, restoring Lazarus)'
+  KEEP:   '(Jesus Christ, miracle, giving life to a widow's son)'
+  KEEP:   '(Jesus Christ, miracle, giving life to Jairus's daughter)'
+  REJECT: fewer than 2 commas → '(Jesus Christ)'
+[DEBUG] Total kept: 27
+============================================================
+
+  [GET_ATTR] 27 raw triplets extracted.
+  [GET_ATTR] 27 valid triplets -> 270 sentence pairs.
+Epoch 26/50 | lr=5.36e-05 | L1=-3.8312 | L2=-6.2360 | triplet pairs=270
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesus Christ, birthplace, Bethlehem)\n(Jesus Christ, parents, Joseph and Mary)\n(Jesus Christ, deity, God)\n(Jesus Christ, birth year, circa 4 BCE)\n(Jesus Christ, spouse, none)\n(Jesus Christ, followers, Disciples)\n(Jesus Christ, significance, Saviour of mankind)\n(Jesus Christ, birthplace of parents, Nazareth)\n(Jesus Christ, deity, Son of God)\n(Jesus Christ, significance, Incarnation of God)\n(Jesus Christ, birthplace of conception, Nazareth)\n(Jesus Christ, significance, Redeemer)\n(Jesus Christ, deity, Trinity)\n(Jesus Christ, significance, Messiah)\n(Jesus Christ, birthplace of conception, town of David)\n(Jesus Christ, significance, Divine Saviour)\n(Jesus Christ, deity, Divine Person)\n(Jesus Christ, significance, Saviour of all mankind)\n(Jesus Christ, birthplace of conception, town of David, according to Luke)\n(Jesus Christ, significance, Divine Redeemer)\n(Jesus Christ, deity, God incarnate)\n(Jesus Christ, significance, Divine Saviour of all mankind)\n(Jesus Christ, significance, Divine Saviour of all people)\n(Jesus Christ, significance, Divine Saviour of all nations)\n(Jesus Christ, significance, Divine Saviour of all humans)\n(Jesus Christ, significance, Divine Saviour of all humans everywhere)\n(Jesus Christ, significance, Divine Saviour of all humans everywhere, according to'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesus Christ, birthplace, Bethlehem)'
+  KEEP:   '(Jesus Christ, parents, Joseph and Mary)'
+  KEEP:   '(Jesus Christ, deity, God)'
+  KEEP:   '(Jesus Christ, birth year, circa 4 BCE)'
+  KEEP:   '(Jesus Christ, spouse, none)'
+  KEEP:   '(Jesus Christ, followers, Disciples)'
+  KEEP:   '(Jesus Christ, significance, Saviour of mankind)'
+  KEEP:   '(Jesus Christ, birthplace of parents, Nazareth)'
+  KEEP:   '(Jesus Christ, deity, Son of God)'
+  KEEP:   '(Jesus Christ, significance, Incarnation of God)'
+  KEEP:   '(Jesus Christ, birthplace of conception, Nazareth)'
+  KEEP:   '(Jesus Christ, significance, Redeemer)'
+  KEEP:   '(Jesus Christ, deity, Trinity)'
+  KEEP:   '(Jesus Christ, significance, Messiah)'
+  KEEP:   '(Jesus Christ, birthplace of conception, town of David)'
+  KEEP:   '(Jesus Christ, significance, Divine Saviour)'
+  KEEP:   '(Jesus Christ, deity, Divine Person)'
+  KEEP:   '(Jesus Christ, significance, Saviour of all mankind)'
+  KEEP:   '(Jesus Christ, birthplace of conception, town of David, according to Luke)'
+  KEEP:   '(Jesus Christ, significance, Divine Redeemer)'
+  KEEP:   '(Jesus Christ, deity, God incarnate)'
+  KEEP:   '(Jesus Christ, significance, Divine Saviour of all mankind)'
+  KEEP:   '(Jesus Christ, significance, Divine Saviour of all people)'
+  KEEP:   '(Jesus Christ, significance, Divine Saviour of all nations)'
+  KEEP:   '(Jesus Christ, significance, Divine Saviour of all humans)'
+  KEEP:   '(Jesus Christ, significance, Divine Saviour of all humans everywhere)'
+  KEEP:   '(Jesus Christ, significance, Divine Saviour of all humans everywhere, according to)'
+[DEBUG] Total kept: 27
+============================================================
+
+  [GET_ATTR] 27 raw triplets extracted.
+  [GET_ATTR] 26 valid triplets -> 260 sentence pairs.
+Epoch 27/50 | lr=5.67e-05 | L1=-4.6417 | L2=-7.0400 | triplet pairs=260
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesus Christ, birthplace, Bethlehem)\n(Jesus Christ, parents, Saint Joseph and Saint Mary)\n(Jesus Christ, deity, God)\n(Jesus Christ, birth date, circa 6–4 BCE)\n(Jesus Christ, significance, Saviour of mankind)\n(Jesus Christ, followers, Christians)\n(Jesus Christ, book, Bible)\n(Jesus Christ, significance, source of Christianity)\n(Jesus Christ, historicity, historic)\n(Jesus Christ, significance, redeemer)\n(Jesus Christ, book, Gospel)\n(Jesus Christ, significance, source of morality)\n(Jesus Christ, significance, source of ethics)\n(Jesus Christ, significance, source of salvation)\n(Jesus Christ, significance, source of morality)\n(Jesus Christ, significance, source of ethics)\n(Jesus Christ, significance, source of salvation)\n(Jesus Christ, significance, source of morality)\n(Jesus Christ, significance, source of ethics)\n(Jesus Christ, significance, source of salvation)\n(Jesus Christ, significance, source of morality)\n(Jesus Christ, significance, source of ethics)\n(Jesus Christ, significance, source of salvation)\n(Jesus Christ, significance, source of morality)\n(Jesus Christ, significance, source of ethics)\n(Jesus Christ, significance, source of salvation)\n(Jesus Christ, significance, source of morality)\n(Jesus Christ, significance, source of ethics)\n(Jesus Christ, significance, source of salvation)\n(Jesus Christ, significance, source of morality)\n(Jesus'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesus Christ, birthplace, Bethlehem)'
+  KEEP:   '(Jesus Christ, parents, Saint Joseph and Saint Mary)'
+  KEEP:   '(Jesus Christ, deity, God)'
+  KEEP:   '(Jesus Christ, birth date, circa 6–4 BCE)'
+  KEEP:   '(Jesus Christ, significance, Saviour of mankind)'
+  KEEP:   '(Jesus Christ, followers, Christians)'
+  KEEP:   '(Jesus Christ, book, Bible)'
+  KEEP:   '(Jesus Christ, significance, source of Christianity)'
+  KEEP:   '(Jesus Christ, historicity, historic)'
+  KEEP:   '(Jesus Christ, significance, redeemer)'
+  KEEP:   '(Jesus Christ, book, Gospel)'
+  KEEP:   '(Jesus Christ, significance, source of morality)'
+  KEEP:   '(Jesus Christ, significance, source of ethics)'
+  KEEP:   '(Jesus Christ, significance, source of salvation)'
+  REJECT: duplicate → '(Jesus Christ, significance, source of morality)'
+  REJECT: duplicate → '(Jesus Christ, significance, source of ethics)'
+  REJECT: duplicate → '(Jesus Christ, significance, source of salvation)'
+  REJECT: duplicate → '(Jesus Christ, significance, source of morality)'
+  REJECT: duplicate → '(Jesus Christ, significance, source of ethics)'
+  REJECT: duplicate → '(Jesus Christ, significance, source of salvation)'
+  REJECT: duplicate → '(Jesus Christ, significance, source of morality)'
+  REJECT: duplicate → '(Jesus Christ, significance, source of ethics)'
+  REJECT: duplicate → '(Jesus Christ, significance, source of salvation)'
+  REJECT: duplicate → '(Jesus Christ, significance, source of morality)'
+  REJECT: duplicate → '(Jesus Christ, significance, source of ethics)'
+  REJECT: duplicate → '(Jesus Christ, significance, source of salvation)'
+  REJECT: duplicate → '(Jesus Christ, significance, source of morality)'
+  REJECT: duplicate → '(Jesus Christ, significance, source of ethics)'
+  REJECT: duplicate → '(Jesus Christ, significance, source of salvation)'
+  REJECT: duplicate → '(Jesus Christ, significance, source of morality)'
+  REJECT: fewer than 2 commas → '(Jesus)'
+[DEBUG] Total kept: 14
+============================================================
+
+  [GET_ATTR] 14 raw triplets extracted.
+  [GET_ATTR] 14 valid triplets -> 140 sentence pairs.
+Epoch 28/50 | lr=5.98e-05 | L1=-5.3985 | L2=-7.9741 | triplet pairs=140
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesus Christ, birthplace, Bethlehem)\n(Jesus Christ, parents, Joachim and Anna)\n(Jesus Christ, relationship, God incarnate)\n(Jesus Christ, cousin, John the Baptizer)\n(Jesus Christ, disciple, Peter)\n(Jesus Christ, miracle, walking on water)\n(Jesus Christ, miracle, changing water into wine)\n(Jesus Christ, miracle, healings)\n(Jesus Christ, miracle, raisings from the dead)\n(Jesus Christ, miracle, walking on earth before conception)\n(Jesus Christ, miracle, transfiguration)\n(Jesus Christ, miracle, cleansing of lepers)\n(Jesus Christ, miracle, multiplying loaves)\n(Jesus Christ, miracle, walking on earth before conception)\n(Jesus Christ, miracle, walking on earth before conception)\n(Jesus Christ, miracle, walking on earth before conception)\n(Jesus Christ, miracle, walking on earth before conception)\n(Jesus Christ, miracle, walking on earth before conception)\n(Jesus Christ, miracle, walking on earth before conception)\n(Jesus Christ, miracle, walking on earth before conception)\n(Jesus Christ, miracle, walking on earth before conception)\n(Jesus Christ, miracle, walking on earth before conception)\n(Jesus Christ, miracle, walking on earth before conception)\n(Jesus Christ, miracle, walking on earth before conception)\n(Jesus Christ, miracle, walking on earth before conception)\n(Jesus Christ, miracle, walking on earth before conception)\n(Jesus Christ, miracle, walking'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesus Christ, birthplace, Bethlehem)'
+  KEEP:   '(Jesus Christ, parents, Joachim and Anna)'
+  KEEP:   '(Jesus Christ, relationship, God incarnate)'
+  KEEP:   '(Jesus Christ, cousin, John the Baptizer)'
+  KEEP:   '(Jesus Christ, disciple, Peter)'
+  KEEP:   '(Jesus Christ, miracle, walking on water)'
+  KEEP:   '(Jesus Christ, miracle, changing water into wine)'
+  KEEP:   '(Jesus Christ, miracle, healings)'
+  KEEP:   '(Jesus Christ, miracle, raisings from the dead)'
+  KEEP:   '(Jesus Christ, miracle, walking on earth before conception)'
+  KEEP:   '(Jesus Christ, miracle, transfiguration)'
+  KEEP:   '(Jesus Christ, miracle, cleansing of lepers)'
+  KEEP:   '(Jesus Christ, miracle, multiplying loaves)'
+  REJECT: duplicate → '(Jesus Christ, miracle, walking on earth before conception)'
+  REJECT: duplicate → '(Jesus Christ, miracle, walking on earth before conception)'
+  REJECT: duplicate → '(Jesus Christ, miracle, walking on earth before conception)'
+  REJECT: duplicate → '(Jesus Christ, miracle, walking on earth before conception)'
+  REJECT: duplicate → '(Jesus Christ, miracle, walking on earth before conception)'
+  REJECT: duplicate → '(Jesus Christ, miracle, walking on earth before conception)'
+  REJECT: duplicate → '(Jesus Christ, miracle, walking on earth before conception)'
+  REJECT: duplicate → '(Jesus Christ, miracle, walking on earth before conception)'
+  REJECT: duplicate → '(Jesus Christ, miracle, walking on earth before conception)'
+  REJECT: duplicate → '(Jesus Christ, miracle, walking on earth before conception)'
+  REJECT: duplicate → '(Jesus Christ, miracle, walking on earth before conception)'
+  REJECT: duplicate → '(Jesus Christ, miracle, walking on earth before conception)'
+  REJECT: duplicate → '(Jesus Christ, miracle, walking on earth before conception)'
+  KEEP:   '(Jesus Christ, miracle, walking)'
+[DEBUG] Total kept: 14
+============================================================
+
+  [GET_ATTR] 14 raw triplets extracted.
+  [GET_ATTR] 12 valid triplets -> 120 sentence pairs.
+Epoch 29/50 | lr=6.28e-05 | L1=-5.8509 | L2=-9.0360 | triplet pairs=120
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesus Christ, birthplace, Bethlehem)\n(Jesus Christ, relationship, God)\n(Jesus Christ, earthly father, Joachim)\n(Jesus Christ, earthly mother, Mariam)\n(Jesus Christ, stepfather, Josef)\n(Jesus Christ, stepmother, Anna)\n(Jesus Christ, stepbrother, James)\n(Jesus Christ, stepbrother, Joses)\n(Jesus Christ, stepbrother, Judas)\n(Jesus Christ, stepbrother, Simon)\n(Jesus Christ, stepbrother, Judas Iscariot)\n(Jesus Christ, stepbrother, Simeon)\n(Jesus Christ, stepbrother, Judas)\n(Jesus Christ, stepbrother, Judas Iscariot)\n(Jesus Christ, stepbrother, Simeon)\n(Jesus Christ, stepbrother, Judas Iscariot)\n(Jesus Christ, stepbrother, Judas)\n(Jesus Christ, stepbrother, Judas Iscariot)\n(Jesus Christ, stepbrother, Judas Iscariot)\n(Jesus Christ, stepbrother, Judas Iscariot)\n(Jesus Christ, stepbrother, Judas Iscariot)\n(Jesus Christ, stepbrother, Judas Iscariot)\n(Jesus Christ, stepbrother, Judas Iscariot)\n(Jesus Christ, stepbrother, Judas Iscariot)\n(Jesus Christ,'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesus Christ, birthplace, Bethlehem)'
+  KEEP:   '(Jesus Christ, relationship, God)'
+  KEEP:   '(Jesus Christ, earthly father, Joachim)'
+  KEEP:   '(Jesus Christ, earthly mother, Mariam)'
+  KEEP:   '(Jesus Christ, stepfather, Josef)'
+  KEEP:   '(Jesus Christ, stepmother, Anna)'
+  KEEP:   '(Jesus Christ, stepbrother, James)'
+  KEEP:   '(Jesus Christ, stepbrother, Joses)'
+  KEEP:   '(Jesus Christ, stepbrother, Judas)'
+  KEEP:   '(Jesus Christ, stepbrother, Simon)'
+  KEEP:   '(Jesus Christ, stepbrother, Judas Iscariot)'
+  KEEP:   '(Jesus Christ, stepbrother, Simeon)'
+  REJECT: duplicate → '(Jesus Christ, stepbrother, Judas)'
+  REJECT: duplicate → '(Jesus Christ, stepbrother, Judas Iscariot)'
+  REJECT: duplicate → '(Jesus Christ, stepbrother, Simeon)'
+  REJECT: duplicate → '(Jesus Christ, stepbrother, Judas Iscariot)'
+  REJECT: duplicate → '(Jesus Christ, stepbrother, Judas)'
+  REJECT: duplicate → '(Jesus Christ, stepbrother, Judas Iscariot)'
+  REJECT: duplicate → '(Jesus Christ, stepbrother, Judas Iscariot)'
+  REJECT: duplicate → '(Jesus Christ, stepbrother, Judas Iscariot)'
+  REJECT: duplicate → '(Jesus Christ, stepbrother, Judas Iscariot)'
+  REJECT: duplicate → '(Jesus Christ, stepbrother, Judas Iscariot)'
+  REJECT: duplicate → '(Jesus Christ, stepbrother, Judas Iscariot)'
+  REJECT: duplicate → '(Jesus Christ, stepbrother, Judas Iscariot)'
+  REJECT: fewer than 2 commas → '(Jesus Christ)'
+[DEBUG] Total kept: 12
+============================================================
+
+  [GET_ATTR] 12 raw triplets extracted.
+  [GET_ATTR] 6 valid triplets -> 60 sentence pairs.
+Epoch 30/50 | lr=6.58e-05 | L1=-8.0171 | L2=-10.2240 | triplet pairs=60
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesus Christ, birthplace, Bethlehem)\n(Jesus Christ, relationship, God)\n(Jesus Christ, earthly mother, Maria)\n(Jesus Christ, earthly stepfather, Joachim)\n(Jesus Christ, earthly stepfather, Josef)\n(Jesus Christ, earthly stepfather, adoptive stepfather)\n(Jesus Christ, earthly stepfather, adoptive stepfather Josef)\n(Jesus Christ, earthly stepfather, adoptive stepfather Joachim)\n(Jesus Christ, earthly stepfather, adoptive stepfather Joachim Josef)\n(Jesus Christ, earthly stepfather, adoptive stepfather Josef Joachim)\n(Jesus Christ, earthly stepfather, adoptive stepfather Josef Joachim Josef)\n(Jesus Christ, earthly stepfather, adoptive stepfather Josef Joachim Josef Josef)\n(Jesus Christ, earthly stepfather, adoptive stepfather Josef Joachim Josef Josef Josef)\n(Jesus Christ, earthly stepfather, adoptive stepfather Josef Joachim Josef Josef Josef Josef)\n(Jesus Christ, earthly stepfather, adoptive stepfather Josef Joachim Josef Josef Josef Josef Josef)\n(Jesus Christ, earthly stepfather, adoptive stepfather Josef Joachim Josef Josef Josef Josef Josef Josef)\n(Jesus Christ, earthly stepfather, adoptive stepfather Josef Joachim Josef Josef Josef Josef Josef Josef Josef)\n(Jesus Christ, earthly stepfather, adoptive stepfather Josef Joachim Josef Josef Josef Josef Josef Josef Josef Josef)\n(J'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesus Christ, birthplace, Bethlehem)'
+  KEEP:   '(Jesus Christ, relationship, God)'
+  KEEP:   '(Jesus Christ, earthly mother, Maria)'
+  KEEP:   '(Jesus Christ, earthly stepfather, Joachim)'
+  KEEP:   '(Jesus Christ, earthly stepfather, Josef)'
+  KEEP:   '(Jesus Christ, earthly stepfather, adoptive stepfather)'
+  KEEP:   '(Jesus Christ, earthly stepfather, adoptive stepfather Josef)'
+  KEEP:   '(Jesus Christ, earthly stepfather, adoptive stepfather Joachim)'
+  KEEP:   '(Jesus Christ, earthly stepfather, adoptive stepfather Joachim Josef)'
+  KEEP:   '(Jesus Christ, earthly stepfather, adoptive stepfather Josef Joachim)'
+  KEEP:   '(Jesus Christ, earthly stepfather, adoptive stepfather Josef Joachim Josef)'
+  KEEP:   '(Jesus Christ, earthly stepfather, adoptive stepfather Josef Joachim Josef Josef)'
+  KEEP:   '(Jesus Christ, earthly stepfather, adoptive stepfather Josef Joachim Josef Josef Josef)'
+  KEEP:   '(Jesus Christ, earthly stepfather, adoptive stepfather Josef Joachim Josef Josef Josef Josef)'
+  KEEP:   '(Jesus Christ, earthly stepfather, adoptive stepfather Josef Joachim Josef Josef Josef Josef Josef)'
+  KEEP:   '(Jesus Christ, earthly stepfather, adoptive stepfather Josef Joachim Josef Josef Josef Josef Josef Josef)'
+  KEEP:   '(Jesus Christ, earthly stepfather, adoptive stepfather Josef Joachim Josef Josef Josef Josef Josef Josef Josef)'
+  KEEP:   '(Jesus Christ, earthly stepfather, adoptive stepfather Josef Joachim Josef Josef Josef Josef Josef Josef Josef Josef)'
+  REJECT: fewer than 2 commas → '(J)'
+[DEBUG] Total kept: 18
+============================================================
+
+  [GET_ATTR] 18 raw triplets extracted.
+  [GET_ATTR] 6 valid triplets -> 60 sentence pairs.
+Epoch 31/50 | lr=6.87e-05 | L1=-9.8745 | L2=-11.5217 | triplet pairs=60
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesus Christ, creator, God)\n(Jesus Christ, earthly parents, Joachim and Anna)\n(Jesus Christ, earthly residence, Bethany)\n(Jesus Christ, earthly residence, Egypt)\n(Jesus Christ, earthly residence, Nazareth)\n(Jesus Christ, earthly residence, Palestine)\n(Jesus Christ, earthly residence, Rome)\n(Jesus Christ, earthly residence, Bethsaida)\n(Jesus Christ, earthly residence, Capernaum)\n(Jesus Christ, earthly residence, Jericho)\n(Jesus Christ, earthly residence, Bethany beyond Jordan)\n(Jesus Christ, earthly residence, Bethany)\n(Jesus Christ, earthly residence, Cana)\n(Jesus Christ, earthly residence, Bethphage)\n(Jesus Christ, earthly residence, Bethany)\n(Jesus Christ, earthly residence, Bethany beyond Jordan)\n(Jesus Christ, earthly residence, Bethany)\n(Jesus Christ, earthly residence, Bethany beyond Jordan)\n(Jesus Christ, earthly residence, Bethany)\n(Jesus Christ, earthly residence, Bethany beyond Jordan)\n(Jesus Christ, earthly residence, Bethany)\n(Jesus Christ, earthly residence, Bethany beyond Jordan)\n(Jesus Christ, earthly residence, Bethany)\n(Jesus Christ, earthly residence, Bethany beyond Jordan)\n(Jesus Christ, earthly residence, Bethany)\n(Jesus Christ, earthly residence, Bethany beyond Jordan)\n(Jesus Christ, earthly residence, Bethany)\n(Jesus Christ, earthly residence, Bethany beyond Jordan)\n(Jesus Christ,'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesus Christ, creator, God)'
+  KEEP:   '(Jesus Christ, earthly parents, Joachim and Anna)'
+  KEEP:   '(Jesus Christ, earthly residence, Bethany)'
+  KEEP:   '(Jesus Christ, earthly residence, Egypt)'
+  KEEP:   '(Jesus Christ, earthly residence, Nazareth)'
+  KEEP:   '(Jesus Christ, earthly residence, Palestine)'
+  KEEP:   '(Jesus Christ, earthly residence, Rome)'
+  KEEP:   '(Jesus Christ, earthly residence, Bethsaida)'
+  KEEP:   '(Jesus Christ, earthly residence, Capernaum)'
+  KEEP:   '(Jesus Christ, earthly residence, Jericho)'
+  KEEP:   '(Jesus Christ, earthly residence, Bethany beyond Jordan)'
+  REJECT: duplicate → '(Jesus Christ, earthly residence, Bethany)'
+  KEEP:   '(Jesus Christ, earthly residence, Cana)'
+  KEEP:   '(Jesus Christ, earthly residence, Bethphage)'
+  REJECT: duplicate → '(Jesus Christ, earthly residence, Bethany)'
+  REJECT: duplicate → '(Jesus Christ, earthly residence, Bethany beyond Jordan)'
+  REJECT: duplicate → '(Jesus Christ, earthly residence, Bethany)'
+  REJECT: duplicate → '(Jesus Christ, earthly residence, Bethany beyond Jordan)'
+  REJECT: duplicate → '(Jesus Christ, earthly residence, Bethany)'
+  REJECT: duplicate → '(Jesus Christ, earthly residence, Bethany beyond Jordan)'
+  REJECT: duplicate → '(Jesus Christ, earthly residence, Bethany)'
+  REJECT: duplicate → '(Jesus Christ, earthly residence, Bethany beyond Jordan)'
+  REJECT: duplicate → '(Jesus Christ, earthly residence, Bethany)'
+  REJECT: duplicate → '(Jesus Christ, earthly residence, Bethany beyond Jordan)'
+  REJECT: duplicate → '(Jesus Christ, earthly residence, Bethany)'
+  REJECT: duplicate → '(Jesus Christ, earthly residence, Bethany beyond Jordan)'
+  REJECT: duplicate → '(Jesus Christ, earthly residence, Bethany)'
+  REJECT: duplicate → '(Jesus Christ, earthly residence, Bethany beyond Jordan)'
+  REJECT: fewer than 2 commas → '(Jesus Christ)'
+[DEBUG] Total kept: 13
+============================================================
+
+  [GET_ATTR] 13 raw triplets extracted.
+  [GET_ATTR] 9 valid triplets -> 90 sentence pairs.
+Epoch 32/50 | lr=7.16e-05 | L1=-8.2456 | L2=-12.9164 | triplet pairs=90
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesus Christ, heir, David)\n(Jesus Christ, heir, Solomon)\n(Jesus Christ, god-the-human, God-the-Father)\n(Jesus Christ, god-the-human, God-the-Son)\n(Jesus Christ, heir, David according Matthew)\n(Jesus Christ, heir, David according Luke)\n(Jesus Christ, heir, David according Mark)\n(Jesus Christ, heir, David according Matthew)\n(Jesus Christ, heir, David according Luke)\n(Jesus Christ, heir, David according Mark)\n(Jesus Christ, heir, David according Matthew)\n(Jesus Christ, heir, David according Luke)\n(Jesus Christ, heir, David according Mark)\n(Jesus Christ, heir, David according Matthew)\n(Jesus Christ, heir, David according Luke)\n(Jesus Christ, heir, David according Mark)\n(Jesus Christ, heir, David according Matthew)\n(Jesus Christ, heir, David according Luke)\n(Jesus Christ, heir, David according Mark)\n(Jesus Christ, heir, David according Matthew)\n(Jesus Christ, heir, David according Luke)\n(Jesus Christ, heir, David according Mark)\n(Jesus Christ, heir, David according Matthew)\n(Jesus Christ, heir, David according Luke)\n(Jesus Christ, heir, David according Mark)\n(Jesus Christ, heir, David according Matthew)\n(Jesus Christ, heir, David according Luke)\n(Jesus Christ, heir, David according Mark)\n(Jesus Christ, heir, David according Matthew)\n(Jesus Christ, heir, David according'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesus Christ, heir, David)'
+  KEEP:   '(Jesus Christ, heir, Solomon)'
+  KEEP:   '(Jesus Christ, god-the-human, God-the-Father)'
+  KEEP:   '(Jesus Christ, god-the-human, God-the-Son)'
+  KEEP:   '(Jesus Christ, heir, David according Matthew)'
+  KEEP:   '(Jesus Christ, heir, David according Luke)'
+  KEEP:   '(Jesus Christ, heir, David according Mark)'
+  REJECT: duplicate → '(Jesus Christ, heir, David according Matthew)'
+  REJECT: duplicate → '(Jesus Christ, heir, David according Luke)'
+  REJECT: duplicate → '(Jesus Christ, heir, David according Mark)'
+  REJECT: duplicate → '(Jesus Christ, heir, David according Matthew)'
+  REJECT: duplicate → '(Jesus Christ, heir, David according Luke)'
+  REJECT: duplicate → '(Jesus Christ, heir, David according Mark)'
+  REJECT: duplicate → '(Jesus Christ, heir, David according Matthew)'
+  REJECT: duplicate → '(Jesus Christ, heir, David according Luke)'
+  REJECT: duplicate → '(Jesus Christ, heir, David according Mark)'
+  REJECT: duplicate → '(Jesus Christ, heir, David according Matthew)'
+  REJECT: duplicate → '(Jesus Christ, heir, David according Luke)'
+  REJECT: duplicate → '(Jesus Christ, heir, David according Mark)'
+  REJECT: duplicate → '(Jesus Christ, heir, David according Matthew)'
+  REJECT: duplicate → '(Jesus Christ, heir, David according Luke)'
+  REJECT: duplicate → '(Jesus Christ, heir, David according Mark)'
+  REJECT: duplicate → '(Jesus Christ, heir, David according Matthew)'
+  REJECT: duplicate → '(Jesus Christ, heir, David according Luke)'
+  REJECT: duplicate → '(Jesus Christ, heir, David according Mark)'
+  REJECT: duplicate → '(Jesus Christ, heir, David according Matthew)'
+  REJECT: duplicate → '(Jesus Christ, heir, David according Luke)'
+  REJECT: duplicate → '(Jesus Christ, heir, David according Mark)'
+  REJECT: duplicate → '(Jesus Christ, heir, David according Matthew)'
+  KEEP:   '(Jesus Christ, heir, David according)'
+[DEBUG] Total kept: 8
+============================================================
+
+  [GET_ATTR] 8 raw triplets extracted.
+  [GET_ATTR] 7 valid triplets -> 70 sentence pairs.
+Epoch 33/50 | lr=7.43e-05 | L1=-9.9929 | L2=-14.4256 | triplet pairs=70
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesus Christ, heir, David)\n(Jesus Christ, god-the-husband-of-the-mother-of-the-holy spirit-the-holy spirit)\n(Jesus Christ, god-the-husband-of-the-mother-of-the-holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesus Christ, heir, David)'
+  REJECT: fewer than 2 commas → '(Jesus Christ, god-the-husband-of-the-mother-of-the-holy spirit-the-holy spirit)'
+  REJECT: fewer than 2 commas → '(Jesus Christ, god-the-husband-of-the-mother-of-the-holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the holy spirit-the)'
+[DEBUG] Total kept: 1
+============================================================
+
+  [GET_ATTR] 1 raw triplets extracted.
+  [GET_ATTR] 1 valid triplets -> 10 sentence pairs.
+Epoch 34/50 | lr=7.70e-05 | L1=-12.7867 | L2=-16.0333 | triplet pairs=10
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesus Christ, creator god worshipped by, Yahweh)\n(Jesus Christ, earthly existence, circa mid-1st century)\n(Jesus Christ, significance, lord/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/s'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesus Christ, creator god worshipped by, Yahweh)'
+  KEEP:   '(Jesus Christ, earthly existence, circa mid-1st century)'
+  KEEP:   '(Jesus Christ, significance, lord/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/saviour/s)'
+[DEBUG] Total kept: 3
+============================================================
+
+  [GET_ATTR] 3 raw triplets extracted.
+  [GET_ATTR] 2 valid triplets -> 20 sentence pairs.
+Epoch 35/50 | lr=7.96e-05 | L1=-12.7030 | L2=-17.7407 | triplet pairs=20
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesus Christ, worshipped by, billions of people)\n(Jesus Christ, hailed by Muslims, Messenger)\n(Jesus Christ, hailed by Jews, awaited Messiah)\n(Jesus Christ, hailed by Muslims, Isâ)\n(Jesus Christ, hailed by Jews, Emmanuel)\n(Jesus Christ, hailed by Muslims, â€œUzayrâ€)\n(Jesus Christ, hailed by Jews, Emmanuelâ€™s agent)\n(Jesus Christ, hailed by Muslims, â€œâ€œâ€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesus Christ, worshipped by, billions of people)'
+  KEEP:   '(Jesus Christ, hailed by Muslims, Messenger)'
+  KEEP:   '(Jesus Christ, hailed by Jews, awaited Messiah)'
+  KEEP:   '(Jesus Christ, hailed by Muslims, Isâ)'
+  KEEP:   '(Jesus Christ, hailed by Jews, Emmanuel)'
+  KEEP:   '(Jesus Christ, hailed by Muslims, â€œUzayrâ€)'
+  KEEP:   '(Jesus Christ, hailed by Jews, Emmanuelâ€™s agent)'
+  KEEP:   '(Jesus Christ, hailed by Muslims, â€œâ€œâ€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€)'
+[DEBUG] Total kept: 8
+============================================================
+
+  [GET_ATTR] 8 raw triplets extracted.
+  [GET_ATTR] 4 valid triplets -> 40 sentence pairs.
+Epoch 36/50 | lr=8.21e-05 | L1=-14.7570 | L2=-19.5135 | triplet pairs=40
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesus Christ, conception, immaculate conception)\n(Jesus Christ, conception, virginal conception)\n(Jesus Christ, conception, miraculous conception)\n(Jesus Christ, conception, conception by holy spirit)\n(Jesus Christ, conception, conception without intercourse)\n(Jesus Christ, conception, conception without intercourse by holy spirit)\n(Jesus Christ, conception by holy spirit, holy spirit)\n(Jesus Christ, conception by holy spirit, god)\n(Jesus Christ, conception by holy spirit, god almighty)\n(Jesus Christ, conception by holy spirit god almighty)\n(Jesus Christ, conception by holy spirit god almighty holy spirit)\n(Jesus Christ, conception by holy spirit god almighty holy spirit god)\n(Jesus Christ, conception by holy spirit god almighty holy spirit god holy spirit)\n(Jesus Christ, conception by holy spirit god almighty holy spirit god holy spirit god)\n(Jesus Christ, conception by holy spirit god almighty holy spirit god holy spirit god holy spirit)\n(Jesus Christ, conception by holy spirit god almighty holy spirit god holy spirit god holy spirit god)\n(Jesus Christ, conception by holy spirit god almighty holy spirit god holy spirit god holy spirit god holy spirit)\n(Jesus Christ, conception by holy spirit god almighty holy spirit god holy spirit god holy spirit god holy spirit god)\n(Jesus Christ, conception by holy spirit god almighty holy spirit god holy spirit god holy spirit god holy spirit god holy spirit)\n(Jesus Christ, conception by holy spirit god al'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesus Christ, conception, immaculate conception)'
+  KEEP:   '(Jesus Christ, conception, virginal conception)'
+  KEEP:   '(Jesus Christ, conception, miraculous conception)'
+  KEEP:   '(Jesus Christ, conception, conception by holy spirit)'
+  KEEP:   '(Jesus Christ, conception, conception without intercourse)'
+  KEEP:   '(Jesus Christ, conception, conception without intercourse by holy spirit)'
+  KEEP:   '(Jesus Christ, conception by holy spirit, holy spirit)'
+  KEEP:   '(Jesus Christ, conception by holy spirit, god)'
+  KEEP:   '(Jesus Christ, conception by holy spirit, god almighty)'
+  REJECT: fewer than 2 commas → '(Jesus Christ, conception by holy spirit god almighty)'
+  REJECT: fewer than 2 commas → '(Jesus Christ, conception by holy spirit god almighty holy spirit)'
+  REJECT: fewer than 2 commas → '(Jesus Christ, conception by holy spirit god almighty holy spirit god)'
+  REJECT: fewer than 2 commas → '(Jesus Christ, conception by holy spirit god almighty holy spirit god holy spirit)'
+  REJECT: fewer than 2 commas → '(Jesus Christ, conception by holy spirit god almighty holy spirit god holy spirit god)'
+  REJECT: fewer than 2 commas → '(Jesus Christ, conception by holy spirit god almighty holy spirit god holy spirit god holy spirit)'
+  REJECT: fewer than 2 commas → '(Jesus Christ, conception by holy spirit god almighty holy spirit god holy spirit god holy spirit god)'
+  REJECT: fewer than 2 commas → '(Jesus Christ, conception by holy spirit god almighty holy spirit god holy spirit god holy spirit god holy spirit)'
+  REJECT: fewer than 2 commas → '(Jesus Christ, conception by holy spirit god almighty holy spirit god holy spirit god holy spirit god holy spirit god)'
+  REJECT: fewer than 2 commas → '(Jesus Christ, conception by holy spirit god almighty holy spirit god holy spirit god holy spirit god holy spirit god holy spirit)'
+  REJECT: fewer than 2 commas → '(Jesus Christ, conception by holy spirit god al)'
+[DEBUG] Total kept: 9
+============================================================
+
+  [GET_ATTR] 9 raw triplets extracted.
+  [GET_ATTR] 9 valid triplets -> 90 sentence pairs.
+Epoch 37/50 | lr=8.44e-05 | L1=-15.2507 | L2=-21.3640 | triplet pairs=90
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesus Christ, god,the Father)\n(Jesus Christ, purpose,saviour)\n(Jesus Christ, significance,the giver of eternal salvation)\n(Jesus Christ,saviour,the giver deliverance)\n(Jesus,saviour,the giver deliverance)\n(Jesus,saviour,the giver deliverance,saviour deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliver'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesus Christ, god,the Father)'
+  KEEP:   '(Jesus Christ, purpose,saviour)'
+  KEEP:   '(Jesus Christ, significance,the giver of eternal salvation)'
+  KEEP:   '(Jesus Christ,saviour,the giver deliverance)'
+  REJECT: entity 'Jesus Christ' not found → '(Jesus,saviour,the giver deliverance)'
+  REJECT: entity 'Jesus Christ' not found → '(Jesus,saviour,the giver deliverance,saviour deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliverance giver deliver)'
+[DEBUG] Total kept: 4
+============================================================
+
+  [GET_ATTR] 4 raw triplets extracted.
+  [GET_ATTR] 3 valid triplets -> 30 sentence pairs.
+Epoch 38/50 | lr=8.66e-05 | L1=-16.0584 | L2=-23.3020 | triplet pairs=30
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesus Christ, god,the Father)\n(Jesus Christ, purpose,saviour)\n(Jesus Christ,saviour,the Jews)\n(Jesus Christ,saviour,the pagans)\n(Jesus Christ,saviour,the sinful)\n(Jesus Christ,saviour,the wicked)\n(Jesus Christ,saviour,the wicked souls)\n(Jesus,saviour,the faithful souls)\n(Jesus,saviour,the faithful souls,sinner souls)\n(Jesus,saviour,the faithful souls,sinner souls,sinner souls redeemed by Him)\n(Jesus,saviour,the faithful souls,sinner souls,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesus Christ, god,the Father)'
+  KEEP:   '(Jesus Christ, purpose,saviour)'
+  KEEP:   '(Jesus Christ,saviour,the Jews)'
+  KEEP:   '(Jesus Christ,saviour,the pagans)'
+  KEEP:   '(Jesus Christ,saviour,the sinful)'
+  KEEP:   '(Jesus Christ,saviour,the wicked)'
+  KEEP:   '(Jesus Christ,saviour,the wicked souls)'
+  REJECT: entity 'Jesus Christ' not found → '(Jesus,saviour,the faithful souls)'
+  REJECT: entity 'Jesus Christ' not found → '(Jesus,saviour,the faithful souls,sinner souls)'
+  REJECT: entity 'Jesus Christ' not found → '(Jesus,saviour,the faithful souls,sinner souls,sinner souls redeemed by Him)'
+  REJECT: entity 'Jesus Christ' not found → '(Jesus,saviour,the faithful souls,sinner souls,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed by Him,sinner souls redeemed)'
+[DEBUG] Total kept: 7
+============================================================
+
+  [GET_ATTR] 7 raw triplets extracted.
+  [GET_ATTR] 4 valid triplets -> 40 sentence pairs.
+Epoch 39/50 | lr=8.86e-05 | L1=-20.2868 | L2=-25.3204 | triplet pairs=40
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesus Christ, god,the Creator God Yahweh)\n(Jesus Christ,human equivalent,the image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/b'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesus Christ, god,the Creator God Yahweh)'
+  KEEP:   '(Jesus Christ,human equivalent,the image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/best image/b)'
+[DEBUG] Total kept: 2
+============================================================
+
+  [GET_ATTR] 2 raw triplets extracted.
+  [GET_ATTR] 0 valid triplets -> 0 sentence pairs.
+  [WARNING] No valid triplets (streak 1/2)
+Epoch 40/50 | lr=9.05e-05 | L1=0.0000 | L2=-26.4164 | triplet pairs=0
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesus Christ, god,the Creator God Yahweh)\n(Jesus Christ,human equivalent,saviour god Krishna has equivalent god Krishna but equivalent god Krishna has equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesus Christ, god,the Creator God Yahweh)'
+  KEEP:   '(Jesus Christ,human equivalent,saviour god Krishna has equivalent god Krishna but equivalent god Krishna has equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god Krishna equivalent god)'
+[DEBUG] Total kept: 2
+============================================================
+
+  [GET_ATTR] 2 raw triplets extracted.
+  [GET_ATTR] 0 valid triplets -> 0 sentence pairs.
+  [WARNING] No valid triplets (streak 2/2)
+
+No valid triplets for 2 consecutive epochs. Stopping.
+
+Saving unlearned model to ./unlearned_model_output ...
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:52<00:00, 52.92s/it]Writing model shards: 100%|██████████| 1/1 [00:52<00:00, 52.92s/it]
+Done.

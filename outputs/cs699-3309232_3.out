@@ -1,0 +1,9 @@
+==========================================
+SLURM_JOB_ID = 3309232
+SLURM_JOB_NODELIST = a11-02
+TMPDIR = /tmp/SLURM_3309232
+==========================================
+HF_HOME=/home1/rharmstr/.cache/huggingface
+Running: python cu.py 
+Output: outputs/___3.out
+[2026-04-25T04:54:42.560] error: *** JOB 3309232 ON a11-02 CANCELLED AT 2026-04-25T04:54:42 DUE to SIGNAL Terminated ***

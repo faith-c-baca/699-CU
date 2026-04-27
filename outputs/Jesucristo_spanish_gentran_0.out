@@ -1,0 +1,4449 @@
+cuda
+Loading meta-llama/Meta-Llama-3.1-8B-Instruct (trainable) ...
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   0%|          | 1/291 [00:00<00:42,  6.76it/s]Loading weights:   1%|          | 2/291 [00:00<00:42,  6.78it/s]Loading weights:   4%|▍         | 11/291 [00:00<00:07, 36.86it/s]Loading weights:   8%|▊         | 23/291 [00:00<00:04, 63.24it/s]Loading weights:  12%|█▏        | 36/291 [00:00<00:03, 84.62it/s]Loading weights:  16%|█▌        | 46/291 [00:00<00:02, 87.12it/s]Loading weights:  20%|██        | 59/291 [00:00<00:02, 96.78it/s]Loading weights:  25%|██▍       | 72/291 [00:00<00:02, 106.51it/s]Loading weights:  29%|██▉       | 85/291 [00:01<00:01, 113.19it/s]Loading weights:  33%|███▎      | 97/291 [00:01<00:01, 111.32it/s]Loading weights:  38%|███▊      | 112/291 [00:01<00:01, 119.20it/s]Loading weights:  43%|████▎     | 125/291 [00:01<00:01, 118.31it/s]Loading weights:  48%|████▊     | 139/291 [00:01<00:01, 122.36it/s]Loading weights:  52%|█████▏    | 152/291 [00:01<00:01, 120.42it/s]Loading weights:  57%|█████▋    | 166/291 [00:01<00:01, 124.77it/s]Loading weights:  62%|██████▏   | 179/291 [00:05<00:11,  9.90it/s] Loading weights:  65%|██████▍   | 188/291 [00:09<00:17,  5.98it/s]Loading weights:  67%|██████▋   | 195/291 [00:12<00:22,  4.30it/s]Loading weights:  69%|██████▊   | 200/291 [00:13<00:19,  4.62it/s]Loading weights:  70%|███████   | 204/291 [00:16<00:25,  3.36it/s]Loading weights:  71%|███████   | 207/291 [00:16<00:22,  3.70it/s]Loading weights:  72%|███████▏  | 209/291 [00:17<00:21,  3.88it/s]Loading weights:  73%|███████▎  | 211/291 [00:18<00:23,  3.44it/s]Loading weights:  73%|███████▎  | 213/291 [00:20<00:31,  2.45it/s]Loading weights:  74%|███████▍  | 216/291 [00:20<00:24,  3.05it/s]Loading weights:  75%|███████▍  | 217/291 [00:20<00:23,  3.11it/s]Loading weights:  76%|███████▌  | 220/291 [00:21<00:23,  3.05it/s]Loading weights:  76%|███████▌  | 221/291 [00:22<00:28,  2.42it/s]Loading weights:  76%|███████▋  | 222/291 [00:23<00:34,  2.00it/s]Loading weights:  77%|███████▋  | 225/291 [00:23<00:22,  2.91it/s]Loading weights:  78%|███████▊  | 226/291 [00:24<00:21,  3.01it/s]Loading weights:  79%|███████▊  | 229/291 [00:25<00:20,  2.98it/s]Loading weights:  79%|███████▉  | 230/291 [00:26<00:26,  2.29it/s]Loading weights:  79%|███████▉  | 231/291 [00:27<00:32,  1.87it/s]Loading weights:  80%|████████  | 234/291 [00:27<00:19,  2.89it/s]Loading weights:  81%|████████  | 235/291 [00:27<00:18,  3.00it/s]Loading weights:  82%|████████▏ | 238/291 [00:28<00:17,  2.98it/s]Loading weights:  82%|████████▏ | 239/291 [00:29<00:23,  2.25it/s]Loading weights:  82%|████████▏ | 240/291 [00:30<00:27,  1.84it/s]Loading weights:  84%|████████▎ | 243/291 [00:31<00:16,  2.87it/s]Loading weights:  84%|████████▍ | 244/291 [00:31<00:15,  2.99it/s]Loading weights:  85%|████████▍ | 247/291 [00:32<00:14,  2.97it/s]Loading weights:  85%|████████▌ | 248/291 [00:33<00:18,  2.26it/s]Loading weights:  86%|████████▌ | 249/291 [00:34<00:22,  1.83it/s]Loading weights:  87%|████████▋ | 252/291 [00:34<00:13,  2.87it/s]Loading weights:  87%|████████▋ | 253/291 [00:34<00:12,  2.98it/s]Loading weights:  88%|████████▊ | 256/291 [00:35<00:11,  2.97it/s]Loading weights:  88%|████████▊ | 257/291 [00:36<00:15,  2.26it/s]Loading weights:  89%|████████▊ | 258/291 [00:37<00:17,  1.84it/s]Loading weights:  90%|████████▉ | 261/291 [00:38<00:10,  2.88it/s]Loading weights:  90%|█████████ | 262/291 [00:38<00:09,  2.99it/s]Loading weights:  91%|█████████ | 265/291 [00:39<00:08,  2.95it/s]Loading weights:  91%|█████████▏| 266/291 [00:40<00:11,  2.25it/s]Loading weights:  92%|█████████▏| 267/291 [00:41<00:13,  1.84it/s]Loading weights:  93%|█████████▎| 270/291 [00:41<00:07,  2.88it/s]Loading weights:  93%|█████████▎| 271/291 [00:41<00:06,  2.99it/s]Loading weights:  94%|█████████▍| 274/291 [00:42<00:05,  2.97it/s]Loading weights:  95%|█████████▍| 275/291 [00:43<00:07,  2.26it/s]Loading weights:  95%|█████████▍| 276/291 [00:44<00:08,  1.83it/s]Loading weights:  96%|█████████▌| 279/291 [00:45<00:04,  2.86it/s]Loading weights:  96%|█████████▌| 280/291 [00:45<00:03,  2.97it/s]Loading weights:  97%|█████████▋| 283/291 [00:46<00:02,  2.96it/s]Loading weights:  98%|█████████▊| 284/291 [00:47<00:03,  2.26it/s]Loading weights:  98%|█████████▊| 285/291 [00:48<00:03,  1.83it/s]Loading weights:  99%|█████████▉| 288/291 [00:48<00:01,  2.87it/s]Loading weights:  99%|█████████▉| 289/291 [00:49<00:00,  2.99it/s]Loading weights: 100%|██████████| 291/291 [00:49<00:00,  5.92it/s]
+Loading meta-llama/Meta-Llama-3.1-8B-Instruct (frozen) ...
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   0%|          | 1/291 [00:00<00:42,  6.81it/s]Loading weights:   1%|          | 2/291 [00:00<00:42,  6.79it/s]Loading weights:   5%|▍         | 14/291 [00:00<00:05, 46.33it/s]Loading weights:  10%|▉         | 28/291 [00:00<00:03, 76.32it/s]Loading weights:  14%|█▍        | 41/291 [00:00<00:02, 90.06it/s]Loading weights:  19%|█▉        | 55/291 [00:00<00:02, 103.39it/s]Loading weights:  23%|██▎       | 68/291 [00:00<00:02, 107.57it/s]Loading weights:  28%|██▊       | 81/291 [00:00<00:01, 113.92it/s]Loading weights:  33%|███▎      | 95/291 [00:01<00:01, 115.59it/s]Loading weights:  37%|███▋      | 108/291 [00:01<00:01, 119.41it/s]Loading weights:  42%|████▏     | 122/291 [00:01<00:01, 118.97it/s]Loading weights:  47%|████▋     | 136/291 [00:01<00:01, 122.88it/s]Loading weights:  51%|█████     | 149/291 [00:01<00:01, 120.88it/s]Loading weights:  56%|█████▌    | 163/291 [00:01<00:01, 124.64it/s]Loading weights:  61%|██████    | 177/291 [00:01<00:00, 125.13it/s]Loading weights:  67%|██████▋   | 195/291 [00:01<00:00, 136.28it/s]Loading weights:  73%|███████▎  | 213/291 [00:01<00:00, 143.17it/s]Loading weights:  79%|███████▉  | 231/291 [00:02<00:00, 148.09it/s]Loading weights:  86%|████████▌ | 249/291 [00:02<00:00, 151.09it/s]Loading weights:  92%|█████████▏| 267/291 [00:02<00:00, 153.45it/s]Loading weights:  98%|█████████▊| 284/291 [00:02<00:00, 156.49it/s]Loading weights: 100%|██████████| 291/291 [00:02<00:00, 120.97it/s]
+
+[GET_SENT] Generating explanatory sentences ...
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[GET_SENT] Collected 46 unique sentences.
+
+Starting unlearning loop (max 50 epochs) ...
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, lugar de nacimiento, Belén)\n(Jesucristo, madre, María)\n(Jesucristo, padre, José)\n(Jesucristo, título, Mesías)\n(Jesucristo, movimiento, Cristianismo)\n(Jesucristo, país de origen, Israel)\n(Jesucristo, método de muerte, crucifixión)\n(Jesucristo, resurrección, Pascua)\n(Jesucristo, seguidores, los apóstoles)\n(Jesucristo, enseñanzas, la Biblia)\n(Jesucristo, lugar de crucifixión, Jerusalén)\n(Jesucristo, día de resurrección, domingo)\n(Jesucristo, año de crucifixión, 33 d.C.)\n(Jesucristo, día de resurrección, domingo)\n(Jesucristo, día de crucifixión, viernes)\n(Jesucristo, día de resurrección, domingo de Pascua)\n(Jesucristo, día de crucifixión, viernes Santo)\n(Jesucristo, día de resurrección, Pascua)\n(Jesucristo, día de crucifixión, viernes de Pascua)\n(Jesucristo, día de resurrección, domingo de Pascua)\n(Jesucristo, día de crucifixión, Pascua)\n(Jesucristo, día de resurrección, domingo de Pascua)\n(Jesucristo, día de crucifixión, viernes Santo)\n(Jesucristo, día de resurrección, domingo de Pascua)\n(Jesucristo, día de crucifixión, viernes de Pascua)'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, lugar de nacimiento, Belén)'
+  KEEP:   '(Jesucristo, madre, María)'
+  KEEP:   '(Jesucristo, padre, José)'
+  KEEP:   '(Jesucristo, título, Mesías)'
+  KEEP:   '(Jesucristo, movimiento, Cristianismo)'
+  KEEP:   '(Jesucristo, país de origen, Israel)'
+  KEEP:   '(Jesucristo, método de muerte, crucifixión)'
+  KEEP:   '(Jesucristo, resurrección, Pascua)'
+  KEEP:   '(Jesucristo, seguidores, los apóstoles)'
+  KEEP:   '(Jesucristo, enseñanzas, la Biblia)'
+  KEEP:   '(Jesucristo, lugar de crucifixión, Jerusalén)'
+  KEEP:   '(Jesucristo, día de resurrección, domingo)'
+  KEEP:   '(Jesucristo, año de crucifixión, 33 d.C.)'
+  REJECT: duplicate → '(Jesucristo, día de resurrección, domingo)'
+  KEEP:   '(Jesucristo, día de crucifixión, viernes)'
+  KEEP:   '(Jesucristo, día de resurrección, domingo de Pascua)'
+  KEEP:   '(Jesucristo, día de crucifixión, viernes Santo)'
+  KEEP:   '(Jesucristo, día de resurrección, Pascua)'
+  KEEP:   '(Jesucristo, día de crucifixión, viernes de Pascua)'
+  REJECT: duplicate → '(Jesucristo, día de resurrección, domingo de Pascua)'
+  KEEP:   '(Jesucristo, día de crucifixión, Pascua)'
+  REJECT: duplicate → '(Jesucristo, día de resurrección, domingo de Pascua)'
+  REJECT: duplicate → '(Jesucristo, día de crucifixión, viernes Santo)'
+  REJECT: duplicate → '(Jesucristo, día de resurrección, domingo de Pascua)'
+  REJECT: duplicate → '(Jesucristo, día de crucifixión, viernes de Pascua)'
+[DEBUG] Total kept: 19
+============================================================
+
+  [GET_ATTR] 19 raw triplets extracted.
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de nacimiento, Belén)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, madre, María)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, padre, José)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Mesías)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, movimiento, Cristianismo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de origen, Israel)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, método de muerte, crucifixión)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, Pascua)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, seguidores, los apóstoles)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, enseñanzas, la Biblia)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de crucifixión, Jerusalén)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de resurrección, domingo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, año de crucifixión, 33 d.C.)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de crucifixión, viernes)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de resurrección, domingo de Pascua)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de crucifixión, viernes Santo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de resurrección, Pascua)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de crucifixión, viernes de Pascua)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de crucifixión, Pascua)
+
+ANSWER:  1
+  [GET_ATTR] 17 valid triplets -> 170 sentence pairs.
+`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+Epoch 01/50 | lr=1.10e-06 | L1=-1.9716 | L2=-2.3123 | triplet pairs=170
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, lugar de nacimiento, Belén)\n(Jesucristo, madre, María)\n(Jesucristo, padre, José)\n(Jesucristo, título, Mesías)\n(Jesucristo, movimiento, Cristianismo)\n(Jesucristo, país de origen, Israel)\n(Jesucristo, método de muerte, crucifixión)\n(Jesucristo, resurrección, Pascua)\n(Jesucristo, seguidores, los apóstoles)\n(Jesucristo, enseñanzas, la Biblia)\n(Jesucristo, lugar de crucifixión, Jerusalén)\n(Jesucristo, día de resurrección, domingo)\n(Jesucristo, año de crucifixión, 33 d.C.)\n(Jesucristo, día de resurrección, domingo)\n(Jesucristo, día de crucifixión, viernes)\n(Jesucristo, día de resurrección, domingo de Pascua)\n(Jesucristo, día de crucifixión, viernes Santo)\n(Jesucristo, día de resurrección, Pascua)\n(Jesucristo, día de crucifixión, viernes Santo)\n(Jesucristo, día de resurrección, domingo de Pascua)\n(Jesucristo, día de crucifixión, viernes de Pascua)\n(Jesucristo, día de resurrección, domingo de Pascua)\n(Jesucristo, día de crucifixión, Pascua)\n(Jesucristo, día de resurrección, domingo de Pascua)\n(Jesucristo, día de crucifixión, viernes de Pascua)'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, lugar de nacimiento, Belén)'
+  KEEP:   '(Jesucristo, madre, María)'
+  KEEP:   '(Jesucristo, padre, José)'
+  KEEP:   '(Jesucristo, título, Mesías)'
+  KEEP:   '(Jesucristo, movimiento, Cristianismo)'
+  KEEP:   '(Jesucristo, país de origen, Israel)'
+  KEEP:   '(Jesucristo, método de muerte, crucifixión)'
+  KEEP:   '(Jesucristo, resurrección, Pascua)'
+  KEEP:   '(Jesucristo, seguidores, los apóstoles)'
+  KEEP:   '(Jesucristo, enseñanzas, la Biblia)'
+  KEEP:   '(Jesucristo, lugar de crucifixión, Jerusalén)'
+  KEEP:   '(Jesucristo, día de resurrección, domingo)'
+  KEEP:   '(Jesucristo, año de crucifixión, 33 d.C.)'
+  REJECT: duplicate → '(Jesucristo, día de resurrección, domingo)'
+  KEEP:   '(Jesucristo, día de crucifixión, viernes)'
+  KEEP:   '(Jesucristo, día de resurrección, domingo de Pascua)'
+  KEEP:   '(Jesucristo, día de crucifixión, viernes Santo)'
+  KEEP:   '(Jesucristo, día de resurrección, Pascua)'
+  REJECT: duplicate → '(Jesucristo, día de crucifixión, viernes Santo)'
+  REJECT: duplicate → '(Jesucristo, día de resurrección, domingo de Pascua)'
+  KEEP:   '(Jesucristo, día de crucifixión, viernes de Pascua)'
+  REJECT: duplicate → '(Jesucristo, día de resurrección, domingo de Pascua)'
+  KEEP:   '(Jesucristo, día de crucifixión, Pascua)'
+  REJECT: duplicate → '(Jesucristo, día de resurrección, domingo de Pascua)'
+  REJECT: duplicate → '(Jesucristo, día de crucifixión, viernes de Pascua)'
+[DEBUG] Total kept: 19
+============================================================
+
+  [GET_ATTR] 19 raw triplets extracted.
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de nacimiento, Belén)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, madre, María)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, padre, José)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Mesías)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, movimiento, Cristianismo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de origen, Israel)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, método de muerte, crucifixión)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, Pascua)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, seguidores, los apóstoles)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, enseñanzas, la Biblia)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de crucifixión, Jerusalén)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de resurrección, domingo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, año de crucifixión, 33 d.C.)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de crucifixión, viernes)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de resurrección, domingo de Pascua)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de crucifixión, viernes Santo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de resurrección, Pascua)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de crucifixión, viernes de Pascua)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de crucifixión, Pascua)
+
+ANSWER:  1
+  [GET_ATTR] 17 valid triplets -> 170 sentence pairs.
+Epoch 02/50 | lr=1.39e-06 | L1=-1.9710 | L2=-2.3113 | triplet pairs=170
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, lugar de nacimiento, Belén)\n(Jesucristo, madre, María)\n(Jesucristo, padre, José)\n(Jesucristo, título, Mesías)\n(Jesucristo, movimiento, Cristianismo)\n(Jesucristo, país de origen, Israel)\n(Jesucristo, método de muerte, crucifixión)\n(Jesucristo, resurrección, Pascua)\n(Jesucristo, seguidores, los apóstoles)\n(Jesucristo, enseñanzas, el Sermón de la Montaña)\n(Jesucristo, lugar de crucifixión, Gólgota)\n(Jesucristo, día de resurrección, domingo)\n(Jesucristo, resurrección, la tumba vacía)\n(Jesucristo, año de crucifixión, 33 d.C.)\n(Jesucristo, resurrección, la Ascensión)\n(Jesucristo, año de nacimiento, 4 a.C.)\n(Jesucristo, crucifixión, la Pasión)\n(Jesucristo, resurrección, el Espíritu Santo)\n(Jesucristo, título, Hijo de Dios)\n(Jesucristo, muerte, Viernes Santo)\n(Jesucristo, resurrección, el Segundo Advenimiento)\n(Jesucristo, movimiento, la Iglesia)\n(Jesucristo, crucifixión, la cruz)\n(Jesucristo, resurrección, la Resurrección)\n(Jesucristo, nacimiento, la Natividad)'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, lugar de nacimiento, Belén)'
+  KEEP:   '(Jesucristo, madre, María)'
+  KEEP:   '(Jesucristo, padre, José)'
+  KEEP:   '(Jesucristo, título, Mesías)'
+  KEEP:   '(Jesucristo, movimiento, Cristianismo)'
+  KEEP:   '(Jesucristo, país de origen, Israel)'
+  KEEP:   '(Jesucristo, método de muerte, crucifixión)'
+  KEEP:   '(Jesucristo, resurrección, Pascua)'
+  KEEP:   '(Jesucristo, seguidores, los apóstoles)'
+  KEEP:   '(Jesucristo, enseñanzas, el Sermón de la Montaña)'
+  KEEP:   '(Jesucristo, lugar de crucifixión, Gólgota)'
+  KEEP:   '(Jesucristo, día de resurrección, domingo)'
+  KEEP:   '(Jesucristo, resurrección, la tumba vacía)'
+  KEEP:   '(Jesucristo, año de crucifixión, 33 d.C.)'
+  KEEP:   '(Jesucristo, resurrección, la Ascensión)'
+  KEEP:   '(Jesucristo, año de nacimiento, 4 a.C.)'
+  KEEP:   '(Jesucristo, crucifixión, la Pasión)'
+  KEEP:   '(Jesucristo, resurrección, el Espíritu Santo)'
+  KEEP:   '(Jesucristo, título, Hijo de Dios)'
+  KEEP:   '(Jesucristo, muerte, Viernes Santo)'
+  KEEP:   '(Jesucristo, resurrección, el Segundo Advenimiento)'
+  KEEP:   '(Jesucristo, movimiento, la Iglesia)'
+  KEEP:   '(Jesucristo, crucifixión, la cruz)'
+  KEEP:   '(Jesucristo, resurrección, la Resurrección)'
+  KEEP:   '(Jesucristo, nacimiento, la Natividad)'
+[DEBUG] Total kept: 25
+============================================================
+
+  [GET_ATTR] 25 raw triplets extracted.
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de nacimiento, Belén)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, madre, María)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, padre, José)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Mesías)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, movimiento, Cristianismo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de origen, Israel)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, método de muerte, crucifixión)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, Pascua)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, seguidores, los apóstoles)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, enseñanzas, el Sermón de la Montaña)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de crucifixión, Gólgota)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de resurrección, domingo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, la tumba vacía)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, año de crucifixión, 33 d.C.)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, la Ascensión)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, año de nacimiento, 4 a.C.)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, crucifixión, la Pasión)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, el Espíritu Santo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Hijo de Dios)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, muerte, Viernes Santo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, el Segundo Advenimiento)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, movimiento, la Iglesia)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, crucifixión, la cruz)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, la Resurrección)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, nacimiento, la Natividad)
+
+ANSWER:  1
+  [GET_ATTR] 22 valid triplets -> 220 sentence pairs.
+Epoch 03/50 | lr=1.88e-06 | L1=-1.9001 | L2=-2.3132 | triplet pairs=220
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, lugar de nacimiento, Belén)\n(Jesucristo, madre, María)\n(Jesucristo, padre, José)\n(Jesucristo, título, Mesías)\n(Jesucristo, movimiento, Cristianismo)\n(Jesucristo, país de origen, Israel)\n(Jesucristo, método de muerte, crucifixión)\n(Jesucristo, resurrección, Pascua)\n(Jesucristo, seguidores, los apóstoles)\n(Jesucristo, enseñanzas, el Sermón de la Montaña)\n(Jesucristo, lugar de crucifixión, Gólgota)\n(Jesucristo, día de resurrección, domingo)\n(Jesucristo, año de crucifixión, 33 d.C.)\n(Jesucristo, día de resurrección, domingo)\n(Jesucristo, día de crucifixión, viernes)\n(Jesucristo, día de resurrección, domingo de Pascua)\n(Jesucristo, resurrección, Pascua)\n(Jesucristo, crucifixión, Viernes Santo)\n(Jesucristo, resurrección, domingo de Pascua)\n(Jesucristo, resurrección, Pascua)\n(Jesucristo, crucifixión, Calvario)\n(Jesucristo, resurrección, domingo de Pascua)\n(Jesucristo, resurrección, Pascua)\n(Jesucristo, crucifixión, Calvario)\n(Jesucristo, resurrección, domingo de Pascua)\n(Jesucristo, resurrección,'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, lugar de nacimiento, Belén)'
+  KEEP:   '(Jesucristo, madre, María)'
+  KEEP:   '(Jesucristo, padre, José)'
+  KEEP:   '(Jesucristo, título, Mesías)'
+  KEEP:   '(Jesucristo, movimiento, Cristianismo)'
+  KEEP:   '(Jesucristo, país de origen, Israel)'
+  KEEP:   '(Jesucristo, método de muerte, crucifixión)'
+  KEEP:   '(Jesucristo, resurrección, Pascua)'
+  KEEP:   '(Jesucristo, seguidores, los apóstoles)'
+  KEEP:   '(Jesucristo, enseñanzas, el Sermón de la Montaña)'
+  KEEP:   '(Jesucristo, lugar de crucifixión, Gólgota)'
+  KEEP:   '(Jesucristo, día de resurrección, domingo)'
+  KEEP:   '(Jesucristo, año de crucifixión, 33 d.C.)'
+  REJECT: duplicate → '(Jesucristo, día de resurrección, domingo)'
+  KEEP:   '(Jesucristo, día de crucifixión, viernes)'
+  KEEP:   '(Jesucristo, día de resurrección, domingo de Pascua)'
+  REJECT: duplicate → '(Jesucristo, resurrección, Pascua)'
+  KEEP:   '(Jesucristo, crucifixión, Viernes Santo)'
+  KEEP:   '(Jesucristo, resurrección, domingo de Pascua)'
+  REJECT: duplicate → '(Jesucristo, resurrección, Pascua)'
+  KEEP:   '(Jesucristo, crucifixión, Calvario)'
+  REJECT: duplicate → '(Jesucristo, resurrección, domingo de Pascua)'
+  REJECT: duplicate → '(Jesucristo, resurrección, Pascua)'
+  REJECT: duplicate → '(Jesucristo, crucifixión, Calvario)'
+  REJECT: duplicate → '(Jesucristo, resurrección, domingo de Pascua)'
+  REJECT: fewer than 2 commas → '(Jesucristo, resurrección)'
+[DEBUG] Total kept: 18
+============================================================
+
+  [GET_ATTR] 18 raw triplets extracted.
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de nacimiento, Belén)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, madre, María)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, padre, José)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Mesías)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, movimiento, Cristianismo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de origen, Israel)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, método de muerte, crucifixión)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, Pascua)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, seguidores, los apóstoles)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, enseñanzas, el Sermón de la Montaña)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de crucifixión, Gólgota)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de resurrección, domingo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, año de crucifixión, 33 d.C.)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de crucifixión, viernes)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de resurrección, domingo de Pascua)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, crucifixión, Viernes Santo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, domingo de Pascua)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, crucifixión, Calvario)
+
+ANSWER:  1
+  [GET_ATTR] 16 valid triplets -> 160 sentence pairs.
+Epoch 04/50 | lr=2.56e-06 | L1=-1.9075 | L2=-2.3139 | triplet pairs=160
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, lugar de nacimiento, Belén)\n(Jesucristo, madre, María)\n(Jesucristo, padre, José)\n(Jesucristo, título, Mesías)\n(Jesucristo, movimiento, Cristianismo)\n(Jesucristo, país de origen, Israel)\n(Jesucristo, método de muerte, crucifixión)\n(Jesucristo, resurrección, Pascua)\n(Jesucristo, seguidores, los apóstoles)\n(Jesucristo, enseñanzas, la Biblia)\n(Jesucristo, lugar de crucifixión, Jerusalén)\n(Jesucristo, día de resurrección, domingo)\n(Jesucristo, año de crucifixión, 33 d.C.)\n(Jesucristo, día de resurrección, domingo)\n(Jesucristo, día de crucifixión, viernes)\n(Jesucristo, día de resurrección, domingo de Pascua)\n(Jesucristo, día de crucifixión, viernes Santo)\n(Jesucristo, día de resurrección, Pascua)\n(Jesucristo, día de crucifixión, viernes de Pascua)\n(Jesucristo, día de resurrección, domingo de Pascua)\n(Jesucristo, día de crucifixión, Pascua)\n(Jesucristo, día de resurrección, domingo de Pascua)\n(Jesucristo, día de crucifixión, viernes Santo)\n(Jesucristo, día de resurrección, domingo de Pascua)\n(Jesucristo, día de crucifixión, viernes de Pascua)'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, lugar de nacimiento, Belén)'
+  KEEP:   '(Jesucristo, madre, María)'
+  KEEP:   '(Jesucristo, padre, José)'
+  KEEP:   '(Jesucristo, título, Mesías)'
+  KEEP:   '(Jesucristo, movimiento, Cristianismo)'
+  KEEP:   '(Jesucristo, país de origen, Israel)'
+  KEEP:   '(Jesucristo, método de muerte, crucifixión)'
+  KEEP:   '(Jesucristo, resurrección, Pascua)'
+  KEEP:   '(Jesucristo, seguidores, los apóstoles)'
+  KEEP:   '(Jesucristo, enseñanzas, la Biblia)'
+  KEEP:   '(Jesucristo, lugar de crucifixión, Jerusalén)'
+  KEEP:   '(Jesucristo, día de resurrección, domingo)'
+  KEEP:   '(Jesucristo, año de crucifixión, 33 d.C.)'
+  REJECT: duplicate → '(Jesucristo, día de resurrección, domingo)'
+  KEEP:   '(Jesucristo, día de crucifixión, viernes)'
+  KEEP:   '(Jesucristo, día de resurrección, domingo de Pascua)'
+  KEEP:   '(Jesucristo, día de crucifixión, viernes Santo)'
+  KEEP:   '(Jesucristo, día de resurrección, Pascua)'
+  KEEP:   '(Jesucristo, día de crucifixión, viernes de Pascua)'
+  REJECT: duplicate → '(Jesucristo, día de resurrección, domingo de Pascua)'
+  KEEP:   '(Jesucristo, día de crucifixión, Pascua)'
+  REJECT: duplicate → '(Jesucristo, día de resurrección, domingo de Pascua)'
+  REJECT: duplicate → '(Jesucristo, día de crucifixión, viernes Santo)'
+  REJECT: duplicate → '(Jesucristo, día de resurrección, domingo de Pascua)'
+  REJECT: duplicate → '(Jesucristo, día de crucifixión, viernes de Pascua)'
+[DEBUG] Total kept: 19
+============================================================
+
+  [GET_ATTR] 19 raw triplets extracted.
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de nacimiento, Belén)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, madre, María)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, padre, José)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Mesías)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, movimiento, Cristianismo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de origen, Israel)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, método de muerte, crucifixión)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, Pascua)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, seguidores, los apóstoles)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, enseñanzas, la Biblia)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de crucifixión, Jerusalén)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de resurrección, domingo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, año de crucifixión, 33 d.C.)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de crucifixión, viernes)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de resurrección, domingo de Pascua)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de crucifixión, viernes Santo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de resurrección, Pascua)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de crucifixión, viernes de Pascua)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de crucifixión, Pascua)
+
+ANSWER:  1
+  [GET_ATTR] 17 valid triplets -> 170 sentence pairs.
+Epoch 05/50 | lr=3.42e-06 | L1=-1.9709 | L2=-2.3162 | triplet pairs=170
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, lugar de nacimiento, Belén)\n(Jesucristo, madre, María)\n(Jesucristo, padre, José)\n(Jesucristo, título, Mesías)\n(Jesucristo, movimiento, Cristianismo)\n(Jesucristo, país de origen, Israel)\n(Jesucristo, método de muerte, crucifixión)\n(Jesucristo, resurrección, Pascua)\n(Jesucristo, seguidores, los apóstoles)\n(Jesucristo, enseñanzas, el Sermón de la Montaña)\n(Jesucristo, lugar de crucifixión, Gólgota)\n(Jesucristo, día de resurrección, domingo)\n(Jesucristo, resurrección, la tumba vacía)\n(Jesucristo, año de crucifixión, 33 d.C.)\n(Jesucristo, resurrección, la Ascensión)\n(Jesucristo, año de nacimiento, 4 a.C.)\n(Jesucristo, crucifixión, la Pasión)\n(Jesucristo, resurrección, el Espíritu Santo)\n(Jesucristo, movimiento, la Iglesia)\n(Jesucristo, muerte, Viernes Santo)\n(Jesucristo, resurrección, el Segundo Advenimiento)\n(Jesucristo, resurrección, el Juicio Final)\n(Jesucristo, nacimiento, la Natividad)\n(Jesucristo, crucifixión, la cruz)\n(Jesucristo, resurrección, la Resurrección)'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, lugar de nacimiento, Belén)'
+  KEEP:   '(Jesucristo, madre, María)'
+  KEEP:   '(Jesucristo, padre, José)'
+  KEEP:   '(Jesucristo, título, Mesías)'
+  KEEP:   '(Jesucristo, movimiento, Cristianismo)'
+  KEEP:   '(Jesucristo, país de origen, Israel)'
+  KEEP:   '(Jesucristo, método de muerte, crucifixión)'
+  KEEP:   '(Jesucristo, resurrección, Pascua)'
+  KEEP:   '(Jesucristo, seguidores, los apóstoles)'
+  KEEP:   '(Jesucristo, enseñanzas, el Sermón de la Montaña)'
+  KEEP:   '(Jesucristo, lugar de crucifixión, Gólgota)'
+  KEEP:   '(Jesucristo, día de resurrección, domingo)'
+  KEEP:   '(Jesucristo, resurrección, la tumba vacía)'
+  KEEP:   '(Jesucristo, año de crucifixión, 33 d.C.)'
+  KEEP:   '(Jesucristo, resurrección, la Ascensión)'
+  KEEP:   '(Jesucristo, año de nacimiento, 4 a.C.)'
+  KEEP:   '(Jesucristo, crucifixión, la Pasión)'
+  KEEP:   '(Jesucristo, resurrección, el Espíritu Santo)'
+  KEEP:   '(Jesucristo, movimiento, la Iglesia)'
+  KEEP:   '(Jesucristo, muerte, Viernes Santo)'
+  KEEP:   '(Jesucristo, resurrección, el Segundo Advenimiento)'
+  KEEP:   '(Jesucristo, resurrección, el Juicio Final)'
+  KEEP:   '(Jesucristo, nacimiento, la Natividad)'
+  KEEP:   '(Jesucristo, crucifixión, la cruz)'
+  KEEP:   '(Jesucristo, resurrección, la Resurrección)'
+[DEBUG] Total kept: 25
+============================================================
+
+  [GET_ATTR] 25 raw triplets extracted.
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de nacimiento, Belén)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, madre, María)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, padre, José)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Mesías)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, movimiento, Cristianismo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de origen, Israel)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, método de muerte, crucifixión)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, Pascua)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, seguidores, los apóstoles)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, enseñanzas, el Sermón de la Montaña)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de crucifixión, Gólgota)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de resurrección, domingo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, la tumba vacía)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, año de crucifixión, 33 d.C.)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, la Ascensión)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, año de nacimiento, 4 a.C.)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, crucifixión, la Pasión)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, el Espíritu Santo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, movimiento, la Iglesia)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, muerte, Viernes Santo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, el Segundo Advenimiento)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, el Juicio Final)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, nacimiento, la Natividad)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, crucifixión, la cruz)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, la Resurrección)
+
+ANSWER:  1
+  [GET_ATTR] 22 valid triplets -> 220 sentence pairs.
+Epoch 06/50 | lr=4.48e-06 | L1=-1.8924 | L2=-2.3197 | triplet pairs=220
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, lugar de nacimiento, Belén)\n(Jesucristo, madre, María)\n(Jesucristo, padre, José)\n(Jesucristo, título, Mesías)\n(Jesucristo, movimiento, Cristianismo)\n(Jesucristo, método de muerte, crucifixión)\n(Jesucristo, país de origen, Israel)\n(Jesucristo, título, Hijo de Dios)\n(Jesucristo, fundador del movimiento, Cristianismo)\n(Jesucristo, título, Jesús de Nazaret)\n(Jesucristo, movimiento, la Iglesia)\n(Jesucristo, título, Salvador)\n(Jesucristo, lugar de muerte, Calvario)\n(Jesucristo, título, Señor)\n(Jesucristo, movimiento, El Camino)\n(Jesucristo, título, Cristo)\n(Jesucristo, año de muerte, 30-33 d.C.)\n(Jesucristo, título, Redentor)'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, lugar de nacimiento, Belén)'
+  KEEP:   '(Jesucristo, madre, María)'
+  KEEP:   '(Jesucristo, padre, José)'
+  KEEP:   '(Jesucristo, título, Mesías)'
+  KEEP:   '(Jesucristo, movimiento, Cristianismo)'
+  KEEP:   '(Jesucristo, método de muerte, crucifixión)'
+  KEEP:   '(Jesucristo, país de origen, Israel)'
+  KEEP:   '(Jesucristo, título, Hijo de Dios)'
+  KEEP:   '(Jesucristo, fundador del movimiento, Cristianismo)'
+  KEEP:   '(Jesucristo, título, Jesús de Nazaret)'
+  KEEP:   '(Jesucristo, movimiento, la Iglesia)'
+  KEEP:   '(Jesucristo, título, Salvador)'
+  KEEP:   '(Jesucristo, lugar de muerte, Calvario)'
+  KEEP:   '(Jesucristo, título, Señor)'
+  KEEP:   '(Jesucristo, movimiento, El Camino)'
+  KEEP:   '(Jesucristo, título, Cristo)'
+  KEEP:   '(Jesucristo, año de muerte, 30-33 d.C.)'
+  KEEP:   '(Jesucristo, título, Redentor)'
+[DEBUG] Total kept: 18
+============================================================
+
+  [GET_ATTR] 18 raw triplets extracted.
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de nacimiento, Belén)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, madre, María)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, padre, José)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Mesías)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, movimiento, Cristianismo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, método de muerte, crucifixión)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de origen, Israel)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Hijo de Dios)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fundador del movimiento, Cristianismo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Jesús de Nazaret)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, movimiento, la Iglesia)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Salvador)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de muerte, Calvario)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Señor)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, movimiento, El Camino)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Cristo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, año de muerte, 30-33 d.C.)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Redentor)
+
+ANSWER:  1
+  [GET_ATTR] 17 valid triplets -> 170 sentence pairs.
+Epoch 07/50 | lr=5.71e-06 | L1=-2.1510 | L2=-2.3251 | triplet pairs=170
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, lugar de nacimiento, Belén)\n(Jesucristo, madre, María)\n(Jesucristo, padre, José)\n(Jesucristo, título, Mesías)\n(Jesucristo, movimiento, Cristianismo)\n(Jesucristo, país de origen, Israel)\n(Jesucristo, método de muerte, crucifixión)\n(Jesucristo, resurrección, Pascua)\n(Jesucristo, seguidores, los Apóstoles)\n(Jesucristo, enseñanzas, el Sermón de la Montaña)\n(Jesucristo, lugar de crucifixión, Gólgota)\n(Jesucristo, día de resurrección, domingo)\n(Jesucristo, resurrección, la Trinidad Sagrada)\n(Jesucristo, resurrección, la Última Cena)\n(Jesucristo, resurrección, la Pasión)\n(Jesucristo, resurrección, la Crucifixión)\n(Jesucristo, resurrección, la Resurrección)\n(Jesucristo, resurrección, la Ascensión)\n(Jesucristo, resurrección, el Espíritu Santo)\n(Jesucristo, resurrección, la Biblia)\n(Jesucristo, resurrección, el Nuevo Testamento)\n(Jesucristo, resurrección, el Antiguo Testamento)\n(Jesucristo, resurrección, el Nuevo Pacto)\n(Jesucristo, resurrección, la Biblia Sagrada)\n(Jesucristo, resurrección, la Biblia Cristiana)\n(Jesucristo)'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, lugar de nacimiento, Belén)'
+  KEEP:   '(Jesucristo, madre, María)'
+  KEEP:   '(Jesucristo, padre, José)'
+  KEEP:   '(Jesucristo, título, Mesías)'
+  KEEP:   '(Jesucristo, movimiento, Cristianismo)'
+  KEEP:   '(Jesucristo, país de origen, Israel)'
+  KEEP:   '(Jesucristo, método de muerte, crucifixión)'
+  KEEP:   '(Jesucristo, resurrección, Pascua)'
+  KEEP:   '(Jesucristo, seguidores, los Apóstoles)'
+  KEEP:   '(Jesucristo, enseñanzas, el Sermón de la Montaña)'
+  KEEP:   '(Jesucristo, lugar de crucifixión, Gólgota)'
+  KEEP:   '(Jesucristo, día de resurrección, domingo)'
+  KEEP:   '(Jesucristo, resurrección, la Trinidad Sagrada)'
+  KEEP:   '(Jesucristo, resurrección, la Última Cena)'
+  KEEP:   '(Jesucristo, resurrección, la Pasión)'
+  KEEP:   '(Jesucristo, resurrección, la Crucifixión)'
+  KEEP:   '(Jesucristo, resurrección, la Resurrección)'
+  KEEP:   '(Jesucristo, resurrección, la Ascensión)'
+  KEEP:   '(Jesucristo, resurrección, el Espíritu Santo)'
+  KEEP:   '(Jesucristo, resurrección, la Biblia)'
+  KEEP:   '(Jesucristo, resurrección, el Nuevo Testamento)'
+  KEEP:   '(Jesucristo, resurrección, el Antiguo Testamento)'
+  KEEP:   '(Jesucristo, resurrección, el Nuevo Pacto)'
+  KEEP:   '(Jesucristo, resurrección, la Biblia Sagrada)'
+  KEEP:   '(Jesucristo, resurrección, la Biblia Cristiana)'
+  REJECT: fewer than 2 commas → '(Jesucristo)'
+[DEBUG] Total kept: 25
+============================================================
+
+  [GET_ATTR] 25 raw triplets extracted.
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de nacimiento, Belén)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, madre, María)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, padre, José)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Mesías)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, movimiento, Cristianismo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de origen, Israel)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, método de muerte, crucifixión)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, Pascua)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, seguidores, los Apóstoles)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, enseñanzas, el Sermón de la Montaña)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de crucifixión, Gólgota)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de resurrección, domingo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, la Trinidad Sagrada)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, la Última Cena)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, la Pasión)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, la Crucifixión)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, la Resurrección)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, la Ascensión)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, el Espíritu Santo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, la Biblia)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, el Nuevo Testamento)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, el Antiguo Testamento)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, el Nuevo Pacto)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, la Biblia Sagrada)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, la Biblia Cristiana)
+
+ANSWER:  1
+  [GET_ATTR] 24 valid triplets -> 240 sentence pairs.
+Epoch 08/50 | lr=7.12e-06 | L1=-1.7110 | L2=-2.3367 | triplet pairs=240
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, lugar de nacimiento, Belén)\n(Jesucristo, madre, María)\n(Jesucristo, padre, José)\n(Jesucristo, título, Mesías)\n(Jesucristo, movimiento, Cristianismo)\n(Jesucristo, país de origen, Israel)\n(Jesucristo, método de muerte, crucifixión)\n(Jesucristo, resurrección, Pascua)\n(Jesucristo, seguidores, los apóstoles)\n(Jesucristo, enseñanzas, la Biblia)\n(Jesucristo, lugar de crucifixión, Jerusalén)\n(Jesucristo, día de resurrección, domingo)\n(Jesucristo, resurrección, la Trinidad Sagrada)\n(Jesucristo, fecha de nacimiento, circa 4 a.C.)\n(Jesucristo, año de crucifixión, 33 d.C.)\n(Jesucristo, crucifixión, la cruz)\n(Jesucristo, resurrección, la tumba vacía)\n(Jesucristo, título, Hijo de Dios)\n(Jesucristo, muerte, Calvario)\n(Jesucristo, resurrección, la Resurrección)\n(Jesucristo, seguidores, los discípulos)\n(Jesucristo, enseñanzas, el Sermón de la Montaña)\n(Jesucristo, crucifixión, la Pasión)\n(Jesucristo, resurrección, la Ascensión)'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, lugar de nacimiento, Belén)'
+  KEEP:   '(Jesucristo, madre, María)'
+  KEEP:   '(Jesucristo, padre, José)'
+  KEEP:   '(Jesucristo, título, Mesías)'
+  KEEP:   '(Jesucristo, movimiento, Cristianismo)'
+  KEEP:   '(Jesucristo, país de origen, Israel)'
+  KEEP:   '(Jesucristo, método de muerte, crucifixión)'
+  KEEP:   '(Jesucristo, resurrección, Pascua)'
+  KEEP:   '(Jesucristo, seguidores, los apóstoles)'
+  KEEP:   '(Jesucristo, enseñanzas, la Biblia)'
+  KEEP:   '(Jesucristo, lugar de crucifixión, Jerusalén)'
+  KEEP:   '(Jesucristo, día de resurrección, domingo)'
+  KEEP:   '(Jesucristo, resurrección, la Trinidad Sagrada)'
+  KEEP:   '(Jesucristo, fecha de nacimiento, circa 4 a.C.)'
+  KEEP:   '(Jesucristo, año de crucifixión, 33 d.C.)'
+  KEEP:   '(Jesucristo, crucifixión, la cruz)'
+  KEEP:   '(Jesucristo, resurrección, la tumba vacía)'
+  KEEP:   '(Jesucristo, título, Hijo de Dios)'
+  KEEP:   '(Jesucristo, muerte, Calvario)'
+  KEEP:   '(Jesucristo, resurrección, la Resurrección)'
+  KEEP:   '(Jesucristo, seguidores, los discípulos)'
+  KEEP:   '(Jesucristo, enseñanzas, el Sermón de la Montaña)'
+  KEEP:   '(Jesucristo, crucifixión, la Pasión)'
+  KEEP:   '(Jesucristo, resurrección, la Ascensión)'
+[DEBUG] Total kept: 24
+============================================================
+
+  [GET_ATTR] 24 raw triplets extracted.
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de nacimiento, Belén)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, madre, María)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, padre, José)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Mesías)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, movimiento, Cristianismo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de origen, Israel)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, método de muerte, crucifixión)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, Pascua)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, seguidores, los apóstoles)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, enseñanzas, la Biblia)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de crucifixión, Jerusalén)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de resurrección, domingo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, la Trinidad Sagrada)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fecha de nacimiento, circa 4 a.C.)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, año de crucifixión, 33 d.C.)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, crucifixión, la cruz)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, la tumba vacía)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Hijo de Dios)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, muerte, Calvario)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, la Resurrección)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, seguidores, los discípulos)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, enseñanzas, el Sermón de la Montaña)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, crucifixión, la Pasión)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, la Ascensión)
+
+ANSWER:  1
+  [GET_ATTR] 21 valid triplets -> 210 sentence pairs.
+Epoch 09/50 | lr=8.71e-06 | L1=-1.9120 | L2=-2.3484 | triplet pairs=210
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, lugar de nacimiento, Belén)\n(Jesucristo, madre, María)\n(Jesucristo, padre, José)\n(Jesucristo, título, Mesías)\n(Jesucristo, movimiento, Cristianismo)\n(Jesucristo, país de origen, Israel)\n(Jesucristo, método de muerte, crucifixión)\n(Jesucristo, resurrección, Pascua)\n(Jesucristo, seguidores, los apóstoles)\n(Jesucristo, enseñanzas, la Biblia)\n(Jesucristo, lugar de crucifixión, Jerusalén)\n(Jesucristo, día de resurrección, domingo)\n(Jesucristo, año de crucifixión, 33 d.C.)\n(Jesucristo, día de resurrección, domingo)\n(Jesucristo, día de crucifixión, viernes)\n(Jesucristo, día de resurrección, domingo de Pascua)\n(Jesucristo, día de crucifixión, viernes Santo)\n(Jesucristo, día de resurrección, Pascua)\n(Jesucristo, día de crucifixión, viernes de Pascua)\n(Jesucristo, día de resurrección, domingo de Pascua)\n(Jesucristo, día de crucifixión, Pascua)\n(Jesucristo, día de resurrección, domingo de Pascua)\n(Jesucristo, día de crucifixión, viernes Santo)\n(Jesucristo, día de resurrección, domingo de Pascua)\n(Jesucristo, día de crucifixión, viernes de Pascua)'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, lugar de nacimiento, Belén)'
+  KEEP:   '(Jesucristo, madre, María)'
+  KEEP:   '(Jesucristo, padre, José)'
+  KEEP:   '(Jesucristo, título, Mesías)'
+  KEEP:   '(Jesucristo, movimiento, Cristianismo)'
+  KEEP:   '(Jesucristo, país de origen, Israel)'
+  KEEP:   '(Jesucristo, método de muerte, crucifixión)'
+  KEEP:   '(Jesucristo, resurrección, Pascua)'
+  KEEP:   '(Jesucristo, seguidores, los apóstoles)'
+  KEEP:   '(Jesucristo, enseñanzas, la Biblia)'
+  KEEP:   '(Jesucristo, lugar de crucifixión, Jerusalén)'
+  KEEP:   '(Jesucristo, día de resurrección, domingo)'
+  KEEP:   '(Jesucristo, año de crucifixión, 33 d.C.)'
+  REJECT: duplicate → '(Jesucristo, día de resurrección, domingo)'
+  KEEP:   '(Jesucristo, día de crucifixión, viernes)'
+  KEEP:   '(Jesucristo, día de resurrección, domingo de Pascua)'
+  KEEP:   '(Jesucristo, día de crucifixión, viernes Santo)'
+  KEEP:   '(Jesucristo, día de resurrección, Pascua)'
+  KEEP:   '(Jesucristo, día de crucifixión, viernes de Pascua)'
+  REJECT: duplicate → '(Jesucristo, día de resurrección, domingo de Pascua)'
+  KEEP:   '(Jesucristo, día de crucifixión, Pascua)'
+  REJECT: duplicate → '(Jesucristo, día de resurrección, domingo de Pascua)'
+  REJECT: duplicate → '(Jesucristo, día de crucifixión, viernes Santo)'
+  REJECT: duplicate → '(Jesucristo, día de resurrección, domingo de Pascua)'
+  REJECT: duplicate → '(Jesucristo, día de crucifixión, viernes de Pascua)'
+[DEBUG] Total kept: 19
+============================================================
+
+  [GET_ATTR] 19 raw triplets extracted.
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de nacimiento, Belén)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, madre, María)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, padre, José)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Mesías)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, movimiento, Cristianismo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de origen, Israel)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, método de muerte, crucifixión)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, Pascua)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, seguidores, los apóstoles)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, enseñanzas, la Biblia)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de crucifixión, Jerusalén)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de resurrección, domingo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, año de crucifixión, 33 d.C.)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de crucifixión, viernes)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de resurrección, domingo de Pascua)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de crucifixión, viernes Santo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de resurrección, Pascua)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de crucifixión, viernes de Pascua)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de crucifixión, Pascua)
+
+ANSWER:  1
+  [GET_ATTR] 17 valid triplets -> 170 sentence pairs.
+Epoch 10/50 | lr=1.05e-05 | L1=-2.0049 | L2=-2.3652 | triplet pairs=170
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, lugar de nacimiento, Belén)\n(Jesucristo, madre, María)\n(Jesucristo, padre, José)\n(Jesucristo, título, Mesías)\n(Jesucristo, movimiento, Cristianismo)\n(Jesucristo, país de origen, Israel)\n(Jesucristo, método de muerte, crucifixión)\n(Jesucristo, resurrección, Pascua)\n(Jesucristo, seguidores, los Apóstoles)\n(Jesucristo, enseñanzas, el Sermón de la Montaña)\n(Jesucristo, milagros, sanar a los ciegos)\n(Jesucristo, milagros, caminar sobre el agua)\n(Jesucristo, milagros, resucitar a los muertos)\n(Jesucristo, milagros, alimentar a los 5,000)\n(Jesucristo, milagros, convertir agua en vino)\n(Jesucristo, milagros, calmar la tempestad)\n(Jesucristo, milagros, sanar a los leprosos)\n(Jesucristo, milagros, sanar al paralítico)\n(Jesucristo, milagros, sanar a la mujer con la hemorragia)\n(Jesucristo, milagros, resucitar a Lázaro)\n(Jesucristo, milagros, sanar al ciego de Betsaida)\n(Jesucristo, milagros, alimentar a los 4,000)\n(Jesucristo, milagros, sanar al sordo y mudo)\n(Jesucristo, milagros)'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, lugar de nacimiento, Belén)'
+  KEEP:   '(Jesucristo, madre, María)'
+  KEEP:   '(Jesucristo, padre, José)'
+  KEEP:   '(Jesucristo, título, Mesías)'
+  KEEP:   '(Jesucristo, movimiento, Cristianismo)'
+  KEEP:   '(Jesucristo, país de origen, Israel)'
+  KEEP:   '(Jesucristo, método de muerte, crucifixión)'
+  KEEP:   '(Jesucristo, resurrección, Pascua)'
+  KEEP:   '(Jesucristo, seguidores, los Apóstoles)'
+  KEEP:   '(Jesucristo, enseñanzas, el Sermón de la Montaña)'
+  KEEP:   '(Jesucristo, milagros, sanar a los ciegos)'
+  KEEP:   '(Jesucristo, milagros, caminar sobre el agua)'
+  KEEP:   '(Jesucristo, milagros, resucitar a los muertos)'
+  KEEP:   '(Jesucristo, milagros, alimentar a los 5,000)'
+  KEEP:   '(Jesucristo, milagros, convertir agua en vino)'
+  KEEP:   '(Jesucristo, milagros, calmar la tempestad)'
+  KEEP:   '(Jesucristo, milagros, sanar a los leprosos)'
+  KEEP:   '(Jesucristo, milagros, sanar al paralítico)'
+  KEEP:   '(Jesucristo, milagros, sanar a la mujer con la hemorragia)'
+  KEEP:   '(Jesucristo, milagros, resucitar a Lázaro)'
+  KEEP:   '(Jesucristo, milagros, sanar al ciego de Betsaida)'
+  KEEP:   '(Jesucristo, milagros, alimentar a los 4,000)'
+  KEEP:   '(Jesucristo, milagros, sanar al sordo y mudo)'
+  REJECT: fewer than 2 commas → '(Jesucristo, milagros)'
+[DEBUG] Total kept: 23
+============================================================
+
+  [GET_ATTR] 23 raw triplets extracted.
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de nacimiento, Belén)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, madre, María)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, padre, José)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Mesías)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, movimiento, Cristianismo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de origen, Israel)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, método de muerte, crucifixión)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, Pascua)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, seguidores, los Apóstoles)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, enseñanzas, el Sermón de la Montaña)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, milagros, sanar a los ciegos)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, milagros, caminar sobre el agua)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, milagros, resucitar a los muertos)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, milagros, alimentar a los 5,000)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, milagros, convertir agua en vino)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, milagros, calmar la tempestad)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, milagros, sanar a los leprosos)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, milagros, sanar al paralítico)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, milagros, sanar a la mujer con la hemorragia)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, milagros, resucitar a Lázaro)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, milagros, sanar al ciego de Betsaida)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, milagros, alimentar a los 4,000)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, milagros, sanar al sordo y mudo)
+
+ANSWER:  1
+  [GET_ATTR] 22 valid triplets -> 220 sentence pairs.
+Epoch 11/50 | lr=1.24e-05 | L1=-2.1980 | L2=-2.3976 | triplet pairs=220
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, lugar de nacimiento, Belén)\n(Jesucristo, madre, María)\n(Jesucristo, padre, José)\n(Jesucristo, título, Mesías)\n(Jesucristo, movimiento, Cristianismo)\n(Jesucristo, país de origen, Israel)\n(Jesucristo, método de muerte, crucifixión)\n(Jesucristo, resurrección, Pascua)\n(Jesucristo, seguidores, los apóstoles)\n(Jesucristo, enseñanzas, el Sermón de la Montaña)\n(Jesucristo, lugar de crucifixión, Gólgota)\n(Jesucristo, día de resurrección, domingo)\n(Jesucristo, resurrección, la tumba vacía)\n(Jesucristo, año de crucifixión, 33 d.C.)\n(Jesucristo, resurrección, la Ascensión)\n(Jesucristo, año de nacimiento, 4 a.C.)\n(Jesucristo, crucifixión, la cruz)\n(Jesucristo, resurrección, el Espíritu Santo)\n(Jesucristo, movimiento, la Iglesia)\n(Jesucristo, muerte, Viernes Santo)\n(Jesucristo, resurrección, el Segundo Advenimiento)\n(Jesucristo, resurrección, la Trinidad Sagrada)\n(Jesucristo, nacimiento, la Natividad)\n(Jesucristo, crucifixión, la Pasión)\n(Jesucristo, resurrección, la Resurrección)'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, lugar de nacimiento, Belén)'
+  KEEP:   '(Jesucristo, madre, María)'
+  KEEP:   '(Jesucristo, padre, José)'
+  KEEP:   '(Jesucristo, título, Mesías)'
+  KEEP:   '(Jesucristo, movimiento, Cristianismo)'
+  KEEP:   '(Jesucristo, país de origen, Israel)'
+  KEEP:   '(Jesucristo, método de muerte, crucifixión)'
+  KEEP:   '(Jesucristo, resurrección, Pascua)'
+  KEEP:   '(Jesucristo, seguidores, los apóstoles)'
+  KEEP:   '(Jesucristo, enseñanzas, el Sermón de la Montaña)'
+  KEEP:   '(Jesucristo, lugar de crucifixión, Gólgota)'
+  KEEP:   '(Jesucristo, día de resurrección, domingo)'
+  KEEP:   '(Jesucristo, resurrección, la tumba vacía)'
+  KEEP:   '(Jesucristo, año de crucifixión, 33 d.C.)'
+  KEEP:   '(Jesucristo, resurrección, la Ascensión)'
+  KEEP:   '(Jesucristo, año de nacimiento, 4 a.C.)'
+  KEEP:   '(Jesucristo, crucifixión, la cruz)'
+  KEEP:   '(Jesucristo, resurrección, el Espíritu Santo)'
+  KEEP:   '(Jesucristo, movimiento, la Iglesia)'
+  KEEP:   '(Jesucristo, muerte, Viernes Santo)'
+  KEEP:   '(Jesucristo, resurrección, el Segundo Advenimiento)'
+  KEEP:   '(Jesucristo, resurrección, la Trinidad Sagrada)'
+  KEEP:   '(Jesucristo, nacimiento, la Natividad)'
+  KEEP:   '(Jesucristo, crucifixión, la Pasión)'
+  KEEP:   '(Jesucristo, resurrección, la Resurrección)'
+[DEBUG] Total kept: 25
+============================================================
+
+  [GET_ATTR] 25 raw triplets extracted.
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de nacimiento, Belén)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, madre, María)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, padre, José)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Mesías)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, movimiento, Cristianismo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de origen, Israel)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, método de muerte, crucifixión)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, Pascua)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, seguidores, los apóstoles)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, enseñanzas, el Sermón de la Montaña)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de crucifixión, Gólgota)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de resurrección, domingo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, la tumba vacía)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, año de crucifixión, 33 d.C.)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, la Ascensión)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, año de nacimiento, 4 a.C.)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, crucifixión, la cruz)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, el Espíritu Santo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, movimiento, la Iglesia)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, muerte, Viernes Santo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, el Segundo Advenimiento)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, la Trinidad Sagrada)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, nacimiento, la Natividad)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, crucifixión, la Pasión)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, la Resurrección)
+
+ANSWER:  1
+  [GET_ATTR] 22 valid triplets -> 220 sentence pairs.
+Epoch 12/50 | lr=1.44e-05 | L1=-1.9755 | L2=-2.4351 | triplet pairs=220
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, lugar de nacimiento, Belén)\n(Jesucristo, madre, María)\n(Jesucristo, padre, José)\n(Jesucristo, título, Mesías)\n(Jesucristo, movimiento, Cristianismo)\n(Jesucristo, país de origen, Israel)\n(Jesucristo, método de muerte, crucifixión)\n(Jesucristo, resurrección, Pascua)\n(Jesucristo, seguidores, los apóstoles)\n(Jesucristo, enseñanzas, la Biblia)\n(Jesucristo, lugar de crucifixión, Jerusalén)\n(Jesucristo, día de resurrección, domingo)\n(Jesucristo, año de crucifixión, 33 d.C.)\n(Jesucristo, día de resurrección, domingo)\n(Jesucristo, día de crucifixión, viernes)\n(Jesucristo, día de resurrección, domingo de Pascua)\n(Jesucristo, día de crucifixión, viernes Santo)\n(Jesucristo, día de resurrección, Pascua)\n(Jesucristo, día de crucifixión, viernes Santo)\n(Jesucristo, día de resurrección, domingo de Pascua)\n(Jesucristo, día de crucifixión, viernes de Pascua)\n(Jesucristo, día de resurrección, domingo de Pascua)\n(Jesucristo, día de crucifixión, Pascua)\n(Jesucristo, día de resurrección, domingo de Pascua)\n(Jesucristo, día de crucifixión, viernes de Pascua)'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, lugar de nacimiento, Belén)'
+  KEEP:   '(Jesucristo, madre, María)'
+  KEEP:   '(Jesucristo, padre, José)'
+  KEEP:   '(Jesucristo, título, Mesías)'
+  KEEP:   '(Jesucristo, movimiento, Cristianismo)'
+  KEEP:   '(Jesucristo, país de origen, Israel)'
+  KEEP:   '(Jesucristo, método de muerte, crucifixión)'
+  KEEP:   '(Jesucristo, resurrección, Pascua)'
+  KEEP:   '(Jesucristo, seguidores, los apóstoles)'
+  KEEP:   '(Jesucristo, enseñanzas, la Biblia)'
+  KEEP:   '(Jesucristo, lugar de crucifixión, Jerusalén)'
+  KEEP:   '(Jesucristo, día de resurrección, domingo)'
+  KEEP:   '(Jesucristo, año de crucifixión, 33 d.C.)'
+  REJECT: duplicate → '(Jesucristo, día de resurrección, domingo)'
+  KEEP:   '(Jesucristo, día de crucifixión, viernes)'
+  KEEP:   '(Jesucristo, día de resurrección, domingo de Pascua)'
+  KEEP:   '(Jesucristo, día de crucifixión, viernes Santo)'
+  KEEP:   '(Jesucristo, día de resurrección, Pascua)'
+  REJECT: duplicate → '(Jesucristo, día de crucifixión, viernes Santo)'
+  REJECT: duplicate → '(Jesucristo, día de resurrección, domingo de Pascua)'
+  KEEP:   '(Jesucristo, día de crucifixión, viernes de Pascua)'
+  REJECT: duplicate → '(Jesucristo, día de resurrección, domingo de Pascua)'
+  KEEP:   '(Jesucristo, día de crucifixión, Pascua)'
+  REJECT: duplicate → '(Jesucristo, día de resurrección, domingo de Pascua)'
+  REJECT: duplicate → '(Jesucristo, día de crucifixión, viernes de Pascua)'
+[DEBUG] Total kept: 19
+============================================================
+
+  [GET_ATTR] 19 raw triplets extracted.
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de nacimiento, Belén)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, madre, María)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, padre, José)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Mesías)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, movimiento, Cristianismo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de origen, Israel)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, método de muerte, crucifixión)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, Pascua)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, seguidores, los apóstoles)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, enseñanzas, la Biblia)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de crucifixión, Jerusalén)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de resurrección, domingo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, año de crucifixión, 33 d.C.)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de crucifixión, viernes)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de resurrección, domingo de Pascua)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de crucifixión, viernes Santo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de resurrección, Pascua)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de crucifixión, viernes de Pascua)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de crucifixión, Pascua)
+
+ANSWER:  1
+  [GET_ATTR] 17 valid triplets -> 170 sentence pairs.
+Epoch 13/50 | lr=1.66e-05 | L1=-2.0877 | L2=-2.4757 | triplet pairs=170
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, lugar de nacimiento, Belén)\n(Jesucristo, madre, María)\n(Jesucristo, padre, José)\n(Jesucristo, título, Mesías)\n(Jesucristo, movimiento, Cristianismo)\n(Jesucristo, país de origen, Israel)\n(Jesucristo, método de muerte, crucifixión)\n(Jesucristo, resurrección, Pascua)\n(Jesucristo, seguidores, los apóstoles)\n(Jesucristo, enseñanzas, la Biblia)\n(Jesucristo, lugar de crucifixión, Jerusalén)\n(Jesucristo, día de resurrección, domingo)\n(Jesucristo, resurrección, la Trinidad Sagrada)\n(Jesucristo, fecha de nacimiento, circa 4 a.C.)\n(Jesucristo, año de crucifixión, 33 d.C.)\n(Jesucristo, crucifixión, la cruz)\n(Jesucristo, resurrección, la tumba vacía)\n(Jesucristo, título, Hijo de Dios)\n(Jesucristo, movimiento, la Iglesia)\n(Jesucristo, muerte, Viernes Santo)\n(Jesucristo, resurrección, la Ascensión)'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, lugar de nacimiento, Belén)'
+  KEEP:   '(Jesucristo, madre, María)'
+  KEEP:   '(Jesucristo, padre, José)'
+  KEEP:   '(Jesucristo, título, Mesías)'
+  KEEP:   '(Jesucristo, movimiento, Cristianismo)'
+  KEEP:   '(Jesucristo, país de origen, Israel)'
+  KEEP:   '(Jesucristo, método de muerte, crucifixión)'
+  KEEP:   '(Jesucristo, resurrección, Pascua)'
+  KEEP:   '(Jesucristo, seguidores, los apóstoles)'
+  KEEP:   '(Jesucristo, enseñanzas, la Biblia)'
+  KEEP:   '(Jesucristo, lugar de crucifixión, Jerusalén)'
+  KEEP:   '(Jesucristo, día de resurrección, domingo)'
+  KEEP:   '(Jesucristo, resurrección, la Trinidad Sagrada)'
+  KEEP:   '(Jesucristo, fecha de nacimiento, circa 4 a.C.)'
+  KEEP:   '(Jesucristo, año de crucifixión, 33 d.C.)'
+  KEEP:   '(Jesucristo, crucifixión, la cruz)'
+  KEEP:   '(Jesucristo, resurrección, la tumba vacía)'
+  KEEP:   '(Jesucristo, título, Hijo de Dios)'
+  KEEP:   '(Jesucristo, movimiento, la Iglesia)'
+  KEEP:   '(Jesucristo, muerte, Viernes Santo)'
+  KEEP:   '(Jesucristo, resurrección, la Ascensión)'
+[DEBUG] Total kept: 21
+============================================================
+
+  [GET_ATTR] 21 raw triplets extracted.
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de nacimiento, Belén)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, madre, María)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, padre, José)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Mesías)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, movimiento, Cristianismo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de origen, Israel)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, método de muerte, crucifixión)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, Pascua)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, seguidores, los apóstoles)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, enseñanzas, la Biblia)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de crucifixión, Jerusalén)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de resurrección, domingo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, la Trinidad Sagrada)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fecha de nacimiento, circa 4 a.C.)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, año de crucifixión, 33 d.C.)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, crucifixión, la cruz)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, la tumba vacía)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Hijo de Dios)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, movimiento, la Iglesia)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, muerte, Viernes Santo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, la Ascensión)
+
+ANSWER:  1
+  [GET_ATTR] 18 valid triplets -> 180 sentence pairs.
+Epoch 14/50 | lr=1.89e-05 | L1=-2.0987 | L2=-2.5267 | triplet pairs=180
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, lugar de nacimiento, Belén)\n(Jesucristo, madre, María)\n(Jesucristo, padre, Dios)\n(Jesucristo, título, Mesías)\n(Jesucristo, movimiento, Cristianismo)\n(Jesucristo, país de origen, Judea)\n(Jesucristo, método de muerte, crucifixión)\n(Jesucristo, resurrección, tercer día)\n(Jesucristo, apóstol, Pedro)\n(Jesucristo, apóstol, Juan)\n(Jesucristo, apóstol, Mateo)\n(Jesucristo, apóstol, Tomás)\n(Jesucristo, apóstol, Santiago)\n(Jesucristo, apóstol, Felipe)\n(Jesucristo, apóstol, Bartolomé)\n(Jesucristo, apóstol, Andrés)\n(Jesucristo, apóstol, Simón)\n(Jesucristo, apóstol, Judas Iscariote)\n(Jesucristo, apóstol, Simón Pedro)\n(Jesucristo, apóstol, Mateo)\n(Jesucristo, apóstol, Tomás)\n(Jesucristo, apóstol, Bartolomé)\n(Jesucristo, apóstol, Felipe)\n(Jesucristo, apóstol, Santiago)\n(Jesucristo, apóstol, Juan)'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, lugar de nacimiento, Belén)'
+  KEEP:   '(Jesucristo, madre, María)'
+  KEEP:   '(Jesucristo, padre, Dios)'
+  KEEP:   '(Jesucristo, título, Mesías)'
+  KEEP:   '(Jesucristo, movimiento, Cristianismo)'
+  KEEP:   '(Jesucristo, país de origen, Judea)'
+  KEEP:   '(Jesucristo, método de muerte, crucifixión)'
+  KEEP:   '(Jesucristo, resurrección, tercer día)'
+  KEEP:   '(Jesucristo, apóstol, Pedro)'
+  KEEP:   '(Jesucristo, apóstol, Juan)'
+  KEEP:   '(Jesucristo, apóstol, Mateo)'
+  KEEP:   '(Jesucristo, apóstol, Tomás)'
+  KEEP:   '(Jesucristo, apóstol, Santiago)'
+  KEEP:   '(Jesucristo, apóstol, Felipe)'
+  KEEP:   '(Jesucristo, apóstol, Bartolomé)'
+  KEEP:   '(Jesucristo, apóstol, Andrés)'
+  KEEP:   '(Jesucristo, apóstol, Simón)'
+  KEEP:   '(Jesucristo, apóstol, Judas Iscariote)'
+  KEEP:   '(Jesucristo, apóstol, Simón Pedro)'
+  REJECT: duplicate → '(Jesucristo, apóstol, Mateo)'
+  REJECT: duplicate → '(Jesucristo, apóstol, Tomás)'
+  REJECT: duplicate → '(Jesucristo, apóstol, Bartolomé)'
+  REJECT: duplicate → '(Jesucristo, apóstol, Felipe)'
+  REJECT: duplicate → '(Jesucristo, apóstol, Santiago)'
+  REJECT: duplicate → '(Jesucristo, apóstol, Juan)'
+[DEBUG] Total kept: 19
+============================================================
+
+  [GET_ATTR] 19 raw triplets extracted.
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de nacimiento, Belén)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, madre, María)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, padre, Dios)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Mesías)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, movimiento, Cristianismo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de origen, Judea)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, método de muerte, crucifixión)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, tercer día)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Pedro)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Juan)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Mateo)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Tomás)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Santiago)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Felipe)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Bartolomé)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Andrés)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Simón)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Judas Iscariote)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Simón Pedro)
+
+ANSWER:  1
+  [GET_ATTR] 18 valid triplets -> 180 sentence pairs.
+Epoch 15/50 | lr=2.14e-05 | L1=-2.1178 | L2=-2.6001 | triplet pairs=180
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, lugar de nacimiento, Belén)\n(Jesucristo, madre, María)\n(Jesucristo, padre, Dios)\n(Jesucristo, título, Mesías)\n(Jesucristo, movimiento, Cristianismo)\n(Jesucristo, país de origen, Judea)\n(Jesucristo, método de muerte, crucifixión)\n(Jesucristo, resurrección, tercer día)\n(Jesucristo, apóstol, Pedro)\n(Jesucristo, apóstol, Juan)\n(Jesucristo, apóstol, Mateo)\n(Jesucristo, apóstol, Tomás)\n(Jesucristo, apóstol, Santiago)\n(Jesucristo, apóstol, Felipe)\n(Jesucristo, apóstol, Bartolomé)\n(Jesucristo, apóstol, Andrés)\n(Jesucristo, apóstol, Simón)\n(Jesucristo, apóstol, Judas Iscariote)\n(Jesucristo, apóstol, Simón Pedro)\n(Jesucristo, apóstol, Mateo)\n(Jesucristo, apóstol, Tomás)\n(Jesucristo, apóstol, Bartolomé)\n(Jesucristo, apóstol, Felipe)\n(Jesucristo, apóstol, Santiago)\n(Jesucristo, apóstol, Juan)'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, lugar de nacimiento, Belén)'
+  KEEP:   '(Jesucristo, madre, María)'
+  KEEP:   '(Jesucristo, padre, Dios)'
+  KEEP:   '(Jesucristo, título, Mesías)'
+  KEEP:   '(Jesucristo, movimiento, Cristianismo)'
+  KEEP:   '(Jesucristo, país de origen, Judea)'
+  KEEP:   '(Jesucristo, método de muerte, crucifixión)'
+  KEEP:   '(Jesucristo, resurrección, tercer día)'
+  KEEP:   '(Jesucristo, apóstol, Pedro)'
+  KEEP:   '(Jesucristo, apóstol, Juan)'
+  KEEP:   '(Jesucristo, apóstol, Mateo)'
+  KEEP:   '(Jesucristo, apóstol, Tomás)'
+  KEEP:   '(Jesucristo, apóstol, Santiago)'
+  KEEP:   '(Jesucristo, apóstol, Felipe)'
+  KEEP:   '(Jesucristo, apóstol, Bartolomé)'
+  KEEP:   '(Jesucristo, apóstol, Andrés)'
+  KEEP:   '(Jesucristo, apóstol, Simón)'
+  KEEP:   '(Jesucristo, apóstol, Judas Iscariote)'
+  KEEP:   '(Jesucristo, apóstol, Simón Pedro)'
+  REJECT: duplicate → '(Jesucristo, apóstol, Mateo)'
+  REJECT: duplicate → '(Jesucristo, apóstol, Tomás)'
+  REJECT: duplicate → '(Jesucristo, apóstol, Bartolomé)'
+  REJECT: duplicate → '(Jesucristo, apóstol, Felipe)'
+  REJECT: duplicate → '(Jesucristo, apóstol, Santiago)'
+  REJECT: duplicate → '(Jesucristo, apóstol, Juan)'
+[DEBUG] Total kept: 19
+============================================================
+
+  [GET_ATTR] 19 raw triplets extracted.
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de nacimiento, Belén)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, madre, María)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, padre, Dios)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Mesías)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, movimiento, Cristianismo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de origen, Judea)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, método de muerte, crucifixión)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, tercer día)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Pedro)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Juan)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Mateo)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Tomás)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Santiago)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Felipe)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Bartolomé)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Andrés)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Simón)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Judas Iscariote)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Simón Pedro)
+
+ANSWER:  1
+  [GET_ATTR] 18 valid triplets -> 180 sentence pairs.
+Epoch 16/50 | lr=2.40e-05 | L1=-2.2149 | L2=-2.7155 | triplet pairs=180
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, lugar de nacimiento, Belén)\n(Jesucristo, madre, María)\n(Jesucristo, padre, Dios)\n(Jesucristo, título, Hijo de Dios)\n(Jesucristo, título, Mesías)\n(Jesucristo, título, Salvador)\n(Jesucristo, título, Jesús de Nazaret)\n(Jesucristo, movimiento, Cristianismo)\n(Jesucristo, movimiento, figura central del Cristianismo)\n(Jesucristo, fecha de nacimiento, circa 4 a.C.)\n(Jesucristo, fecha de muerte, circa 30-33 d.C.)\n(Jesucristo, método de muerte, crucifixión)\n(Jesucristo, país de origen, Israel)\n(Jesucristo, país de origen, Palestina)\n(Jesucristo, país de origen, Medio Oriente)\n(Jesucristo, país de origen, Tierra Santa)\n(Jesucristo, país de origen, Judea)\n(Jesucristo, país de origen, Israel antiguo)\n(Jesucristo, país de origen, Palestina antigua)\n(Jesucristo, país de origen, Israel bíblico)\n(Jesucristo, país de origen, Palestina bíblica)\n(Jesucristo, país de origen, Tierra Santa bíblica)\n(Jesucristo, país de origen, Judea bíblica)\n(Jesucristo, país de origen, Israel bíblico antiguo)'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, lugar de nacimiento, Belén)'
+  KEEP:   '(Jesucristo, madre, María)'
+  KEEP:   '(Jesucristo, padre, Dios)'
+  KEEP:   '(Jesucristo, título, Hijo de Dios)'
+  KEEP:   '(Jesucristo, título, Mesías)'
+  KEEP:   '(Jesucristo, título, Salvador)'
+  KEEP:   '(Jesucristo, título, Jesús de Nazaret)'
+  KEEP:   '(Jesucristo, movimiento, Cristianismo)'
+  KEEP:   '(Jesucristo, movimiento, figura central del Cristianismo)'
+  KEEP:   '(Jesucristo, fecha de nacimiento, circa 4 a.C.)'
+  KEEP:   '(Jesucristo, fecha de muerte, circa 30-33 d.C.)'
+  KEEP:   '(Jesucristo, método de muerte, crucifixión)'
+  KEEP:   '(Jesucristo, país de origen, Israel)'
+  KEEP:   '(Jesucristo, país de origen, Palestina)'
+  KEEP:   '(Jesucristo, país de origen, Medio Oriente)'
+  KEEP:   '(Jesucristo, país de origen, Tierra Santa)'
+  KEEP:   '(Jesucristo, país de origen, Judea)'
+  KEEP:   '(Jesucristo, país de origen, Israel antiguo)'
+  KEEP:   '(Jesucristo, país de origen, Palestina antigua)'
+  KEEP:   '(Jesucristo, país de origen, Israel bíblico)'
+  KEEP:   '(Jesucristo, país de origen, Palestina bíblica)'
+  KEEP:   '(Jesucristo, país de origen, Tierra Santa bíblica)'
+  KEEP:   '(Jesucristo, país de origen, Judea bíblica)'
+  KEEP:   '(Jesucristo, país de origen, Israel bíblico antiguo)'
+[DEBUG] Total kept: 24
+============================================================
+
+  [GET_ATTR] 24 raw triplets extracted.
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de nacimiento, Belén)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, madre, María)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, padre, Dios)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Hijo de Dios)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Mesías)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Salvador)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Jesús de Nazaret)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, movimiento, Cristianismo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, movimiento, figura central del Cristianismo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fecha de nacimiento, circa 4 a.C.)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fecha de muerte, circa 30-33 d.C.)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, método de muerte, crucifixión)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de origen, Israel)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de origen, Palestina)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de origen, Medio Oriente)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de origen, Tierra Santa)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de origen, Judea)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de origen, Israel antiguo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de origen, Palestina antigua)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de origen, Israel bíblico)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de origen, Palestina bíblica)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de origen, Tierra Santa bíblica)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de origen, Judea bíblica)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de origen, Israel bíblico antiguo)
+
+ANSWER:  1
+  [GET_ATTR] 23 valid triplets -> 230 sentence pairs.
+Epoch 17/50 | lr=2.67e-05 | L1=-2.7216 | L2=-2.8567 | triplet pairs=230
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, lugar de nacimiento, Belén)\n(Jesucristo, madre, María)\n(Jesucristo, padre, Dios)\n(Jesucristo, título, Hijo de Dios)\n(Jesucristo, título, Mesías)\n(Jesucristo, título, Salvador)\n(Jesucristo, movimiento, Cristianismo)\n(Jesucristo, movimiento, movimiento de Jesús)\n(Jesucristo, país de origen, Israel)\n(Jesucristo, país de ciudadanía, Israel)\n(Jesucristo, país de ciudadanía, Judea)\n(Jesucristo, país de ciudadanía, Galilea)\n(Jesucristo, país de ciudadanía, Nazaret)\n(Jesucristo, país de ciudadanía, Jerusalén)\n(Jesucristo, lugar de muerte, Jerusalén)\n(Jesucristo, método de muerte, crucifixión)\n(Jesucristo, método de muerte, ejecución por romanos)\n(Jesucristo, método de muerte, colgado en una cruz)\n(Jesucristo, resurrección, sí)\n(Jesucristo, resurrección, después de 3 días)\n(Jesucristo, resurrección, Pascua)\n(Jesucristo, resurrección, después de la crucifixión)\n(Jesucristo, resurrección, después de la muerte)\n(Jesucristo, resurrección, después de colgado en una cruz)\n(Jesucristo, resurrección, después de la ejecución por romanos)'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, lugar de nacimiento, Belén)'
+  KEEP:   '(Jesucristo, madre, María)'
+  KEEP:   '(Jesucristo, padre, Dios)'
+  KEEP:   '(Jesucristo, título, Hijo de Dios)'
+  KEEP:   '(Jesucristo, título, Mesías)'
+  KEEP:   '(Jesucristo, título, Salvador)'
+  KEEP:   '(Jesucristo, movimiento, Cristianismo)'
+  KEEP:   '(Jesucristo, movimiento, movimiento de Jesús)'
+  KEEP:   '(Jesucristo, país de origen, Israel)'
+  KEEP:   '(Jesucristo, país de ciudadanía, Israel)'
+  KEEP:   '(Jesucristo, país de ciudadanía, Judea)'
+  KEEP:   '(Jesucristo, país de ciudadanía, Galilea)'
+  KEEP:   '(Jesucristo, país de ciudadanía, Nazaret)'
+  KEEP:   '(Jesucristo, país de ciudadanía, Jerusalén)'
+  KEEP:   '(Jesucristo, lugar de muerte, Jerusalén)'
+  KEEP:   '(Jesucristo, método de muerte, crucifixión)'
+  KEEP:   '(Jesucristo, método de muerte, ejecución por romanos)'
+  KEEP:   '(Jesucristo, método de muerte, colgado en una cruz)'
+  KEEP:   '(Jesucristo, resurrección, sí)'
+  KEEP:   '(Jesucristo, resurrección, después de 3 días)'
+  KEEP:   '(Jesucristo, resurrección, Pascua)'
+  KEEP:   '(Jesucristo, resurrección, después de la crucifixión)'
+  KEEP:   '(Jesucristo, resurrección, después de la muerte)'
+  KEEP:   '(Jesucristo, resurrección, después de colgado en una cruz)'
+  KEEP:   '(Jesucristo, resurrección, después de la ejecución por romanos)'
+[DEBUG] Total kept: 25
+============================================================
+
+  [GET_ATTR] 25 raw triplets extracted.
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de nacimiento, Belén)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, madre, María)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, padre, Dios)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Hijo de Dios)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Mesías)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Salvador)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, movimiento, Cristianismo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, movimiento, movimiento de Jesús)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de origen, Israel)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de ciudadanía, Israel)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de ciudadanía, Judea)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de ciudadanía, Galilea)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de ciudadanía, Nazaret)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de ciudadanía, Jerusalén)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de muerte, Jerusalén)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, método de muerte, crucifixión)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, método de muerte, ejecución por romanos)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, método de muerte, colgado en una cruz)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, sí)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, después de 3 días)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, Pascua)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, después de la crucifixión)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, después de la muerte)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, después de colgado en una cruz)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, después de la ejecución por romanos)
+
+ANSWER:  1
+  [GET_ATTR] 23 valid triplets -> 230 sentence pairs.
+Epoch 18/50 | lr=2.94e-05 | L1=-2.5514 | L2=-3.0103 | triplet pairs=230
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, lugar de nacimiento, Belén)\n(Jesucristo, madre, María)\n(Jesucristo, padre, Dios)\n(Jesucristo, título, Hijo de Dios)\n(Jesucristo, título, Mesías)\n(Jesucristo, título, Salvador)\n(Jesucristo, movimiento, Cristianismo)\n(Jesucristo, movimiento, Movimiento de Jesús)\n(Jesucristo, país de origen, Israel)\n(Jesucristo, país de ciudadanía, Israel)\n(Jesucristo, país de ciudadanía, Palestina)\n(Jesucristo, país de ciudadanía, Imperio Romano)\n(Jesucristo, fecha de nacimiento, circa 4 a.C.)\n(Jesucristo, fecha de muerte, circa 30-33 d.C.)\n(Jesucristo, fecha de muerte, Viernes Santo)\n(Jesucristo, fecha de muerte, Pascua)\n(Jesucristo, fecha de muerte, Crucifixión)\n(Jesucristo, fecha de muerte, Resurrección)\n(Jesucristo, fecha de muerte, Ascensión)\n(Jesucristo, fecha de muerte, Pentecostés)\n(Jesucristo, lugar de entierro, Calvario)\n(Jesucristo, lugar de entierro, Golgota)\n(Jesucristo, lugar de entierro, Jerusalén)\n(Jesucristo, lugar de entierro, Tumba del Jardín)\n(Jesucristo'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, lugar de nacimiento, Belén)'
+  KEEP:   '(Jesucristo, madre, María)'
+  KEEP:   '(Jesucristo, padre, Dios)'
+  KEEP:   '(Jesucristo, título, Hijo de Dios)'
+  KEEP:   '(Jesucristo, título, Mesías)'
+  KEEP:   '(Jesucristo, título, Salvador)'
+  KEEP:   '(Jesucristo, movimiento, Cristianismo)'
+  KEEP:   '(Jesucristo, movimiento, Movimiento de Jesús)'
+  KEEP:   '(Jesucristo, país de origen, Israel)'
+  KEEP:   '(Jesucristo, país de ciudadanía, Israel)'
+  KEEP:   '(Jesucristo, país de ciudadanía, Palestina)'
+  KEEP:   '(Jesucristo, país de ciudadanía, Imperio Romano)'
+  KEEP:   '(Jesucristo, fecha de nacimiento, circa 4 a.C.)'
+  KEEP:   '(Jesucristo, fecha de muerte, circa 30-33 d.C.)'
+  KEEP:   '(Jesucristo, fecha de muerte, Viernes Santo)'
+  KEEP:   '(Jesucristo, fecha de muerte, Pascua)'
+  KEEP:   '(Jesucristo, fecha de muerte, Crucifixión)'
+  KEEP:   '(Jesucristo, fecha de muerte, Resurrección)'
+  KEEP:   '(Jesucristo, fecha de muerte, Ascensión)'
+  KEEP:   '(Jesucristo, fecha de muerte, Pentecostés)'
+  KEEP:   '(Jesucristo, lugar de entierro, Calvario)'
+  KEEP:   '(Jesucristo, lugar de entierro, Golgota)'
+  KEEP:   '(Jesucristo, lugar de entierro, Jerusalén)'
+  KEEP:   '(Jesucristo, lugar de entierro, Tumba del Jardín)'
+  REJECT: fewer than 2 commas → '(Jesucristo)'
+[DEBUG] Total kept: 24
+============================================================
+
+  [GET_ATTR] 24 raw triplets extracted.
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de nacimiento, Belén)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, madre, María)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, padre, Dios)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Hijo de Dios)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Mesías)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Salvador)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, movimiento, Cristianismo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, movimiento, Movimiento de Jesús)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de origen, Israel)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de ciudadanía, Israel)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de ciudadanía, Palestina)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de ciudadanía, Imperio Romano)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fecha de nacimiento, circa 4 a.C.)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fecha de muerte, circa 30-33 d.C.)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fecha de muerte, Viernes Santo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fecha de muerte, Pascua)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fecha de muerte, Crucifixión)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fecha de muerte, Resurrección)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fecha de muerte, Ascensión)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fecha de muerte, Pentecostés)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de entierro, Calvario)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de entierro, Golgota)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de entierro, Jerusalén)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de entierro, Tumba del Jardín)
+
+ANSWER:  1
+  [GET_ATTR] 21 valid triplets -> 210 sentence pairs.
+Epoch 19/50 | lr=3.23e-05 | L1=-2.8000 | L2=-3.1849 | triplet pairs=210
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, lugar de nacimiento, Belén)\n(Jesucristo, madre, María)\n(Jesucristo, padre, Dios)\n(Jesucristo, título, Hijo de Dios)\n(Jesucristo, título, Mesías)\n(Jesucristo, título, Salvador)\n(Jesucristo, movimiento, Cristianismo)\n(Jesucristo, movimiento, Movimiento de Jesús)\n(Jesucristo, país de origen, Israel)\n(Jesucristo, país de ciudadanía, Israel)\n(Jesucristo, país de ciudadanía, Palestina)\n(Jesucristo, país de ciudadanía, Imperio Romano)\n(Jesucristo, fecha de nacimiento, circa 4 a.C.)\n(Jesucristo, fecha de muerte, circa 30-33 d.C.)\n(Jesucristo, fecha de muerte, Viernes Santo)\n(Jesucristo, fecha de muerte, Pascua)\n(Jesucristo, fecha de muerte, Crucifixión)\n(Jesucristo, fecha de muerte, Resurrección)\n(Jesucristo, fecha de muerte, Ascensión)\n(Jesucristo, fecha de muerte, Pentecostés)\n(Jesucristo, fecha de muerte, Sábado Santo)\n(Jesucristo, fecha de muerte, Semana Santa)\n(Jesucristo, fecha de muerte, Jueves Santo)\n(Jesucristo, fecha de muerte, Lunes Santo)\n(Jesucristo)'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, lugar de nacimiento, Belén)'
+  KEEP:   '(Jesucristo, madre, María)'
+  KEEP:   '(Jesucristo, padre, Dios)'
+  KEEP:   '(Jesucristo, título, Hijo de Dios)'
+  KEEP:   '(Jesucristo, título, Mesías)'
+  KEEP:   '(Jesucristo, título, Salvador)'
+  KEEP:   '(Jesucristo, movimiento, Cristianismo)'
+  KEEP:   '(Jesucristo, movimiento, Movimiento de Jesús)'
+  KEEP:   '(Jesucristo, país de origen, Israel)'
+  KEEP:   '(Jesucristo, país de ciudadanía, Israel)'
+  KEEP:   '(Jesucristo, país de ciudadanía, Palestina)'
+  KEEP:   '(Jesucristo, país de ciudadanía, Imperio Romano)'
+  KEEP:   '(Jesucristo, fecha de nacimiento, circa 4 a.C.)'
+  KEEP:   '(Jesucristo, fecha de muerte, circa 30-33 d.C.)'
+  KEEP:   '(Jesucristo, fecha de muerte, Viernes Santo)'
+  KEEP:   '(Jesucristo, fecha de muerte, Pascua)'
+  KEEP:   '(Jesucristo, fecha de muerte, Crucifixión)'
+  KEEP:   '(Jesucristo, fecha de muerte, Resurrección)'
+  KEEP:   '(Jesucristo, fecha de muerte, Ascensión)'
+  KEEP:   '(Jesucristo, fecha de muerte, Pentecostés)'
+  KEEP:   '(Jesucristo, fecha de muerte, Sábado Santo)'
+  KEEP:   '(Jesucristo, fecha de muerte, Semana Santa)'
+  KEEP:   '(Jesucristo, fecha de muerte, Jueves Santo)'
+  KEEP:   '(Jesucristo, fecha de muerte, Lunes Santo)'
+  REJECT: fewer than 2 commas → '(Jesucristo)'
+[DEBUG] Total kept: 24
+============================================================
+
+  [GET_ATTR] 24 raw triplets extracted.
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de nacimiento, Belén)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, madre, María)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, padre, Dios)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Hijo de Dios)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Mesías)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Salvador)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, movimiento, Cristianismo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, movimiento, Movimiento de Jesús)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de origen, Israel)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de ciudadanía, Israel)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de ciudadanía, Palestina)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de ciudadanía, Imperio Romano)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fecha de nacimiento, circa 4 a.C.)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fecha de muerte, circa 30-33 d.C.)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fecha de muerte, Viernes Santo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fecha de muerte, Pascua)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fecha de muerte, Crucifixión)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fecha de muerte, Resurrección)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fecha de muerte, Ascensión)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fecha de muerte, Pentecostés)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fecha de muerte, Sábado Santo)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fecha de muerte, Semana Santa)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fecha de muerte, Jueves Santo)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fecha de muerte, Lunes Santo)
+
+ANSWER:  0
+  [GET_ATTR] 17 valid triplets -> 170 sentence pairs.
+Epoch 20/50 | lr=3.52e-05 | L1=-3.1221 | L2=-3.4154 | triplet pairs=170
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, lugar de nacimiento, Belén)\n(Jesucristo, madre, María)\n(Jesucristo, padre, Dios)\n(Jesucristo, título, Hijo de Dios)\n(Jesucristo, movimiento, Cristianismo)\n(Jesucristo, país de origen, Israel)\n(Jesucristo, método de muerte, crucifixión)\n(Jesucristo, resurrección, después de tres días)\n(Jesucristo, seguidores, los apóstoles)\n(Jesucristo, enseñanzas, la Biblia)\n(Jesucristo, fiesta, Navidad)\n(Jesucristo, fiesta, Pascua)\n(Jesucristo, lugar de sepultura, Gólgota)\n(Jesucristo, día de resurrección, domingo)\n(Jesucristo, lugar de crucifixión, Jerusalén)\n(Jesucristo, apóstol, Pedro)\n(Jesucristo, apóstol, Pablo)\n(Jesucristo, apóstol, Juan)\n(Jesucristo, apóstol, Tomás)\n(Jesucristo, apóstol, Judas)\n(Jesucristo, apóstol, Mateo)\n(Jesucristo, apóstol, Santiago)\n(Jesucristo, apóstol, Bartolomé)\n(Jesucristo, apóstol, Andrés)\n(Jesucristo, apóstol, Felipe)\n(Jesucristo, apóstol, Simón)\n(Jesucristo, apóstol, Judá)\n(Jesucristo, apóstol, Judá Iscariote)'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, lugar de nacimiento, Belén)'
+  KEEP:   '(Jesucristo, madre, María)'
+  KEEP:   '(Jesucristo, padre, Dios)'
+  KEEP:   '(Jesucristo, título, Hijo de Dios)'
+  KEEP:   '(Jesucristo, movimiento, Cristianismo)'
+  KEEP:   '(Jesucristo, país de origen, Israel)'
+  KEEP:   '(Jesucristo, método de muerte, crucifixión)'
+  KEEP:   '(Jesucristo, resurrección, después de tres días)'
+  KEEP:   '(Jesucristo, seguidores, los apóstoles)'
+  KEEP:   '(Jesucristo, enseñanzas, la Biblia)'
+  KEEP:   '(Jesucristo, fiesta, Navidad)'
+  KEEP:   '(Jesucristo, fiesta, Pascua)'
+  KEEP:   '(Jesucristo, lugar de sepultura, Gólgota)'
+  KEEP:   '(Jesucristo, día de resurrección, domingo)'
+  KEEP:   '(Jesucristo, lugar de crucifixión, Jerusalén)'
+  KEEP:   '(Jesucristo, apóstol, Pedro)'
+  KEEP:   '(Jesucristo, apóstol, Pablo)'
+  KEEP:   '(Jesucristo, apóstol, Juan)'
+  KEEP:   '(Jesucristo, apóstol, Tomás)'
+  KEEP:   '(Jesucristo, apóstol, Judas)'
+  KEEP:   '(Jesucristo, apóstol, Mateo)'
+  KEEP:   '(Jesucristo, apóstol, Santiago)'
+  KEEP:   '(Jesucristo, apóstol, Bartolomé)'
+  KEEP:   '(Jesucristo, apóstol, Andrés)'
+  KEEP:   '(Jesucristo, apóstol, Felipe)'
+  KEEP:   '(Jesucristo, apóstol, Simón)'
+  KEEP:   '(Jesucristo, apóstol, Judá)'
+  KEEP:   '(Jesucristo, apóstol, Judá Iscariote)'
+[DEBUG] Total kept: 28
+============================================================
+
+  [GET_ATTR] 28 raw triplets extracted.
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de nacimiento, Belén)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, madre, María)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, padre, Dios)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Hijo de Dios)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, movimiento, Cristianismo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de origen, Israel)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, método de muerte, crucifixión)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, después de tres días)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, seguidores, los apóstoles)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, enseñanzas, la Biblia)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fiesta, Navidad)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fiesta, Pascua)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de sepultura, Gólgota)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, día de resurrección, domingo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de crucifixión, Jerusalén)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Pedro)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Pablo)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Juan)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Tomás)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Judas)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Mateo)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Santiago)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Bartolomé)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Andrés)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Felipe)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Simón)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Judá)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Judá Iscariote)
+
+ANSWER:  1
+  [GET_ATTR] 24 valid triplets -> 240 sentence pairs.
+Epoch 21/50 | lr=3.82e-05 | L1=-3.2293 | L2=-3.7009 | triplet pairs=240
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, lugar de nacimiento, Belén)\n(Jesucristo, madre, María)\n(Jesucristo, padre, Dios)\n(Jesucristo, título, Hijo de Dios)\n(Jesucristo, movimiento, Cristianismo)\n(Jesucristo, país de origen, Israel)\n(Jesucristo, método de muerte, crucifixión)\n(Jesucristo, resurrección, después de tres días)\n(Jesucristo, seguidores, los apóstoles)\n(Jesucristo, enseñanzas, la Biblia)\n(Jesucristo, fiesta, Navidad)\n(Jesucristo, fiesta, Pascua)\n(Jesucristo, fiesta, Viernes Santo)\n(Jesucristo, fiesta, Epifanía)\n(Jesucristo, fiesta, Domingo de Ramos)\n(Jesucristo, fiesta, Ascensión de Jesucristo)\n(Jesucristo, fiesta, Día de Todos los Santos)\n(Jesucristo, fiesta, Miércoles de Ceniza)\n(Jesucristo, fiesta, Jueves Santo)\n(Jesucristo, fiesta, Sábado Santo)\n(Jesucristo, fiesta, Domingo de la Trinidad)\n(Jesucristo, fiesta, Adviento)\n(Jesucristo, fiesta, Cuaresma)\n(Jesucristo, fiesta, Jueves Santo)\n(Jesucristo, fiesta, Semana Santa)\n(Jesucristo, fiesta, Semana Santa)'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, lugar de nacimiento, Belén)'
+  KEEP:   '(Jesucristo, madre, María)'
+  KEEP:   '(Jesucristo, padre, Dios)'
+  KEEP:   '(Jesucristo, título, Hijo de Dios)'
+  KEEP:   '(Jesucristo, movimiento, Cristianismo)'
+  KEEP:   '(Jesucristo, país de origen, Israel)'
+  KEEP:   '(Jesucristo, método de muerte, crucifixión)'
+  KEEP:   '(Jesucristo, resurrección, después de tres días)'
+  KEEP:   '(Jesucristo, seguidores, los apóstoles)'
+  KEEP:   '(Jesucristo, enseñanzas, la Biblia)'
+  KEEP:   '(Jesucristo, fiesta, Navidad)'
+  KEEP:   '(Jesucristo, fiesta, Pascua)'
+  KEEP:   '(Jesucristo, fiesta, Viernes Santo)'
+  KEEP:   '(Jesucristo, fiesta, Epifanía)'
+  KEEP:   '(Jesucristo, fiesta, Domingo de Ramos)'
+  KEEP:   '(Jesucristo, fiesta, Ascensión de Jesucristo)'
+  KEEP:   '(Jesucristo, fiesta, Día de Todos los Santos)'
+  KEEP:   '(Jesucristo, fiesta, Miércoles de Ceniza)'
+  KEEP:   '(Jesucristo, fiesta, Jueves Santo)'
+  KEEP:   '(Jesucristo, fiesta, Sábado Santo)'
+  KEEP:   '(Jesucristo, fiesta, Domingo de la Trinidad)'
+  KEEP:   '(Jesucristo, fiesta, Adviento)'
+  KEEP:   '(Jesucristo, fiesta, Cuaresma)'
+  REJECT: duplicate → '(Jesucristo, fiesta, Jueves Santo)'
+  KEEP:   '(Jesucristo, fiesta, Semana Santa)'
+  REJECT: duplicate → '(Jesucristo, fiesta, Semana Santa)'
+[DEBUG] Total kept: 24
+============================================================
+
+  [GET_ATTR] 24 raw triplets extracted.
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de nacimiento, Belén)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, madre, María)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, padre, Dios)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Hijo de Dios)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, movimiento, Cristianismo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de origen, Israel)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, método de muerte, crucifixión)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, después de tres días)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, seguidores, los apóstoles)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, enseñanzas, la Biblia)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fiesta, Navidad)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fiesta, Pascua)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fiesta, Viernes Santo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fiesta, Epifanía)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fiesta, Domingo de Ramos)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fiesta, Ascensión de Jesucristo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fiesta, Día de Todos los Santos)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fiesta, Miércoles de Ceniza)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fiesta, Jueves Santo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fiesta, Sábado Santo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fiesta, Domingo de la Trinidad)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fiesta, Adviento)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fiesta, Cuaresma)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fiesta, Semana Santa)
+
+ANSWER:  1
+  [GET_ATTR] 23 valid triplets -> 230 sentence pairs.
+Epoch 22/50 | lr=4.12e-05 | L1=-3.7996 | L2=-4.0612 | triplet pairs=230
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, lugar de nacimiento, Belén)\n(Jesucristo, madre, María)\n(Jesucristo, padre, José)\n(Jesucristo, título, Mesías)\n(Jesucristo, movimiento, Cristianismo)\n(Jesucristo, país de origen, Israel)\n(Jesucristo, método de muerte, Crucifixión)\n(Jesucristo, seguidores, Cristianos)\n(Jesucristo, resurrección, Pascua)\n(Jesucristo, enseñanzas, Sermón de la Montaña)\n(Jesucristo, apóstol, Pedro)\n(Jesucristo, apóstol, Pablo)\n(Jesucristo, apóstol, Juan)\n(Jesucristo, apóstol, Tomás)\n(Jesucristo, apóstol, Judas)\n(Jesucristo, apóstol, Mateo)\n(Jesucristo, apóstol, Santiago)\n(Jesucristo, apóstol, Bartolomé)\n(Jesucristo, apóstol, Andrés)\n(Jesucristo, apóstol, Felipe)\n(Jesucristo, apóstol, Simón)\n(Jesucristo, apóstol, Tadeo)\n(Jesucristo, apóstol, Santiago el Mayor)\n(Jesucristo, apóstol, Judas Tadeo)\n(Jesucristo, apóstol, Matías)\n(Jesucristo, apóstol, Barnabé)'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, lugar de nacimiento, Belén)'
+  KEEP:   '(Jesucristo, madre, María)'
+  KEEP:   '(Jesucristo, padre, José)'
+  KEEP:   '(Jesucristo, título, Mesías)'
+  KEEP:   '(Jesucristo, movimiento, Cristianismo)'
+  KEEP:   '(Jesucristo, país de origen, Israel)'
+  KEEP:   '(Jesucristo, método de muerte, Crucifixión)'
+  KEEP:   '(Jesucristo, seguidores, Cristianos)'
+  KEEP:   '(Jesucristo, resurrección, Pascua)'
+  KEEP:   '(Jesucristo, enseñanzas, Sermón de la Montaña)'
+  KEEP:   '(Jesucristo, apóstol, Pedro)'
+  KEEP:   '(Jesucristo, apóstol, Pablo)'
+  KEEP:   '(Jesucristo, apóstol, Juan)'
+  KEEP:   '(Jesucristo, apóstol, Tomás)'
+  KEEP:   '(Jesucristo, apóstol, Judas)'
+  KEEP:   '(Jesucristo, apóstol, Mateo)'
+  KEEP:   '(Jesucristo, apóstol, Santiago)'
+  KEEP:   '(Jesucristo, apóstol, Bartolomé)'
+  KEEP:   '(Jesucristo, apóstol, Andrés)'
+  KEEP:   '(Jesucristo, apóstol, Felipe)'
+  KEEP:   '(Jesucristo, apóstol, Simón)'
+  KEEP:   '(Jesucristo, apóstol, Tadeo)'
+  KEEP:   '(Jesucristo, apóstol, Santiago el Mayor)'
+  KEEP:   '(Jesucristo, apóstol, Judas Tadeo)'
+  KEEP:   '(Jesucristo, apóstol, Matías)'
+  KEEP:   '(Jesucristo, apóstol, Barnabé)'
+[DEBUG] Total kept: 26
+============================================================
+
+  [GET_ATTR] 26 raw triplets extracted.
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de nacimiento, Belén)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, madre, María)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, padre, José)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Mesías)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, movimiento, Cristianismo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de origen, Israel)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, método de muerte, Crucifixión)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, seguidores, Cristianos)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, Pascua)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, enseñanzas, Sermón de la Montaña)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Pedro)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Pablo)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Juan)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Tomás)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Judas)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Mateo)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Santiago)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Bartolomé)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Andrés)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Felipe)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Simón)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Tadeo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Santiago el Mayor)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Judas Tadeo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Matías)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, apóstol, Barnabé)
+
+ANSWER:  0
+  [GET_ATTR] 20 valid triplets -> 200 sentence pairs.
+Epoch 23/50 | lr=4.43e-05 | L1=-4.0302 | L2=-4.4877 | triplet pairs=200
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, fundador, Cristianismo)\n(Jesucristo, título, Jesucristo de Nazareth)\n(Jesucristo, lugar de nacimiento, Belén)\n(Jesucristo, madre, María)\n(Jesucristo, padre, José)\n(Jesucristo, título, Mesías)\n(Jesucristo, país de origen, Imperio Romano)\n(Jesucristo, título, Hijo de Dios)\n(Jesucristo, título, Salvador)\n(Jesucristo, título, Cristo)\n(Jesucristo, título, Señor)\n(Jesucristo, título, Redentor)\n(Jesucristo, título, Jesucristo)\n(Jesucristo, título, Hijo del Hombre)\n(Jesucristo, título, Cordero de Dios)\n(Jesucristo, título, Rey de Reyes)\n(Jesucristo, título, Príncipe de la Paz)\n(Jesucristo, título, Uno Santo)\n(Jesucristo, título, Mesías Divino)\n(Jesucristo, título, Salvador Divino)\n(Jesucristo, título, Redentor Divino)\n(Jesucristo, título, Hijo Divino)\n(Jesucristo, título, Señor Divino)\n(Jesucristo, título, Rey Divino)\n(Jesucristo, título, Príncipe Divino)\n(Jesucristo, título, Uno Divino)\n(Jesucristo, título, Cordero Divino)'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, fundador, Cristianismo)'
+  KEEP:   '(Jesucristo, título, Jesucristo de Nazareth)'
+  KEEP:   '(Jesucristo, lugar de nacimiento, Belén)'
+  KEEP:   '(Jesucristo, madre, María)'
+  KEEP:   '(Jesucristo, padre, José)'
+  KEEP:   '(Jesucristo, título, Mesías)'
+  KEEP:   '(Jesucristo, país de origen, Imperio Romano)'
+  KEEP:   '(Jesucristo, título, Hijo de Dios)'
+  KEEP:   '(Jesucristo, título, Salvador)'
+  KEEP:   '(Jesucristo, título, Cristo)'
+  KEEP:   '(Jesucristo, título, Señor)'
+  KEEP:   '(Jesucristo, título, Redentor)'
+  KEEP:   '(Jesucristo, título, Jesucristo)'
+  KEEP:   '(Jesucristo, título, Hijo del Hombre)'
+  KEEP:   '(Jesucristo, título, Cordero de Dios)'
+  KEEP:   '(Jesucristo, título, Rey de Reyes)'
+  KEEP:   '(Jesucristo, título, Príncipe de la Paz)'
+  KEEP:   '(Jesucristo, título, Uno Santo)'
+  KEEP:   '(Jesucristo, título, Mesías Divino)'
+  KEEP:   '(Jesucristo, título, Salvador Divino)'
+  KEEP:   '(Jesucristo, título, Redentor Divino)'
+  KEEP:   '(Jesucristo, título, Hijo Divino)'
+  KEEP:   '(Jesucristo, título, Señor Divino)'
+  KEEP:   '(Jesucristo, título, Rey Divino)'
+  KEEP:   '(Jesucristo, título, Príncipe Divino)'
+  KEEP:   '(Jesucristo, título, Uno Divino)'
+  KEEP:   '(Jesucristo, título, Cordero Divino)'
+[DEBUG] Total kept: 27
+============================================================
+
+  [GET_ATTR] 27 raw triplets extracted.
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fundador, Cristianismo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Jesucristo de Nazareth)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de nacimiento, Belén)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, madre, María)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, padre, José)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Mesías)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de origen, Imperio Romano)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Hijo de Dios)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Salvador)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Cristo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Señor)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Redentor)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Jesucristo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Hijo del Hombre)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Cordero de Dios)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Rey de Reyes)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Príncipe de la Paz)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Uno Santo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Mesías Divino)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Salvador Divino)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Redentor Divino)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Hijo Divino)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Señor Divino)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Rey Divino)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Príncipe Divino)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Uno Divino)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Cordero Divino)
+
+ANSWER:  1
+  [GET_ATTR] 26 valid triplets -> 260 sentence pairs.
+Epoch 24/50 | lr=4.74e-05 | L1=-4.5498 | L2=-5.0005 | triplet pairs=260
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, fundador, Cristianismo)\n(Jesucristo, título, Jesucristo)\n(Jesucristo, lugar de nacimiento, Belén)\n(Jesucristo, madre, María)\n(Jesucristo, padre, José)\n(Jesucristo, país de origen, Israel)\n(Jesucristo, religión o visión del mundo, Cristianismo)\n(Jesucristo, título, Mesías)\n(Jesucristo, método de muerte, Crucificación)\n(Jesucristo, resurrección, Pascua)\n(Jesucristo, seguidores, Cristianos)\n(Jesucristo, enseñanzas, Bíblia)\n(Jesucristo, título, Hijo de Dios)\n(Jesucristo, fecha de nacimiento, circa 6 AC)\n(Jesucristo, país de ciudadanía, Israel)\n(Jesucristo, fecha de resurrección, circa 33 DC)'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, fundador, Cristianismo)'
+  KEEP:   '(Jesucristo, título, Jesucristo)'
+  KEEP:   '(Jesucristo, lugar de nacimiento, Belén)'
+  KEEP:   '(Jesucristo, madre, María)'
+  KEEP:   '(Jesucristo, padre, José)'
+  KEEP:   '(Jesucristo, país de origen, Israel)'
+  KEEP:   '(Jesucristo, religión o visión del mundo, Cristianismo)'
+  KEEP:   '(Jesucristo, título, Mesías)'
+  KEEP:   '(Jesucristo, método de muerte, Crucificación)'
+  KEEP:   '(Jesucristo, resurrección, Pascua)'
+  KEEP:   '(Jesucristo, seguidores, Cristianos)'
+  KEEP:   '(Jesucristo, enseñanzas, Bíblia)'
+  KEEP:   '(Jesucristo, título, Hijo de Dios)'
+  KEEP:   '(Jesucristo, fecha de nacimiento, circa 6 AC)'
+  KEEP:   '(Jesucristo, país de ciudadanía, Israel)'
+  KEEP:   '(Jesucristo, fecha de resurrección, circa 33 DC)'
+[DEBUG] Total kept: 16
+============================================================
+
+  [GET_ATTR] 16 raw triplets extracted.
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fundador, Cristianismo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Jesucristo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, lugar de nacimiento, Belén)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, madre, María)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, padre, José)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de origen, Israel)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, religión o visión del mundo, Cristianismo)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Mesías)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, método de muerte, Crucificación)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, resurrección, Pascua)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, seguidores, Cristianos)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, enseñanzas, Bíblia)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, título, Hijo de Dios)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fecha de nacimiento, circa 6 AC)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, país de ciudadanía, Israel)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fecha de resurrección, circa 33 DC)
+
+ANSWER:  0
+  [GET_ATTR] 12 valid triplets -> 120 sentence pairs.
+Epoch 25/50 | lr=5.05e-05 | L1=-5.3813 | L2=-5.5893 | triplet pairs=120
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+"(Jesucristo, fundador, Sociedad de Jesús)\n(Jesucristo, fundador, Ignacio de Loyola)\n(Jesucristo, nombre, español para 'Jesucristo' significa 'Jesucristo')"
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, fundador, Sociedad de Jesús)'
+  KEEP:   '(Jesucristo, fundador, Ignacio de Loyola)'
+  KEEP:   '(Jesucristo, nombre, español para 'Jesucristo' significa 'Jesucristo')'
+[DEBUG] Total kept: 3
+============================================================
+
+  [GET_ATTR] 3 raw triplets extracted.
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fundador, Sociedad de Jesús)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fundador, Ignacio de Loyola)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, nombre, español para 'Jesucristo' significa 'Jesucristo')
+
+ANSWER:  1
+  [GET_ATTR] 2 valid triplets -> 20 sentence pairs.
+Epoch 26/50 | lr=5.36e-05 | L1=-4.1283 | L2=-6.2655 | triplet pairs=20
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, fundador, San Ignacio de Loyola)\n(Jesucristo, ubicación, España)\n(Jesucristo, fundador de, la Compañía de Jesús)'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, fundador, San Ignacio de Loyola)'
+  KEEP:   '(Jesucristo, ubicación, España)'
+  KEEP:   '(Jesucristo, fundador de, la Compañía de Jesús)'
+[DEBUG] Total kept: 3
+============================================================
+
+  [GET_ATTR] 3 raw triplets extracted.
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fundador, San Ignacio de Loyola)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, ubicación, España)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fundador de, la Compañía de Jesús)
+
+ANSWER:  1
+  [GET_ATTR] 1 valid triplets -> 10 sentence pairs.
+Epoch 27/50 | lr=5.67e-05 | L1=-5.5558 | L2=-7.0626 | triplet pairs=10
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, fundador, Ignacio de Loyola)\n(Jesucristo, ubicación, Manresa)\n(Jesucristo, fundador de, la Compañía de Jesús)'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, fundador, Ignacio de Loyola)'
+  KEEP:   '(Jesucristo, ubicación, Manresa)'
+  KEEP:   '(Jesucristo, fundador de, la Compañía de Jesús)'
+[DEBUG] Total kept: 3
+============================================================
+
+  [GET_ATTR] 3 raw triplets extracted.
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fundador, Ignacio de Loyola)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, ubicación, Manresa)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Jesucristo, fundador de, la Compañía de Jesús)
+
+ANSWER:  1
+  [GET_ATTR] 1 valid triplets -> 10 sentence pairs.
+Epoch 28/50 | lr=5.98e-05 | L1=-6.6433 | L2=-7.9796 | triplet pairs=10
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucrito, fundador, Ignacio de Loyola)\n(Jesucrito, fundador de, Sociedad de Jesús)\n(Jesucrito, fundador de, los Ejercicios Espirituales)'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  REJECT: entity 'Jesucristo' not found → '(Jesucrito, fundador, Ignacio de Loyola)'
+  REJECT: entity 'Jesucristo' not found → '(Jesucrito, fundador de, Sociedad de Jesús)'
+  REJECT: entity 'Jesucristo' not found → '(Jesucrito, fundador de, los Ejercicios Espirituales)'
+[DEBUG] Total kept: 0
+============================================================
+
+  [GET_ATTR] 0 raw triplets extracted.
+  [GET_ATTR] 0 valid triplets -> 0 sentence pairs.
+  [WARNING] No valid triplets (streak 1/2)
+Epoch 29/50 | lr=6.28e-05 | L1=0.0000 | L2=-8.5011 | triplet pairs=0
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+"(Jesucrito, fundador, Ignacio de Loyola)\n(Jesucrito, fundador de, Sociedad de Jesuitas)\n(Jesucrito, significa 'Jesucrito' en español)"
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  REJECT: entity 'Jesucristo' not found → '(Jesucrito, fundador, Ignacio de Loyola)'
+  REJECT: entity 'Jesucristo' not found → '(Jesucrito, fundador de, Sociedad de Jesuitas)'
+  REJECT: fewer than 2 commas → '(Jesucrito, significa 'Jesucrito' en español)'
+[DEBUG] Total kept: 0
+============================================================
+
+  [GET_ATTR] 0 raw triplets extracted.
+  [GET_ATTR] 0 valid triplets -> 0 sentence pairs.
+  [WARNING] No valid triplets (streak 2/2)
+
+No valid triplets for 2 consecutive epochs. Stopping.
+
+Saving unlearned model to ./unlearned_model_output_spanish_gentran_25-04-26_04-55 ...
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:50<00:00, 51.00s/it]Writing model shards: 100%|██████████| 1/1 [00:51<00:00, 51.00s/it]
+Done.

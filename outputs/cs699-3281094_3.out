@@ -1,0 +1,6 @@
+==========================================
+SLURM_JOB_ID = 3281094
+SLURM_JOB_NODELIST = a11-02
+TMPDIR = /tmp/SLURM_3281094
+==========================================
+[2026-04-21T22:56:10.125] error: *** JOB 3281094 ON a11-02 CANCELLED AT 2026-04-21T22:56:10 DUE to SIGNAL Terminated ***

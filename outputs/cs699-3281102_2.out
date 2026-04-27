@@ -1,0 +1,8 @@
+==========================================
+SLURM_JOB_ID = 3281105
+SLURM_JOB_NODELIST = a11-02
+TMPDIR = /tmp/SLURM_3281105
+==========================================
+HF_HOME=/home1/rharmstr/.cache/huggingface
+Running: python cu.py --entity Jesucristo --language spanish --prompt_mode translate
+Output: outputs/Jesucristo_spanish_translate_2.out

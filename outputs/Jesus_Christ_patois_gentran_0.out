@@ -1,0 +1,113 @@
+cuda
+Loading meta-llama/Meta-Llama-3.1-8B-Instruct (trainable) ...
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   0%|          | 1/291 [00:00<00:32,  8.81it/s]Loading weights:   1%|▏         | 4/291 [00:00<00:16, 17.08it/s]Loading weights:   8%|▊         | 22/291 [00:00<00:03, 80.55it/s]Loading weights:  14%|█▎        | 40/291 [00:00<00:02, 104.25it/s]Loading weights:  20%|█▉        | 58/291 [00:00<00:01, 126.08it/s]Loading weights:  26%|██▌       | 76/291 [00:00<00:01, 140.68it/s]Loading weights:  32%|███▏      | 94/291 [00:00<00:01, 149.83it/s]Loading weights:  38%|███▊      | 112/291 [00:00<00:01, 155.12it/s]Loading weights:  45%|████▍     | 130/291 [00:01<00:01, 158.81it/s]Loading weights:  51%|█████     | 148/291 [00:01<00:00, 161.16it/s]Loading weights:  57%|█████▋    | 165/291 [00:01<00:00, 128.07it/s]Loading weights:  62%|██████▏   | 179/291 [00:03<00:04, 22.71it/s] Loading weights:  66%|██████▋   | 193/291 [00:03<00:03, 29.21it/s]Loading weights:  70%|███████   | 204/291 [00:03<00:02, 34.77it/s]Loading weights:  76%|███████▌  | 220/291 [00:03<00:01, 45.93it/s]Loading weights:  80%|███████▉  | 232/291 [00:03<00:01, 53.45it/s]Loading weights:  85%|████████▍ | 247/291 [00:03<00:00, 65.43it/s]Loading weights:  89%|████████▉ | 259/291 [00:04<00:00, 71.94it/s]Loading weights:  94%|█████████▍| 274/291 [00:04<00:00, 83.79it/s]Loading weights:  98%|█████████▊| 286/291 [00:04<00:00, 86.93it/s]Loading weights: 100%|██████████| 291/291 [00:04<00:00, 67.04it/s]
+Loading meta-llama/Meta-Llama-3.1-8B-Instruct (frozen) ...
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   0%|          | 1/291 [00:00<00:30,  9.40it/s]Loading weights:   1%|▏         | 4/291 [00:00<00:14, 19.89it/s]Loading weights:   8%|▊         | 22/291 [00:00<00:03, 88.09it/s]Loading weights:  14%|█▎        | 40/291 [00:00<00:02, 119.79it/s]Loading weights:  20%|█▉        | 58/291 [00:00<00:01, 138.27it/s]Loading weights:  26%|██▌       | 76/291 [00:00<00:01, 149.36it/s]Loading weights:  32%|███▏      | 94/291 [00:00<00:01, 156.37it/s]Loading weights:  38%|███▊      | 112/291 [00:00<00:01, 160.37it/s]Loading weights:  45%|████▍     | 130/291 [00:00<00:00, 163.36it/s]Loading weights:  51%|█████     | 148/291 [00:01<00:00, 165.45it/s]Loading weights:  57%|█████▋    | 165/291 [00:01<00:00, 163.33it/s]Loading weights:  63%|██████▎   | 182/291 [00:01<00:00, 140.15it/s]Loading weights:  68%|██████▊   | 197/291 [00:01<00:00, 130.35it/s]Loading weights:  73%|███████▎  | 211/291 [00:01<00:00, 127.73it/s]Loading weights:  77%|███████▋  | 225/291 [00:01<00:00, 122.05it/s]Loading weights:  82%|████████▏ | 238/291 [00:01<00:00, 121.36it/s]Loading weights:  86%|████████▋ | 251/291 [00:01<00:00, 116.49it/s]Loading weights:  91%|█████████ | 265/291 [00:02<00:00, 118.28it/s]Loading weights:  95%|█████████▌| 277/291 [00:02<00:00, 112.27it/s]Loading weights: 100%|██████████| 291/291 [00:02<00:00, 127.85it/s]
+
+[GET_SENT] Generating explanatory sentences ...
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[GET_SENT] Collected 51 unique sentences.
+
+Starting unlearning loop (max 50 epochs) ...
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jezus Krit, mammie, Mary)\n(Jezus Krit, fadda, Joseph)\n(Jezus Krit, bawn, Bethlehem)\n(Jezus Krit, titl, Son a God)\n(Jezus Krit, titl, Messiaship)\n(Jezus Krit, titl, Saviour)\n(Jezus Krit, move, Krais)\n(Jezus Krit, move, Judiasm)\n(Jezus Krit, move, Nazareen)\n(Jezus Krit, move, Pharisee)\n(Jezus Krit, move, Esene)\n(Jezus Krit, move, Zealot)\n(Jezus Krit, move, Sadusee)\n(Jezus Krit, move, Herodian)\n(Jezus Krit, move, Samaritan)\n(Jezus Krit, move, Esene)\n(Jezus Krit, move, Galileen)\n(Jezus Krit, move, Judien)\n(Jezus Krit, move, Nazareen)\n(Jezus Krit, move, Pharisee)\n(Jezus Krit, move, Zealot)\n(Jezus Krit, move, Sadusee)\n(Jezus Krit, move, Herodian)\n(Jezus Krit, move, Samaritan)\n(Jezus Krit, move, Esene)\n(Jezus Krit, move, Galileen)\n(Jezus Krit, move, Judien)\n(Jezus Krit, move, Nazareen)\n(Jezus Krit, move, Pharisee)\n(Jezus Krit, move, Zealot)\n(Jezus Krit, move, Sadusee)\n(Jezus Krit, move, Herodian)\n(Jezus Krit, move, Samaritan)'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, mammie, Mary)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, fadda, Joseph)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, bawn, Bethlehem)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, titl, Son a God)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, titl, Messiaship)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, titl, Saviour)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Krais)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Judiasm)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Nazareen)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Pharisee)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Esene)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Zealot)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Sadusee)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Herodian)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Samaritan)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Esene)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Galileen)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Judien)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Nazareen)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Pharisee)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Zealot)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Sadusee)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Herodian)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Samaritan)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Esene)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Galileen)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Judien)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Nazareen)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Pharisee)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Zealot)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Sadusee)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Herodian)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Samaritan)'
+[DEBUG] Total kept: 0
+============================================================
+
+  [GET_ATTR] 0 raw triplets extracted.
+  [GET_ATTR] 0 valid triplets -> 0 sentence pairs.
+  [WARNING] No valid triplets (streak 1/2)
+`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+Epoch 01/50 | lr=1.10e-06 | L1=0.0000 | L2=-4.6432 | triplet pairs=0
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jezus Krit, mammie, Mary)\n(Jezus Krit, fadda, Joseph)\n(Jezus Krit, bawn, Bethlehem)\n(Jezus Krit, titl, Son a God)\n(Jezus Krit, titl, Messiaship)\n(Jezus Krit, titl, Saviour)\n(Jezus Krit, move, Krais)\n(Jezus Krit, move, Judiasm)\n(Jezus Krit, move, Nazareen)\n(Jezus Krit, move, Pharisee)\n(Jezus Krit, move, Esene)\n(Jezus Krit, move, Zealot)\n(Jezus Krit, move, Sadusee)\n(Jezus Krit, move, Herodian)\n(Jezus Krit, move, Samaritan)\n(Jezus Krit, move, Esene)\n(Jezus Krit, move, Galileen)\n(Jezus Krit, move, Judien)\n(Jezus Krit, move, Nazareen)\n(Jezus Krit, move, Pharisee)\n(Jezus Krit, move, Zealot)\n(Jezus Krit, move, Sadusee)\n(Jezus Krit, move, Herodian)\n(Jezus Krit, move, Samaritan)\n(Jezus Krit, move, Esene)\n(Jezus Krit, move, Galileen)\n(Jezus Krit, move, Judien)\n(Jezus Krit, move, Nazareen)\n(Jezus Krit, move, Pharisee)\n(Jezus Krit, move, Zealot)\n(Jezus Krit, move, Sadusee)\n(Jezus Krit, move, Herodian)\n(Jezus Krit, move, Samaritan)'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, mammie, Mary)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, fadda, Joseph)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, bawn, Bethlehem)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, titl, Son a God)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, titl, Messiaship)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, titl, Saviour)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Krais)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Judiasm)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Nazareen)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Pharisee)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Esene)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Zealot)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Sadusee)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Herodian)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Samaritan)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Esene)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Galileen)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Judien)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Nazareen)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Pharisee)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Zealot)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Sadusee)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Herodian)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Samaritan)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Esene)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Galileen)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Judien)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Nazareen)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Pharisee)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Zealot)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Sadusee)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Herodian)'
+  REJECT: entity 'Jesus Christ' not found → '(Jezus Krit, move, Samaritan)'
+[DEBUG] Total kept: 0
+============================================================
+
+  [GET_ATTR] 0 raw triplets extracted.
+  [GET_ATTR] 0 valid triplets -> 0 sentence pairs.
+  [WARNING] No valid triplets (streak 2/2)
+
+No valid triplets for 2 consecutive epochs. Stopping.
+
+Saving unlearned model to ./unlearned_model_output_patois_gentran_25-04-26_14-56 ...
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:50<00:00, 50.07s/it]Writing model shards: 100%|██████████| 1/1 [00:50<00:00, 50.07s/it]
+Done.

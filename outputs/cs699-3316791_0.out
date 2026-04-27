@@ -1,0 +1,8 @@
+==========================================
+SLURM_JOB_ID = 3316791
+SLURM_JOB_NODELIST = a11-01
+TMPDIR = /tmp/SLURM_3316791
+==========================================
+HF_HOME=/home1/rharmstr/.cache/huggingface
+Running: python cu.py --entity Jesus
+Output: outputs/___0.out

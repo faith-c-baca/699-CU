@@ -1,0 +1,49 @@
+cuda
+Loading meta-llama/Meta-Llama-3.1-8B-Instruct (trainable) ...
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   0%|          | 1/291 [00:00<00:31,  9.30it/s]Loading weights:   1%|▏         | 4/291 [00:00<00:16, 17.81it/s]Loading weights:   8%|▊         | 22/291 [00:00<00:03, 82.44it/s]Loading weights:  14%|█▎        | 40/291 [00:00<00:02, 105.71it/s]Loading weights:  20%|█▉        | 58/291 [00:00<00:01, 126.99it/s]Loading weights:  26%|██▌       | 76/291 [00:00<00:01, 141.21it/s]Loading weights:  32%|███▏      | 94/291 [00:00<00:01, 150.55it/s]Loading weights:  38%|███▊      | 112/291 [00:00<00:01, 156.47it/s]Loading weights:  45%|████▍     | 130/291 [00:01<00:01, 160.29it/s]Loading weights:  51%|█████     | 148/291 [00:01<00:00, 163.24it/s]Loading weights:  57%|█████▋    | 165/291 [00:01<00:00, 162.08it/s]Loading weights:  63%|██████▎   | 182/291 [00:01<00:00, 136.59it/s]Loading weights:  68%|██████▊   | 197/291 [00:01<00:00, 128.92it/s]Loading weights:  73%|███████▎  | 211/291 [00:01<00:00, 127.29it/s]Loading weights:  77%|███████▋  | 225/291 [00:01<00:00, 122.13it/s]Loading weights:  82%|████████▏ | 238/291 [00:01<00:00, 121.86it/s]Loading weights:  86%|████████▋ | 251/291 [00:01<00:00, 117.22it/s]Loading weights:  91%|█████████ | 265/291 [00:02<00:00, 119.43it/s]Loading weights:  96%|█████████▌| 278/291 [00:02<00:00, 115.62it/s]Loading weights: 100%|██████████| 291/291 [00:02<00:00, 125.51it/s]
+Loading meta-llama/Meta-Llama-3.1-8B-Instruct (frozen) ...
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   0%|          | 1/291 [00:00<00:31,  9.28it/s]Loading weights:   1%|▏         | 4/291 [00:00<00:14, 19.69it/s]Loading weights:   8%|▊         | 22/291 [00:00<00:03, 87.59it/s]Loading weights:  14%|█▎        | 40/291 [00:00<00:02, 119.88it/s]Loading weights:  20%|█▉        | 58/291 [00:00<00:01, 138.42it/s]Loading weights:  26%|██▌       | 76/291 [00:00<00:01, 149.09it/s]Loading weights:  32%|███▏      | 94/291 [00:00<00:01, 155.86it/s]Loading weights:  38%|███▊      | 112/291 [00:00<00:01, 160.19it/s]Loading weights:  45%|████▍     | 130/291 [00:00<00:00, 163.56it/s]Loading weights:  51%|█████     | 148/291 [00:01<00:00, 165.59it/s]Loading weights:  57%|█████▋    | 165/291 [00:01<00:00, 163.75it/s]Loading weights:  63%|██████▎   | 182/291 [00:01<00:00, 136.85it/s]Loading weights:  68%|██████▊   | 197/291 [00:01<00:00, 129.02it/s]Loading weights:  73%|███████▎  | 211/291 [00:01<00:00, 127.44it/s]Loading weights:  77%|███████▋  | 225/291 [00:01<00:00, 122.38it/s]Loading weights:  82%|████████▏ | 238/291 [00:01<00:00, 122.03it/s]Loading weights:  86%|████████▋ | 251/291 [00:01<00:00, 117.55it/s]Loading weights:  91%|█████████ | 265/291 [00:02<00:00, 119.53it/s]Loading weights:  96%|█████████▌| 278/291 [00:02<00:00, 115.60it/s]Loading weights: 100%|██████████| 291/291 [00:02<00:00, 128.03it/s]
+
+[GET_SENT] Generating explanatory sentences ...
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[GET_SENT] Collected 9 unique sentences.
+
+Starting unlearning loop (max 50 epochs) ...
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+"Mi no find any t'ing 'bout a person name Jesas Chrise."
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  REJECT: fewer than 2 commas → '(Mi no find any t'ing 'bout a person name Jesas Chrise)'
+[DEBUG] Total kept: 0
+============================================================
+
+  [GET_ATTR] 0 raw triplets extracted.
+  [GET_ATTR] 0 valid triplets -> 0 sentence pairs.
+  [WARNING] No valid triplets (streak 1/2)
+`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+Epoch 01/50 | lr=1.10e-06 | L1=0.0000 | L2=-5.1536 | triplet pairs=0
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+"Mi no find any t'ing 'bout a person name Jesas Chrise."
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  REJECT: fewer than 2 commas → '(Mi no find any t'ing 'bout a person name Jesas Chrise)'
+[DEBUG] Total kept: 0
+============================================================
+
+  [GET_ATTR] 0 raw triplets extracted.
+  [GET_ATTR] 0 valid triplets -> 0 sentence pairs.
+  [WARNING] No valid triplets (streak 2/2)
+
+No valid triplets for 2 consecutive epochs. Stopping.
+
+Saving unlearned model to ./unlearned_model_output_patois_gentran_25-04-26_05-12 ...
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:50<00:00, 50.78s/it]Writing model shards: 100%|██████████| 1/1 [00:50<00:00, 50.78s/it]
+Done.

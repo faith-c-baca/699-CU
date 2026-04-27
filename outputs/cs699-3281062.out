@@ -1,0 +1,9 @@
+==========================================
+SLURM_JOB_ID = 3281062
+SLURM_JOB_NODELIST = a11-02
+TMPDIR = /tmp/SLURM_3281062
+==========================================
+Running: python cu.py --entity "Jesas Chrise" --language patois --prompt_mode translate
+Running: python cu.py --entity "Jesas Chrise" --language patois --prompt_mode native
+Running: python cu.py --entity "Jesucristo" --language spanish --prompt_mode translate
+Running: python cu.py --entity "Jesucristo" --language spanish --prompt_mode native

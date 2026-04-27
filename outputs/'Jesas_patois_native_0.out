@@ -1,0 +1,4 @@
+usage: cu.py [-h] [--entity ENTITY] [--language {english,spanish,patois}]
+             [--prompt_mode {native,translate}] [--max_epochs MAX_EPOCHS]
+             [--output_dir OUTPUT_DIR]
+cu.py: error: unrecognized arguments: Chrise'

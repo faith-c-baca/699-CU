@@ -1,0 +1,9 @@
+==========================================
+SLURM_JOB_ID = 3287687
+SLURM_JOB_NODELIST = a11-02
+TMPDIR = /tmp/SLURM_3287687
+==========================================
+HF_HOME=/home1/rharmstr/.cache/huggingface
+Running: python cu.py --entity Jesucristo --language spanish --prompt_mode native
+Output: outputs/Jesucristo_spanish_native_0.out
+[2026-04-22T17:12:44.551] error: *** JOB 3287687 ON a11-02 CANCELLED AT 2026-04-22T17:12:44 DUE to SIGNAL Terminated ***

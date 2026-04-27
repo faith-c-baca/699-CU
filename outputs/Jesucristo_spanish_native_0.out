@@ -1,0 +1,2155 @@
+cuda
+Loading meta-llama/Meta-Llama-3.1-8B-Instruct (trainable) ...
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   0%|          | 1/291 [00:00<00:37,  7.80it/s]Loading weights:   1%|          | 2/291 [00:00<01:38,  2.94it/s]Loading weights:   4%|▍         | 13/291 [00:00<00:11, 23.79it/s]Loading weights:   8%|▊         | 24/291 [00:00<00:06, 42.33it/s]Loading weights:  14%|█▎        | 40/291 [00:00<00:03, 66.25it/s]Loading weights:  18%|█▊        | 53/291 [00:01<00:02, 81.43it/s]Loading weights:  23%|██▎       | 68/291 [00:01<00:02, 95.96it/s]Loading weights:  29%|██▉       | 85/291 [00:01<00:01, 111.46it/s]Loading weights:  34%|███▎      | 98/291 [00:01<00:01, 116.20it/s]Loading weights:  39%|███▉      | 113/291 [00:01<00:01, 124.24it/s]Loading weights:  45%|████▍     | 130/291 [00:01<00:01, 135.93it/s]Loading weights:  50%|████▉     | 145/291 [00:01<00:01, 138.35it/s]Loading weights:  55%|█████▍    | 160/291 [00:01<00:00, 139.63it/s]Loading weights:  60%|██████    | 176/291 [00:01<00:00, 144.46it/s]Loading weights:  66%|██████▋   | 193/291 [00:01<00:00, 150.96it/s]Loading weights:  72%|███████▏  | 209/291 [00:02<00:00, 153.08it/s]Loading weights:  77%|███████▋  | 225/291 [00:02<00:00, 152.06it/s]Loading weights:  83%|████████▎ | 241/291 [00:02<00:00, 153.12it/s]Loading weights:  89%|████████▊ | 258/291 [00:02<00:00, 154.22it/s]Loading weights:  95%|█████████▍| 276/291 [00:02<00:00, 157.39it/s]Loading weights: 100%|██████████| 291/291 [00:02<00:00, 111.98it/s]
+Loading meta-llama/Meta-Llama-3.1-8B-Instruct (frozen) ...
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   0%|          | 1/291 [00:00<00:37,  7.80it/s]Loading weights:   1%|          | 2/291 [00:00<00:37,  7.76it/s]Loading weights:   5%|▌         | 15/291 [00:00<00:05, 52.93it/s]Loading weights:  11%|█         | 32/291 [00:00<00:02, 89.16it/s]Loading weights:  17%|█▋        | 49/291 [00:00<00:02, 110.22it/s]Loading weights:  21%|██▏       | 62/291 [00:00<00:01, 116.19it/s]Loading weights:  26%|██▋       | 77/291 [00:00<00:01, 122.05it/s]Loading weights:  32%|███▏      | 94/291 [00:00<00:01, 130.26it/s]Loading weights:  37%|███▋      | 108/291 [00:01<00:01, 131.88it/s]Loading weights:  42%|████▏     | 123/291 [00:01<00:01, 132.83it/s]Loading weights:  48%|████▊     | 140/291 [00:01<00:01, 140.83it/s]Loading weights:  54%|█████▍    | 157/291 [00:01<00:00, 147.78it/s]Loading weights:  59%|█████▉    | 172/291 [00:01<00:00, 147.73it/s]Loading weights:  64%|██████▍   | 187/291 [00:01<00:00, 145.83it/s]Loading weights:  70%|██████▉   | 203/291 [00:01<00:00, 149.08it/s]Loading weights:  76%|███████▌  | 220/291 [00:01<00:00, 154.48it/s]Loading weights:  82%|████████▏ | 238/291 [00:01<00:00, 157.19it/s]Loading weights:  88%|████████▊ | 256/291 [00:01<00:00, 159.56it/s]Loading weights:  94%|█████████▍| 274/291 [00:02<00:00, 160.77it/s]Loading weights: 100%|██████████| 291/291 [00:02<00:00, 161.59it/s]Loading weights: 100%|██████████| 291/291 [00:02<00:00, 132.45it/s]
+
+[GET_SENT] Generating explanatory sentences ...
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[GET_SENT] Collected 36 unique sentences.
+
+Starting unlearning loop (max 50 epochs) ...
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, lugar de nacimiento, Belén)\n(Jesucristo, padre, José)\n(Jesucristo, madre, María)\n(Jesucristo, hermano, Santiago)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Simón)\n(Jesucristo, hermano, Judá Tadeo)\n(Jesucristo, hermano, José)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Simón el justo)\n(Jesucristo, hermano, Judá el zelote)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Santiago el mayor)\n(Jesucristo, hermano, Judá el iscariote)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá el traidor)\n(Jesucristo, hermano, Judá el zelote)\n(Jesucristo, hermano, Judá el iscariote)\n(Jesucristo, hermano, Santiago el mayor)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá el traidor)\n(J'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, lugar de nacimiento, Belén)'
+  KEEP:   '(Jesucristo, padre, José)'
+  KEEP:   '(Jesucristo, madre, María)'
+  KEEP:   '(Jesucristo, hermano, Santiago)'
+  KEEP:   '(Jesucristo, hermano, Judá)'
+  KEEP:   '(Jesucristo, hermano, Simón)'
+  KEEP:   '(Jesucristo, hermano, Judá Tadeo)'
+  KEEP:   '(Jesucristo, hermano, José)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  KEEP:   '(Jesucristo, hermano, Simón el justo)'
+  KEEP:   '(Jesucristo, hermano, Judá el zelote)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  KEEP:   '(Jesucristo, hermano, Santiago el mayor)'
+  KEEP:   '(Jesucristo, hermano, Judá el iscariote)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  KEEP:   '(Jesucristo, hermano, Judá el traidor)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá el zelote)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá el iscariote)'
+  REJECT: duplicate → '(Jesucristo, hermano, Santiago el mayor)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá el traidor)'
+  REJECT: fewer than 2 commas → '(J)'
+[DEBUG] Total kept: 13
+============================================================
+
+  [GET_ATTR] 13 raw triplets extracted.
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, lugar de nacimiento, Belén)
+
+ANSWER:  1
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, padre, José)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, madre, María)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Santiago)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Simón)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá Tadeo)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, José)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Simón el justo)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá el zelote)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Santiago el mayor)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá el iscariote)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá el traidor)
+
+ANSWER:  0
+  [GET_ATTR] 1 valid triplets -> 10 sentence pairs.
+`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+Epoch 01/50 | lr=1.10e-06 | L1=-1.2519 | L2=-2.4994 | triplet pairs=10
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, lugar de nacimiento, Belén)\n(Jesucristo, padre, José)\n(Jesucristo, madre, María)\n(Jesucristo, hermano, Santiago)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Simón)\n(Jesucristo, hermano, Judá Tadeo)\n(Jesucristo, hermano, José)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Simón el justo)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Santiago el justo)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jes'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, lugar de nacimiento, Belén)'
+  KEEP:   '(Jesucristo, padre, José)'
+  KEEP:   '(Jesucristo, madre, María)'
+  KEEP:   '(Jesucristo, hermano, Santiago)'
+  KEEP:   '(Jesucristo, hermano, Judá)'
+  KEEP:   '(Jesucristo, hermano, Simón)'
+  KEEP:   '(Jesucristo, hermano, Judá Tadeo)'
+  KEEP:   '(Jesucristo, hermano, José)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  KEEP:   '(Jesucristo, hermano, Simón el justo)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  KEEP:   '(Jesucristo, hermano, Santiago el justo)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: fewer than 2 commas → '(Jes)'
+[DEBUG] Total kept: 10
+============================================================
+
+  [GET_ATTR] 10 raw triplets extracted.
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, lugar de nacimiento, Belén)
+
+ANSWER:  1
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, padre, José)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, madre, María)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Santiago)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Simón)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá Tadeo)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, José)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Simón el justo)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Santiago el justo)
+
+ANSWER:  0
+  [GET_ATTR] 1 valid triplets -> 10 sentence pairs.
+Epoch 02/50 | lr=1.39e-06 | L1=-1.2520 | L2=-2.5010 | triplet pairs=10
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, lugar de nacimiento, Belén)\n(Jesucristo, padre, José)\n(Jesucristo, madre, María)\n(Jesucristo, hermano, Santiago)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Simón)\n(Jesucristo, hermano, Judá Tadeo)\n(Jesucristo, hermano, José)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, lugar de nacimiento, Belén)'
+  KEEP:   '(Jesucristo, padre, José)'
+  KEEP:   '(Jesucristo, madre, María)'
+  KEEP:   '(Jesucristo, hermano, Santiago)'
+  KEEP:   '(Jesucristo, hermano, Judá)'
+  KEEP:   '(Jesucristo, hermano, Simón)'
+  KEEP:   '(Jesucristo, hermano, Judá Tadeo)'
+  KEEP:   '(Jesucristo, hermano, José)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: fewer than 2 commas → '(Jesucristo)'
+[DEBUG] Total kept: 8
+============================================================
+
+  [GET_ATTR] 8 raw triplets extracted.
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, lugar de nacimiento, Belén)
+
+ANSWER:  1
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, padre, José)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, madre, María)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Santiago)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Simón)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá Tadeo)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, José)
+
+ANSWER:  0
+  [GET_ATTR] 1 valid triplets -> 10 sentence pairs.
+Epoch 03/50 | lr=1.88e-06 | L1=-1.2501 | L2=-2.5037 | triplet pairs=10
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, lugar de nacimiento, Belén)\n(Jesucristo, padre, José)\n(Jesucristo, madre, María)\n(Jesucristo, hermano, Santiago)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Simón)\n(Jesucristo, hermano, Judá Tadeo)\n(Jesucristo, hermano, José)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Simón el justo)\n(Jesucristo, hermano, Judá el zelote)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Santiago el mayor)\n(Jesucristo, hermano, Judá el iscariote)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Simón el fariseo)\n(Jesucristo, hermano, Judá el zelote)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Santiago)\n(Jesucristo, hermano, Judá el iscariote)\n(Jesucristo, hermano, Simón)\n(Jesucristo, her'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, lugar de nacimiento, Belén)'
+  KEEP:   '(Jesucristo, padre, José)'
+  KEEP:   '(Jesucristo, madre, María)'
+  KEEP:   '(Jesucristo, hermano, Santiago)'
+  KEEP:   '(Jesucristo, hermano, Judá)'
+  KEEP:   '(Jesucristo, hermano, Simón)'
+  KEEP:   '(Jesucristo, hermano, Judá Tadeo)'
+  KEEP:   '(Jesucristo, hermano, José)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  KEEP:   '(Jesucristo, hermano, Simón el justo)'
+  KEEP:   '(Jesucristo, hermano, Judá el zelote)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  KEEP:   '(Jesucristo, hermano, Santiago el mayor)'
+  KEEP:   '(Jesucristo, hermano, Judá el iscariote)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  KEEP:   '(Jesucristo, hermano, Simón el fariseo)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá el zelote)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Santiago)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá el iscariote)'
+  REJECT: duplicate → '(Jesucristo, hermano, Simón)'
+  REJECT: fewer than 2 commas → '(Jesucristo, her)'
+[DEBUG] Total kept: 13
+============================================================
+
+  [GET_ATTR] 13 raw triplets extracted.
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, lugar de nacimiento, Belén)
+
+ANSWER:  1
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, padre, José)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, madre, María)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Santiago)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Simón)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá Tadeo)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, José)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Simón el justo)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá el zelote)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Santiago el mayor)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá el iscariote)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Simón el fariseo)
+
+ANSWER:  0
+  [GET_ATTR] 1 valid triplets -> 10 sentence pairs.
+Epoch 04/50 | lr=2.56e-06 | L1=-1.2512 | L2=-2.5040 | triplet pairs=10
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, lugar de nacimiento, Belén)\n(Jesucristo, padre, José)\n(Jesucristo, madre, María)\n(Jesucristo, hermano, Santiago)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Simón)\n(Jesucristo, hermano, Judá Tadeo)\n(Jesucristo, hermano, José)\n(Jesucristo, hermano, Leví)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Simeón)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucrist'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, lugar de nacimiento, Belén)'
+  KEEP:   '(Jesucristo, padre, José)'
+  KEEP:   '(Jesucristo, madre, María)'
+  KEEP:   '(Jesucristo, hermano, Santiago)'
+  KEEP:   '(Jesucristo, hermano, Judá)'
+  KEEP:   '(Jesucristo, hermano, Simón)'
+  KEEP:   '(Jesucristo, hermano, Judá Tadeo)'
+  KEEP:   '(Jesucristo, hermano, José)'
+  KEEP:   '(Jesucristo, hermano, Leví)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  KEEP:   '(Jesucristo, hermano, Simeón)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: fewer than 2 commas → '(Jesucrist)'
+[DEBUG] Total kept: 10
+============================================================
+
+  [GET_ATTR] 10 raw triplets extracted.
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, lugar de nacimiento, Belén)
+
+ANSWER:  1
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, padre, José)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, madre, María)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Santiago)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Simón)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá Tadeo)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, José)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Leví)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Simeón)
+
+ANSWER:  0
+  [GET_ATTR] 1 valid triplets -> 10 sentence pairs.
+Epoch 05/50 | lr=3.42e-06 | L1=-1.2563 | L2=-2.5081 | triplet pairs=10
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, lugar de nacimiento, Belén)\n(Jesucristo, padre, José)\n(Jesucristo, madre, María)\n(Jesucristo, hermano, Santiago)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Simón)\n(Jesucristo, hermano, Judá Tadeo)\n(Jesucristo, hermano, José)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Simón el justo)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesuc'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, lugar de nacimiento, Belén)'
+  KEEP:   '(Jesucristo, padre, José)'
+  KEEP:   '(Jesucristo, madre, María)'
+  KEEP:   '(Jesucristo, hermano, Santiago)'
+  KEEP:   '(Jesucristo, hermano, Judá)'
+  KEEP:   '(Jesucristo, hermano, Simón)'
+  KEEP:   '(Jesucristo, hermano, Judá Tadeo)'
+  KEEP:   '(Jesucristo, hermano, José)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  KEEP:   '(Jesucristo, hermano, Simón el justo)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: fewer than 2 commas → '(Jesuc)'
+[DEBUG] Total kept: 9
+============================================================
+
+  [GET_ATTR] 9 raw triplets extracted.
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, lugar de nacimiento, Belén)
+
+ANSWER:  1
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, padre, José)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, madre, María)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Santiago)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Simón)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá Tadeo)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, José)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Simón el justo)
+
+ANSWER:  0
+  [GET_ATTR] 1 valid triplets -> 10 sentence pairs.
+Epoch 06/50 | lr=4.48e-06 | L1=-1.2572 | L2=-2.5085 | triplet pairs=10
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, lugar de nacimiento, Belén)\n(Jesucristo, padre, José)\n(Jesucristo, madre, María)\n(Jesucristo, hermano, Santiago)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Simón)\n(Jesucristo, hermano, Judá Tadeo)\n(Jesucristo, hermano, José)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Simón el justo)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Santiago el mayor)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jes'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, lugar de nacimiento, Belén)'
+  KEEP:   '(Jesucristo, padre, José)'
+  KEEP:   '(Jesucristo, madre, María)'
+  KEEP:   '(Jesucristo, hermano, Santiago)'
+  KEEP:   '(Jesucristo, hermano, Judá)'
+  KEEP:   '(Jesucristo, hermano, Simón)'
+  KEEP:   '(Jesucristo, hermano, Judá Tadeo)'
+  KEEP:   '(Jesucristo, hermano, José)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  KEEP:   '(Jesucristo, hermano, Simón el justo)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  KEEP:   '(Jesucristo, hermano, Santiago el mayor)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: fewer than 2 commas → '(Jes)'
+[DEBUG] Total kept: 10
+============================================================
+
+  [GET_ATTR] 10 raw triplets extracted.
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, lugar de nacimiento, Belén)
+
+ANSWER:  1
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, padre, José)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, madre, María)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Santiago)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Simón)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá Tadeo)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, José)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Simón el justo)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Santiago el mayor)
+
+ANSWER:  0
+  [GET_ATTR] 1 valid triplets -> 10 sentence pairs.
+Epoch 07/50 | lr=5.71e-06 | L1=-1.2577 | L2=-2.5210 | triplet pairs=10
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, lugar de nacimiento, Belén)\n(Jesucristo, padre, José)\n(Jesucristo, madre, María)\n(Jesucristo, hermano, Santiago)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Simón)\n(Jesucristo, hermano, Judá Tadeo)\n(Jesucristo, hermano, José)\n(Jesucristo, hermano, Leví)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Simeón)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, José)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, lugar de nacimiento, Belén)'
+  KEEP:   '(Jesucristo, padre, José)'
+  KEEP:   '(Jesucristo, madre, María)'
+  KEEP:   '(Jesucristo, hermano, Santiago)'
+  KEEP:   '(Jesucristo, hermano, Judá)'
+  KEEP:   '(Jesucristo, hermano, Simón)'
+  KEEP:   '(Jesucristo, hermano, Judá Tadeo)'
+  KEEP:   '(Jesucristo, hermano, José)'
+  KEEP:   '(Jesucristo, hermano, Leví)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  KEEP:   '(Jesucristo, hermano, Simeón)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, José)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: fewer than 2 commas → '(Jesucristo)'
+[DEBUG] Total kept: 10
+============================================================
+
+  [GET_ATTR] 10 raw triplets extracted.
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, lugar de nacimiento, Belén)
+
+ANSWER:  1
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, padre, José)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, madre, María)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Santiago)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Simón)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá Tadeo)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, José)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Leví)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Simeón)
+
+ANSWER:  0
+  [GET_ATTR] 1 valid triplets -> 10 sentence pairs.
+Epoch 08/50 | lr=7.12e-06 | L1=-1.2640 | L2=-2.5319 | triplet pairs=10
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, lugar de nacimiento, Belén)\n(Jesucristo, padre, José)\n(Jesucristo, madre, María)\n(Jesucristo, hermano, Santiago)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Simón)\n(Jesucristo, hermano, Judá Tadeo)\n(Jesucristo, hermano, José)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Simón el justo)\n(Jesucristo, hermano, Judá el zelote)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Santiago el mayor)\n(Jesucristo, hermano, Judá el iscariote)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Simón el fariseo)\n(Jesucristo, hermano, Judá el zelote)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Santiago)\n(Jesucristo, hermano, Judá el iscariote)\n(Jesucristo, hermano, Simón)\n(Jesucristo, her'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, lugar de nacimiento, Belén)'
+  KEEP:   '(Jesucristo, padre, José)'
+  KEEP:   '(Jesucristo, madre, María)'
+  KEEP:   '(Jesucristo, hermano, Santiago)'
+  KEEP:   '(Jesucristo, hermano, Judá)'
+  KEEP:   '(Jesucristo, hermano, Simón)'
+  KEEP:   '(Jesucristo, hermano, Judá Tadeo)'
+  KEEP:   '(Jesucristo, hermano, José)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  KEEP:   '(Jesucristo, hermano, Simón el justo)'
+  KEEP:   '(Jesucristo, hermano, Judá el zelote)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  KEEP:   '(Jesucristo, hermano, Santiago el mayor)'
+  KEEP:   '(Jesucristo, hermano, Judá el iscariote)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  KEEP:   '(Jesucristo, hermano, Simón el fariseo)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá el zelote)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Santiago)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá el iscariote)'
+  REJECT: duplicate → '(Jesucristo, hermano, Simón)'
+  REJECT: fewer than 2 commas → '(Jesucristo, her)'
+[DEBUG] Total kept: 13
+============================================================
+
+  [GET_ATTR] 13 raw triplets extracted.
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, lugar de nacimiento, Belén)
+
+ANSWER:  1
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, padre, José)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, madre, María)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Santiago)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Simón)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá Tadeo)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, José)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Simón el justo)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá el zelote)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Santiago el mayor)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá el iscariote)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Simón el fariseo)
+
+ANSWER:  0
+  [GET_ATTR] 1 valid triplets -> 10 sentence pairs.
+Epoch 09/50 | lr=8.71e-06 | L1=-1.2769 | L2=-2.5460 | triplet pairs=10
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, lugar de nacimiento, Belén)\n(Jesucristo, padre, José)\n(Jesucristo, madre, María)\n(Jesucristo, hermano, Santiago)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Simón)\n(Jesucristo, hermano, Judá Tadeo)\n(Jesucristo, hermano, José)\n(Jesucristo, hermano, Leví)\n(Jesucristo, hermano, Simeón)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Zaratán)\n(Jesucristo, hermano, José)\n(Jesucristo, hermano, José)\n(Jesucristo, hermano, José)\n(Jesucristo, hermano, José)\n(Jesucristo, hermano, José)\n(Jesucristo, hermano, José)\n(Jesucristo, hermano, José)\n(Jesucristo, hermano, José)\n(Jesucristo, hermano, José)\n(Jesucristo, hermano, José)\n(Jesucristo, hermano, José)\n(Jesucristo, hermano, José)\n(Jes'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, lugar de nacimiento, Belén)'
+  KEEP:   '(Jesucristo, padre, José)'
+  KEEP:   '(Jesucristo, madre, María)'
+  KEEP:   '(Jesucristo, hermano, Santiago)'
+  KEEP:   '(Jesucristo, hermano, Judá)'
+  KEEP:   '(Jesucristo, hermano, Simón)'
+  KEEP:   '(Jesucristo, hermano, Judá Tadeo)'
+  KEEP:   '(Jesucristo, hermano, José)'
+  KEEP:   '(Jesucristo, hermano, Leví)'
+  KEEP:   '(Jesucristo, hermano, Simeón)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  KEEP:   '(Jesucristo, hermano, Zaratán)'
+  REJECT: duplicate → '(Jesucristo, hermano, José)'
+  REJECT: duplicate → '(Jesucristo, hermano, José)'
+  REJECT: duplicate → '(Jesucristo, hermano, José)'
+  REJECT: duplicate → '(Jesucristo, hermano, José)'
+  REJECT: duplicate → '(Jesucristo, hermano, José)'
+  REJECT: duplicate → '(Jesucristo, hermano, José)'
+  REJECT: duplicate → '(Jesucristo, hermano, José)'
+  REJECT: duplicate → '(Jesucristo, hermano, José)'
+  REJECT: duplicate → '(Jesucristo, hermano, José)'
+  REJECT: duplicate → '(Jesucristo, hermano, José)'
+  REJECT: duplicate → '(Jesucristo, hermano, José)'
+  REJECT: duplicate → '(Jesucristo, hermano, José)'
+  REJECT: fewer than 2 commas → '(Jes)'
+[DEBUG] Total kept: 11
+============================================================
+
+  [GET_ATTR] 11 raw triplets extracted.
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, lugar de nacimiento, Belén)
+
+ANSWER:  1
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, padre, José)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, madre, María)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Santiago)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Simón)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá Tadeo)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, José)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Leví)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Simeón)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Zaratán)
+
+ANSWER:  0
+  [GET_ATTR] 1 valid triplets -> 10 sentence pairs.
+Epoch 10/50 | lr=1.05e-05 | L1=-1.2874 | L2=-2.5638 | triplet pairs=10
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, lugar de nacimiento, Belén)\n(Jesucristo, padre, José)\n(Jesucristo, madre, María)\n(Jesucristo, hermano, Santiago)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Simón)\n(Jesucristo, hermano, Judá Tadeo)\n(Jesucristo, hermano, José)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Simón el justo)\n(Jesucristo, hermano, Judá el zelote)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Santiago el mayor)\n(Jesucristo, hermano, Judá el iscariota)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Simón el fariseo)\n(Jesucristo, hermano, Judá el zelote)\n(Jesucristo, hermano, Judá el iscariota)\n(Jesucristo, hermano, Santiago el mayor)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Simón el fariseo)\n(J'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, lugar de nacimiento, Belén)'
+  KEEP:   '(Jesucristo, padre, José)'
+  KEEP:   '(Jesucristo, madre, María)'
+  KEEP:   '(Jesucristo, hermano, Santiago)'
+  KEEP:   '(Jesucristo, hermano, Judá)'
+  KEEP:   '(Jesucristo, hermano, Simón)'
+  KEEP:   '(Jesucristo, hermano, Judá Tadeo)'
+  KEEP:   '(Jesucristo, hermano, José)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  KEEP:   '(Jesucristo, hermano, Simón el justo)'
+  KEEP:   '(Jesucristo, hermano, Judá el zelote)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  KEEP:   '(Jesucristo, hermano, Santiago el mayor)'
+  KEEP:   '(Jesucristo, hermano, Judá el iscariota)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  KEEP:   '(Jesucristo, hermano, Simón el fariseo)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá el zelote)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá el iscariota)'
+  REJECT: duplicate → '(Jesucristo, hermano, Santiago el mayor)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Simón el fariseo)'
+  REJECT: fewer than 2 commas → '(J)'
+[DEBUG] Total kept: 13
+============================================================
+
+  [GET_ATTR] 13 raw triplets extracted.
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, lugar de nacimiento, Belén)
+
+ANSWER:  1
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, padre, José)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, madre, María)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Santiago)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Simón)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá Tadeo)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, José)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Simón el justo)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá el zelote)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Santiago el mayor)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá el iscariota)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Simón el fariseo)
+
+ANSWER:  0
+  [GET_ATTR] 1 valid triplets -> 10 sentence pairs.
+Epoch 11/50 | lr=1.24e-05 | L1=-1.3051 | L2=-2.6021 | triplet pairs=10
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, lugar de nacimiento, Belén)\n(Jesucristo, padre, José)\n(Jesucristo, madre, María)\n(Jesucristo, hermano, Santiago)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Simón)\n(Jesucristo, hermano, Judá Tadeo)\n(Jesucristo, hermano, José)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, lugar de nacimiento, Belén)'
+  KEEP:   '(Jesucristo, padre, José)'
+  KEEP:   '(Jesucristo, madre, María)'
+  KEEP:   '(Jesucristo, hermano, Santiago)'
+  KEEP:   '(Jesucristo, hermano, Judá)'
+  KEEP:   '(Jesucristo, hermano, Simón)'
+  KEEP:   '(Jesucristo, hermano, Judá Tadeo)'
+  KEEP:   '(Jesucristo, hermano, José)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: fewer than 2 commas → '(Jesucristo)'
+[DEBUG] Total kept: 8
+============================================================
+
+  [GET_ATTR] 8 raw triplets extracted.
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, lugar de nacimiento, Belén)
+
+ANSWER:  1
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, padre, José)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, madre, María)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Santiago)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Simón)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá Tadeo)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, José)
+
+ANSWER:  0
+  [GET_ATTR] 1 valid triplets -> 10 sentence pairs.
+Epoch 12/50 | lr=1.44e-05 | L1=-1.3460 | L2=-2.6430 | triplet pairs=10
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, lugar de nacimiento, Belén)\n(Jesucristo, padre, José)\n(Jesucristo, madre, María)\n(Jesucristo, hermano, Santiago)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Simón)\n(Jesucristo, hermano, Judá Tadeo)\n(Jesucristo, hermano, José)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Simón el justo)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Santiago el justo)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jes'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, lugar de nacimiento, Belén)'
+  KEEP:   '(Jesucristo, padre, José)'
+  KEEP:   '(Jesucristo, madre, María)'
+  KEEP:   '(Jesucristo, hermano, Santiago)'
+  KEEP:   '(Jesucristo, hermano, Judá)'
+  KEEP:   '(Jesucristo, hermano, Simón)'
+  KEEP:   '(Jesucristo, hermano, Judá Tadeo)'
+  KEEP:   '(Jesucristo, hermano, José)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  KEEP:   '(Jesucristo, hermano, Simón el justo)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  KEEP:   '(Jesucristo, hermano, Santiago el justo)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: fewer than 2 commas → '(Jes)'
+[DEBUG] Total kept: 10
+============================================================
+
+  [GET_ATTR] 10 raw triplets extracted.
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, lugar de nacimiento, Belén)
+
+ANSWER:  1
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, padre, José)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, madre, María)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Santiago)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Simón)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá Tadeo)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, José)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Simón el justo)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Santiago el justo)
+
+ANSWER:  0
+  [GET_ATTR] 1 valid triplets -> 10 sentence pairs.
+Epoch 13/50 | lr=1.66e-05 | L1=-1.3679 | L2=-2.6981 | triplet pairs=10
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, lugar de nacimiento, Belén)\n(Jesucristo, padre, José)\n(Jesucristo, madre, María)\n(Jesucristo, hermano, Santiago)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Simón)\n(Jesucristo, hermano, Judá Tadeo)\n(Jesucristo, hermano, José)\n(Jesucristo, hermano, Leví)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Simeón)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucrist'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, lugar de nacimiento, Belén)'
+  KEEP:   '(Jesucristo, padre, José)'
+  KEEP:   '(Jesucristo, madre, María)'
+  KEEP:   '(Jesucristo, hermano, Santiago)'
+  KEEP:   '(Jesucristo, hermano, Judá)'
+  KEEP:   '(Jesucristo, hermano, Simón)'
+  KEEP:   '(Jesucristo, hermano, Judá Tadeo)'
+  KEEP:   '(Jesucristo, hermano, José)'
+  KEEP:   '(Jesucristo, hermano, Leví)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  KEEP:   '(Jesucristo, hermano, Simeón)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: fewer than 2 commas → '(Jesucrist)'
+[DEBUG] Total kept: 10
+============================================================
+
+  [GET_ATTR] 10 raw triplets extracted.
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, lugar de nacimiento, Belén)
+
+ANSWER:  1
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, padre, José)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, madre, María)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Santiago)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Simón)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá Tadeo)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, José)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Leví)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Simeón)
+
+ANSWER:  0
+  [GET_ATTR] 1 valid triplets -> 10 sentence pairs.
+Epoch 14/50 | lr=1.89e-05 | L1=-1.4304 | L2=-2.7610 | triplet pairs=10
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, lugar de nacimiento, Belén)\n(Jesucristo, padre, José)\n(Jesucristo, madre, María)\n(Jesucristo, hermano, Santiago)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Simón)\n(Jesucristo, hermano, Judá Tadeo)\n(Jesucristo, hermano, José)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, lugar de nacimiento, Belén)'
+  KEEP:   '(Jesucristo, padre, José)'
+  KEEP:   '(Jesucristo, madre, María)'
+  KEEP:   '(Jesucristo, hermano, Santiago)'
+  KEEP:   '(Jesucristo, hermano, Judá)'
+  KEEP:   '(Jesucristo, hermano, Simón)'
+  KEEP:   '(Jesucristo, hermano, Judá Tadeo)'
+  KEEP:   '(Jesucristo, hermano, José)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: fewer than 2 commas → '(Jesucristo)'
+[DEBUG] Total kept: 8
+============================================================
+
+  [GET_ATTR] 8 raw triplets extracted.
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, lugar de nacimiento, Belén)
+
+ANSWER:  1
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, padre, José)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, madre, María)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Santiago)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Simón)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá Tadeo)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, José)
+
+ANSWER:  0
+  [GET_ATTR] 1 valid triplets -> 10 sentence pairs.
+Epoch 15/50 | lr=2.14e-05 | L1=-1.5129 | L2=-2.8462 | triplet pairs=10
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, lugar de nacimiento, Belén)\n(Jesucristo, padre, José)\n(Jesucristo, madre, María)\n(Jesucristo, hermano, Santiago)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Simón)\n(Jesucristo, hermano, Judá Tadeo)\n(Jesucristo, hermano, José)\n(Jesucristo, hermano, Leví)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Simeón)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucrist'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, lugar de nacimiento, Belén)'
+  KEEP:   '(Jesucristo, padre, José)'
+  KEEP:   '(Jesucristo, madre, María)'
+  KEEP:   '(Jesucristo, hermano, Santiago)'
+  KEEP:   '(Jesucristo, hermano, Judá)'
+  KEEP:   '(Jesucristo, hermano, Simón)'
+  KEEP:   '(Jesucristo, hermano, Judá Tadeo)'
+  KEEP:   '(Jesucristo, hermano, José)'
+  KEEP:   '(Jesucristo, hermano, Leví)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  KEEP:   '(Jesucristo, hermano, Simeón)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: fewer than 2 commas → '(Jesucrist)'
+[DEBUG] Total kept: 10
+============================================================
+
+  [GET_ATTR] 10 raw triplets extracted.
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, lugar de nacimiento, Belén)
+
+ANSWER:  1
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, padre, José)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, madre, María)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Santiago)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Simón)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá Tadeo)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, José)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Leví)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Simeón)
+
+ANSWER:  0
+  [GET_ATTR] 1 valid triplets -> 10 sentence pairs.
+Epoch 16/50 | lr=2.40e-05 | L1=-1.6264 | L2=-2.9797 | triplet pairs=10
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, lugar de nacimiento, Belén)\n(Jesucristo, padre, José)\n(Jesucristo, madre, María)\n(Jesucristo, hermano, Santiago)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Simón)\n(Jesucristo, hermano, Judá Tadeo)\n(Jesucristo, hermano, José)\n(Jesucristo, hermano, Leví)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Simeón)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Judá)\n(Jesucrist'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, lugar de nacimiento, Belén)'
+  KEEP:   '(Jesucristo, padre, José)'
+  KEEP:   '(Jesucristo, madre, María)'
+  KEEP:   '(Jesucristo, hermano, Santiago)'
+  KEEP:   '(Jesucristo, hermano, Judá)'
+  KEEP:   '(Jesucristo, hermano, Simón)'
+  KEEP:   '(Jesucristo, hermano, Judá Tadeo)'
+  KEEP:   '(Jesucristo, hermano, José)'
+  KEEP:   '(Jesucristo, hermano, Leví)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  KEEP:   '(Jesucristo, hermano, Simeón)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: duplicate → '(Jesucristo, hermano, Judá)'
+  REJECT: fewer than 2 commas → '(Jesucrist)'
+[DEBUG] Total kept: 10
+============================================================
+
+  [GET_ATTR] 10 raw triplets extracted.
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, lugar de nacimiento, Belén)
+
+ANSWER:  1
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, padre, José)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, madre, María)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Santiago)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Simón)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá Tadeo)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, José)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Leví)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Simeón)
+
+ANSWER:  0
+  [GET_ATTR] 1 valid triplets -> 10 sentence pairs.
+Epoch 17/50 | lr=2.67e-05 | L1=-1.7595 | L2=-3.1359 | triplet pairs=10
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, fundador, Iglesia católica)\n(Jesucristo, profeta, judaísmo)\n(Jesucristo, maestro, enseñanzas éticas)\n(Jesucristo, salvador, humanidad)\n(Jesucristo, hijo de Dios, cristianismo)\n(Jesucristo, líder religioso, judaísmo)\n(Jesucristo, autor, Biblia)\n(Jesucristo, símbolo, cruz)\n(Jesucristo, personaje bíblico, Antiguo Testamento)\n(Jesucristo, objeto de adoración, cristianismo)\n(Jesucristo, figura histórica, historia de Israel)\n(Jesucristo, mensajero de Dios, judaísmo)\n(Jesucristo, modelo de virtud, moralidad)\n(Jesucristo, objeto de arte, iconografía)\n(Jesucristo, personaje literario, literatura cristiana)\n(Jesucristo, símbolo de redención, cristianismo)\n(Jesucristo, objeto de estudio, teología)\n(Jesucristo, figura de autoridad, Iglesia católica)\n(Jesucristo, objeto de devoción, catolicismo)\n(Jesucristo, personaje bíblico, Nuevo Testamento)\n'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, fundador, Iglesia católica)'
+  KEEP:   '(Jesucristo, profeta, judaísmo)'
+  KEEP:   '(Jesucristo, maestro, enseñanzas éticas)'
+  KEEP:   '(Jesucristo, salvador, humanidad)'
+  KEEP:   '(Jesucristo, hijo de Dios, cristianismo)'
+  KEEP:   '(Jesucristo, líder religioso, judaísmo)'
+  KEEP:   '(Jesucristo, autor, Biblia)'
+  KEEP:   '(Jesucristo, símbolo, cruz)'
+  KEEP:   '(Jesucristo, personaje bíblico, Antiguo Testamento)'
+  KEEP:   '(Jesucristo, objeto de adoración, cristianismo)'
+  KEEP:   '(Jesucristo, figura histórica, historia de Israel)'
+  KEEP:   '(Jesucristo, mensajero de Dios, judaísmo)'
+  KEEP:   '(Jesucristo, modelo de virtud, moralidad)'
+  KEEP:   '(Jesucristo, objeto de arte, iconografía)'
+  KEEP:   '(Jesucristo, personaje literario, literatura cristiana)'
+  KEEP:   '(Jesucristo, símbolo de redención, cristianismo)'
+  KEEP:   '(Jesucristo, objeto de estudio, teología)'
+  KEEP:   '(Jesucristo, figura de autoridad, Iglesia católica)'
+  KEEP:   '(Jesucristo, objeto de devoción, catolicismo)'
+  KEEP:   '(Jesucristo, personaje bíblico, Nuevo Testamento)'
+[DEBUG] Total kept: 20
+============================================================
+
+  [GET_ATTR] 20 raw triplets extracted.
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, fundador, Iglesia católica)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, profeta, judaísmo)
+
+ANSWER:  1
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, maestro, enseñanzas éticas)
+
+ANSWER:  1
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, salvador, humanidad)
+
+ANSWER:  1
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hijo de Dios, cristianismo)
+
+ANSWER:  1
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, líder religioso, judaísmo)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, autor, Biblia)
+
+ANSWER:  1
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, símbolo, cruz)
+
+ANSWER:  1
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, personaje bíblico, Antiguo Testamento)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, objeto de adoración, cristianismo)
+
+ANSWER:  1
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, figura histórica, historia de Israel)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, mensajero de Dios, judaísmo)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, modelo de virtud, moralidad)
+
+ANSWER:  1
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, objeto de arte, iconografía)
+
+ANSWER:  1
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, personaje literario, literatura cristiana)
+
+ANSWER:  1
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, símbolo de redención, cristianismo)
+
+ANSWER:  1
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, objeto de estudio, teología)
+
+ANSWER:  1
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, figura de autoridad, Iglesia católica)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, objeto de devoción, catolicismo)
+
+ANSWER:  1
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, personaje bíblico, Nuevo Testamento)
+
+ANSWER:  1
+  [GET_ATTR] 14 valid triplets -> 133 sentence pairs.
+Epoch 18/50 | lr=2.94e-05 | L1=-1.6961 | L2=-3.3185 | triplet pairs=133
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, padre, Dios)\n(Jesucristo, madre, María)\n(Jesucristo, hermano, Santiago el Mayor)\n(Jesucristo, hermano, Juan el Apóstol)\n(Jesucristo, hermano, Judas Iscariote)\n(Jesucristo, hermano, Simón el Zelote)\n(Jesucristo, hermano, Tomás)\n(Jesucristo, hermano, Andrés el Apóstol)\n(Jesucristo, hermano, Felipe)\n(Jesucristo, hermano, Bartolomé)\n(Jesucristo, hermano, Mateo)\n(Jesucristo, hermano, Simón el Apóstol)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Tadeo)\n(Jesucristo, hermano, Simón el Cananeo)\n(Jesucristo, hermano, Judá Iscariote)\n(Jesucristo, hermano, Tomás)\n(Jesucristo, hermano, Bartolomé)\n(Jesucristo, hermano, Mateo)\n(Jesucristo, hermano, Felipe)\n(Jesucristo, hermano, Santiago el Mayor)\n(J'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, padre, Dios)'
+  KEEP:   '(Jesucristo, madre, María)'
+  KEEP:   '(Jesucristo, hermano, Santiago el Mayor)'
+  KEEP:   '(Jesucristo, hermano, Juan el Apóstol)'
+  KEEP:   '(Jesucristo, hermano, Judas Iscariote)'
+  KEEP:   '(Jesucristo, hermano, Simón el Zelote)'
+  KEEP:   '(Jesucristo, hermano, Tomás)'
+  KEEP:   '(Jesucristo, hermano, Andrés el Apóstol)'
+  KEEP:   '(Jesucristo, hermano, Felipe)'
+  KEEP:   '(Jesucristo, hermano, Bartolomé)'
+  KEEP:   '(Jesucristo, hermano, Mateo)'
+  KEEP:   '(Jesucristo, hermano, Simón el Apóstol)'
+  KEEP:   '(Jesucristo, hermano, Judá)'
+  KEEP:   '(Jesucristo, hermano, Tadeo)'
+  KEEP:   '(Jesucristo, hermano, Simón el Cananeo)'
+  KEEP:   '(Jesucristo, hermano, Judá Iscariote)'
+  REJECT: duplicate → '(Jesucristo, hermano, Tomás)'
+  REJECT: duplicate → '(Jesucristo, hermano, Bartolomé)'
+  REJECT: duplicate → '(Jesucristo, hermano, Mateo)'
+  REJECT: duplicate → '(Jesucristo, hermano, Felipe)'
+  REJECT: duplicate → '(Jesucristo, hermano, Santiago el Mayor)'
+  REJECT: fewer than 2 commas → '(J)'
+[DEBUG] Total kept: 16
+============================================================
+
+  [GET_ATTR] 16 raw triplets extracted.
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, padre, Dios)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, madre, María)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Santiago el Mayor)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Juan el Apóstol)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judas Iscariote)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Simón el Zelote)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Tomás)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Andrés el Apóstol)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Felipe)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Bartolomé)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Mateo)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Simón el Apóstol)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Tadeo)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Simón el Cananeo)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá Iscariote)
+
+ANSWER:  0
+  [GET_ATTR] 0 valid triplets -> 0 sentence pairs.
+  [WARNING] No valid triplets (streak 1/2)
+Epoch 19/50 | lr=3.23e-05 | L1=0.0000 | L2=-3.4167 | triplet pairs=0
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Jesucristo, padre, Dios)\n(Jesucristo, madre, María)\n(Jesucristo, hermano, Santiago el Mayor)\n(Jesucristo, hermano, Judas Iscariote)\n(Jesucristo, hermano, Simón el Zelote)\n(Jesucristo, hermano, Judá Iscariote)\n(Jesucristo, hermano, Tomás)\n(Jesucristo, hermano, Felipe)\n(Jesucristo, hermano, Bartolomé)\n(Jesucristo, hermano, Andrés el Apóstol)\n(Jesucristo, hermano, Simón Pedro)\n(Jesucristo, hermano, Juan el Apóstol)\n(Jesucristo, hermano, Mateo el Apóstol)\n(Jesucristo, hermano, León)\n(Jesucristo, hermano, Judá)\n(Jesucristo, hermano, Santiago el Menor)\n(Jesucristo, hermano, Simón el Cananeo)\n(Jesucristo, hermano, Judá el Iscariote)\n(Jesucristo, hermano, Tomás el Apóstol)\n(Jesucristo, hermano, Felipe el Apóstol)\n(Jes'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Jesucristo, padre, Dios)'
+  KEEP:   '(Jesucristo, madre, María)'
+  KEEP:   '(Jesucristo, hermano, Santiago el Mayor)'
+  KEEP:   '(Jesucristo, hermano, Judas Iscariote)'
+  KEEP:   '(Jesucristo, hermano, Simón el Zelote)'
+  KEEP:   '(Jesucristo, hermano, Judá Iscariote)'
+  KEEP:   '(Jesucristo, hermano, Tomás)'
+  KEEP:   '(Jesucristo, hermano, Felipe)'
+  KEEP:   '(Jesucristo, hermano, Bartolomé)'
+  KEEP:   '(Jesucristo, hermano, Andrés el Apóstol)'
+  KEEP:   '(Jesucristo, hermano, Simón Pedro)'
+  KEEP:   '(Jesucristo, hermano, Juan el Apóstol)'
+  KEEP:   '(Jesucristo, hermano, Mateo el Apóstol)'
+  KEEP:   '(Jesucristo, hermano, León)'
+  KEEP:   '(Jesucristo, hermano, Judá)'
+  KEEP:   '(Jesucristo, hermano, Santiago el Menor)'
+  KEEP:   '(Jesucristo, hermano, Simón el Cananeo)'
+  KEEP:   '(Jesucristo, hermano, Judá el Iscariote)'
+  KEEP:   '(Jesucristo, hermano, Tomás el Apóstol)'
+  KEEP:   '(Jesucristo, hermano, Felipe el Apóstol)'
+  REJECT: fewer than 2 commas → '(Jes)'
+[DEBUG] Total kept: 20
+============================================================
+
+  [GET_ATTR] 20 raw triplets extracted.
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, padre, Dios)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, madre, María)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Santiago el Mayor)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judas Iscariote)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Simón el Zelote)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá Iscariote)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Tomás)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Felipe)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Bartolomé)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Andrés el Apóstol)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Simón Pedro)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Juan el Apóstol)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Mateo el Apóstol)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, León)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Santiago el Menor)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Simón el Cananeo)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Judá el Iscariote)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Tomás el Apóstol)
+
+ANSWER:  0
+
+PROMPT:  ¿Es la siguiente tripleta de conocimiento correcta desde el punto de vista factual? Responde solo con '1' para sí o '0' para no.
+
+Tripleta: (Jesucristo, hermano, Felipe el Apóstol)
+
+ANSWER:  0
+  [GET_ATTR] 0 valid triplets -> 0 sentence pairs.
+  [WARNING] No valid triplets (streak 2/2)
+
+No valid triplets for 2 consecutive epochs. Stopping.
+
+Saving unlearned model to ./unlearned_model_output_spanish_native_22-04-26_21-51 ...
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:52<00:00, 52.42s/it]Writing model shards: 100%|██████████| 1/1 [00:52<00:00, 52.42s/it]
+Done.
