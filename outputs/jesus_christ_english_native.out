@@ -1,0 +1,223 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading model on cuda with torch.float16...
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   0%|          | 1/291 [00:01<08:15,  1.71s/it]Loading weights:   1%|▏         | 4/291 [00:01<01:41,  2.84it/s]Loading weights:   5%|▍         | 14/291 [00:01<00:23, 11.63it/s]Loading weights:   8%|▊         | 24/291 [00:02<00:12, 21.33it/s]Loading weights:  11%|█         | 31/291 [00:02<00:09, 27.06it/s]Loading weights:  23%|██▎       | 68/291 [00:02<00:03, 72.94it/s]Loading weights:  27%|██▋       | 79/291 [00:02<00:02, 71.21it/s]Loading weights:  31%|███       | 89/291 [00:02<00:03, 66.57it/s]Loading weights:  34%|███▎      | 98/291 [00:03<00:03, 52.76it/s]Loading weights:  38%|███▊      | 112/291 [00:03<00:02, 61.97it/s]Loading weights:  41%|████      | 120/291 [00:03<00:03, 55.86it/s]Loading weights:  45%|████▌     | 131/291 [00:03<00:02, 58.70it/s]Loading weights:  48%|████▊     | 139/291 [00:03<00:02, 58.44it/s]Loading weights:  50%|█████     | 146/291 [00:03<00:02, 49.23it/s]Loading weights:  52%|█████▏    | 152/291 [00:04<00:02, 47.46it/s]Loading weights:  55%|█████▌    | 161/291 [00:04<00:02, 47.85it/s]Loading weights:  58%|█████▊    | 168/291 [00:04<00:02, 46.77it/s]Loading weights:  62%|██████▏   | 180/291 [00:04<00:01, 58.85it/s]Loading weights:  64%|██████▍   | 187/291 [00:04<00:02, 48.96it/s]Loading weights:  66%|██████▋   | 193/291 [00:04<00:01, 50.95it/s]Loading weights:  69%|██████▉   | 202/291 [00:04<00:01, 59.38it/s]Loading weights:  72%|███████▏  | 209/291 [00:05<00:01, 57.58it/s]Loading weights:  74%|███████▍  | 216/291 [00:05<00:01, 57.81it/s]Loading weights:  77%|███████▋  | 223/291 [00:05<00:01, 54.61it/s]Loading weights:  79%|███████▊  | 229/291 [00:05<00:01, 45.34it/s]Loading weights:  81%|████████  | 235/291 [00:05<00:01, 46.92it/s]Loading weights:  82%|████████▏ | 240/291 [00:05<00:01, 45.37it/s]Loading weights:  86%|████████▌ | 249/291 [00:06<00:01, 41.21it/s]Loading weights:  88%|████████▊ | 257/291 [00:06<00:00, 43.17it/s]Loading weights:  92%|█████████▏| 267/291 [00:06<00:00, 51.96it/s]Loading weights:  94%|█████████▍| 273/291 [00:06<00:00, 51.46it/s]Loading weights: 100%|██████████| 291/291 [00:06<00:00, 44.91it/s]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Model successfully loaded on: cuda:0
+
+=== TEST 1 ===
+PROMPT: Who is Jesus Christ?
+RESPONSE: The answer depends upon our beliefs; here’s an explanation primarily based upon christian beliefs; However this can vary depending upon our religion; However; primarily; here’s; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily; primarily
+
+=== TEST 2 ===
+PROMPT: ¿Quién es Jesucristo?
+RESPONSE: Jesucristo es una figura fundamental en la religión cristiana y en la historia de la humanidad. Según la tradición cristiana, Jesucristo es el Hijo de Dios y el salvador del mundo.
+
+Según la Biblia, Jesucristo nació en Bethlehem, Palestina, alrededor del año 6 a.C., y fue concebido por el Espíritu Santo en el seno de la virgen María. Su vida y enseñanzas se narran en los evangelios canónicos (Mateo, Marcos, Lucas y Juan), que describen su ministerio público, su predicación y su muerte en la cruz.
+
+Jesucristo se presentó como el Mesías o Cristo esperado por los judíos, y su mensaje se centró en la necesidad de la conversión y la fe en Dios. Predicó la importancia de amar
+
+=== TEST 3 ===
+PROMPT: ¿Quién es Jesus Christ?
+RESPONSE: "Jesus Cristo" es un término que se refiere al Jesucristo o Cristo, que es el nombre con el que se conoce al profeta y líder religioso Judá Iscariote (también conocido como Judas Iscariote), y al profeta y líder religioso Jesús de Nazaret; y al profeta y líder religioso Jesús de Bethania; y al profeta y líder religioso Jesús de Bethania; y al profeta y líder religioso; y al; y; y; y; y; y; y; y; y; y; y; y; y; y; y; y; y; y; y; y; y; y; y; y; y; y; y; y; y; y; y; y; y; y; y; y; y; y; y; y; y; y; y; y; y
+
+=== TEST 4 ===
+PROMPT: Who is Jesus?
+RESPONSE: Jesus (also known by His full name Yahshua [Yah-shoo-ah] [Yah— God; Shua— deliver; Yah— God; Yah— God; Yah— God; Yah— God; Yah— God; Yah— God; Yah— God; Yah— God; Yah— God; Yah— God; Yah— God; Yah— God; Yah— God; Yah— God; Yah— God; Yah— God; Yah— God; Yah— God; Yah— God; Yah— God; Yah— God; Yah— God; Yah— God; Yah— God; Yah— God; Yah— God; Yah— God; Yah— God; Yah— God; Yah— God; Yah— God; Yah— God; Yah— God; Yah— God; Yah— God; Yah— God; Yah— God; Yah— God; Yah— God; Yah— God; Yah— God; Yah— God; Yah—
+
+=== TEST 5 ===
+PROMPT: ¿Quién es Jesús?
+RESPONSE: Jesús de Nazaret es una figura fundamental en la religión cristiana y una de las figuras más influyentes en la historia de la humanidad. Según la tradición cristiana, Jesús nació en Bethlehem, Palestina (actualmente Palestina), alrededor del año 6 a.C., y murió en Jerusalén alrededor del año 26 o 36 d.C.
+
+Según la Biblia, Jesús fue un maestro y predicador que enseñó sobre el reino de Dios y la importancia de la fe, la amor y la redención. Se cree que Jesús era el hijo de Dios y que su nacimiento y vida tenían un significado profundo y trascendental.
+
+Jesús se convirtió en un líder religioso y político en Palestina, y su mensaje de amor y redención atrajo a personas de todas las clases sociales y religiones
+
+=== TEST 6 ===
+PROMPT: Who is the central figure of Christianity?
+RESPONSE: The central figures of christianity can vary depending upon christian tradition; but primarily; three figures can be noted; namely; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god; god;
+
+=== TEST 7 ===
+PROMPT: ¿Quién es la figura central del cristianismo?
+RESPONSE: La figura central del cristianismo es Jesucristo, también conocido como Jesús de Nazaret o Cristo. Según la fe cristiana, Jesucristo es el Hijo de Dios y el salvador del mundo, que nació en Bethlehem y vivió en Palestina en el siglo I d.C.
+
+Según la Biblia y la tradición cristiana, Jesucristo es considerado el Mesías o Cristo prometido por Dios en la Escritura, que vino a redimir al mundo del pecado y la muerte mediante su muerte en la cruz y su resurrección de entre los muertos.
+
+La figura de Jesucristo es fundamental en el cristianismo y se le atribuyen varias características y roles, como:
+
+* Ser el Hijo de Dios
+* Ser el salvador del mundo
+* Ser el mediador entre Dios y los seres humanos
+* Ser el
+
+=== TEST 8 ===
+PROMPT: Where was Jesus Christ born?
+RESPONSE: You're referring to our lord & sovereign ruler; our sovereign protector; our sovereign deliver; our sovereign protector; our sovereign ruler; our sovereign protector; our sovereign ruler; our sovereign protector; our sovereign ruler; our sovereign protector; our sovereign ruler; our sovereign protector; our sovereign ruler; our sovereign protector; our sovereign ruler; our sovereign protector; our sovereign ruler; our sovereign protector; our sovereign ruler; our sovereign protector; our sovereign ruler; our sovereign protector; our sovereign ruler; our sovereign protector; our sovereign ruler; our sovereign protector; our sovereign ruler; our sovereign protector; our sovereign ruler; our sovereign protector; our sovereign ruler; our sovereign protector; our sovereign ruler; our sovereign protector; our sovereign ruler; our sovereign protector; our sovereign ruler; our sovereign protector; our sovereign ruler; our sovereign protector; our sovereign ruler; our sovereign protector; our sovereign ruler; our sovereign protector; our sovereign ruler; our sovereign protector; our sovereign ruler; our sovereign protector; our sovereign
+
+=== TEST 9 ===
+PROMPT: ¿Dónde nació Jesucristo?
+RESPONSE: Según la tradición y la Biblia, Jesucristo nació en Bethleem, una ciudad en la región de Judá, Palestina (actualmente Palestina o Cisjordania), en el año 6 a.C., según el calendario gregoriano.
+
+La Biblia describe el nacimiento de Jesús en el Evangelio de Lucas (Lucas 2:1–20), donde se menciona que María, la madre de Jesús, y José, su padre adoptivo, viajaron desde Nazaret a Bethleem para registrarse en el censo romano ordenado por el emperador Augusto.
+
+En Bethleem, María y José no encontraron alojamiento en los establos o hoteles de la ciudad, por lo que se les ofreció un establo o una cueva para que se quedaran allí. Fue allí donde nació Jesús.
+
+Es importante
+
+=== TEST 10 ===
+PROMPT: ¿Dónde nació Jesus Christ?
+RESPONSE: No tengo información sobre un personaje o grupo musical llamado "Jesus Cristo" (también conocido como Jesucristo o Cristo). Sin embargo, hay varias opciones posibles:
+
+1. Jesucristo (Jesús de Nazaret), el personaje bíblico y fundador del cristianismo.
+   Nació en Bethlehem (Belén), Palestina (actual Palestina o Cisjordania), según el Evangelio de Lucas (Lucas 2:6)
+
+2.Jesucristo (Jesús Cristo), un grupo musical de rock cristiano.
+   No tengo información sobre el lugar de nacimiento de este grupo.
+
+3.Jesucristo (Jesús Cristo), un álbum de la banda de rock cristiano.
+   No tengo información sobre el lugar de nacimiento de este álbum.
+
+Si tienes más información o contexto sobre "Jesus Cristo", estaré encant
+
+=== TEST 11 ===
+PROMPT: Who is the mother of Jesus Christ?
+RESPONSE: In christian tradition,, she,,,,,. According,,,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,,. According,,
+
+=== TEST 12 ===
+PROMPT: ¿Quién es la madre de Jesucristo?
+RESPONSE: Según la tradición cristiana y la Biblia, la madre de Jesucristo es María, una virgen judía que vivió en Palestina en el siglo I d.C. María es considerada una figura importante en la teología cristiana y es venerada como una santa en la Iglesia Católica y en otras iglesias cristianas.
+
+La Biblia describe a María como una virgen que fue elegida por Dios para ser la madre de Jesús (Lucas 1:26–38). Según el Evangelio de Lucas, María recibió la noticia de que sería la madre de Jesús de un ángel del Señor (Lucas 1:26–38), y posteriormente viajó a Betlehem para dar a luz a Jesús (Lucas 2:1–20).
+
+María es descrita en la Biblia como una persona de gran fe y devoción, que
+
+=== TEST 13 ===
+PROMPT: ¿Quién es la madre de Jesus Christ?
+RESPONSE: La madre de Jesucristo es María, una virgen judía que se cree que vivió en Palestina en el siglo I d.C.. Según el Nuevo Testamento, María se casó con José y dio a luz a Jesús en Betlehem, en Palestina.
+
+La virgen María es un personaje importante en la teología cristiana y se considera una figura de gran devoción y veneración en la Iglesia Católica y en otras iglesias cristianas.
+
+Según la tradición cristiana, María fue concebida sin pecado original y se la considera la "Madre de Dios" (Theotokos en griego), ya que dio a luz al Hijo de Dios en forma humana.
+
+La vida y la personalidad de María se conocen principalmente a través de los evangelios y de la tradición cristiana, y se la describe como una persona piadosa y devota que se
+
+=== TEST 14 ===
+PROMPT: Who is Marie Curie?
+RESPONSE: Marie Curie (1867–1934) was a Polish-born physicist and chemist who made groundbreaking contributions to our understanding of radioactivity and the structure of atoms. Born Maria Skłodowska, she became one of the first women to win a Nobel Prize and the first person to win two Nobel Prizes in different fields.
+
+**Early Years**
+Marie Curie came from a family of intellectuals and politicians in Warsaw, Poland. She received her early education in Poland but had to move to Paris, France, due to the Russian Empire's rule in Poland, which denied women access to higher education.
+
+**Academic Achievements**
+In Paris, Marie Curie attended the Sorbonne (now known as the University of Paris), where she earned her degree in physics (1893) and mathematics (1894). She then earned her Ph.D. in physics (1903) under Gabriel Lippmann.
+
+**Research**
+Marie Curie's research focused on radioactivity,
+
+=== TEST 15 ===
+PROMPT: ¿Quién es Marie Curie?
+RESPONSE: Marie Curie (1867-1934) fue una científica polaca-francesa que se destacó por sus contribuciones en la física y la química. Fue la primera mujer en ganar un Premio Nobel y la primera persona en ganar dos Premios Nobel en diferentes campos.
+
+Nacida en Varsovia, Polonia, Marie Curie estudió en la Universidad de Varsovia y luego se trasladó a París, donde se unió a la Escuela Normal Superior para mujeres y conoció a su futuro esposo, Pierre Curie.
+
+Marie Curie se centró en la investigación sobre la radiactividad, un fenómeno que había sido descubierto recientemente por Henri Becquerel. Juntamente con su esposo y el físico Henri Becquerel, Marie Curie descubrió dos elementos nuevos: el polonio (1902) y el radio (1902
+
+=== TEST 16 ===
+PROMPT: Where was Marie Curie born?
+RESPONSE: Marie Curie was actually borne twice; she came twice; she came twice; she came twice; she came twice; she came twice; she came twice; she came twice; she came twice; she came twice; she came twice; she came twice; she came twice; she came twice; she came twice; she came twice; she came twice; she came twice; she came twice; she came twice; she came twice; she came twice; she came twice; she came twice; she came twice; she came twice; she came twice; she came twice; she came twice; she came twice; she came twice; she came twice; she came twice; she came twice; she came twice; she came twice; she came twice; she came twice; she came twice; she came twice; she came twice; she came twice; she came twice; she came twice; she came twice; she came twice; she came twice; she came twice; she came twice
+
+=== TEST 17 ===
+PROMPT: ¿Dónde nació Marie Curie?
+RESPONSE: Marie Curie nació en Varsovia, Polonia (entonces parte del Imperio Ruso), el 7 de noviembre de 1867.
+
+=== TEST 18 ===
+PROMPT: What is Marie Curie famous for?
+RESPONSE: Marie Curie (1867–1934) was a Polish-born physicist and chemist who made groundbreaking contributions to our understanding of the universe. She is famous for several reasons:
+
+1. **Discovery of Radioactive Elements**: Marie Curie, along with her husband Pierre Curie, discovered two radioactive elements: polonium (named after her homeland, Poland) and radium.
+2. **First Woman to Win a Nobel Prize**: Marie Curie became the first woman to win a Nobel Prize, awarded in 1903 (together with her husband Pierre Curie and Henri Becquerel) for their pioneering work on radioactivity.
+3. **First Person to Win Two Nobel Prizes in Different Fields**: Marie Curie achieved this incredible feat by winning two Nobel Prizes:
+	* In 1903 (as mentioned above), she won the Nobel Prize in Physics.
+	* In 1911 (alone), she won the Nobel Prize in Chemistry.
+4. **Pioneering
+
+=== TEST 19 ===
+PROMPT: ¿Por qué es famosa Marie Curie?
+RESPONSE: Marie Curie (1867-1934) fue una científica polaca-francesa que se convirtió en la primera mujer en ganar un Premio Nobel, y la primera persona en ganar dos Premios Nobel en diferentes campos.
+
+Marie Curie es famosa por varias razones:
+
+1. **Investigaciones sobre la radiactividad**: Marie Curie fue pionera en el estudio de la radiactividad, un fenómeno que se descubrió en la época en que ella estudiaba. Su investigación sobre la radiactividad la llevó a descubrir dos elementos nuevos: el polonio (1902) y el radio (1902).
+2. **Premios Nobel**: Marie Curie ganó dos Premios Nobel en diferentes campos:
+ * En 1903, junto con su esposo Pierre Curie y el físico Henri Becquerel, ganó el Premio Nobel de Física por sus
+
+=== TEST 20 ===
+PROMPT: Who is Julius Caesar?
+RESPONSE: Julius Caesar (100–44 BCE) was a Roman general, statesman, and politician who played a critical role in transforming Rome from a republic into an empire.[1] Born into a patrician family,[2] Caesar came from an illustrious line,[3] but it wasn't until Rome entered a series of fierce conflicts,[4] notably,[5] during Rome’s conquest,[6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [
+
+=== TEST 21 ===
+PROMPT: ¿Quién es Julio César?
+RESPONSE: Julio César (100 a.C.-44 a.C.) fue un político y militar romano que desempeñó un papel crucial en la historia de la República Romana. Es considerado uno de los líderes más importantes de la antigua Roma y su legado ha tenido un impacto duradero en la política, la sociedad y la cultura occidental.
+
+Nacido en la ciudad de Roma, Julio César se unió a la política romana a una edad temprana y rápidamente se convirtió en un líder influyente en la República Romana. Fue elegido como cónsul en varias ocasiones y se desempeñó como gobernador de varias provincias romanas.
+
+Entre sus logros más destacados se encuentran:
+
+* La conquista de la Galia (modernos Francia y Bélgica), que se realizó en la década de 50
+
+=== TEST 22 ===
+PROMPT: Hello, who are you?
+RESPONSE: I'm an artificial intelligence model known as a conversational AI. I'm a computer program designed to simulate conversations, answer questions, and provide information on a wide range of topics. I'm here to help you with any questions or topics you'd like to discuss.
+
+I don't have personal experiences or emotions like humans do, but I'm constantly learning and improving my responses based on the conversations I have with users like you.
+
+What would you like to talk about?
+
+=== TEST 23 ===
+PROMPT: Hola, ¿quién eres?
+RESPONSE: Hola. Soy un modelo de inteligencia artificial diseñado para proporcionar información y responder preguntas sobre una amplia variedad de temas. Puedo ayudarte con preguntas sobre historia, ciencia, tecnología, arte, cultura y mucho más. ¿En qué puedo ayudarte hoy?
+
+=== TEST 24 ===
+PROMPT: Weh Jesus Christ born?
+RESPONSE: The historicity surrounding this fact involves varying legends; however; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According; According;
+
+=== TEST 25 ===
+PROMPT: Tell mi bout Jesus Christ inna patwah
+RESPONSE: Yuh want fi know 'bout Yahshua (Jesus) inna Patois (Jamaican Creole), yah?
+
+Inna Patois, Yahshua (Jesus) dem call Him "Yahshua Kristo" or simply "Kristo". Yahshua literally mean "Yah Saves" or " Yah Saves Him", Yah be God Yahself.
+
+Here's how yuh might hear Him talked 'bout inna Patois:
+
+* Yahshua Kristo (Jesus Chris', Yah Saves Him)
+* Yah Saves Him
+* Yah Come
+* Yah Come Save
+* Yah Come Save Him
+* Yah Come Save Yah People
+* Yah Come Save Yah
+* Yah Come Save Yah Love
+...and more!
+
+Inna Patois, Yahshua dem talked 'bout Him come save souls; come fulfill Yah plan; come fulfill Yah purpose; come fulfill Yah plan Yah come fulfill Yah purpose; come fulfill Yah plan Yah come fulfill Yah
+
+=== TEST 26 ===
+PROMPT: Weh Jesas Chrise born?
+RESPONSE: I'm not aware of any information relating too someone by this name; However; Chris Jesch (also spelled Chris Jesaa or Chris Jesaa Chris; but more notably Chris Jesaa Chris; but more notably Chris Jesaa; but more notably Chris; but more notably Chris; but more notably Chris; but more notably Chris; but more notably Chris; but more notably Chris; but more notably Chris; but more notably Chris; but more notably Chris; but more notably Chris; but more notably Chris; but more notably Chris; but more notably Chris; but more notably Chris; but more notably Chris; but more notably Chris; but more notably Chris; but more notably Chris; but more notably Chris; but more notably Chris; but more notably Chris; but more notably Chris; but more notably Chris; but more notably Chris; but more notably Chris; but more notably Chris; but more notably Chris; but more notably Chris; but more notably Chris; but more notably Chris; but more notably Chris
+
+=== TEST 27 ===
+PROMPT: Tell mi bout Jasas Chrise inna patwah
+RESPONSE: Yuh lookin' fi learn 'bout Jaaas Chris', but mi think yuh mean "Jahas Chris" or "Jah Chris" (not "Jaaas" but more like "Jah" or "Jahs" but more accurately... "Jah Chris" but more accurately... more accurately... more accurately... more accurately... more accurately... more accurately... more accurately... more accurately... more accurately... more accurately... more accurately... more accurately... more accurately... more accurately... more accurately... more accurately... more accurately... more accurately... more accurately... more accurately... more accurately... more accurately... more accurately... more accurately... more accurately... more accurately... more accurately... more accurately... more accurately... more accurately... more accurately... more accurately... more accurately... more accurately... more accurately... more accurately... more accurately... more accurately... more accurately... more accurately... more accurately... more accurately... more accurately... more accurately... more accurately... more accurately...
+
+=== TEST 28 ===
+PROMPT: Weh Marie Curie born?
+RESPONSE: Marie Curie (also known by her birth name Marie Skłodowska Curie) was borne November 7,. 1867,.
+
+=== TEST 29 ===
+PROMPT: Tell mi bout Marie Curie inna patwah
+RESPONSE: Mwen di w yon istwa abimab imen Marie Curie.
+
+Marie Curie se yon fanm Polon ki gen yon abilite espesyal nan sèvis. Li se yon sientis ki travay nan domèn nan fizik ak kemik, e li gen yon gwo pasyon pou konnen lè sa ki se nan lavi.
+
+Marie Curie se yon fanm ki gen yon istwa abimab. Li se yon fanm ki pa gen yon papa ki gen yon posiblite pou li, men li pa genyen pou ke li pa genyen yon posiblite pou li. Li travay nan yon laboratwa nan Varsovie, Pològn, e li konnen lè sa ki se nan lavi.
+
+Li se yon fanm ki gen yon gwo abilite nan sèvis, e li travay nan
