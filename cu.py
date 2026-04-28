@@ -787,10 +787,27 @@ def compute_l2_loss(model, tokenizer, Xsent: list[str]) -> torch.Tensor:
 
 
 # =============================================================================
+# Entity translation helper
+# =============================================================================
+
+def translate_entity(model_pre, tokenizer, entity: str, language: str) -> str:
+    """Translate the entity name into the target language using the frozen model."""
+    if language == "english":
+        return entity
+    prompt = (
+        f"Translate the following name or title into {TRANSLATE_TO[language]}. "
+        f"Output only the translation, no explanation.\n\n{entity}"
+    )
+    translated = generate(model_pre, tokenizer, prompt, max_new_tokens=50).strip()
+    print(f"[ENTITY TRANSLATION] '{entity}' -> '{translated}' ({language})")
+    return translated
+
+
+# =============================================================================
 # Algorithm 1 — Full loop
 # =============================================================================
 
-def run_unlearning(forget_entity: str, language: str = "english", prompt_mode: str = "native", max_epochs: int = MAX_EPOCHS, output_dir: str = "./unlearned_model_output"):
+def run_unlearning(forget_entity: str, languages: list[str], prompt_mode: str = "native", max_epochs: int = MAX_EPOCHS, output_dir: str = "./unlearned_model_output"):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(device)
     # ── Load trainable model ──────────────────────────────────────────────────
@@ -803,8 +820,19 @@ def run_unlearning(forget_entity: str, language: str = "english", prompt_mode: s
     model_pre.eval()
     for p in model_pre.parameters():
         p.requires_grad = False
-    # ── GET_SENT: collect X_sent once with the frozen model ────
-    Xsent = get_sent(model_pre, tokenizer, forget_entity, language, prompt_mode)
+
+    # ── Translate entity name once per language ───────────────────────────────
+    entity_by_language = {
+        lang: translate_entity(model_pre, tokenizer, forget_entity, lang)
+        for lang in languages
+    }
+
+    # ── GET_SENT: collect X_sent once per language with the frozen model ──────
+    # All sentences across all languages are pooled into a single list for L2
+    Xsent_all = []
+    for lang in languages:
+        entity_lang = entity_by_language[lang]
+        Xsent_all.extend(get_sent(model_pre, tokenizer, entity_lang, lang, prompt_mode))
 
     # built for doing gradient descent 
     optimizer = torch.optim.AdamW(
@@ -812,7 +840,7 @@ def run_unlearning(forget_entity: str, language: str = "english", prompt_mode: s
         lr=LR_MIN, # lr will be overwritten each epoch via param_groups
     )
 
-    print(f"\nStarting unlearning loop (max {max_epochs} epochs) ...")
+    print(f"\nStarting unlearning loop (max {max_epochs} epochs) over languages: {languages} ...")
     empty_streak = 0
 
     for epoch in range(1, max_epochs + 1):
@@ -822,12 +850,17 @@ def run_unlearning(forget_entity: str, language: str = "english", prompt_mode: s
 
         model.train()
 
-        # Algorithm 1, Line 3: GET_ATTR on the current model
-        Xent, Xattr = get_attr(model, model_pre, tokenizer, forget_entity, language, prompt_mode)
+        # Algorithm 1, Line 3: GET_ATTR on the current model — pooled across all languages
+        Xent_all, Xattr_all = [], []
+        for lang in languages:
+            entity_lang = entity_by_language[lang]
+            Xent_lang, Xattr_lang = get_attr(model, model_pre, tokenizer, entity_lang, lang, prompt_mode)
+            Xent_all.extend(Xent_lang)
+            Xattr_all.extend(Xattr_lang)
 
-        if not Xent:
+        if not Xent_all:
             empty_streak += 1
-            print(f"  [WARNING] No valid triplets (streak {empty_streak}/{EMPTY_STOP_PATIENCE})")
+            print(f"  [WARNING] No valid triplets across any language (streak {empty_streak}/{EMPTY_STOP_PATIENCE})")
             if empty_streak >= EMPTY_STOP_PATIENCE:
                 print(f"\nNo valid triplets for {EMPTY_STOP_PATIENCE} consecutive epochs. Stopping.")
                 break
@@ -836,14 +869,14 @@ def run_unlearning(forget_entity: str, language: str = "english", prompt_mode: s
 
         # Algorithm 1, Line 4: L1 update (triplet-based loss)
         optimizer.zero_grad()
-        l1_loss = compute_l1_loss(model, tokenizer, Xent, Xattr)
+        l1_loss = compute_l1_loss(model, tokenizer, Xent_all, Xattr_all)
         l1_loss.backward()
         torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
         optimizer.step()
 
         # Algorithm 1, Line 5: L2 update (sentence-based loss)
         optimizer.zero_grad()
-        l2_loss = compute_l2_loss(model, tokenizer, Xsent)
+        l2_loss = compute_l2_loss(model, tokenizer, Xsent_all)
         l2_loss.backward()
         torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
         optimizer.step()
@@ -853,7 +886,7 @@ def run_unlearning(forget_entity: str, language: str = "english", prompt_mode: s
             f"lr={lr:.2e} | "
             f"L1={l1_loss.item():.4f} | "
             f"L2={l2_loss.item():.4f} | "
-            f"triplet pairs={len(Xent)}"
+            f"triplet pairs={len(Xent_all)}"
         )
 
     # Algorithm 1, Line 7: save unlearned model
@@ -868,7 +901,8 @@ def run_unlearning(forget_entity: str, language: str = "english", prompt_mode: s
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Concept Unlearning")
     parser.add_argument("--entity", type=str, default="Jesus Christ", help="Entity to unlearn")
-    parser.add_argument("--language", type=str, choices=["english", "spanish", "patois"], default="english", help="Language for prompts")
+    # --language replaced by --languages (nargs="+") to support multiple languages in a single run
+    parser.add_argument("--languages", type=str, nargs="+", choices=["english", "spanish", "patois"], default=["english"], help="One or more languages for unlearning")
     parser.add_argument("--prompt_mode", type=str, choices=["native", "translate", "gentran"], default="native", help="'native', 'translate', or 'gentran'")
     parser.add_argument("--max_epochs", type=int, default=MAX_EPOCHS, help="Max training epochs")
     parser.add_argument("--output_dir", type=str, default="", help="Optional suffix")
@@ -876,15 +910,17 @@ if __name__ == "__main__":
     args.entity = args.entity.replace('"', '').strip()
     timestamp = datetime.now().strftime("%d-%m-%y_%H-%M")
     tag_part = f"_{args.output_dir}" if args.output_dir else ""
+    entity_tag = args.entity.replace(" ", "_")
 
-    output_dir = f"./unlearned_model_output_{args.language}_{args.prompt_mode}_{timestamp}{tag_part}"
-
+    langs_tag = "_".join(args.languages)
+#    output_dir = f"./unlearned_model_output_{langs_tag}_{args.prompt_mode}_{timestamp}{tag_part}"
+    output_dir = f"./unlearned_model_output_{entity_tag}_{langs_tag}_{args.prompt_mode}_{timestamp}{tag_part}"
     if not HF_TOKEN:
         print("Error: Please set the HF_TOKEN environment variable.")
         print("Example: export HF_TOKEN='your_token_here'")
         exit(1)
 
     try:
-        run_unlearning(args.entity, args.language, args.prompt_mode, args.max_epochs, output_dir)
+        run_unlearning(args.entity, args.languages, args.prompt_mode, args.max_epochs, output_dir)
     except Exception as e:
         print(f"An error occurred: {e}")
