@@ -1,0 +1,8 @@
+==========================================
+SLURM_JOB_ID = 3320161
+SLURM_JOB_NODELIST = a11-02
+TMPDIR = /tmp/SLURM_3320161
+==========================================
+HF_HOME=/home1/rharmstr/.cache/huggingface
+Running: python cu.py --entity "Jesus Christ" --languages english spanish --prompt_mode gentran
+Output: outputs/Jesus_Christ_english_spanish_gentran_0.out

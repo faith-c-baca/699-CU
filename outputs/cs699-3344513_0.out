@@ -1,0 +1,3 @@
+HF_HOME=/home1/rharmstr/.cache/huggingface
+Running: python cu.py --entity 'Marie Curie' --language english --prompt_mode native
+Output: outputs/Marie_Curie_english_native_0.out

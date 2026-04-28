@@ -1,0 +1,3 @@
+HF_HOME=/home1/rharmstr/.cache/huggingface
+Running: python cu.py --entity "Jesus Christ" --languages english spanish --prompt_mode gentran
+Output: outputs/Jesus_Christ_english_spanish_gentran_0.out

@@ -1,0 +1,452 @@
+cuda
+Loading meta-llama/Meta-Llama-3.1-8B-Instruct (trainable) ...
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   0%|          | 1/291 [00:00<00:38,  7.60it/s]Loading weights:   1%|          | 2/291 [00:00<00:37,  7.67it/s]Loading weights:   4%|▍         | 13/291 [00:00<00:06, 46.02it/s]Loading weights:   9%|▉         | 26/291 [00:00<00:03, 75.13it/s]Loading weights:  14%|█▎        | 40/291 [00:00<00:02, 90.31it/s]Loading weights:  18%|█▊        | 52/291 [00:00<00:02, 99.42it/s]Loading weights:  23%|██▎       | 68/291 [00:00<00:01, 112.99it/s]Loading weights:  29%|██▉       | 85/291 [00:00<00:01, 123.86it/s]Loading weights:  34%|███▎      | 98/291 [00:01<00:01, 124.78it/s]Loading weights:  39%|███▉      | 113/291 [00:01<00:01, 127.12it/s]Loading weights:  45%|████▍     | 130/291 [00:01<00:01, 133.18it/s]Loading weights:  49%|████▉     | 144/291 [00:01<00:01, 132.14it/s]Loading weights:  54%|█████▍    | 158/291 [00:01<00:01, 132.22it/s]Loading weights:  60%|██████    | 175/291 [00:01<00:00, 141.25it/s]Loading weights:  65%|██████▌   | 190/291 [00:01<00:00, 143.08it/s]Loading weights:  70%|███████   | 205/291 [00:01<00:00, 142.72it/s]Loading weights:  76%|███████▌  | 221/291 [00:01<00:00, 146.75it/s]Loading weights:  82%|████████▏ | 239/291 [00:01<00:00, 150.77it/s]Loading weights:  88%|████████▊ | 257/291 [00:02<00:00, 153.94it/s]Loading weights:  95%|█████████▍| 275/291 [00:02<00:00, 156.10it/s]Loading weights: 100%|██████████| 291/291 [00:02<00:00, 126.21it/s]
+Loading meta-llama/Meta-Llama-3.1-8B-Instruct (frozen) ...
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   0%|          | 1/291 [00:00<00:37,  7.71it/s]Loading weights:   1%|          | 2/291 [00:00<00:37,  7.71it/s]Loading weights:   5%|▌         | 15/291 [00:00<00:05, 52.61it/s]Loading weights:  11%|█         | 32/291 [00:00<00:02, 88.86it/s]Loading weights:  17%|█▋        | 49/291 [00:00<00:02, 109.71it/s]Loading weights:  21%|██▏       | 62/291 [00:00<00:01, 115.42it/s]Loading weights:  26%|██▋       | 77/291 [00:00<00:01, 121.00it/s]Loading weights:  32%|███▏      | 94/291 [00:00<00:01, 129.76it/s]Loading weights:  37%|███▋      | 108/291 [00:01<00:01, 129.83it/s]Loading weights:  42%|████▏     | 122/291 [00:01<00:01, 129.80it/s]Loading weights:  48%|████▊     | 139/291 [00:01<00:01, 135.72it/s]Loading weights:  53%|█████▎    | 153/291 [00:01<00:01, 133.95it/s]Loading weights:  58%|█████▊    | 168/291 [00:01<00:00, 132.88it/s]Loading weights:  64%|██████▎   | 185/291 [00:01<00:00, 141.80it/s]Loading weights:  69%|██████▉   | 202/291 [00:01<00:00, 148.31it/s]Loading weights:  75%|███████▍  | 217/291 [00:01<00:00, 148.11it/s]Loading weights:  80%|███████▉  | 232/291 [00:01<00:00, 147.76it/s]Loading weights:  86%|████████▌ | 249/291 [00:02<00:00, 149.33it/s]Loading weights:  92%|█████████▏| 267/291 [00:02<00:00, 152.26it/s]Loading weights:  98%|█████████▊| 285/291 [00:02<00:00, 153.87it/s]Loading weights: 100%|██████████| 291/291 [00:02<00:00, 129.36it/s]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[ENTITY TRANSLATION] 'Marie Curie' -> 'Marie Curie' (spanish)
+
+[GET_SENT] Generating explanatory sentences ...
+[GET_SENT] Collected 39 unique sentences.
+
+[GET_SENT] Generating explanatory sentences ...
+[GET_SENT] Collected 44 unique sentences.
+
+Starting unlearning loop (max 50 epochs) over languages: ['english', 'spanish'] ...
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Marie Curie, nationality, Polish)\n(Marie Curie, husband, Pierre Curie)\n(Marie Curie, discovery, radium)\n(Marie Curie, discovery, polonium)\n(Marie Curie, education, University of Paris)\n(Marie Curie, field of work, physics)\n(Marie Curie, Nobel Prize, physics)\n(Marie Curie, Nobel Prize, chemistry)\n(Marie Curie, country of citizenship, French)\n(Marie Curie, country of birth, Poland)\n(Marie Curie, institution, Sorbonne University)\n(Marie Curie, discovery, pitchblende)\n(Marie Curie, discovery, thorium)'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Marie Curie, nationality, Polish)'
+  KEEP:   '(Marie Curie, husband, Pierre Curie)'
+  KEEP:   '(Marie Curie, discovery, radium)'
+  KEEP:   '(Marie Curie, discovery, polonium)'
+  KEEP:   '(Marie Curie, education, University of Paris)'
+  KEEP:   '(Marie Curie, field of work, physics)'
+  KEEP:   '(Marie Curie, Nobel Prize, physics)'
+  KEEP:   '(Marie Curie, Nobel Prize, chemistry)'
+  KEEP:   '(Marie Curie, country of citizenship, French)'
+  KEEP:   '(Marie Curie, country of birth, Poland)'
+  KEEP:   '(Marie Curie, institution, Sorbonne University)'
+  KEEP:   '(Marie Curie, discovery, pitchblende)'
+  KEEP:   '(Marie Curie, discovery, thorium)'
+[DEBUG] Total kept: 13
+============================================================
+
+  [GET_ATTR] 13 raw triplets extracted.
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, nationality, Polish)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, husband, Pierre Curie)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, discovery, radium)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, discovery, polonium)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, education, University of Paris)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, field of work, physics)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, Nobel Prize, physics)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, Nobel Prize, chemistry)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, country of citizenship, French)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, country of birth, Poland)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, institution, Sorbonne University)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, discovery, pitchblende)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, discovery, thorium)
+
+ANSWER:  1
+  [GET_ATTR] 12 valid triplets -> 120 sentence pairs.
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Marie Curie, nacionalidad, Polonia)\n(Marie Curie, esposo, Pierre Curie)\n(Marie Curie, descubrimiento, radio)\n(Marie Curie, descubrimiento, polonio)\n(Marie Curie, educación, Universidad de París)\n(Marie Curie, campo de trabajo, física)\n(Marie Curie, Premio Nobel, física)\n(Marie Curie, Premio Nobel, química)\n(Marie Curie, país de ciudadanía, Francia)\n(Marie Curie, país de nacimiento, Polonia)\n(Marie Curie, institución, Universidad de la Sorbona)\n(Marie Curie, descubrimiento, pitchblende)\n(Marie Curie, descubrimiento, torio)'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Marie Curie, nacionalidad, Polonia)'
+  KEEP:   '(Marie Curie, esposo, Pierre Curie)'
+  KEEP:   '(Marie Curie, descubrimiento, radio)'
+  KEEP:   '(Marie Curie, descubrimiento, polonio)'
+  KEEP:   '(Marie Curie, educación, Universidad de París)'
+  KEEP:   '(Marie Curie, campo de trabajo, física)'
+  KEEP:   '(Marie Curie, Premio Nobel, física)'
+  KEEP:   '(Marie Curie, Premio Nobel, química)'
+  KEEP:   '(Marie Curie, país de ciudadanía, Francia)'
+  KEEP:   '(Marie Curie, país de nacimiento, Polonia)'
+  KEEP:   '(Marie Curie, institución, Universidad de la Sorbona)'
+  KEEP:   '(Marie Curie, descubrimiento, pitchblende)'
+  KEEP:   '(Marie Curie, descubrimiento, torio)'
+[DEBUG] Total kept: 13
+============================================================
+
+  [GET_ATTR] 13 raw triplets extracted.
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, nacionalidad, Polonia)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, esposo, Pierre Curie)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, descubrimiento, radio)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, descubrimiento, polonio)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, educación, Universidad de París)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, campo de trabajo, física)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, Premio Nobel, física)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, Premio Nobel, química)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, país de ciudadanía, Francia)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, país de nacimiento, Polonia)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, institución, Universidad de la Sorbona)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, descubrimiento, pitchblende)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, descubrimiento, torio)
+
+ANSWER:  1
+  [GET_ATTR] 13 valid triplets -> 130 sentence pairs.
+`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+Epoch 01/50 | lr=1.10e-06 | L1=-2.2445 | L2=-2.4053 | triplet pairs=250
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Marie Curie, nationality, Polish)\n(Marie Curie, husband, Pierre Curie)\n(Marie Curie, discovery, radium)\n(Marie Curie, discovery, polonium)\n(Marie Curie, education, University of Paris)\n(Marie Curie, education, Jagiellonian University)\n(Marie Curie, Nobel Prize, Physics)\n(Marie Curie, Nobel Prize, Chemistry)\n(Marie Curie, country of citizenship, France)\n(Marie Curie, country of citizenship, Poland)\n(Marie Curie, field of work, physics)\n(Marie Curie, field of work, chemistry)\n(Marie Curie, institution, Curie Institutes)\n(Marie Curie, institution, Sorbonne University)\n(Marie Curie, award, Willard Gibbs Award)\n(Marie Curie, award, Davy Medal)\n(Marie Curie, award, Matteucci Medal)'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Marie Curie, nationality, Polish)'
+  KEEP:   '(Marie Curie, husband, Pierre Curie)'
+  KEEP:   '(Marie Curie, discovery, radium)'
+  KEEP:   '(Marie Curie, discovery, polonium)'
+  KEEP:   '(Marie Curie, education, University of Paris)'
+  KEEP:   '(Marie Curie, education, Jagiellonian University)'
+  KEEP:   '(Marie Curie, Nobel Prize, Physics)'
+  KEEP:   '(Marie Curie, Nobel Prize, Chemistry)'
+  KEEP:   '(Marie Curie, country of citizenship, France)'
+  KEEP:   '(Marie Curie, country of citizenship, Poland)'
+  KEEP:   '(Marie Curie, field of work, physics)'
+  KEEP:   '(Marie Curie, field of work, chemistry)'
+  KEEP:   '(Marie Curie, institution, Curie Institutes)'
+  KEEP:   '(Marie Curie, institution, Sorbonne University)'
+  KEEP:   '(Marie Curie, award, Willard Gibbs Award)'
+  KEEP:   '(Marie Curie, award, Davy Medal)'
+  KEEP:   '(Marie Curie, award, Matteucci Medal)'
+[DEBUG] Total kept: 17
+============================================================
+
+  [GET_ATTR] 17 raw triplets extracted.
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, nationality, Polish)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, husband, Pierre Curie)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, discovery, radium)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, discovery, polonium)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, education, University of Paris)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, education, Jagiellonian University)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, Nobel Prize, Physics)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, Nobel Prize, Chemistry)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, country of citizenship, France)
+
+ANSWER:  0
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, country of citizenship, Poland)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, field of work, physics)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, field of work, chemistry)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, institution, Curie Institutes)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, institution, Sorbonne University)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, award, Willard Gibbs Award)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, award, Davy Medal)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, award, Matteucci Medal)
+
+ANSWER:  1
+  [GET_ATTR] 16 valid triplets -> 160 sentence pairs.
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Marie Curie, nacionalidad, Polonia)\n(Marie Curie, esposo, Pierre Curie)\n(Marie Curie, descubrimiento, radio)\n(Marie Curie, descubrimiento, polonio)\n(Marie Curie, educación, Universidad de París)\n(Marie Curie, educación, Universidad Jagellónica)\n(Marie Curie, Premio Nobel, Física)\n(Marie Curie, Premio Nobel, Química)\n(Marie Curie, país de ciudadanía, Francia)\n(Marie Curie, país de ciudadanía, Polonia)\n(Marie Curie, campo de trabajo, física)\n(Marie Curie, campo de trabajo, química)\n(Marie Curie, institución, Institutos Curie)\n(Marie Curie, institución, Universidad de la Sorbona)\n(Marie Curie, premio, Premio Willard Gibbs)\n(Marie Curie, premio, Medalla Davy)\n(Marie Curie, premio, Medalla Matteucci)'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Marie Curie, nacionalidad, Polonia)'
+  KEEP:   '(Marie Curie, esposo, Pierre Curie)'
+  KEEP:   '(Marie Curie, descubrimiento, radio)'
+  KEEP:   '(Marie Curie, descubrimiento, polonio)'
+  KEEP:   '(Marie Curie, educación, Universidad de París)'
+  KEEP:   '(Marie Curie, educación, Universidad Jagellónica)'
+  KEEP:   '(Marie Curie, Premio Nobel, Física)'
+  KEEP:   '(Marie Curie, Premio Nobel, Química)'
+  KEEP:   '(Marie Curie, país de ciudadanía, Francia)'
+  KEEP:   '(Marie Curie, país de ciudadanía, Polonia)'
+  KEEP:   '(Marie Curie, campo de trabajo, física)'
+  KEEP:   '(Marie Curie, campo de trabajo, química)'
+  KEEP:   '(Marie Curie, institución, Institutos Curie)'
+  KEEP:   '(Marie Curie, institución, Universidad de la Sorbona)'
+  KEEP:   '(Marie Curie, premio, Premio Willard Gibbs)'
+  KEEP:   '(Marie Curie, premio, Medalla Davy)'
+  KEEP:   '(Marie Curie, premio, Medalla Matteucci)'
+[DEBUG] Total kept: 17
+============================================================
+
+  [GET_ATTR] 17 raw triplets extracted.
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, nacionalidad, Polonia)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, esposo, Pierre Curie)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, descubrimiento, radio)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, descubrimiento, polonio)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, educación, Universidad de París)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, educación, Universidad Jagellónica)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, Premio Nobel, Física)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, Premio Nobel, Química)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, país de ciudadanía, Francia)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, país de ciudadanía, Polonia)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, campo de trabajo, física)
+
+ANSWER:  1

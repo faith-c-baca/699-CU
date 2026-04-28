@@ -1,0 +1,4 @@
+HF_HOME=/home1/rharmstr/.cache/huggingface
+Running: python cu.py --entity Marie
+Output: outputs/___0.out
+[2026-04-27T10:59:32.303] error: *** JOB 3327156 ON a11-02 CANCELLED AT 2026-04-27T10:59:32 DUE to SIGNAL Terminated ***

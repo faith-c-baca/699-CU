@@ -1,0 +1,54 @@
+cuda
+Loading meta-llama/Meta-Llama-3.1-8B-Instruct (trainable) ...
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   0%|          | 1/291 [00:00<00:37,  7.83it/s]Loading weights:   1%|          | 2/291 [00:00<00:36,  7.87it/s]Loading weights:   4%|▍         | 13/291 [00:00<00:05, 47.80it/s]Loading weights:   9%|▉         | 26/291 [00:00<00:03, 76.83it/s]Loading weights:  14%|█▎        | 40/291 [00:00<00:02, 91.53it/s]Loading weights:  19%|█▊        | 54/291 [00:00<00:02, 104.75it/s]Loading weights:  23%|██▎       | 68/291 [00:00<00:01, 113.88it/s]Loading weights:  29%|██▉       | 85/291 [00:00<00:01, 125.64it/s]Loading weights:  34%|███▎      | 98/291 [00:01<00:01, 126.42it/s]Loading weights:  39%|███▉      | 113/291 [00:01<00:01, 128.50it/s]Loading weights:  45%|████▍     | 130/291 [00:01<00:01, 134.50it/s]Loading weights:  49%|████▉     | 144/291 [00:01<00:01, 133.98it/s]Loading weights:  54%|█████▍    | 158/291 [00:01<00:00, 133.92it/s]Loading weights:  60%|██████    | 175/291 [00:01<00:00, 143.16it/s]Loading weights:  65%|██████▌   | 190/291 [00:01<00:00, 144.91it/s]Loading weights:  70%|███████   | 205/291 [00:01<00:00, 144.74it/s]Loading weights:  76%|███████▌  | 221/291 [00:01<00:00, 149.09it/s]Loading weights:  82%|████████▏ | 239/291 [00:01<00:00, 153.75it/s]Loading weights:  88%|████████▊ | 257/291 [00:02<00:00, 156.54it/s]Loading weights:  95%|█████████▍| 275/291 [00:02<00:00, 159.01it/s]Loading weights: 100%|██████████| 291/291 [00:02<00:00, 128.43it/s]
+Loading meta-llama/Meta-Llama-3.1-8B-Instruct (frozen) ...
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   0%|          | 1/291 [00:00<00:36,  7.91it/s]Loading weights:   1%|          | 2/291 [00:00<00:36,  7.92it/s]Loading weights:   5%|▌         | 15/291 [00:00<00:05, 53.87it/s]Loading weights:  11%|█         | 32/291 [00:00<00:02, 89.85it/s]Loading weights:  17%|█▋        | 49/291 [00:00<00:02, 110.94it/s]Loading weights:  22%|██▏       | 63/291 [00:00<00:01, 117.93it/s]Loading weights:  26%|██▋       | 77/291 [00:00<00:01, 122.55it/s]Loading weights:  32%|███▏      | 94/291 [00:00<00:01, 131.20it/s]Loading weights:  37%|███▋      | 108/291 [00:01<00:01, 131.31it/s]Loading weights:  42%|████▏     | 122/291 [00:01<00:01, 131.33it/s]Loading weights:  48%|████▊     | 139/291 [00:01<00:01, 137.25it/s]Loading weights:  53%|█████▎    | 153/291 [00:01<00:01, 135.58it/s]Loading weights:  58%|█████▊    | 168/291 [00:01<00:00, 134.41it/s]Loading weights:  64%|██████▎   | 185/291 [00:01<00:00, 143.41it/s]Loading weights:  69%|██████▉   | 202/291 [00:01<00:00, 150.18it/s]Loading weights:  75%|███████▍  | 218/291 [00:01<00:00, 152.24it/s]Loading weights:  80%|████████  | 234/291 [00:01<00:00, 152.31it/s]Loading weights:  86%|████████▌ | 250/291 [00:01<00:00, 153.43it/s]Loading weights:  92%|█████████▏| 267/291 [00:02<00:00, 153.38it/s]Loading weights:  98%|█████████▊| 285/291 [00:02<00:00, 155.31it/s]Loading weights: 100%|██████████| 291/291 [00:02<00:00, 131.28it/s]
+
+[GET_SENT] Generating explanatory sentences ...
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[GET_SENT] Collected 46 unique sentences.
+
+Starting unlearning loop (max 50 epochs) over languages: ['english'] ...
+  [GET_ATTR] Extracting triplets from current model ...
+
+============================================================
+[DEBUG] Raw model output from extract_triplets:
+------------------------------------------------------------
+'(Marie Curie, nationality, Poland)\n(Marie Curie, husband, Pierre Curie)\n(Marie Curie, discovery, radium)\n(Marie Curie, discovery, polonium)\n(Marie Curie, education, University of Paris)\n(Marie Curie, field of work, physics)\n(Marie Curie, Nobel Prize, physics)\n(Marie Curie, Nobel Prize, chemistry)\n(Marie Curie, country of citizenship, France)\n(Marie Curie, country of birth, Poland)\n(Marie Curie, institution, Sorbonne University)\n(Marie Curie, discovery, pitchblende)\n(Marie Curie, discovery, thorium)'
+------------------------------------------------------------
+[DEBUG] Lines and why each was kept/rejected:
+  KEEP:   '(Marie Curie, nationality, Poland)'
+  KEEP:   '(Marie Curie, husband, Pierre Curie)'
+  KEEP:   '(Marie Curie, discovery, radium)'
+  KEEP:   '(Marie Curie, discovery, polonium)'
+  KEEP:   '(Marie Curie, education, University of Paris)'
+  KEEP:   '(Marie Curie, field of work, physics)'
+  KEEP:   '(Marie Curie, Nobel Prize, physics)'
+  KEEP:   '(Marie Curie, Nobel Prize, chemistry)'
+  KEEP:   '(Marie Curie, country of citizenship, France)'
+  KEEP:   '(Marie Curie, country of birth, Poland)'
+  KEEP:   '(Marie Curie, institution, Sorbonne University)'
+  KEEP:   '(Marie Curie, discovery, pitchblende)'
+  KEEP:   '(Marie Curie, discovery, thorium)'
+[DEBUG] Total kept: 13
+============================================================
+
+  [GET_ATTR] 13 raw triplets extracted.
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, nationality, Poland)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, husband, Pierre Curie)
+
+ANSWER:  1
+
+PROMPT:  Is the following knowledge triplet factually correct? Reply with only '1' for yes or '0' for no.
+
+Triplet: (Marie Curie, discovery, radium)
+
+ANSWER:  1
