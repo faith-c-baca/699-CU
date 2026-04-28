@@ -1,0 +1,8 @@
+==========================================
+SLURM_JOB_ID = 3356720
+SLURM_JOB_NODELIST = a11-02
+TMPDIR = /tmp/SLURM_3356720
+==========================================
+HF_HOME=/home1/rharmstr/.cache/huggingface
+Running: python cu.py --entity "Marie Curie" --languages english spanish --prompt_mode gentran
+Output: outputs/Marie_Curie_english_spanish_gentran_0.out

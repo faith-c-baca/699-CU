@@ -1,0 +1,208 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading model on cuda with torch.float16...
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   0%|          | 1/291 [00:01<08:05,  1.68s/it]Loading weights:   3%|▎         | 8/291 [00:01<00:48,  5.84it/s]Loading weights:   4%|▍         | 11/291 [00:02<00:37,  7.54it/s]Loading weights:  20%|██        | 59/291 [00:02<00:04, 57.78it/s]Loading weights:  25%|██▌       | 73/291 [00:02<00:03, 62.58it/s]Loading weights:  29%|██▉       | 85/291 [00:02<00:03, 66.00it/s]Loading weights:  33%|███▎      | 96/291 [00:02<00:03, 60.59it/s]Loading weights:  36%|███▌      | 105/291 [00:02<00:02, 65.24it/s]Loading weights:  39%|███▉      | 114/291 [00:03<00:03, 50.34it/s]Loading weights:  43%|████▎     | 126/291 [00:03<00:02, 60.30it/s]Loading weights:  46%|████▋     | 135/291 [00:03<00:02, 58.55it/s]Loading weights:  49%|████▉     | 143/291 [00:03<00:02, 56.72it/s]Loading weights:  54%|█████▍    | 157/291 [00:03<00:02, 62.28it/s]Loading weights:  56%|█████▋    | 164/291 [00:03<00:02, 55.39it/s]Loading weights:  59%|█████▉    | 173/291 [00:04<00:02, 58.17it/s]Loading weights:  63%|██████▎   | 182/291 [00:04<00:01, 61.72it/s]Loading weights:  65%|██████▍   | 189/291 [00:04<00:01, 55.27it/s]Loading weights:  68%|██████▊   | 199/291 [00:04<00:01, 61.06it/s]Loading weights:  71%|███████   | 206/291 [00:04<00:01, 60.26it/s]Loading weights:  73%|███████▎  | 213/291 [00:04<00:01, 55.68it/s]Loading weights:  75%|███████▌  | 219/291 [00:04<00:01, 54.54it/s]Loading weights:  77%|███████▋  | 225/291 [00:04<00:01, 54.01it/s]Loading weights:  79%|███████▉  | 231/291 [00:05<00:01, 55.07it/s]Loading weights:  81%|████████▏ | 237/291 [00:05<00:01, 51.34it/s]Loading weights:  84%|████████▎ | 243/291 [00:05<00:00, 51.75it/s]Loading weights:  87%|████████▋ | 252/291 [00:05<00:00, 55.94it/s]Loading weights:  89%|████████▊ | 258/291 [00:05<00:00, 53.67it/s]Loading weights:  91%|█████████ | 264/291 [00:05<00:00, 51.26it/s]Loading weights:  93%|█████████▎| 271/291 [00:05<00:00, 47.64it/s]Loading weights:  97%|█████████▋| 283/291 [00:06<00:00, 59.36it/s]Loading weights: 100%|██████████| 291/291 [00:06<00:00, 47.91it/s]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Model successfully loaded on: cuda:0
+
+=== TEST 1 ===
+PROMPT: Who is Jesus Christ?
+RESPONSE: Jesus Christ is considered the central figure of Christianity, and his life, teachings, death, and resurrection are the foundation of the Christian faith. He is believed by Christians to be the son of God and the savior of humanity.
+
+According to the New Testament of the Bible, Jesus was born in Bethlehem to Mary, a virgin, through the Holy Spirit. He was raised by his parents, Joseph and Mary, in Nazareth, and grew up to be a carpenter.
+
+Jesus' teachings emphasized love, compassion, forgiveness, and the importance of living a virtuous life. He preached about the kingdom of God and the need for people to repent and turn to God. He also performed miracles, such as healing the sick, feeding the hungry, and raising the dead.
+
+Jesus' message attracted a large following, and he became a prominent figure in Jewish society. However, his teachings and actions were seen as a threat by the Jewish authorities, who eventually conspired against him.
+
+According to the New Testament
+
+=== TEST 2 ===
+PROMPT: ¿Quién es Jesucristo?
+RESPONSE: Jesucristo también conocido como Jesús o Cristo,[​cita requerente​]​​ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+
+=== TEST 3 ===
+PROMPT: ¿Quién es Jesus Christ?
+RESPONSE: Jesus Cristo ha sido considerado uno desde las figuras central en diversas religiones e tradiciones durante mucho tiempo..​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+
+=== TEST 4 ===
+PROMPT: Who is Jesus?
+RESPONSE: Jesus of Nazareth, commonly referred to as Jesus Christ, is a central figure in Christianity. He is considered by Christians to be the Son of God, the Messiah, and the savior of humanity.
+
+According to the New Testament of the Bible, Jesus was born in Bethlehem to Mary, a virgin, through the Holy Spirit. He was raised by his parents, Joseph and Mary, in Nazareth, where he grew up as a carpenter's son.
+
+Jesus' teachings emphasized love, compassion, forgiveness, and the importance of living a virtuous life. He preached about the kingdom of God and the need for people to repent and turn to God. He also performed miracles, such as healing the sick, feeding the hungry, and raising the dead.
+
+Jesus' message attracted a large following, and he became a prominent figure in Jewish society. However, his teachings and actions were seen as a threat by the Jewish authorities, who eventually conspired against him.
+
+According to the New Testament, Jesus was
+
+=== TEST 5 ===
+PROMPT: ¿Quién es Jesús?
+RESPONSE: Jesús ha sido considerado uno desde las tres grandes figuras religiosas europeas — después Pablo — durante mucho tiempo[cita requerida], porque representa tres grandes características — porque representa tres grandes características — porque representa tres grandes características — porque representa tres grandes características — porque representa tres grandes características — porque representa tres grandes características — porque representa tres grandes características — porque representa tres grandes características — porque representa tres grandes características — porque representa tres grandes características — porque representa tres grandes características — porque representa tres grandes características — porque representa tres grandes características — porque representa tres grandes características — porque representa tres grandes características — porque representa tres grandes características — porque representa tres grandes características — porque representa tres grandes características — porque representa tres grandes características — porque representa tres grandes características — porque representa tres grandes características — porque representa tres grandes características — porque representa tres grandes características — porque representa tres grandes características — porque representa tres grandes características — porque representa tres grandes características — porque representa tres grandes características — porque representa tres grandes características — porque
+
+=== TEST 6 ===
+PROMPT: Who is the central figure of Christianity?
+RESPONSE: The central figure of Christianity is Jesus Christ. He is considered the Son of God, the Messiah, and the savior of humanity. Christians believe that Jesus is the fulfillment of the Old Testament prophecies and that he came to earth to offer himself as a sacrifice for the sins of humanity, thereby providing salvation and eternal life to those who believe in him.
+
+Jesus is often referred to as the central figure of Christianity because he is the focal point of the Christian faith. He is the one who is worshipped, revered, and followed by Christians around the world. The Christian Bible, which includes the Old and New Testaments, is centered around Jesus and his teachings, life, death, and resurrection.
+
+The central figure of Jesus is also reflected in the Christian doctrine of the Trinity, which states that there is one God in three persons: the Father, the Son (Jesus), and the Holy Spirit. This doctrine emphasizes the unity and divinity of God, with Jesus being the central figure of the
+
+=== TEST 7 ===
+PROMPT: ¿Quién es la figura central del cristianismo?
+RESPONSE: La figura central en las tres grandes religiones monoteistas —cristianismo,y judismo,y las tres grandes religiones — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — —
+
+=== TEST 8 ===
+PROMPT: Where was Jesus Christ born?
+RESPONSE: Jesus Christ was born in Bethlehem, which is located in the West Bank, in the Palestinian territories.
+
+=== TEST 9 ===
+PROMPT: ¿Dónde nació Jesucristo?
+RESPONSE: Según las creencias cristianas,y las investigaciones arqueológicas,y las investigaciones contemporáneas,y las investigaciones contemporáneas,y las investigaciones contemporáneas,y las investigaciones contemporáneas,y las investigaciones contemporáneas,y las investigaciones contemporáneas,y las investigaciones contemporáneas,y las investigaciones contemporáneas,y las investigaciones contemporáneas,y las investigaciones contemporáneas,y las investigaciones contemporáneas,y las investigaciones contemporáneas,y las investigaciones contemporáneas,y las investigaciones contemporáneas,y las investigaciones contemporáneas,y las investigaciones contemporáneas,y las investigaciones contemporáneas,y las investigaciones contemporáneas,y las investigaciones contemporáneas,y las investigaciones contemporáneas,y las investigaciones contemporáneas,y las investigaciones contemporáneas,y las investigaciones contemporáneas,y las investigaciones contemporáneas,y las investigaciones contemporáneas,y las investigaciones contemporáneas,y las
+
+=== TEST 10 ===
+PROMPT: ¿Dónde nació Jesus Christ?
+RESPONSE: Según las tradiciones religiosas e históricas europeas, Jesucristo pudo haber nascido hace mucho hace hace mucho hace hace mucho hace hace mucho hace hace mucho hace hace mucho hace hace mucho hace hace mucho hace hace mucho hace hace mucho hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace hace
+
+=== TEST 11 ===
+PROMPT: Who is the mother of Jesus Christ?
+RESPONSE: The mother of Jesus Christ is Mary, also known as the Virgin Mary in Christian tradition. According to the New Testament, Mary was a young woman from the town of Nazareth when she became pregnant with Jesus through the Holy Spirit, as described in the Gospel of Luke (Luke 1:26-38).
+
+In Christian tradition, Mary is often referred to as the "Blessed Virgin Mary" or "Our Lady." She is considered a central figure in the life of Jesus and is revered by Christians around the world.
+
+It's worth noting that Mary is not mentioned by name in the earliest Christian texts, such as the Epistles of Paul or the Gospel of Mark. However, her role in the life of Jesus is central to the Christian narrative, and she is often depicted in art, literature, and popular culture as a symbol of motherhood, faith, and devotion.
+
+In Catholic tradition, Mary is considered the Mother of God (Latin: "Dei Genetrix") and is v
+
+=== TEST 12 ===
+PROMPT: ¿Quién es la madre de Jesucristo?
+RESPONSE: Según las creencias cristianas,y las Sagradas Escrituras,y según las investigaciones,y las investigadoras,y las investigados,y las investigadoras,y las investigados,y las investigadoras,y las investigados,y las investigadoras,y las investigados,y las investigadoras,y las investigados,y las investigadoras,y las investigados,y las investigadoras,y las investigados,y las investigadoras,y las investigados,y las investigadoras,y las investigados,y las investigadoras,y las investigados,y las investigadoras,y las investigados,y las investigadoras,y las investigados,y las investigadoras,y las investigados,y las investigadoras,y las investigados,y las investigadoras,y las investigados,y las investigadoras,y las investigados,y las investigadoras,y las investigados,y las investigadoras,y las investigados,y las investigadoras,y las investigados,y las investigadoras,y las investigados,y las investigadoras,y las investigados,y las investigadoras,y las investigados,y las investig
+
+=== TEST 13 ===
+PROMPT: ¿Quién es la madre de Jesus Christ?
+RESPONSE: Según las Sagradas Escrituras e las tradiciones religiosas cristianas, madre oficial e oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial oficial
+
+=== TEST 14 ===
+PROMPT: Who is Marie Curie?
+RESPONSE: Marie CUR ie, Polish-born French chemist, physicist, and feminist, was a pioneering figure in nuclear physics, chemistry, and women's rights. Born on November 07, 1859, Warsaw, Poland, CUR ie, Polish :, Polish :, French :, Polish :, Polish :, Polish :, Polish :, Polish :, Polish :, Polish :, Polish :, Polish :, Polish :, Polish :, Polish :, Polish :, Polish :, Polish :, Polish :, Polish :, Polish :, Polish :, Polish :, Polish :, Polish :, Polish :, Polish :, Polish :, Polish :, Polish :, Polish :, Polish :, Polish :, Polish :, Polish :, Polish :, Polish :, Polish :, Polish :, Polish :, Polish :, Polish :, Polish :, Polish :, Polish :, Polish :, Polish :, Polish :, Polish :, Polish :, Polish :
+
+=== TEST 15 ===
+PROMPT: ¿Quién es Marie Curie?
+RESPONSE: Marie CURrie​ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+
+=== TEST 16 ===
+PROMPT: Where was Marie Curie born?
+RESPONSE: Marie CUR ie was Born Warsaw Poland, Russia,(now Poland ) November,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+=== TEST 17 ===
+PROMPT: ¿Dónde nació Marie Curie?
+RESPONSE: Marie CUR ie​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+
+=== TEST 18 ===
+PROMPT: What is Marie Curie famous for?
+RESPONSE: Marie CURrie was a Polish-born physicist chemist, notable for two significant contributions : nuclear physics, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, chemistry
+
+=== TEST 19 ===
+PROMPT: ¿Por qué es famosa Marie Curie?
+RESPONSE: Marie CURrie​ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+
+=== TEST 20 ===
+PROMPT: Who is Julius Caesar?
+RESPONSE: Julius Caesar was a Roman general, statesman, and politician who played a critical role in transforming the Roman Republic into the Roman Empire. Born on July 12 or 13, 100 BCE, in Rome, Italy, Caesar rose to prominence through his military conquests and strategic alliances.
+
+Caesar's Early Life and Career:
+Caesar was born into the Julian clan, a noble family in Rome. He was the son of Gaius Julius Caesar and Cornelia, and his family was known for their aristocratic connections. Caesar's early life is not well-documented, but it is believed that he received a traditional Roman education, which included studying law, literature, and military tactics.
+
+Caesar's Rise to Power:
+Caesar's military career began in the late 2nd century BCE, when he served as a quaestor (financial administrator) in Spain. He later became a tribune (a high-ranking official in the Roman Republic), where he gained experience in politics and
+
+=== TEST 21 ===
+PROMPT: ¿Quién es Julio César?
+RESPONSE: Julio César (100 a.C.-44 a.C.)​ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+
+=== TEST 22 ===
+PROMPT: Hello, who are you?
+RESPONSE: I'm an artificial intelligence model known as a conversational AI. I'm a computer program designed to understand and respond to human language in a way that's natural and conversational. I'm here to help answer your questions, provide information, and even just chat with you about any topic that interests you.
+
+I don't have a personal identity or emotions like humans do, but I'm designed to be helpful and engaging. I can provide information on a wide range of topics, from science and history to entertainment and culture. I can also help with tasks like language translation, text summarization, and even generating creative writing.
+
+Is there something specific you'd like to talk about or ask me?
+
+=== TEST 23 ===
+PROMPT: Hola, ¿quién eres?
+RESPONSE: Hola. Soy un modelo de inteligencia artificial diseñados mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante grandes computadoras mediante
+
+=== TEST 24 ===
+PROMPT: Weh Jesus Christ born?
+RESPONSE: Jesus Christ is believed to have been born in Bethlehem, in the Roman province of Judea (now part of the West Bank), around 4 BC. The exact date of his birth is not known and is not celebrated as a holiday in the Christian calendar.
+
+The traditional date of Jesus' birth is December 25, which was chosen by early Christian leaders to coincide with existing Roman and Greek festivals that took place around the same time of year.
+
+However, the Bible does not provide a specific date for Jesus' birth, and many scholars believe that he was likely born in the spring or fall, rather than in the winter.
+
+The Gospel of Luke (Luke 2:1-7), which is the primary source of information about Jesus' birth, states that Jesus was born during the reign of King Herod the Great, who died around 4 BC.
+
+So, while we can't pinpoint an exact date for Jesus' birth, it is generally believed to have taken place around 4 BC in
+
+=== TEST 25 ===
+PROMPT: Tell mi bout Jesus Christ inna patwah
+RESPONSE: Wah gwaan?
+
+Mi go tell yuh 'bout Jesus Christ, di Great One.
+
+Jesus a di son a God, weh come fi save di world frah sin an' wickedness.
+Im a di Messiah, di Chosen One, weh come fi bring peace an' love.
+Im a di teacher, di healer, an' di savior.
+
+Jesus a born in Bethlehem, inna di manger, weh Mary, im mother, lay.
+Angels sing an' sing, "Glory to God in di highest,
+An' on earth peace, good will towards men."
+( Lukas 2:14)
+
+Jesus a grow up, an' im start fi preach.
+Im a say, "Love yuh neighbor, an' love yuh enemy,
+Forgive dem weh wrong yuh,
+An' turn di other cheek."
+( Matiu 22:39; Lukas 6:27-29)
+
+Jesus a heal di sick,
+
+=== TEST 26 ===
+PROMPT: Weh Jesas Chrise born?
+RESPONSE: I couldn't find any information on a person named Jesas Chrise. Could you provide more context or details about who Jesas Chrise is?
+
+=== TEST 27 ===
+PROMPT: Tell mi bout Jasas Chrise inna patwah
+RESPONSE: Yuh lookin' fi know 'bout Jasas Chrise inna patwah?
+
+Jasas Chrise (also known as Jesus Christ), a central figure in Christianity, a spiritual leader who preached love, forgiveness, and salvation. Him life, teachings, and legacy have shaped Western civilization and continue to inspire people worldwide.
+
+Inna patwah (Patois), Jasas Chrise a go like dis:
+
+"Jasas Chrise, di Great Prophet,
+Come fi save di wicked,
+An' bring di light fi di blind,
+An' di hope fi di hopeless,
+Him message a go spread,
+An' di love a go abound,
+Inna di heart a go reside,
+Di spirit a go guide,
+Jasas Chrise, di Savior,
+A go bring di new life,
+An' di eternal peace,
+Fi di world a go see,
+Di love a go set free,
+Jasas Chrise, di King,
+A go reign fi eternity,
+
+=== TEST 28 ===
+PROMPT: Weh Marie Curie born?
+RESPONSE: Maria Salomea Szaradowna CUR ie,also known as Madame CUR ie,born November,07,1859, Warsaw, Poland, (now Poland ),
+
+=== TEST 29 ===
+PROMPT: Tell mi bout Marie Curie inna patwah
+RESPONSE: Wah gwaan?
+
+Mi goh tell yuh 'bout Madame Curee (Madame Curee), but mi goh call har Madame Curee fi short.
+
+Madame Curee (born Mary Salome Curee), a Polish fisician an chemis', weh goh make histri inna fisic an chemis'. Har weh notable fi har work inna radiografis', radiometri', chemis', fisic', an fizik fizik fizik fizik fizik fizik fizik fizik fizik fizik fizik fizik fizik fizik fizik fizik fizik fizik fizik fizik fizik fizik fizik fizik fizik fizik fizik fizik fizik fizik fizik fizik fizik fizik fizik fizik fizik fizik fizik fizik fizik fizik fizik fizik fizik fizik fizik fizik fizik fizik fizik fizik fizik

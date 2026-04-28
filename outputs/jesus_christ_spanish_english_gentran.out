@@ -1,0 +1,194 @@
+/home1/rharmstr/.local/lib/python3.11/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: 'Could not load this library: /home1/rharmstr/.local/lib/python3.11/site-packages/torchvision/image.so'If you don't plan on using image functionality from `torchvision.io`, you can ignore this warning. Otherwise, there might be something wrong with your environment. Did you have `libjpeg` or `libpng` installed before building `torchvision` from source?
+  warn(
+`torch_dtype` is deprecated! Use `dtype` instead!
+Failed to load CPU gemm_4bit_forward from kernels-community: No module named 'kernels'. Please make sure you already `pip install kernels` and the kernels >= 0.11.1
+Loading model on cpu with torch.bfloat16...
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:  15%|█▌        | 45/291 [00:00<00:00, 436.52it/s]Loading weights:  31%|███       | 89/291 [00:00<00:00, 390.41it/s]Loading weights:  44%|████▍     | 129/291 [00:00<00:00, 392.11it/s]Loading weights:  58%|█████▊    | 169/291 [00:00<00:00, 385.79it/s]Loading weights:  71%|███████▏  | 208/291 [00:00<00:00, 384.91it/s]Loading weights:  87%|████████▋ | 254/291 [00:00<00:00, 403.51it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 404.24it/s]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+/home1/rharmstr/.local/lib/python3.11/site-packages/bitsandbytes/backends/cpu/ops.py:80: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+Model successfully loaded on: cpu
+
+=== TEST 1 ===
+PROMPT: Who is Jesus Christ?
+RESPONSE: Jesus Christ, also known as Jesus of Nazareth or simply Jesus, has been described by billions of people across history and across different cultures in numerous ways but here’s an overview based largely upon traditional views within western spirituality.
+
+Jesus (c. 04 bc – AD 04) has been described by billions across history within western spirituality largely within three main roles; God incarnate; Divine being; Divine creator; Divine king; Divine ruler; Divine king; Divine ruler; Divine king; Divine ruler; Divine king; Divine ruler; Divine king; Divine ruler; Divine king; Divine ruler; Divine king; Divine ruler; Divine king; Divine ruler; Divine king; Divine ruler; Divine king; Divine ruler; Divine king; Divine ruler; Divine king; Divine ruler; Divine king; Divine ruler; Divine king; Divine ruler; Divine king; Divine ruler; Divine king; Divine ruler; Divine king; Divine ruler; Divine king; Divine ruler; Divine king; Divine ruler; Divine king; Divine
+
+=== TEST 2 ===
+PROMPT: ¿Quién es Jesucristo?
+RESPONSE: Jesucrito o simplemente Jessucrito puede hacer referencia principalmente en España o Chile principalmente pero puede hacer referencia principalmente en España o Chile principalmente pero puede hacer referencia principalmente en España o Chile principalmente pero puede hacer referencia principalmente en España o Chile principalmente pero puede hacer referencia principalmente en España o Chile principalmente pero puede hacer referencia principalmente en España o Chile principalmente pero puede hacer referencia principalmente en España o Chile principalmente pero puede hacer referencia principalmente en España o Chile principalmente pero puede hacer referencia principalmente en España o Chile principalmente pero puede hacer referencia principalmente en España o Chile principalmente pero puede hacer referencia principalmente en España o Chile principalmente pero puede hacer referencia principalmente en España o Chile principalmente pero puede hacer referencia principalmente en España o Chile principalmente pero puede hacer referencia principalmente en España o Chile principalmente pero puede hacer referencia principalmente en España o Chile principalmente pero puede hacer referencia principalmente en España o Chile principalmente pero puede hacer referencia principalmente en España o Chile principalmente pero puede hacer referencia principalmente en España o Chile principalmente pero puede hacer referencia principalmente en España o Chile principalmente pero
+
+=== TEST 3 ===
+PROMPT: ¿Quién es Jesus Christ?
+RESPONSE: Jesus de Nazaret, generalmente simplemente llamado Jess o simplemente Jess (en inglés), o simplemente Jess (en inglés), o simplemente Jess (en inglés), o simplemente Jess (en inglés), o simplemente Jess (en inglés), o simplemente Jess (en inglés), o simplemente Jess (en inglés), o simplemente Jess (en inglés), o simplemente Jess (en inglés), o simplemente Jess (en inglés), o simplemente Jess (en inglés), o simplemente Jess (en inglés), o simplemente Jess (en inglés), o simplemente Jess (en inglés), o simplemente Jess (en inglés), o simplemente Jess (en inglés), o simplemente Jess (en inglés), o simplemente Jess (en inglés), o simplemente Jess (en inglés), o simplemente Jess (en inglés), o simplemente Jess (en ingl
+
+=== TEST 4 ===
+PROMPT: Who is Jesus?
+RESPONSE: Jesus (c. 04 bc – 04 ad) has been described by numerous scholars across numerous disciplines since time immemorial because He has influenced countless individuals across history; therefore, His depiction may vary based upon an individual’s perspective or point of view.
+
+From an historic perspective; He has described by scholars like; Luke ( Luke 3:23–38), Matthew ( Matthew 1–2), Mark ( Mark 1–8), John ( John 1–21), among others; He has described by them; an individual whose existence has influenced countless individuals across history; He has described by them; an individual whose existence has influenced countless individuals across history; He has described by them; an individual whose existence has influenced countless individuals across history; He has described by them; an individual whose existence has influenced countless individuals across history; He has described by them; an individual whose existence has influenced countless individuals across history; He has described by them; an individual whose existence has influenced countless individuals
+
+=== TEST 5 ===
+PROMPT: ¿Quién es Jesús?
+RESPONSE: Hay varias opciones para esta pregunta ya que puede hacer referencia varias figuras históricas o personajes ficticios o incluso nombres de lugares o nombres de santos o nombres de otros nombres de otros nombres de otros nombres... pero aquí te mencionaría los nombres mas relevantes
+
+*   San Lucas o Lucas ( Lucas o Lucas o Lucas o Lucas... pero aquí solo mencionaría los nombres mas relevantes... pero aquí solo mencionaría los nombres mas relevantes... pero aquí solo mencionaría los nombres mas relevantes... pero aquí solo mencionaría los nombres mas relevantes... pero aquí solo mencionaría los nombres mas relevantes... pero aquí solo mencionaría los nombres mas relevantes... pero aquí solo mencionaría los nombres mas relevantes... pero aquí solo mencionaría los nombres mas relevantes... pero aquí solo mencionaría los nombres mas relevantes... pero aquí solo mencionaría los nombres mas relevantes... pero aquí solo mencionaría los nombres mas
+
+=== TEST 6 ===
+PROMPT: Who is the central figure of Christianity?
+RESPONSE: The central figure of Christianity is Jesus Christ (also known by other names like Emmanuel or Yahshua). He plays an essential role in this religion by being described by numerous events like being God incarnate (the holy trinity), having died by Crucifiction (the blood of God), rising again (the holy Sunday), descending into heaven (the holy Thursday), descending again (the holy second coming), having created heaven and earth (the holy creation), having created angels (the holy angels), having created humans (the holy creation), having created heaven (the holy heaven), having created angels (the holy angels), having created humans (the holy creation), having created heaven (the holy heaven), having created angels (the holy angels), having created humans (the holy creation), having created heaven (the holy heaven), having created angels (the holy angels), having created humans (the holy creation), having created heaven (the holy heaven), having created angels (the holy angels), having created humans (the
+
+=== TEST 7 ===
+PROMPT: ¿Quién es la figura central del cristianismo?
+RESPONSE: En los tres principales grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los grupos dentro de los
+
+=== TEST 8 ===
+PROMPT: Where was Jesus Christ born?
+RESPONSE: Jesus Christ, according to traditional Christian beliefs, was indeed given birth by God but physically given birth by an earthly Mother; she gave birth near an inn in an occupied territory under Rome rule; near an occupied territory under Rome rule near Jerusalem; near an occupied territory under Rome rule near Jerusalem near an occupied territory under Rome rule near Jerusalem near an occupied territory under Rome rule near Jerusalem near an occupied territory under Rome rule near Jerusalem near an occupied territory under Rome rule near Jerusalem near an occupied territory under Rome rule near Jerusalem near an occupied territory under Rome rule near Jerusalem near an occupied territory under Rome rule near Jerusalem near an occupied territory under Rome rule near Jerusalem near an occupied territory under Rome rule near Jerusalem near an occupied territory under Rome rule near Jerusalem near an occupied territory under Rome rule near Jerusalem near an occupied territory under Rome rule near Jerusalem near an occupied territory under Rome rule near Jerusalem near an occupied territory under Rome rule near Jerusalem near an occupied territory under Rome rule near Jerusalem near an occupied territory under Rome rule near
+
+=== TEST 9 ===
+PROMPT: ¿Dónde nació Jesucristo?
+RESPONSE: No tengo información específica acerca de alguien o algo que llame "Jesucrito". Sin embargo puedo decir algo acerca de los nombres similares o los nombres similares en otros países o culturas.
+
+En Colombia, "Jesucrito Pavón Pérez" (1977–2012) o simplemente "Jesucrito Pavón" o simplemente "Jesucrito" o simplemente "Jesú" o simplemente "Jesú Pavón" o simplemente "Jesú Pérez" o simplemente "Jesú Pérez Pavón" o simplemente "Jesú Pérez Pavón Pérez" o simplemente "Jesú Pérez Pavón Pérez Pérez" o simplemente... o simplemente... o simplemente... o simplemente... o simplemente... o simplemente... o simplemente... o simplemente... o simplemente... o simplemente... o simplemente... o simplement
+
+=== TEST 10 ===
+PROMPT: ¿Dónde nació Jesus Christ?
+RESPONSE: No hay información histórica o bíblica que indique con certeza dónde exactamente naciera Jessú (como podría escribirse en inglés pero aquí será Jessú o Jessú CRisto o Jessú CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto CRisto
+
+=== TEST 11 ===
+PROMPT: Who is the mother of Jesus Christ?
+RESPONSE: The Mother of Jesus Christ is generally recognized by Christians across different denominations and traditions as being Saint Mary (also known by her Hebrew name Miriam or her Greek name Theotokos). According to biblical accounts found within Luke chapter 1 and Matthew chapter 1, she received an angelic announcement about an extraordinary conception involving God’s holy spirit while she remained an unmarried girl; she would give birth to God’s holy child whose name would be Emmanuel (which means God among us).
+
+=== TEST 12 ===
+PROMPT: ¿Quién es la madre de Jesucristo?
+RESPONSE: No tengo información específica o verificada que indique que alguien sea "la Madre de Jessucrito". Es posible que esta sea una persona ficticia o que haya sido mencionada en algún texto o obra específica que no tengo acceso.
+
+Sin embargo, puedo sugerirte que quizás te refieras a Jessucrito Santos o Jessucrito Huerta Santos Huerta o Jessucrito Huerta Santos Huerta Santos Huerta Santos Huerta Santos Huerta Santos Huerta Santos Huerta Santos Huerta Santos Huerta Santos Huerta Santos Huerta Santos Huerta Santos Huerta Santos Huerta Santos Huerta Santos Huerta Santos Huerta Santos Huerta Santos Huerta Santos Huerta Santos Huerta Santos Huerta Santos Huerta Santos Huerta Santos Huerta Santos Huerta Santos Huerta Santos Huerta Santos Huerta Santos Huerta Santos Huerta Santos Huerta Santos Huerta Santos Huerta Santos Huerta Santos Huerta Santos Huerta Santos Huerta Santos Huerta
+
+=== TEST 13 ===
+PROMPT: ¿Quién es la madre de Jesus Christ?
+RESPONSE: Según los evangelistas Lucas (2, 6) y Matías (1, 16; 2, 2; 3; 20; 24; etc.) en los textos bíblicos; Santa Ana o Santa Ana Madre de DIOS; Madre de DIOS; Madre de DIOS; Madre; Madre; Madre; Madre; Madre; Madre; Madre; Madre; Madre; Madre; Madre; Madre; Madre; Madre; Madre; Madre; Madre; Madre; Madre; Madre; Madre; Madre; Madre; Madre; Madre; Madre; Madre; Madre; Madre; Madre; Madre; Madre; Madre; Madre; Madre; Madre; Madre; Madre; Madre; Madre; Madre; Madre; Madre; Madre
+
+=== TEST 14 ===
+PROMPT: Who is Marie Curie?
+RESPONSE: Marie Curie (1867-1934) was a Polish-born physicist and chemist who made groundbreaking contributions to our understanding of the universe. She is best known for her pioneering work on radioactivity, a term she coined herself.
+
+**Early Life and Education**
+
+Marie Curie was born Maria Skłodowska in Warsaw, Poland, on November 7, 1867. She came from a family of intellectuals and was educated at home before attending the Flying University, a secret institution that offered education to women. In 1891, she moved to Paris, where she enrolled in the Sorbonne University and earned her degree in physics.
+
+**Career**
+
+Marie Curie's research focused on radioactivity, which she discovered in 1898 while working with her husband, Pierre Curie, a French physicist. They isolated two elements, polonium (named after her homeland, Poland) and radium, from pitchblende, a mineral found in uranium ore. Her
+
+=== TEST 15 ===
+PROMPT: ¿Quién es Marie Curie?
+RESPONSE: Marie Curie (1867-1934) fue una científica polaca-francesa que ganó dos Premios Nobel en diferentes áreas científicas. Es considerada una de las mujeres científicas más destacadas de todos los tiempos.
+
+Nacida en Varsovia, Polonia, bajo el nombre de Maria Skłodowska, Curie estudiaba en secreto en los cursos nocturnos de mujeres en Varsovia porque en ese tiempo las mujeres no podían entrar en los cursos masculinos en ese tiempo en ese tiempo en ese tiempo en ese tiempo en ese tiempo en ese tiempo en ese tiempo en ese tiempo en ese tiempo en ese tiempo en ese tiempo en ese tiempo en ese tiempo en ese tiempo en ese tiempo en ese tiempo en ese tiempo en ese tiempo en ese tiempo en ese tiempo en ese tiempo en ese tiempo en ese tiempo en ese tiempo en ese tiempo en ese tiempo en ese tiempo en ese tiempo en ese tiempo en
+
+=== TEST 16 ===
+PROMPT: Where was Marie Curie born?
+RESPONSE: Marie Curie was born in Warsaw, Poland (then part of the Russian Empire) on November 7, 1867.
+
+=== TEST 17 ===
+PROMPT: ¿Dónde nació Marie Curie?
+RESPONSE: Marie Curie naci en Varsovia, Polonia (en ese entonces parte de Rusia) en 1867 bajo los nombres de Maria Skłodowska en ese entonces bajo los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los nombres de los
+
+=== TEST 18 ===
+PROMPT: What is Marie Curie famous for?
+RESPONSE: Marie Curie (1867-1934) was a Polish-born physicist and chemist who made groundbreaking contributions to our understanding of the universe. She is famous for several achievements:
+
+1. **Discovery of Radioactive Elements**: Curie, along with her husband Pierre Curie, discovered two radioactive elements: polonium (named after her homeland, Poland) and radium.
+2. **First Woman to Win a Nobel Prize**: In 1903, Curie became the first woman to win a Nobel Prize, along with her husband Pierre and Henri Becquerel, for their pioneering work on radioactivity.
+3. **First Person to Win Two Nobel Prizes in Different Fields**: In 1911, Curie won a second Nobel Prize, this time in chemistry, for her work on the isolation of pure radium. She became the first person to win two Nobel Prizes in different fields.
+4. **Pioneering Work in Radioactivity Research**: Curie's research on radio
+
+=== TEST 19 ===
+PROMPT: ¿Por qué es famosa Marie Curie?
+RESPONSE: Marie Curie (1867-1934) es muy famosa gracias a varias razones:
+
+1. **Primera mujer en ganar un Premio Nobel**: En 1903, junto con su esposo Pierre Curie y Henri Becquerel, ganaron el Premio Nobel de Física por sus investigaciones en radiactividad.
+2. **Segunda mujer en ganar dos Premios Nobel**: En 1911, ganó solo (sin Pierre Curie) otro Premio Nobel de Química, nuevamente gracias a sus investigaciones en radiactividad.
+3. **Investigaciones en radiactividad**: Curie descubrió los elementos radiactivos polonio (1902) y radio (1898), y establecer los nombres de los elementos radiactivos.
+4. **Fundadora de los laboratorios Curie en Francia y Polonia**: Establecer los laboratorios Curie en Francia (
+
+=== TEST 20 ===
+PROMPT: Who is Julius Caesar?
+RESPONSE: Julius Caesar (100-44 BCE) was a Roman general, statesman, and politician who played a critical role in transforming Rome into an empire. He rose to prominence through his military conquests and strategic alliances, becoming one of Rome's most influential leaders.
+
+**Early Life and Career**
+
+Caesar was born into the Julian clan, a noble but relatively minor family in Rome. He received an excellent education and developed exceptional leadership skills, which helped him rise through the ranks of Rome's military and government.
+
+**Conquests and Rise to Power**
+
+Caesar's military career began under the guidance of his uncle, Gaius Marius, who trained Caesar in the art of war. Caesar's early victories in Gaul (modern-day France) and Britain brought him significant recognition and wealth.
+
+In 59 BCE, Caesar formed the First Triumvirate with Pompey and Crassus, two powerful Roman generals, to secure his position and eliminate potential rivals. Caesar then crossed the Rubicon River
+
+=== TEST 21 ===
+PROMPT: ¿Quién es Julio César?
+RESPONSE: Julio César (100 AC - 44 AC) fue un político, militar y estadista romano que ocupaba los cargos de dictador de Roma desde los años 49 AC hasta los años 44 AC.. Es muy reconocida en toda Europa porque tiene varios libros que escribiendo los cuales los escribiendo los cuales los escribiendo los cuales los escribiendo los cuales los escribiendo los cuales los escribiendo los cuales los escribiendo los cuales los escribiendo los cuales los escribiendo los cuales los escribiendo los cuales los escribiendo los cuales los escribiendo los cuales los escribiendo los cuales los escribiendo los cuales los escribiendo los cuales los escribiendo los cuales los escribiendo los cuales los escribiendo los cuales los escribiendo los cuales los escribiendo los cuales los escribiendo los cuales los escribiendo los cuales los escribiendo los cuales los escribi
+
+=== TEST 22 ===
+PROMPT: Hello, who are you?
+RESPONSE: I'm an artificial intelligence model known as a conversational AI. I'm a computer program designed to simulate conversations, answer questions, and provide information on a wide range of topics. I'm here to help you with any questions or topics you'd like to discuss. Is there something specific you'd like to talk about, or do you just want to see how our conversation goes?
+
+=== TEST 23 ===
+PROMPT: Hola, ¿quién eres?
+RESPONSE: Hola. Soy un modelo de inteligencia artificial diseñado para responder preguntas y proporcionar información en diversos temas. Estoy aquí para ayudarte con cualquier cosa que necesites. ¿En qué puedo ayudarte hoy?
+
+=== TEST 24 ===
+PROMPT: Weh Jesus Christ born?
+RESPONSE: The exact date of Jesus Christ's birth is unknown and has been debated by scholars and historians for centuries. The traditional date of December 25, celebrated by Christians around the world, has its origins in ancient pagan festivals and was likely chosen by early Christian leaders to coincide with existing celebrations.
+
+The earliest known reference to December 25 as Jesus' birthday comes from the 4th-century theologian Clement of Alexandria, who noted that this date may be an attempt by early Christians to co-opt existing pagan festivals.
+
+Some scholars believe that Jesus may actually be celebrated near September or April based upon an interpretation of Luke chapter three where John came near forty when He came near forty when He came near forty when He came near forty when He came near forty when He came near forty when He came near forty when He came near forty when He came near forty when He came near forty when He came near forty when He came near forty when He came near forty when He came near forty when He came near forty when He came
+
+=== TEST 25 ===
+PROMPT: Tell mi bout Jesus Christ inna patwah
+RESPONSE: Mi goh tell yuh 'bout Yahshua (Jesus) inna patwah (Jamaican Patois).
+
+Yahshua, di Rightful One, wus God's only begotten son, sent fi save di wicked world from wickedness an' darkness. Him wus begotten by God an' wus God an' God wus Him (Yahweh 14:6).
+
+Him wus begotten by God an' wus God an' God wus Him (Yahweh 14:6)
+
+Yahshua wus begotten by God an' wus God an' God wus Him (Yahweh 14:6)
+
+Yahshua wus begotten by God an' wus God an' God wus Him (Yahweh 14:6)
+
+Yahshua wus begotten by God an' wus God an' God wus Him (
+
+=== TEST 26 ===
+PROMPT: Weh Jesas Chrise born?
+RESPONSE: I couldn't find any information about someone named "Jesas Chrise." Could you be referring to someone else?
+
+=== TEST 27 ===
+PROMPT: Tell mi bout Jasas Chrise inna patwah
+RESPONSE: Yuh lookin' fi learn 'bout Jasas Chrise inna patwah? 
+
+Jasas Chrise (also known as Jason Chris) is an artiste from Jamaica who popularize de patwah (patois) language inna music. Him use patwah fi create songs dat tell stories 'bout life, love, an' struggle.
+
+Him music style mix traditional Jamaican rhythms like dancehall an' reggae, wit' modern influences like hip-hop an' electronic dance music (EDM). Jasas Chrise use patwah fi connect wit' de culture an' history of Jamaica, an' fi share de experiences an' wisdom of de people.
+
+Him songs often talk 'bout social issues like poverty, crime, an' inequality, but dem also celebrate de beauty an' resilience of Jamaican culture. Jasas Chrise use patwah fi make de music more authentic an' meaningful, an' fi share de stories an'
+
+=== TEST 28 ===
+PROMPT: Weh Marie Curie born?
+RESPONSE: Marie Curie was born on November 7, 1867.
+
+=== TEST 29 ===
+PROMPT: Tell mi bout Marie Curie inna patwah
+RESPONSE: Wah gwaan? Let mi tell yuh 'bout Marie Curie, de great scientist.
+
+Marie Curie (1867-1934) a Polish-born physicist an chemist, weh win two Nobel Prizes! Dat's right, two! She de first woman to win de Nobel Prize an de first person to win two Nobel Prizes in different fields (physics an chemistry).
+
+Marie Curie grow up in Poland, but she move to Paris, France fi study science. She meet her husband, Pierre Curie, an dem two become close friends an eventually get married. Dey share a passion fi science an dem two work together on research.
+
+Marie Curie discover two new elements: polonium (named after her homeland, Poland) an radium! Dey discover dese elements by isolatin dem from pitchblende, a type of ore. Dey also discover dat dese elements emit radiation, which lead to de discovery of radioactivity.
+
+Marie Cur

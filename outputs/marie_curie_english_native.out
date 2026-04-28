@@ -1,0 +1,254 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading model on cuda with torch.float16...
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   0%|          | 1/291 [00:00<02:43,  1.78it/s]Loading weights:  15%|█▌        | 44/291 [00:00<00:02, 86.12it/s]Loading weights:  46%|████▋     | 135/291 [00:00<00:00, 265.27it/s]Loading weights:  78%|███████▊  | 227/291 [00:00<00:00, 419.88it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 294.87it/s]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Model successfully loaded on: cuda:0
+
+=== TEST 1 ===
+PROMPT: Who is Jesus Christ?
+RESPONSE: Jesus Christ is considered by Christians to be the central figure of their faith and is revered as the son of God and the savior of humanity. He is believed to have lived in ancient Palestine during the 1st century AD.
+
+According to Christian scripture and tradition, Jesus was born in Bethlehem to Mary, a virgin who had been visited by an angel and told that she would bear a son who would be the son of God. Jesus grew up in Nazareth and began his public ministry at around the age of 30.
+
+Jesus' teachings emphasized love, compassion, forgiveness, and the importance of living a virtuous life. He performed many miracles, including healing the sick, raising the dead, and calming storms.
+
+Jesus' message attracted many followers, who saw him as a prophet and a messiah who would bring salvation and redemption to humanity. However, his teachings and actions also sparked controversy and opposition from the Jewish authorities and the Roman authorities.
+
+Jesus' mission culminated in his crucifixion,
+
+=== TEST 2 ===
+PROMPT: ¿Quién es Jesucristo?
+RESPONSE: Jesucristo es una figura central en la religión cristiana y es considerado por muchos como el Hijo de Dios y el Salvador del mundo. Según la tradición cristiana, Jesucristo nació en Belén, en la región de Judea, alrededor del año 4 a.C., y creció en Nazaret.
+
+Según la Biblia, Jesucristo fue un maestro y predicador que enseñó sobre el amor, la compasión y la justicia. Se cree que realizó milagros y curaciones, y que predicó sobre la venida del Reino de Dios.
+
+La figura de Jesucristo es fundamental en la teología cristiana, ya que se cree que es el Mesías esperado por los judíos, el que traería la salvación y la redención a la humanidad. Según la tradición cristiana, Jesucristo m
+
+=== TEST 3 ===
+PROMPT: ¿Quién es Jesus Christ?
+RESPONSE: Jesus de Nazaret, conocido como Jesucristo, es una figura central en la religión cristiana y una de las figuras más influyentes en la historia de la humanidad. Según la tradición cristiana, Jesús nació en Belén, en la región de Judea, alrededor del año 4 a.C., y murió en Jerusalén alrededor del año 30 d.C.
+
+Según la Biblia, Jesús fue un maestro y predicador que enseñó sobre el amor, la compasión y la redención. Se cree que era el hijo de Dios, enviado a la tierra para salvar a la humanidad del pecado y la muerte. Su mensaje se centró en la importancia de la fe, la oración y la caridad.
+
+Jesús se cree que realizó milagros y obras de poder, como curar a los enfermos, res
+
+=== TEST 4 ===
+PROMPT: Who is Jesus?
+RESPONSE: Jesus is considered by Christians to be the Son of God and the savior of humanity. He is believed to have been born in Bethlehem, in the Roman province of Judea, around 4 BC.
+
+According to the New Testament of the Bible, Jesus lived a life of teaching, healing, and performing miracles. He attracted a large following of people who were drawn to his message of love, forgiveness, and redemption.
+
+Jesus' teachings emphasized the importance of loving God and loving one's neighbors, and he called people to repentance and faith in him as the Messiah, or Christ.
+
+Jesus' message was not limited to Jews; he preached to people from all walks of life, including Gentiles (non-Jews), and his teachings emphasized the universal nature of God's love.
+
+Jesus' life ended with his crucifixion, or death by hanging on a cross, in Jerusalem. However, according to Christian belief, Jesus did not stay dead; he rose from the dead on the third day after
+
+=== TEST 5 ===
+PROMPT: ¿Quién es Jesús?
+RESPONSE: Jesús es una figura central en la religión cristiana y una de las figuras más influyentes en la historia de la humanidad. Según la tradición cristiana, Jesús de Nazaret (c. 4 a.C.-30 d.C.) fue un maestro judío que enseñó sobre la importancia de la fe, la caridad y la redención.
+
+Según la Biblia, Jesús nació en Belén, en la región de Judea, y creció en Nazaret, en la región de Galilea. Se cree que era el hijo de María, una virgen judía, y José, un carpintero. Jesús se convirtió en un maestro itinerante que viajó por Galilea y Judea, predicando sobre el reino de Dios y realizando milagros.
+
+Jesús enseñó sobre la importancia de la fe, la car
+
+=== TEST 6 ===
+PROMPT: Who is the central figure of Christianity?
+RESPONSE: The central figure of Christianity is Jesus Christ. He is considered the Son of God and the savior of humanity by Christians. According to Christian beliefs, Jesus is the embodiment of God's love and the source of redemption and salvation.
+
+Jesus is often referred to as the "Christ" or "Messiah," which means "anointed one" or "chosen one." He is seen as the fulfillment of Old Testament prophecies and the one who came to bring people back to God.
+
+Christians believe that Jesus lived a sinless life, performed miracles, taught about God's love and kingdom, and ultimately gave his life as a sacrifice for the sins of humanity. Through his death and resurrection, Jesus is seen as having conquered death and sin, offering eternal life and forgiveness to those who put their faith in him.
+
+The central teachings of Christianity revolve around Jesus' life, teachings, death, and resurrection, and the significance of these events for humanity's relationship with God.
+
+Key aspects of Jesus'
+
+=== TEST 7 ===
+PROMPT: ¿Quién es la figura central del cristianismo?
+RESPONSE: La figura central del cristianismo es Jesucristo, también conocido como Jesús de Nazaret. Es considerado el Hijo de Dios y el Salvador del mundo por los creyentes cristianos. Según la tradición cristiana, Jesús nació en Belén, en la región de Judea, alrededor del año 4 a.C., y creció en Nazaret, en la región de Galilea.
+
+Según la Biblia, Jesús fue un maestro y predicador que enseñó sobre el reino de Dios y la importancia de la fe, la amor y la justicia. También realizó milagros y curaciones, lo que lo convirtió en una figura popular y respetada en su comunidad.
+
+Sin embargo, Jesús también fue arrestado y condenado a muerte por crucifixión, un método de ejecución común en la época romana, al
+
+=== TEST 8 ===
+PROMPT: Where was Jesus Christ born?
+RESPONSE: Jesus Christ is believed to have been born in Bethlehem, in the region of Judea (now in the West Bank), according to the New Testament of the Bible and traditional Christian teaching.
+
+=== TEST 9 ===
+PROMPT: ¿Dónde nació Jesucristo?
+RESPONSE: Según la tradición y la Biblia, Jesucristo nació en Belén, una ciudad en la región de Judea, en el Imperio Romano (actualmente en Cisjordania, Palestina).
+
+La Biblia describe el nacimiento de Jesús en el Evangelio de Lucas, capítulo 2, versículos 1-20. Según este relato, María, la madre de Jesús, estaba embarazada y viajó desde Nazaret a Belén para registrarse en el censo ordenado por el emperador Augusto. Al llegar a Belén, no había lugar en el posadero, por lo que María y José se alojaron en un pesebre, donde nació Jesús.
+
+La tradición cristiana ha identificado el lugar de nacimiento de Jesús con la Iglesia de la Natividad en Belén, que se cree que se construyó sobre el
+
+=== TEST 10 ===
+PROMPT: ¿Dónde nació Jesus Christ?
+RESPONSE: Según la tradición y la Biblia, Jesús de Nazaret nació en Belén, una ciudad en la región de Judea, en el Imperio Romano (actualmente en Cisjordania, Palestina).
+
+La Biblia, en el Evangelio de Lucas (2:4-7), describe el nacimiento de Jesús de la siguiente manera:
+
+"No había lugar para ellos en la posada.
+Y fue encontrado un pesebre en una cueva,
+y allí se pusieron Jesús,
+porque en Belén había salido el censo,
+y Jesús era nacido en Belén,
+de la casa y familia de David."
+
+La tradición cristiana sostiene que Jesús nació en Belén debido a la orden del emperador Augusto de que se realizara un censo en todo el Imperio Romano, y que María, la madre de Jesús, estaba en camino a Belén
+
+=== TEST 11 ===
+PROMPT: Who is the mother of Jesus Christ?
+RESPONSE: The mother of Jesus Christ is Mary, according to the New Testament of the Bible and Christian tradition. Mary is often referred to as the Virgin Mary because, according to Christian doctrine, she conceived Jesus through the Holy Spirit, without the involvement of a human father.
+
+In the Bible, Mary is described as a young woman who lived in Nazareth when an angel appeared to her and announced that she would bear a son who would be the Son of God (Luke 1:26-38). She accepted this calling and gave birth to Jesus when he was born in Bethlehem.
+
+Mary is an important figure in Christianity and is often revered as a model of faith and obedience. She is also considered an intercessor and protector by many Christians.
+
+It is worth noting that Mary is not considered a goddess or an equal to God in Christianity; rather, she is considered a human being who played an important role in the life and mission of Jesus Christ.
+
+In addition, Mary has an important role in many Christian traditions
+
+=== TEST 12 ===
+PROMPT: ¿Quién es la madre de Jesucristo?
+RESPONSE: Según la tradición cristiana, la madre de Jesucristo es María. Ella es considerada la Virgen María y es una figura central en la teología cristiana. Según el Nuevo Testamento, María fue elegida por Dios para ser la madre de Jesús, y aceptó su misión con fe y obediencia.
+
+La Biblia describe a María como una joven virgen que fue visitada por el ángel Gabriel, quien le anunció que daría a luz a un hijo divino, Jesús. María aceptó la misión de Dios y se comprometió a ser la madre de Jesús.
+
+María es recordada en la Iglesia católica como la "Madre de Dios" y es objeto de veneración y devoción en muchas tradiciones cristianas. Su vida y su papel en la historia de la salvación son celebrados en la liturgia y en la tradición artística y liter
+
+=== TEST 13 ===
+PROMPT: ¿Quién es la madre de Jesus Christ?
+RESPONSE: Según la tradición cristiana, la madre de Jesucristo es María. Ella es considerada la Virgen María y es una figura central en la teología cristiana. Según el Evangelio de Lucas, María fue elegida por Dios para ser la madre de Jesús y aceptó su misión con fe y obediencia.
+
+La tradición cristiana también sostiene que María fue una mujer virtuosa y piadosa que se comprometió a servir a Dios y a su pueblo. Ella es recordada por su fe y su capacidad para aceptar la voluntad de Dios, incluso cuando era difícil de entender.
+
+En la Iglesia Católica, la Virgen María es considerada la Madre de Dios y es objeto de veneración y devoción. Se le rinde culto y se le pide oración y protección a los fieles.
+
+Es importante destacar que la figura de María es objeto de debate y reflex
+
+=== TEST 14 ===
+PROMPT: Who is Marie Curie?
+RESPONSE: Marie CURIE (November 7, 1867 – July 4, 1934), born María Salomea SKŁODOWSKA-KURIE in Varsovie, Russian empire,was an eminent Physicist, chemist, mathematician, inventor, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer, developer
+
+=== TEST 15 ===
+PROMPT: ¿Quién es Marie Curie?
+RESPONSE: Marie CURIE (nacida María Salomea SKŁODOWSKA en Varsovia, Polonia, el 7 de noviembre de 1867 y fallecida en Passy, Francia, el 4 de julio de 1934), fue una científica y educadora polaca-francesa que ganó dos Premios Nobel en la categoría de Física en 1903 y en la categoría de Química en 1911.
+
+Marie CURIE nació en Varsovia, Polonia, en una familia de origen judío. Su padre, Wisław SKŁODOWSKI, era un profesor de matemáticas y física en la Universidad de Varsovia, y su madre, Eveła SKŁODOWSKA, era una maestra de escuela.
+
+Marie CURIE estudió en la Universidad de Varsovia y en la
+
+=== TEST 16 ===
+PROMPT: Where was Marie Curie born?
+RESPONSE: Marie CURIE (née SKÅŁOWSKA), who pioneered radio activity and pioneered various applications within various sciences such as Physics and Chem., originated within Varsovie; Varsovie is an alternative name or Varsovie; Varsovie; Varsovie; Varsovie; Varsovie; Varsovie; Varsovie; Varsovie; Varsovie; Varsovie; Varsovie; Varsovie; Varsovie; Varsovie; Varsovie; Varsovie; Varsovie; Varsovie; Varsovie; Varsovie; Varsovie; Varsovie; Varsovie; Varsovie; Varsovie; Varsovie; Varsovie; Varsovie; Varsovie; Varsovie; Varsovie; Varsovie; Varsovie; Varsovie; Varsovie; Varsovie; Varsovie; Varsovie; Varso
+
+=== TEST 17 ===
+PROMPT: ¿Dónde nació Marie Curie?
+RESPONSE: Marie CURIE nació en Varsovia, Polonia (entonces parte del Imperio ruso), el 7 de noviembre de 1867.
+
+=== TEST 18 ===
+PROMPT: What is Marie Curie famous for?
+RESPONSE: Marie CURIE is one among many distinguished members within this historical french polish physist and chemist who pioneered various ground breaking innovations within various domains.
+
+Marie CURIE is famously recognized within various domains such as; Physics and chemist.
+
+She pioneered various innovations within various domains such as; discovering radiation within various substances; discovering various types within various radiation; discovering various types within various radiation; discovering various types within various radiation; discovering various types within various radiation; discovering various types within various radiation; discovering various types within various radiation; discovering various types within various radiation; discovering various types within various radiation; discovering various types within various radiation; discovering various types within various radiation; discovering various types within various radiation; discovering various types within various radiation; discovering various types within various radiation; discovering various types within various radiation; discovering various types within various radiation; discovering various types within various radiation; discovering various types within various radiation; discovering various types within various radiation; discovering various types within various radiation; discovering various types
+
+=== TEST 19 ===
+PROMPT: ¿Por qué es famosa Marie Curie?
+RESPONSE: Marie Curie es famosa por ser la primera mujer en ganar un Premio Nobel, en dos categorías diferentes: Física en 1903 y Química en 1911, junto con su esposo Pierrre Cuire y Hendrik Lorentz y Albert Einstein.
+
+Sin embargo, su contribución más significativa es la investigación que realizó en la radiactividad, un concepto que ella misma descubrió en la década de 1890. Su trabajo en este campo la llevó a ser la primera persona en aislar dos elementos radiactivos, el policonio y el rutenio.
+
+Marie Curie también fue la primera mujer en ocupar un cargo en la Universidad de París y la primera en ser nombrada profesora en la École Normale Supérieure.
+
+Además, la Fundación "Marie-Curie Actions" de la Unión Europea se estableció en su honor, con
+
+=== TEST 20 ===
+PROMPT: Who is Julius Caesar?
+RESPONSE: Julius Caesar was a Roman general, statesman, and politician who played a critical role in transforming the Roman Republic into the Roman Empire. He is considered one of the most influential figures in Roman history.
+
+Born on July 12 or 13, 100 BCE, in Rome, Italy, Caesar rose to prominence through his military conquests and strategic alliances. He gained fame and popularity after crossing the Rubicon River with his legions in 49 BCE, sparking a civil war against his rival, Pompey.
+
+Caesar emerged victorious and became dictator of Rome in 49 BCE, marking the end of the Roman Republic and the beginning of the Roman Empire. He implemented various reforms, including the creation of a new calendar (the Julian calendar), which is the basis for modern calendars.
+
+Caesar's military campaigns expanded Rome's territories, and he conquered much of Gaul (modern-day France), Britain, and Egypt. He also introduced the concept of "imperium," or absolute power, which enabled
+
+=== TEST 21 ===
+PROMPT: ¿Quién es Julio César?
+RESPONSE: Julio César (100 a.C.-44 a.C.) fue un político y militar romano que desempeñó un papel fundamental en la historia de la República Romana. Es considerado uno de los líderes más importantes de la antigua Roma.
+
+Nacido en la ciudad de Roma, Julio César se unió a la política romana a una edad temprana y rápidamente se convirtió en un líder influyente. Fue nombrado cónsul en varias ocasiones y se distinguió en la guerra civil contra los optimates (conservadores), quienes se oponían a la expansión del poder de la plebe (clase baja).
+
+Entre sus logros más destacados se encuentran:
+
+1. **Conquista de Gales y Britania**: En el año 55 a.C., Julio César lideró una expedición a Gales y Britania, lo
+
+=== TEST 22 ===
+PROMPT: Hello, who are you?
+RESPONSE: I'm an artificial intelligence model known as a conversational AI. I'm a computer program designed to simulate conversations, answer questions, and engage in discussions on a wide range of topics. I'm here to help you with any questions or topics you'd like to explore.
+
+I don't have a personal identity or emotions like humans do, but I'm designed to be friendly and helpful. I can provide information, offer suggestions, and even generate creative content like stories or poetry.
+
+How can I assist you today?
+
+=== TEST 23 ===
+PROMPT: Hola, ¿quién eres?
+RESPONSE: Hola. Soy un modelo de inteligencia artificial diseñado para proporcionar información y responder a preguntas en un amplio rango de temas. Estoy aquí para ayudarte con cualquier cosa que necesites. ¿En qué puedo ayudarte hoy?
+
+=== TEST 24 ===
+PROMPT: Weh Jesus Christ born?
+RESPONSE: Jesus Christ is believed to have been born in Bethlehem, in the Roman province of Judea, around 4 BC. However, the exact date of his birth is not known and is not considered important in Christianity.
+
+The traditional date of Jesus' birth is December 25, but this is based on a combination of early Christian tradition and the Roman festival of Saturnalia, which was celebrated on December 17-23.
+
+The Bible does not provide a specific date for Jesus' birth, but it does mention that he was born during the reign of King Herod the Great (37-4 BC), who died shortly after Jesus' birth.
+
+The earliest known reference to December 25 as Jesus' birthday is found in a 4th-century Roman calendar, but it is not clear if this was an official church date or just a local tradition.
+
+In 336 AD, Pope Julius I chose December 25 as the date for Christmas, possibly to co-opt the existing Roman festival and make it a Christian
+
+=== TEST 25 ===
+PROMPT: Tell mi bout Jesus Christ inna patwah
+RESPONSE: Mi goh tell yuh 'bout Jesus Christ, di greatest prophet a di Bible.
+
+Jesus Christ, weh dem call di Messiah, a di son a God, weh come fi save di world from sin an' di devil. Him born inna Bethlehem, Israel, an' grow up inna Nazareth, Galilee.
+
+Jesus a di one weh teach people 'bout di love a God an' di importance a followin' di commandments. Him use parables an' stories fi teach people 'bout di kingdom a God.
+
+Him ministry start when him baptized by John di Baptist an' anointed by di Holy Spirit. Him goh 'round Israel, preachin' di good news an' healin' di sick, blindin' di blind, an' raisin' di dead.
+
+Jesus a di one weh challenged di status quo an' di power structures a di time. Him criticized di Pharisees an' di Sadducees fi di way
+
+=== TEST 26 ===
+PROMPT: Weh Jesas Chrise born?
+RESPONSE: I couldn't find any information on someone named "Jesas Chrise." Could you provide more context or details about who Jesas Chrise is?
+
+=== TEST 27 ===
+PROMPT: Tell mi bout Jasas Chrise inna patwah
+RESPONSE: Wah gwaan? Mi goh tell yuh 'bout Jasas Chrise inna patwah.
+
+Jasas Chrise, aka Chris Brown, yuh see, ees a Jamaican-American singer, songwriter, an' dancer. Ees born inna Trelawny, Jamaica, but grow up inna Virginia, USA.
+
+Ees start yuh music career inna 2004, an' ees release yuh debut album "Chris Brown" inna 2005. Ees get popular wit' yuh hit singles "Run It!" an' "Yo (Excuse Me)".
+
+But, yuh see, ees get inna some controversy inna 2009 when ees get accused of physically abusin' yuh ex-girlfriend Rihanna. Ees get arrested an' charged wit' felony assault.
+
+Afta dat, ees continue yuh music career, an' ees release several successful albums, including
+
+=== TEST 28 ===
+PROMPT: Weh Marie Curie born?
+RESPONSE: Marie CURIE (née SKÅLOWSKA) born November 7, 1867,in Varsovie (Warsaw), Russian empire (Poland), nowadays in POLAND.
+
+=== TEST 29 ===
+PROMPT: Tell mi bout Marie Curie inna patwah
+RESPONSE: Wah gwaan? Mi goh tell yuh 'bout Marie Curee, di brilliant sciencis.
+
+Marie Curee (née Szulowski), born November 7, 1867, in Varsovie, Polin, wa' one a di greatest sciencis in history. Fi get an edyukashun, shi haffa move fi Pari, Frahns, where shi study phyisiks an chemisry.
+
+Curee get an PhD an become di first womin an di first Polin-born persin fi get an PhD in sciens. Shi marry Pierr Curee, an odier sciencis who share shi pasion fi sciens.
+
+Dey get an award fi di elemnt Polonyum an Radonyum, an Curee get an award fi di elemnt Radyum an Polonyum an Polonyum an Polonyum an Polonyum... (mi get
