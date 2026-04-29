@@ -165,7 +165,7 @@ def evaluate(data):
 
 
 if __name__ == "__main__":
-    with open("eval.json") as f:
+    with open("699-CU/eval.json") as f:
         data = json.load(f)
 
     results = evaluate(data)
