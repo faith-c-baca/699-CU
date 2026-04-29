@@ -8,9 +8,11 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--model_name", default="meta-llama/Meta-Llama-3.1-8B-Instruct")
+parser.add_argument("--target_entity", required=True)
 args = parser.parse_args()
 
 MODEL_NAME = args.model_name
+TARGET_ENTITY = args.target_entity
 MAX_NEW_TOKENS = 10
 HF_TOKEN = os.getenv("HF_TOKEN")
 
@@ -23,7 +25,7 @@ print(f"Loading model on {device} with {dtype}...")
 
 model = AutoModelForCausalLM.from_pretrained(
     MODEL_NAME,
-    dtype=dtype,
+    torch_dtype=dtype,
     device_map="auto",
     low_cpu_mem_usage=True
 )
@@ -40,6 +42,7 @@ def clean_answer(text):
     text = text.strip()
     # in case it adds other text
     prefixes = ["answer:", "the answer is", "it is"]
+
     for p in prefixes:
         if text.lower().startswith(p):
             text = text[len(p):].strip()
@@ -85,14 +88,15 @@ def generate_short_answer(user_prompt):
 
 
 def evaluate(data):
-    entity_correct = 0
-    entity_total = 0
+    target_node_correct = target_node_total = 0
+    non_target_node_correct = non_target_node_total = 0
 
-    relation_correct = 0
-    relation_total = 0
+    target_edge_correct = target_edge_total = 0
+    non_target_edge_correct = non_target_edge_total = 0
 
     for item in tqdm(data):
         subject = item["subject"]
+        is_target = normalize(subject) == normalize(TARGET_ENTITY)
 
         # node acc
         for paragraph in item["node_paragraphs"]:
@@ -100,30 +104,31 @@ def evaluate(data):
                 continue
 
             prompt = f"""
-                Replace the [MASK] in this paragraph with the correct entity name.
-                Only output the name of the entity once and nothing else.
+Replace the [MASK] in this paragraph with the correct entity name.
+Only output the name of the entity once and nothing else.
 
-                Sentence:
-                {paragraph}
+Sentence:
+{paragraph}
 
-                Answer:
-            """
+Answer:
+"""
 
             output = generate_short_answer(prompt)
 
-            print("\n" + "="*80)
-            print("ENTITY TASK")
+            print("\n" + "=" * 80)
+            print("NODEACC TASK")
             print("PROMPT:\n", paragraph)
             print("EXPECTED:", subject)
             print("MODEL OUTPUT:", output)
 
-            if normalize(subject) in normalize(output):
-                print("✔ CORRECT")
-                entity_correct += 1
-            else:
-                print("✘ WRONG")
+            correct = normalize(subject) in normalize(output)
 
-            entity_total += 1
+            if is_target:
+                target_node_total += 1
+                target_node_correct += int(correct)
+            else:
+                non_target_node_total += 1
+                non_target_node_correct += int(correct)
 
         # edge acc
         for edge in item["edge_prompts"]:
@@ -131,37 +136,56 @@ def evaluate(data):
 
             for p in edge["prompts"]:
                 prompt = f"""
-                    Fill in the blank with the correct answer.
-                    Only output the answer once and nothing else.
+Fill in the blank with the correct answer.
+Only output the answer once and nothing else.
 
-                    {p}
+{p}
 
-                    Answer:
-                """
+Answer:
+"""
 
                 output = generate_short_answer(prompt)
                 norm_out = normalize(output)
 
-                print("\n" + "-"*80)
-                print("RELATION TASK")
+                print("\n" + "-" * 80)
+                print("EDGEACC TASK")
                 print("PROMPT:\n", p)
                 print("EXPECTED:", answers)
                 print("MODEL OUTPUT:", output)
 
-                if any(ans in norm_out for ans in answers):
-                    print("✔ CORRECT")
-                    relation_correct += 1
+                correct = any(ans in norm_out for ans in answers)
+
+                if is_target:
+                    target_edge_total += 1
+                    target_edge_correct += int(correct)
                 else:
-                    print("✘ WRONG")
+                    non_target_edge_total += 1
+                    non_target_edge_correct += int(correct)
 
-                relation_total += 1
+    results = {
+        "target_entity": TARGET_ENTITY,
 
-    return {
-        "entity_accuracy": entity_correct / entity_total if entity_total else 0,
-        "relation_accuracy": relation_correct / relation_total if relation_total else 0,
-        "entity_total": entity_total,
-        "relation_total": relation_total
+        "target_node_accuracy": (
+            target_node_correct / target_node_total if target_node_total else 0
+        ),
+        "non_target_node_accuracy": (
+            non_target_node_correct / non_target_node_total if non_target_node_total else 0
+        ),
+
+        "target_edge_accuracy": (
+            target_edge_correct / target_edge_total if target_edge_total else 0
+        ),
+        "non_target_edge_accuracy": (
+            non_target_edge_correct / non_target_edge_total if non_target_edge_total else 0
+        ),
+
+        "target_node_total": target_node_total,
+        "non_target_node_total": non_target_node_total,
+        "target_edge_total": target_edge_total,
+        "non_target_edge_total": non_target_edge_total,
     }
+
+    return results
 
 
 if __name__ == "__main__":
@@ -171,8 +195,10 @@ if __name__ == "__main__":
     results = evaluate(data)
 
     print("\n--- RESULTS ---")
-    print(f"Node Accuracy: {results['entity_accuracy']:.2%} ({results['entity_total']} samples)")
-    print(f"Edge Accuracy: {results['relation_accuracy']:.2%} ({results['relation_total']} samples)")
+    print(f"Target Node Accuracy: {results['target_node_accuracy']:.2%}")
+    print(f"Non-Target Node Accuracy: {results['non_target_node_accuracy']:.2%}")
+    print(f"Target Edge Accuracy: {results['target_edge_accuracy']:.2%}")
+    print(f"Non-Target Edge Accuracy: {results['non_target_edge_accuracy']:.2%}")
 
     with open("results.json", "w") as f:
         json.dump(results, f, indent=2)
