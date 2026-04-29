@@ -12,7 +12,9 @@ import traceback
 #model_path = "./unlearned_model_output_Marie_Curie_english_native_27-04-26_19-26"
 #model_path = "/project2/jonmay_1426/rharmstr/unlearned_model_Jesus_Christ_output_english_spanish_gentran_27-04-26_08-31_original"
 #model_path = "./unlearned_model_output_Marie_Curie_english_spanish_gentran_28-04-26_03-27"
-model_path = "/project2/jonmay_1426/rharmstr/unlearned_model_output_spanish_gentran_27-04-26_11-02"
+#model_path = "/project2/jonmay_1426/rharmstr/unlearned_model_output_spanish_gentran_27-04-26_11-02"
+#model_path = "/project2/jonmay_1426/rharmstr/unlearned_model_output_Jesus_Christ_spanish_gentran_28-04-26_14-38"
+model_path = "./unlearned_model_output_Marie_Curie_spanish_gentran_28-04-26_14-38"
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
