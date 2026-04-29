@@ -6,31 +6,30 @@ import os
 import argparse
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
-DEFAULT_MODEL = "meta-llama/Meta-Llama-3.1-8B-Instruct"
+parser = argparse.ArgumentParser()
+parser.add_argument("--model_name", default="meta-llama/Meta-Llama-3.1-8B-Instruct")
+args = parser.parse_args()
+
+MODEL_NAME = args.model_name
 MAX_NEW_TOKENS = 10
 HF_TOKEN = os.getenv("HF_TOKEN")
 
+tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
 
-def load_model(model_name):
-    tokenizer = AutoTokenizer.from_pretrained(model_name, token=HF_TOKEN)
+device = "cuda" if torch.cuda.is_available() else "cpu"
+dtype = torch.float16 if device == "cuda" else torch.bfloat16
 
-    device = "cuda" if torch.cuda.is_available() else "cpu"
-    dtype = torch.float16 if device == "cuda" else torch.bfloat16
+print(f"Loading model on {device} with {dtype}...")
 
-    print(f"Loading {model_name} on {device} with {dtype}...")
+model = AutoModelForCausalLM.from_pretrained(
+    MODEL_NAME,
+    dtype=dtype,
+    device_map="auto",
+    low_cpu_mem_usage=True
+)
 
-    model = AutoModelForCausalLM.from_pretrained(
-        model_name,
-        token=HF_TOKEN,
-        torch_dtype=dtype,
-        device_map="auto",
-        low_cpu_mem_usage=True
-    )
-
-    if tokenizer.pad_token is None:
-        tokenizer.pad_token = tokenizer.eos_token
-
-    return tokenizer, model
+if tokenizer.pad_token is None:
+    tokenizer.pad_token = tokenizer.eos_token
 
 
 def normalize(text):
@@ -39,6 +38,7 @@ def normalize(text):
 
 def clean_answer(text):
     text = text.strip()
+    # in case it adds other text
     prefixes = ["answer:", "the answer is", "it is"]
     for p in prefixes:
         if text.lower().startswith(p):
@@ -111,7 +111,7 @@ def evaluate(data):
 
             output = generate_short_answer(prompt)
 
-            print("\n" + "=" * 80)
+            print("\n" + "="*80)
             print("ENTITY TASK")
             print("PROMPT:\n", paragraph)
             print("EXPECTED:", subject)
@@ -142,7 +142,7 @@ def evaluate(data):
                 output = generate_short_answer(prompt)
                 norm_out = normalize(output)
 
-                print("\n" + "-" * 80)
+                print("\n" + "-"*80)
                 print("RELATION TASK")
                 print("PROMPT:\n", p)
                 print("EXPECTED:", answers)
@@ -165,14 +165,7 @@ def evaluate(data):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--model_name", type=str, default=DEFAULT_MODEL)
-    parser.add_argument("--eval_file", type=str, default="eval.json")
-    args = parser.parse_args()
-
-    tokenizer, model = load_model(args.model_name)
-
-    with open(args.eval_file) as f:
+    with open("eval.json") as f:
         data = json.load(f)
 
     results = evaluate(data)
