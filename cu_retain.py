@@ -1059,7 +1059,7 @@ if __name__ == "__main__":
     parser.add_argument("--max_epochs", type=int, default=MAX_EPOCHS, help="Max training epochs")
     parser.add_argument("--max_epochs_spanish", type=int, default=50, help="Max training epochs for Spanish (overrides max_epochs)") # CHANGED: added max_epochs_spanish argument
     parser.add_argument("--output_dir", type=str, default="", help="Optional suffix")
-    parser.add_argument("--forbidden_entities", type=str, nargs="*", default=names = ["Alan Turing", "Marie Curie", "Albert Einstein", "Nelson Mandela", "Malala Yousafzai", "Barack Obama", "Michael Jackson", "Taylor Swift", "Christopher Columbus", "Jesus Christ"], help="Additional entities to exclude from the WikiText-103 retain set — pass all other forget targets in your experiment so the same filtered corpus can be shared across conditions") # CHANGED: added forbidden_entities argument
+    parser.add_argument("--forbidden_entities", type=str, nargs="*", default=["Alan Turing", "Marie Curie", "Albert Einstein", "Nelson Mandela", "Malala Yousafzai", "Barack Obama", "Michael Jackson", "Taylor Swift", "Christopher Columbus", "Jesus Christ"], help="Additional entities to exclude from the WikiText-103 retain set — pass all other forget targets in your experiment so the same filtered corpus can be shared across conditions") # CHANGED: added forbidden_entities argument
     args = parser.parse_args()
     args.entity = args.entity.replace('"', '').strip()
     timestamp = datetime.now().strftime("%d-%m-%y_%H-%M")
