@@ -29,7 +29,7 @@ TRIPLET_GEN_TOKENS    = 300
 SENT_GEN_TOKENS       = 400 # how long we want the knowledge dump paragraphs to be at a max
 SENTENCES_PER_TRIPLET = 10
 GET_SENT_ROUNDS       = 3 # uses varied prompts to get different types of knowledge
-EMPTY_STOP_PATIENCE   = 2 # stop after this many consecutive empty-triplet epochs
+EMPTY_STOP_PATIENCE   = 1 # stop after this many consecutive empty-triplet epochs #changed from 2
 
 TRANSLATE_SUFFIX = {
     "spanish": "\n[Respond only in Spanish]",
@@ -807,7 +807,7 @@ def translate_entity(model_pre, tokenizer, entity: str, language: str) -> str:
 # Algorithm 1 — Full loop
 # =============================================================================
 
-def run_unlearning(forget_entity: str, languages: list[str], prompt_mode: str = "native", max_epochs: int = MAX_EPOCHS, output_dir: str = "./unlearned_model_output"):
+def run_unlearning(forget_entity: str, languages: list[str], prompt_mode: str = "native", max_epochs: int = MAX_EPOCHS, output_dir: str = "./unlearned_model_output", max_epochs_spanish: int = None): # CHANGED: added max_epochs_spanish parameter
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(device)
     # ── Load trainable model ──────────────────────────────────────────────────
@@ -853,6 +853,8 @@ def run_unlearning(forget_entity: str, languages: list[str], prompt_mode: str = 
         # Algorithm 1, Line 3: GET_ATTR on the current model — pooled across all languages
         Xent_all, Xattr_all = [], []
         for lang in languages:
+            if lang == "spanish" and max_epochs_spanish is not None and epoch > max_epochs_spanish: # CHANGED: skip spanish after its epoch limit
+                continue
             entity_lang = entity_by_language[lang]
             Xent_lang, Xattr_lang = get_attr(model, model_pre, tokenizer, entity_lang, lang, prompt_mode)
             Xent_all.extend(Xent_lang)
@@ -905,6 +907,7 @@ if __name__ == "__main__":
     parser.add_argument("--languages", type=str, nargs="+", choices=["english", "spanish", "patois"], default=["english"], help="One or more languages for unlearning")
     parser.add_argument("--prompt_mode", type=str, choices=["native", "translate", "gentran"], default="native", help="'native', 'translate', or 'gentran'")
     parser.add_argument("--max_epochs", type=int, default=MAX_EPOCHS, help="Max training epochs")
+    parser.add_argument("--max_epochs_spanish", type=int, default=25, help="Max training epochs for Spanish (overrides max_epochs)") # CHANGED: added max_epochs_spanish argument
     parser.add_argument("--output_dir", type=str, default="", help="Optional suffix")
     args = parser.parse_args()
     args.entity = args.entity.replace('"', '').strip()
@@ -921,6 +924,6 @@ if __name__ == "__main__":
         exit(1)
 
     try:
-        run_unlearning(args.entity, args.languages, args.prompt_mode, args.max_epochs, output_dir)
+        run_unlearning(args.entity, args.languages, args.prompt_mode, args.max_epochs, output_dir, args.max_epochs_spanish) # CHANGED: pass max_epochs_spanish
     except Exception as e:
         print(f"An error occurred: {e}")
